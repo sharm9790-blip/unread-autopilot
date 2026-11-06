@@ -1,0 +1,9 @@
+*.mp4
+*.mp3
+*.wav
+preview.png
+thumbnail.png
+thumbnail.jpg
+__pycache__/
+.DS_Store
+daily/*/series/

@@ -1,0 +1,22 @@
+{
+ "scary": {
+  "id": "PLNlEbyPNT10g",
+  "title": "😱 Scary Stories",
+  "url": "https://www.youtube.com/playlist?list=PLNlEbyPNT10g"
+ },
+ "bedtime": {
+  "id": "PLO9KBG_mIP1c",
+  "title": "🌙 Bedtime Stories",
+  "url": "https://www.youtube.com/playlist?list=PLO9KBG_mIP1c"
+ },
+ "stoic": {
+  "id": "PLaW-u2JSS3oE",
+  "title": "🏛️ Stoic Mindset",
+  "url": "https://www.youtube.com/playlist?list=PLaW-u2JSS3oE"
+ },
+ "space": {
+  "id": "PLL7eT1Hc4iQM",
+  "title": "🌌 Space Mysteries",
+  "url": "https://www.youtube.com/playlist?list=PLL7eT1Hc4iQM"
+ }
+}
