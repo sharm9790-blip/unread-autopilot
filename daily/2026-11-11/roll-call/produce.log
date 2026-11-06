@@ -1,0 +1,55 @@
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/tts.py daily/2026-11-11/roll-call --voice BycOlIr9Aytiubl0LIIY
+voice.mp3 + words.json  words=54  spoken=30.0s
+
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/thumbnail.py daily/2026-11-11/roll-call
+thumbnail.png + upload.md
+
+[vost#0:0/rawvideo @ 0x5fc22ee3ea40] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5fc22ede8040] Error muxing a packet
+[out#0/rawvideo @ 0x5fc22ede8040] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5fc22ede8040] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5fc22ede8040] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5fc22ede8040] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/render.py daily/2026-11-11/roll-call
+done daily/2026-11-11/roll-call/short.mp4  33.0s  98 MB
+
+[vost#0:0/rawvideo @ 0x5bf6c039da40] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5bf6c0347040] Error muxing a packet
+[out#0/rawvideo @ 0x5bf6c0347040] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5bf6c0347040] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x6480e1c8e040] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x6480e1c8dcc0] Error muxing a packet
+[out#0/rawvideo @ 0x6480e1c8dcc0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x6480e1c8dcc0] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x6480e1c8dcc0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x6480e1c8dcc0] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5bf6c0347040] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5bf6c0347040] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/youtube_upload.py daily/2026-11-11/roll-call --publish-at 2026-11-11T12:30:00+05:30
+uploading 8%
+uploading 17%
+uploading 25%
+uploading 34%
+uploading 42%
+uploading 51%
+uploading 60%
+uploading 68%
+uploading 77%
+uploading 85%
+uploading 94%
+{
+ "id": "maJArUMUcng",
+ "url": "https://youtube.com/shorts/maJArUMUcng",
+ "privacy": "private",
+ "title": "Never Answer the Hostel Roll Call After Lights Out #creepy #horror",
+ "thumbnail": "set",
+ "playlist": "\ud83d\ude31 Scary Stories"
+}
+
+

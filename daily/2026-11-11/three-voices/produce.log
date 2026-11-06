@@ -1,0 +1,51 @@
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/tts.py daily/2026-11-11/three-voices --voice BycOlIr9Aytiubl0LIIY
+voice.mp3 + words.json  words=53  spoken=27.5s
+
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/thumbnail.py daily/2026-11-11/three-voices
+thumbnail.png + upload.md
+
+[vost#0:0/rawvideo @ 0x58bcfec70e80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x58bcfeb36200] Error muxing a packet
+[out#0/rawvideo @ 0x58bcfeb36200] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x58bcfeb36200] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x58bcfeb36200] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x58bcfeb36200] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/render.py daily/2026-11-11/three-voices
+done daily/2026-11-11/three-voices/short.mp4  30.5s  62 MB
+
+[vost#0:0/rawvideo @ 0x61d46986c940] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x61d469866e80] Error muxing a packet
+[out#0/rawvideo @ 0x61d469866e80] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x61d469866e80] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5c88949c0e80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5c8894886200] Error muxing a packet
+[out#0/rawvideo @ 0x5c8894886200] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5c8894886200] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5c8894886200] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5c8894886200] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x61d469866e80] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x61d469866e80] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/youtube_upload.py daily/2026-11-11/three-voices --publish-at 2026-11-11T18:00:00+05:30
+uploading 13%
+uploading 26%
+uploading 40%
+uploading 53%
+uploading 67%
+uploading 80%
+uploading 94%
+{
+ "id": "YWxTApRY40U",
+ "url": "https://youtube.com/shorts/YWxTApRY40U",
+ "privacy": "private",
+ "title": "3 Voices Call Your Name at 3 AM. Only One Is Your Mom. #creepy #horror",
+ "thumbnail": "set",
+ "playlist": "\ud83d\ude31 Scary Stories"
+}
+
+

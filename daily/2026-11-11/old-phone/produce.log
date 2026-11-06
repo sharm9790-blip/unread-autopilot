@@ -1,0 +1,46 @@
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/tts.py daily/2026-11-11/old-phone --voice BycOlIr9Aytiubl0LIIY
+voice.mp3 + words.json  words=52  spoken=26.7s
+
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/thumbnail.py daily/2026-11-11/old-phone
+thumbnail.png + upload.md
+
+[vost#0:0/rawvideo @ 0x5a3e69ab7d80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5a3e69b48300] Error muxing a packet
+[out#0/rawvideo @ 0x5a3e69b48300] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5a3e69b48300] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5a3e69b48300] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5a3e69b48300] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/render.py daily/2026-11-11/old-phone
+done daily/2026-11-11/old-phone/short.mp4  29.7s  83 MB
+
+[vost#0:0/rawvideo @ 0x5b9749389d80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5b974941a300] Error muxing a packet
+[out#0/rawvideo @ 0x5b974941a300] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5b974941a300] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5b974941a300] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5b974941a300] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/youtube_upload.py daily/2026-11-11/old-phone --publish-at 2026-11-11T19:30:00+05:30
+uploading 10%
+uploading 20%
+uploading 30%
+uploading 40%
+uploading 50%
+uploading 60%
+uploading 70%
+uploading 80%
+uploading 90%
+{
+ "id": "cUpd01Sqi3s",
+ "url": "https://youtube.com/shorts/cUpd01Sqi3s",
+ "privacy": "private",
+ "title": "My Son's Old Phone Has No SIM. Last Night It Got a Text. #creepy #horror",
+ "thumbnail": "set",
+ "playlist": "\ud83d\ude31 Scary Stories"
+}
+
+

@@ -1,0 +1,47 @@
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/tts.py daily/2026-11-11/ferry-p1 --voice BycOlIr9Aytiubl0LIIY
+voice.mp3 + words.json  words=49  spoken=28.8s
+
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/thumbnail.py daily/2026-11-11/ferry-p1
+thumbnail.png + upload.md
+
+[vost#0:0/rawvideo @ 0x5c7a2908fac0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5c7a2908f9c0] Error muxing a packet
+[out#0/rawvideo @ 0x5c7a2908f9c0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5c7a2908f9c0] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5c7a2908f9c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5c7a2908f9c0] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/render.py daily/2026-11-11/ferry-p1
+done daily/2026-11-11/ferry-p1/short.mp4  31.8s  84 MB
+
+[vost#0:0/rawvideo @ 0x589004f91ac0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x589004f919c0] Error muxing a packet
+[out#0/rawvideo @ 0x589004f919c0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x589004f919c0] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x589004f919c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x589004f919c0] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/youtube_upload.py daily/2026-11-11/ferry-p1 --publish-at 2026-11-11T14:30:00+05:30
+uploading 9%
+uploading 19%
+uploading 29%
+uploading 39%
+uploading 49%
+uploading 59%
+uploading 69%
+uploading 79%
+uploading 89%
+uploading 99%
+{
+ "id": "VxMfPbdfhxk",
+ "url": "https://youtube.com/shorts/VxMfPbdfhxk",
+ "privacy": "private",
+ "title": "The Last Ferry \u00b7 Pt 1: 12 Passengers Left. 13 Were Counted. #creepy #horror",
+ "thumbnail": "set",
+ "playlist": "\ud83d\ude31 Scary Stories"
+}
+
+
