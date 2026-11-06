@@ -1,0 +1,107 @@
+{
+ "title": "My Son's Old Phone Has No SIM. Last Night It Got a Text.",
+ "format": "text-story",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "look"
+ ],
+ "glitch": [
+  "asleep",
+  "look"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "buzz",
+   "at": "buzzed"
+  },
+  {
+   "type": "sting",
+   "at": "asleep"
+  },
+  {
+   "type": "heartbeat",
+   "at": "typed"
+  },
+  {
+   "type": "sting",
+   "at": "look"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.95,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "lock",
+   "clock": "3:07",
+   "note_from": "Friend",
+   "note_body": "He's asleep. Can I come in now?",
+   "note_at": "buzzed",
+   "start": "buzzed-0.2",
+   "date": "Wednesday, November 11"
+  },
+  {
+   "type": "title",
+   "start": "look-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "LOOK UP.",
+     "at": "look-0.1",
+     "delay": 0
+    },
+    {
+     "text": "I ALREADY",
+     "at": "look-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "DID.",
+     "at": "look-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Would you look up?",
+    "at": "did",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "NO SIM. NO WIFI.",
+   "IT GOT A TEXT"
+  ],
+  "sub": "my son's old phone"
+ },
+ "upload": {
+  "title": "My Son's Old Phone Has No SIM. Last Night It Got a Text. #creepy #horror",
+  "playlist": "scary",
+  "description": "My son's old phone has no SIM and no wifi. 📱 Last night it got a text: \"He's asleep. Can I come in now?\"\n\nWould you look up? Tell me in the comments 👇\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ }
+}

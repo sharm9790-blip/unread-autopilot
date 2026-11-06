@@ -1,0 +1,36 @@
+{
+ "date": "2026-11-11",
+ "order": [
+  "roll-call",
+  "ferry-p1",
+  "ferry-p2",
+  "three-voices",
+  "old-phone"
+ ],
+ "schedule": {
+  "roll-call": "2026-11-11T12:30:00+05:30",
+  "ferry-p1": "2026-11-11T14:30:00+05:30",
+  "ferry-p2": "2026-11-11T16:30:00+05:30",
+  "three-voices": "2026-11-11T18:00:00+05:30",
+  "old-phone": "2026-11-11T19:30:00+05:30"
+ },
+ "clips": {
+  "roll-call": [
+   20837,
+   226811
+  ],
+  "ferry-p1": [
+   380033
+  ],
+  "ferry-p2": [
+   186545
+  ],
+  "three-voices": [
+   254651,
+   "dark closet door"
+  ],
+  "old-phone": [
+   169445
+  ]
+ }
+}

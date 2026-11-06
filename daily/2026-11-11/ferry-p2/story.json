@@ -1,0 +1,119 @@
+{
+ "title": "The Last Ferry · Pt 2: My Ticket Was From 1979",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "sank"
+ ],
+ "glitch": [
+  "sank",
+  "ive"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "dont"
+  },
+  {
+   "type": "sting",
+   "at": "pointed"
+  },
+  {
+   "type": "heartbeat",
+   "at": "ticket"
+  },
+  {
+   "type": "sting",
+   "at": "sank"
+  },
+  {
+   "type": "sting",
+   "at": "ive"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.8,
+    "desat": 0.3,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "card",
+   "start": "ticket-0.2",
+   "avatar": "T",
+   "title": "Ferry ticket · Last crossing",
+   "lines": [
+    "00:00 · Pier 4",
+    "Date: 14 NOV 1979"
+   ]
+  },
+  {
+   "type": "title",
+   "start": "ive-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "I'VE BEEN",
+     "at": "ive-0.1",
+     "delay": 0
+    },
+    {
+     "text": "RIDING IT",
+     "at": "ive-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "EVER SINCE.",
+     "at": "ive-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Part 1 is on the channel",
+    "at": "way",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "MY TICKET",
+   "SAID 1979"
+  ],
+  "sub": "the last ferry, part 2"
+ },
+ "upload": {
+  "title": "The Last Ferry · Pt 2: My Ticket Was From 1979 #creepy #horror",
+  "playlist": "scary",
+  "description": "\"He wasn't here before.\" ⛴️ I showed them my ferry ticket. It was dated 1979, the night the ferry sank.\n\nDid you guess the twist? Tell me in the comments 👇\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ },
+ "series": {
+  "name": "The Last Ferry",
+  "part": 2,
+  "of": 2,
+  "episode": "My Ticket Was From 1979"
+ }
+}

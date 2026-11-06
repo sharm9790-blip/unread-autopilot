@@ -1,0 +1,143 @@
+{
+ "title": "3 Voices Call Your Name at 3 AM. Only One Is Your Mom.",
+ "format": "pick-one",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "dead"
+ ],
+ "glitch": [
+  "dead",
+  "which"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "heartbeat",
+   "at": "three"
+  },
+  {
+   "type": "sting",
+   "at": "kitchen"
+  },
+  {
+   "type": "sting",
+   "at": "closet"
+  },
+  {
+   "type": "sting",
+   "at": "under"
+  },
+  {
+   "type": "sting",
+   "at": "dead"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.95,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "title",
+   "start": "once-0.2",
+   "captions": true,
+   "lines": [
+    {
+     "text": "KITCHEN",
+     "at": "kitchen",
+     "delay": 0
+    },
+    {
+     "text": "CLOSET",
+     "at": "closet",
+     "delay": 0
+    },
+    {
+     "text": "UNDER THE BED",
+     "at": "under",
+     "delay": 0
+    }
+   ],
+   "footer": {
+    "text": "only one is your mother",
+    "at": "mother",
+    "delay": 0
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.8,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "other-0.2"
+  },
+  {
+   "type": "title",
+   "start": "which-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "KITCHEN,",
+     "at": "which-0.1",
+     "delay": 0
+    },
+    {
+     "text": "CLOSET",
+     "at": "which-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "OR BED?",
+     "at": "which-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Comment your answer",
+    "at": "comment",
+    "delay": 0.3
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "3 VOICES.",
+   "ONE IS MOM."
+  ],
+  "sub": "she died two years ago"
+ },
+ "upload": {
+  "title": "3 Voices Call Your Name at 3 AM. Only One Is Your Mom. #creepy #horror",
+  "playlist": "scary",
+  "description": "Your name, three times, at 3 AM: kitchen, closet, under your bed. 🛏️ Only one is your mother. She died two years ago.\n\nKitchen, closet or bed? Tell me in the comments 👇\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ }
+}

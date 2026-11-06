@@ -1,0 +1,104 @@
+{
+ "title": "The Last Ferry · Pt 1: 12 Passengers Left. 13 Were Counted.",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "thirteen"
+ ],
+ "glitch": [
+  "thirteen",
+  "staring"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "never"
+  },
+  {
+   "type": "heartbeat",
+   "at": "engine"
+  },
+  {
+   "type": "sting",
+   "at": "thirteen"
+  },
+  {
+   "type": "sting",
+   "at": "staring"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "PART 2 ON THE CHANNEL"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.95,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "title",
+   "start": "thirteen-0.3",
+   "captions": true,
+   "lines": [
+    {
+     "text": "THERE WERE",
+     "at": "thirteen-0.3",
+     "delay": 0
+    },
+    {
+     "text": "THIRTEEN",
+     "at": "thirteen-0.3",
+     "delay": 0.5
+    },
+    {
+     "text": "OF US.",
+     "at": "thirteen-0.3",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Part 2 on the channel",
+    "at": "part",
+    "delay": 0.3
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "12 PASSENGERS.",
+   "THEN 13."
+  ],
+  "sub": "the last ferry home"
+ },
+ "upload": {
+  "title": "The Last Ferry · Pt 1: 12 Passengers Left. 13 Were Counted. #creepy #horror",
+  "playlist": "scary",
+  "description": "The last ferry left at midnight with twelve passengers. ⛴️ When the lights came back on, there were thirteen.\n\nWho do you think the 13th was? Tell me in the comments 👇\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ },
+ "series": {
+  "name": "The Last Ferry",
+  "part": 1,
+  "of": 2,
+  "episode": "12 Passengers Left. 13 Were Counted."
+ }
+}
