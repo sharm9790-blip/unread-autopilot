@@ -49,6 +49,17 @@ def check(day_dir):
             p(f"{len(words)} words (keep 45-62 for a 20-30 s Short)")
         if "subscribe" not in words:
             p("narration has no 'Subscribe...' line")
+        else:  # loop: the closing tag line echoes the hook so the replay connects
+            first = re.split(r"[.!?]", re.sub(r"\[[^\]]+\]", " ", open(os.path.join(ep, "narration.txt")).read()).strip())[0]
+            hook_w = {w for w in clean_words(first) if len(w) >= 4}
+            tail = words[len(words) - words[::-1].index("subscribe"):]
+            if not hook_w & set(tail):
+                p(f"closing line after 'Subscribe...' must repeat a word from the hook ({', '.join(sorted(hook_w)) or first!r})")
+            if len(clean_words(first)) > 12:
+                p(f"hook sentence has {len(clean_words(first))} words (keep it 5-12)")
+        for ln in st.get("thumbnail", {}).get("lines", []):
+            if len(ln) > 16:
+                p(f"thumb/hook card line {ln!r} is {len(ln)} chars (max 16, it is read at frame 1)")
         if st["title"].lower() in used:
             p(f"title already used: {st['title']}")
         prev = 0
