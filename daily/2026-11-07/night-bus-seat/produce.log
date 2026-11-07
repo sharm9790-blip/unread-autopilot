@@ -1,0 +1,53 @@
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/tts.py daily/2026-11-07/night-bus-seat --voice BycOlIr9Aytiubl0LIIY
+voice.mp3 + words.json  words=57  spoken=24.9s
+
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/thumbnail.py daily/2026-11-07/night-bus-seat
+thumbnail.png + upload.md
+
+[vost#0:0/rawvideo @ 0x59eb92a6d300] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x59eb92a6cf80] Error muxing a packet
+[out#0/rawvideo @ 0x59eb92a6cf80] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x59eb92a6cf80] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x59eb92a6cf80] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x59eb92a6cf80] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/render.py daily/2026-11-07/night-bus-seat
+done daily/2026-11-07/night-bus-seat/short.mp4  27.9s  83 MB
+
+[vost#0:0/rawvideo @ 0x640db5dd3d80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x640db5e50080] Error muxing a packet
+[out#0/rawvideo @ 0x640db5e50080] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x640db5e50080] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x63a1b1ee9300] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x63a1b1ee8f80] Error muxing a packet
+[out#0/rawvideo @ 0x63a1b1ee8f80] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x63a1b1ee8f80] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x640db5e50080] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x640db5e50080] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x63a1b1ee8f80] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x63a1b1ee8f80] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/youtube_upload.py daily/2026-11-07/night-bus-seat --publish-at 2026-11-12T18:00:00+05:30
+uploading 10%
+uploading 20%
+uploading 30%
+uploading 40%
+uploading 50%
+uploading 60%
+uploading 70%
+uploading 80%
+uploading 91%
+{
+ "id": "rROex4HVQIU",
+ "url": "https://youtube.com/shorts/rROex4HVQIU",
+ "privacy": "private",
+ "title": "Never Sit Behind the Driver on the Night Bus #creepy #horror",
+ "thumbnail": "set",
+ "playlist": "\ud83d\ude31 Scary Stories"
+}
+
+

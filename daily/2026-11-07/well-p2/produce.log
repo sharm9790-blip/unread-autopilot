@@ -1,0 +1,47 @@
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/tts.py daily/2026-11-07/well-p2 --voice BycOlIr9Aytiubl0LIIY
+voice.mp3 + words.json  words=55  spoken=31.6s
+
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/thumbnail.py daily/2026-11-07/well-p2
+thumbnail.png + upload.md
+
+[vost#0:0/rawvideo @ 0x5563525b7f40] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5563525b7bc0] Error muxing a packet
+[out#0/rawvideo @ 0x5563525b7bc0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5563525b7bc0] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5563525b7bc0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5563525b7bc0] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/render.py daily/2026-11-07/well-p2
+done daily/2026-11-07/well-p2/short.mp4  34.6s  85 MB
+
+[vost#0:0/rawvideo @ 0x597ef0a79f40] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x597ef0a79bc0] Error muxing a packet
+[out#0/rawvideo @ 0x597ef0a79bc0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x597ef0a79bc0] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x597ef0a79bc0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x597ef0a79bc0] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/youtube_upload.py daily/2026-11-07/well-p2 --publish-at 2026-11-12T16:30:00+05:30
+uploading 9%
+uploading 19%
+uploading 29%
+uploading 39%
+uploading 49%
+uploading 58%
+uploading 68%
+uploading 78%
+uploading 88%
+uploading 98%
+{
+ "id": "oRKTKlUxnP8",
+ "url": "https://youtube.com/shorts/oRKTKlUxnP8",
+ "privacy": "private",
+ "title": "The Well \u00b7 Pt 2: The Girl Climbed Out. She Wanted My Cousin. #creepy #horror",
+ "thumbnail": "set",
+ "playlist": "\ud83d\ude31 Scary Stories"
+}
+
+

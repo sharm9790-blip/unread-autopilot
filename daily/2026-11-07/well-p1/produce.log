@@ -1,0 +1,47 @@
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/tts.py daily/2026-11-07/well-p1 --voice BycOlIr9Aytiubl0LIIY
+voice.mp3 + words.json  words=53  spoken=28.3s
+
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/thumbnail.py daily/2026-11-07/well-p1
+thumbnail.png + upload.md
+
+[vost#0:0/rawvideo @ 0x588214ae8780] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x588214ae8400] Error muxing a packet
+[out#0/rawvideo @ 0x588214ae8400] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x588214ae8400] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x588214ae8400] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x588214ae8400] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/render.py daily/2026-11-07/well-p1
+done daily/2026-11-07/well-p1/short.mp4  31.3s  92 MB
+
+[vost#0:0/rawvideo @ 0x5bfc34401780] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5bfc34401400] Error muxing a packet
+[out#0/rawvideo @ 0x5bfc34401400] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5bfc34401400] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5bfc34401400] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5bfc34401400] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/youtube_upload.py daily/2026-11-07/well-p1 --publish-at 2026-11-12T14:30:00+05:30
+uploading 9%
+uploading 18%
+uploading 27%
+uploading 36%
+uploading 45%
+uploading 54%
+uploading 64%
+uploading 73%
+uploading 82%
+uploading 91%
+{
+ "id": "LUHYR8UHJ2c",
+ "url": "https://youtube.com/shorts/LUHYR8UHJ2c",
+ "privacy": "private",
+ "title": "The Well \u00b7 Pt 1: Never Drop a Coin in the Village Well #creepy #horror",
+ "thumbnail": "set",
+ "playlist": "\ud83d\ude31 Scary Stories"
+}
+
+

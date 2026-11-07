@@ -1,0 +1,46 @@
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/tts.py daily/2026-11-07/mom-voicecall --voice BycOlIr9Aytiubl0LIIY
+voice.mp3 + words.json  words=53  spoken=23.8s
+
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/thumbnail.py daily/2026-11-07/mom-voicecall
+thumbnail.png + upload.md
+
+[vost#0:0/rawvideo @ 0x60fe379cfb80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x60fe379cf800] Error muxing a packet
+[out#0/rawvideo @ 0x60fe379cf800] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x60fe379cf800] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x60fe379cf800] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x60fe379cf800] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/render.py daily/2026-11-07/mom-voicecall
+done daily/2026-11-07/mom-voicecall/short.mp4  26.8s  77 MB
+
+[vost#0:0/rawvideo @ 0x5a696dd23b80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5a696dd23800] Error muxing a packet
+[out#0/rawvideo @ 0x5a696dd23800] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5a696dd23800] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5a696dd23800] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5a696dd23800] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/youtube_upload.py daily/2026-11-07/mom-voicecall --publish-at 2026-11-12T19:30:00+05:30
+uploading 10%
+uploading 21%
+uploading 32%
+uploading 43%
+uploading 54%
+uploading 65%
+uploading 76%
+uploading 86%
+uploading 97%
+{
+ "id": "MpblxI9L1WM",
+ "url": "https://youtube.com/shorts/MpblxI9L1WM",
+ "privacy": "private",
+ "title": "Mom Called at Midnight: Lock the Door, Don't Open It #creepy #horror",
+ "thumbnail": "set",
+ "playlist": "\ud83d\ude31 Scary Stories"
+}
+
+
