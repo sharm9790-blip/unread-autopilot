@@ -26,3 +26,6 @@ Lessons from YouTube Analytics on 2026-10-26 (pulled with `scripts/yt_analytics.
 ## Nov 2026 additions
 - 2-part series (Part 1 cliffhanger "Part two is on my channel", Part 2 one slot later the same day) send viewers to the next video; series parts earned the most views historically (Alder Lane, Mile Marker 13).
 - Slots 12:30 / 14:30 / 16:30 / 18:00 / 19:30 IST; 16:30 is the best slot, 21:00+ the worst.
+- From 2026-11-08 (ideas from the Instagram agent skill's Reel rules, not yet proven on UNREAD - compare engagedPct and
+  outlier before/after with yt_analytics.py): on-screen hook card for the first 2.8 s, captions inside the safe zone
+  (y 230-1440), picture changes every ~3.5 s, closing line echoes the hook (loop), number/name in the hook when it fits.
