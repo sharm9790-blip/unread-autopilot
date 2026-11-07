@@ -1,6 +1,6 @@
 name: produce-daily-shorts
 # The daily routine pushes daily/<date>/ to claude/daily-shorts -> voice, render, upload, Telegram report.
-# 08:00 IST check: if no stories were written today, Telegram says so.
+# 08:00 IST: daily stats to Telegram (Mondays + weekly deep-dive), and a warning if no stories were written today.
 on:
   push:
     branches: [claude/daily-shorts]
@@ -73,6 +73,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with: { ref: claude/daily-shorts }
+      - name: Daily stats (Mondays also the weekly deep-dive)
+        continue-on-error: true
+        env:
+          YT_ANALYTICS_TOKEN_JSON: ${{ secrets.YT_ANALYTICS_TOKEN_JSON }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          pip install -q google-api-python-client google-auth
+          mkdir -p ~/.config/scary-short && umask 077
+          printf '%s' "$YT_ANALYTICS_TOKEN_JSON" > ~/.config/scary-short/analytics_token.json
+          python3 pipeline/daily_stats.py
       - name: Were today's stories written?
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
