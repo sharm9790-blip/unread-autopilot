@@ -1,0 +1,112 @@
+{
+ "title": "Never Sit Behind the Driver on the Night Bus",
+ "format": "rules",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "blinked"
+ ],
+ "glitch": [
+  "company",
+  "driver#3"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "never"
+  },
+  {
+   "type": "heartbeat",
+   "at": "blinked"
+  },
+  {
+   "type": "sting",
+   "at": "company"
+  },
+  {
+   "type": "sting",
+   "at": "driver#3"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.9,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "conductor-0.2"
+  },
+  {
+   "type": "title",
+   "start": "we-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "THERE WAS",
+     "at": "we-0.1",
+     "delay": 0
+    },
+    {
+     "text": "NO DRIVER",
+     "at": "we-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "TONIGHT.",
+     "at": "we-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Would you get off?",
+    "at": "tonight",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "NEVER SIT BEHIND",
+   "THE DRIVER"
+  ],
+  "sub": "the night bus had no driver"
+ },
+ "upload": {
+  "title": "Never Sit Behind the Driver on the Night Bus #creepy #horror",
+  "playlist": "scary",
+  "description": "The conductor warned me not to sit behind the driver. I did. At my stop, he thanked me for the company.\n\nWould you get off? Tell me in the comments 👇\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ }
+}

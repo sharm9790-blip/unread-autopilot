@@ -1,0 +1,103 @@
+{
+ "title": "Mom Called at Midnight: Lock the Door, Don't Open It",
+ "format": "voice-call",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "knocked"
+ ],
+ "glitch": [
+  "knocked",
+  "ringing"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "buzz",
+   "at": "mom"
+  },
+  {
+   "type": "heartbeat",
+   "at": "laughed"
+  },
+  {
+   "type": "sting",
+   "at": "knocked"
+  },
+  {
+   "type": "sting",
+   "at": "ringing"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.95,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "call",
+   "start": "then-0.2",
+   "contact": "Mom"
+  },
+  {
+   "type": "title",
+   "start": "phone-0.2",
+   "captions": true,
+   "lines": [
+    {
+     "text": "THE PHONE",
+     "at": "phone-0.2",
+     "delay": 0
+    },
+    {
+     "text": "WAS STILL",
+     "at": "phone-0.2",
+     "delay": 0.5
+    },
+    {
+     "text": "RINGING.",
+     "at": "phone-0.2",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Would you open it?",
+    "at": "open",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "MOM CALLED.",
+   "SHE WAS INSIDE."
+  ],
+  "sub": "don't open the door"
+ },
+ "upload": {
+  "title": "Mom Called at Midnight: Lock the Door, Don't Open It #creepy #horror",
+  "playlist": "scary",
+  "description": "Mom called at midnight and told me not to open the door. She was in the next room. Then someone knocked.\n\nWould you open it? Tell me in the comments 👇\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ }
+}

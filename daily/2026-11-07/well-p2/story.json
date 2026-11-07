@@ -1,0 +1,115 @@
+{
+ "title": "The Well · Pt 2: The Girl Climbed Out. She Wanted My Cousin.",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "hand"
+ ],
+ "glitch": [
+  "screamed",
+  "turn"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "dont"
+  },
+  {
+   "type": "heartbeat",
+   "at": "hand"
+  },
+  {
+   "type": "sting",
+   "at": "girl"
+  },
+  {
+   "type": "sting",
+   "at": "turn"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.8,
+    "desat": 0.3,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "card",
+   "start": "coin-0.2",
+   "avatar": "!",
+   "title": "Village well · Midnight",
+   "lines": [
+    "PAID: 1 COIN",
+    "Debt: 1 LIFE"
+   ]
+  },
+  {
+   "type": "title",
+   "start": "your-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "YOUR TURN",
+     "at": "your-0.1",
+     "delay": 0
+    },
+    {
+     "text": "TO GO",
+     "at": "your-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "DOWN.",
+     "at": "your-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Part 1 is on the channel",
+    "at": "turn",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "SHE CLIMBED OUT",
+   "OF THE WELL"
+  ],
+  "sub": "the well, part 2"
+ },
+ "upload": {
+  "title": "The Well · Pt 2: The Girl Climbed Out. She Wanted My Cousin. #creepy #horror",
+  "playlist": "scary",
+  "description": "I pulled the rope. A small wet hand came over the edge. She was looking at my cousin.\n\nDid you guess the twist? Tell me in the comments 👇\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ },
+ "series": {
+  "name": "The Well",
+  "part": 2,
+  "of": 2,
+  "episode": "The Girl Climbed Out. She Wanted My Cousin."
+ }
+}

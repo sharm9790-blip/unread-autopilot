@@ -1,0 +1,38 @@
+{
+ "date": "2026-11-07",
+ "order": [
+  "exam-hall",
+  "well-p1",
+  "well-p2",
+  "night-bus-seat",
+  "mom-voicecall"
+ ],
+ "schedule": {
+  "exam-hall": "2026-11-07T12:30:00+05:30",
+  "well-p1": "2026-11-07T14:30:00+05:30",
+  "well-p2": "2026-11-07T16:30:00+05:30",
+  "night-bus-seat": "2026-11-07T18:00:00+05:30",
+  "mom-voicecall": "2026-11-07T19:30:00+05:30"
+ },
+ "clips": {
+  "exam-hall": [
+   "empty classroom dark",
+   "school desk dark"
+  ],
+  "well-p1": [
+   "old stone well",
+   "village night fog"
+  ],
+  "well-p2": [
+   "dark water well",
+   "wet hand dark"
+  ],
+  "night-bus-seat": [
+   "night bus interior",
+   "bus driver night"
+  ],
+  "mom-voicecall": [
+   "dark door handle night"
+  ]
+ }
+}
