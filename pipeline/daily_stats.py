@@ -1,6 +1,7 @@
 """Daily UNREAD stats → Telegram (runs every morning in GitHub Actions; also works on the Mac).
 
-Usage: python3 pipeline/daily_stats.py [--print] [--weekly]
+Usage: python3 pipeline/daily_stats.py [--print] [--weekly | --pulse]
+--pulse: live subs/views + last-24h Shorts, with change since the previous pulse (12:00/16:00/20:00/00:00 IST).
 Every day: the short high-level message below. --weekly: the detailed 28-day deep-dive instead (on request only).
 - Last 7 days vs the 7 before (YouTube Analytics API; its data runs ~2-3 days behind, the message says up to when)
 - Yesterday's Shorts with LIVE view counts (Data API, real time)
@@ -163,6 +164,35 @@ def weekly_detail():
     return "\n".join(L)
 
 
+PULSE_STATE = os.path.expanduser("~/.cache/unread-pulse.json")  # kept between runs by actions/cache
+
+
+def pulse():
+    """Live 4-hourly check (Data API, real time): subs + total views with the change since the last pulse,
+    and how the last 24 h of Shorts are doing right now."""
+    from googleapiclient.discovery import build
+    yt = build("youtube", "v3", credentials=creds())
+    now = datetime.datetime.now(IST)
+    st_ = yt.channels().list(part="statistics", mine=True).execute()["items"][0]["statistics"]
+    cur = {"subs": int(st_.get("subscriberCount", 0)), "views": int(st_["viewCount"]), "at": now.isoformat()}
+    last = json.load(open(PULSE_STATE)) if os.path.exists(PULSE_STATE) else None
+    os.makedirs(os.path.dirname(PULSE_STATE), exist_ok=True)
+    json.dump(cur, open(PULSE_STATE, "w"))
+    since = ""
+    if last:
+        since = f" since {datetime.datetime.fromisoformat(last['at']).astimezone(IST).strftime('%H:%M')}"
+    d = lambda key: f" ({'+' if cur[key] - last[key] >= 0 else ''}{k(cur[key] - last[key])}{since})" if last else ""
+    L = [f"⚡ <b>UNREAD pulse · {now.strftime('%a %H:%M')}</b>",
+         f"👥 <b>{k(cur['subs'])}</b> subs{d('subs')}",
+         f"👁 <b>{k(cur['views'])}</b> total views{d('views')}"]
+    day = sorted(recent_shorts(yt, now - datetime.timedelta(hours=24)), key=lambda v: -v["views"])
+    if day:
+        L += ["━━━━━━━━━━━━━━━", "🎬 <b>Last 24 h</b> <i>(live)</i>"]
+        for v in day[:5]:
+            L.append(f"<b>{k(v['views'])}</b> · {v['at'].strftime('%H:%M')} · {html.escape(v['title'][:44])}")
+    return "\n".join(L)
+
+
 def tg(text):
     tok, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
     data = urllib.parse.urlencode({"chat_id": chat, "text": text, "parse_mode": "HTML",
@@ -171,6 +201,13 @@ def tg(text):
 
 
 if __name__ == "__main__":
+    if "--pulse" in sys.argv:
+        try:
+            msg = pulse()
+        except Exception as e:
+            msg = f"⚡ <b>UNREAD pulse</b>\n❌ <code>{html.escape(str(e)[:200])}</code>"
+        print(msg) if "--print" in sys.argv or not os.environ.get("TELEGRAM_BOT_TOKEN") else tg(msg)
+        sys.exit(0)
     if "--weekly" in sys.argv:  # detailed deep-dive only on request; the daily message stays high level
         try:
             w = weekly_detail()

@@ -1,6 +1,6 @@
 name: produce-daily-shorts
 # The daily routine pushes daily/<date>/ to claude/daily-shorts -> voice, render, upload, Telegram report.
-# 08:00 IST: high-level daily stats to Telegram, and a warning if no stories were written today.
+# 08:00 IST: high-level daily stats to Telegram (+ live pulse at 12/16/20/00 IST), and a warning if no stories were written today.
 on:
   push:
     branches: [claude/daily-shorts]
@@ -11,7 +11,8 @@ on:
         description: "daily folder date (YYYY-MM-DD); empty = newest without results"
         required: false
   schedule:
-    - cron: "30 2 * * *"   # 08:00 IST
+    - cron: "30 2 * * *"            # 08:00 IST daily stats
+    - cron: "30 6,10,14,18 * * *"   # 12:00 / 16:00 / 20:00 / 00:00 IST live pulse
 
 concurrency: { group: produce, cancel-in-progress: false }
 permissions: { contents: write }
@@ -68,7 +69,7 @@ jobs:
           retention-days: 14
 
   morning-check:
-    if: github.event_name == 'schedule'
+    if: github.event.schedule == '30 2 * * *'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -96,3 +97,25 @@ jobs:
           No stories were written this morning, so nothing is scheduled today.
           Check the daily-shorts routine on claude.ai/code." > /dev/null
           fi
+
+  pulse:
+    if: github.event.schedule == '30 6,10,14,18 * * *'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: claude/daily-shorts }
+      - uses: actions/cache/restore@v4
+        with: { path: ~/.cache/unread-pulse.json, key: "pulse-${{ github.run_id }}", restore-keys: "pulse-" }
+      - name: Live pulse to Telegram
+        env:
+          YT_ANALYTICS_TOKEN_JSON: ${{ secrets.YT_ANALYTICS_TOKEN_JSON }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          pip install -q google-api-python-client google-auth
+          mkdir -p ~/.config/scary-short && umask 077
+          printf '%s' "$YT_ANALYTICS_TOKEN_JSON" > ~/.config/scary-short/analytics_token.json
+          python3 pipeline/daily_stats.py --pulse
+      - uses: actions/cache/save@v4
+        if: always()
+        with: { path: ~/.cache/unread-pulse.json, key: "pulse-${{ github.run_id }}" }
