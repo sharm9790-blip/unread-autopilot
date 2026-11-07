@@ -1,7 +1,7 @@
 """Daily UNREAD stats → Telegram (runs every morning in GitHub Actions; also works on the Mac).
 
 Usage: python3 pipeline/daily_stats.py [--print] [--weekly]
-Every day: the short high-level message below. Mondays (or --weekly): also the detailed 28-day deep-dive.
+Every day: the short high-level message below. --weekly: the detailed 28-day deep-dive instead (on request only).
 - Last 7 days vs the 7 before (YouTube Analytics API; its data runs ~2-3 days behind, the message says up to when)
 - Yesterday's Shorts with LIVE view counts (Data API, real time)
 - Best and weakest Short of the last 7 days (live)
@@ -171,7 +171,7 @@ def tg(text):
 
 
 if __name__ == "__main__":
-    if "--weekly" in sys.argv or (datetime.datetime.now(IST).weekday() == 0 and "--daily" not in sys.argv):
+    if "--weekly" in sys.argv:  # detailed deep-dive only on request; the daily message stays high level
         try:
             w = weekly_detail()
             if w:
