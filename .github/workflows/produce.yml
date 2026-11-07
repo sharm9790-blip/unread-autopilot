@@ -29,6 +29,11 @@ jobs:
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-liberation > /dev/null
           pip install -q pillow numpy requests certifi google-api-python-client google-auth-oauthlib
+          # free photo parallax (pipeline/parallax.py): CPU torch + Depth Anything V2 Small + fast remap
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -q opencv-python-headless "transformers>=4.45,<5"
+      - uses: actions/cache@v4
+        with: { path: ~/.cache/huggingface, key: hf-depth-anything-v2-small }
       - name: YouTube credentials
         env:
           YT_CLIENT_SECRET_JSON: ${{ secrets.YT_CLIENT_SECRET_JSON }}

@@ -16,3 +16,20 @@ If the Telegram report says `YOUTUBE_REAUTH_NEEDED`: on the Mac run any upload o
 
 Run a day by hand: Actions → produce-daily-shorts → Run workflow (date), or locally
 `python3 pipeline/produce.py daily/<date> --no-upload`.
+
+## Free photo motion (parallax)
+
+`pipeline/parallax.py` turns one still into a 2.5D camera-move clip with no AI video credits. A depth model
+separates near from far, then a virtual camera moves so the foreground shifts more than the background.
+
+    python3 pipeline/parallax.py photo.jpg daily/<date>/s3.mp4 --move dolly-in --dur 5 --fog 0.3 --dust 50
+
+Then use it as a normal scene: `{"type": "clip", "file": "s3.mp4", ...}`. Moves: dolly-in, dolly-out,
+pan-left, pan-right, rise, fall, orbit, sway (loops). `--strength` 0.03 subtle / 0.06 normal / 0.10 dramatic.
+Depth comes from `<photo>.depth.png` if present, else Depth Anything V2 Small (Mac: ~10 s, needs
+`transformers<5` with the installed torch 2.4), else a weak bottom-is-near guess. Compute depth on the Mac
+(`--depth-only`) and commit the PNG so the runner needs only numpy + Pillow. A 5 s clip renders in ~15 s
+on the M1 with OpenCV, ~90 s without it.
+In the daily pipeline, write `"photo: <words>"` or `{"photo": "<words>", "move": "orbit"}` in a clip list: produce.py
+takes a vertical Pixabay photo (skipping cut-outs, preferring dark, on-topic hits) and renders a 10 s parallax clip.
+A video query with no usable hit falls back to a photo the same way. Photo ids go into used_clips.json as `img:<id>`.

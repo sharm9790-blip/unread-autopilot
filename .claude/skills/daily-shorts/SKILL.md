@@ -58,6 +58,12 @@ You need no API keys. Never upload, never touch secrets.
   **Better:** if you can open pixabay.com/videos/search/<words>/ (web fetch or browser), look at the results and put the
   chosen video's numeric id instead of the query (e.g. `clips=[20837, "dark bedroom night"]`). Never reuse ids in
   `state/used_clips.json`.
+- **Photo clips (free motion):** when no footage fits (a specific room, object, old photo, place), use a still instead:
+  `"photo: abandoned motel room"` or `{"photo": "abandoned motel room", "move": "dolly-in"}` in `clips=[...]`. Production
+  takes a vertical Pixabay photo and animates it into a 10 s 2.5D camera move with fog and dust (`pipeline/parallax.py`).
+  Moves: dolly-in, dolly-out, orbit, pan-left, pan-right, rise, fall (default rotates per clip); optional `dur`,
+  `strength` (0.07), `fog` (0.2), `dust` (40). Mix them: about 1 photo clip per episode alongside real footage.
+  A video query with no usable hit falls back to a photo clip automatically.
 - Anchors are narration words (lowercase, punctuation dropped: "don't" → `dont`, "I'm" → `im`, "Thirty-one" → `thirtyone`),
   matched by prefix, searched forward from the previous scene's start; `word#2` = 2nd match, `word-0.3` = 0.3 s earlier.
   Beware prefixes: `we` also matches "wet" - pick distinctive words.
