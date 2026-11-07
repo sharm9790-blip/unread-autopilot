@@ -72,10 +72,60 @@ def fetch_clip(query, dest):
     vid = lambda h: h["videos"]["medium"] if h["videos"]["medium"].get("url") else h["videos"]["large"]
     pick = next((h for h in ranked[:8] if 30 <= brightness(vid(h)["thumbnail"]) <= 165), ranked[0] if ranked else None)
     if not pick:
-        raise RuntimeError(f"no Pixabay video for {query!r}")
+        info = fetch_photo({"photo": query}, dest, 0)  # no usable footage: animate a still instead (free parallax)
+        info["fallback"] = "no Pixabay video"
+        return info
     open(dest, "wb").write(get(vid(pick)["url"], True))
     used_clips.add(pick["id"])
     return {"id": pick["id"], "user": pick["user"], "query": query, "tags": pick.get("tags", "")}
+
+
+PHOTO_MOVES = ("dolly-in", "orbit", "pan-right", "rise", "pan-left")
+# cut-outs come down with junk where the transparency was, and parallax smears it into streaks
+PHOTO_NO = ("isolated", "transparent", "png", "cutout", "cut out", "clipart", "clip art", "vector", "illustration", "white background")
+
+
+def fetch_photo(spec, dest, i, log=None):
+    """Pixabay still -> 2.5D parallax clip (pipeline/parallax.py), no AI video credits.
+    spec: {"photo": "query words" or numeric image id, optional "move", "dur" (default 10 s), "strength", "fog", "dust"}."""
+    key = os.environ["PIXABAY_API_KEY"]
+    q = spec["photo"]
+    if isinstance(q, int) or str(q).isdigit():
+        hits = get(f"https://pixabay.com/api/?key={key}&id={int(q)}")["hits"]
+    else:
+        words = [w for w in str(q).lower().split() if len(w) > 2]
+        nouns = [w for w in words if w not in MOOD] or words
+        hits, seen = [], set()
+        for qq in dict.fromkeys([str(q), " ".join(nouns)]):
+            for h in get(f"https://pixabay.com/api/?key={key}&q={urllib.parse.quote(qq)}&image_type=photo"
+                         f"&orientation=vertical&per_page=30&safesearch=true")["hits"]:
+                if h["id"] not in seen and f"img:{h['id']}" not in used_clips and h["imageHeight"] >= 1600 \
+                        and not any(n in h.get("tags", "").lower() for n in NO + PHOTO_NO):
+                    seen.add(h["id"])
+                    hits.append(h)
+        has = lambda h, w: w.rstrip("s") in h.get("tags", "").lower()
+        score = lambda h: 3 * sum(has(h, w) for w in nouns) + sum(has(h, w) for w in words if w in MOOD)
+        hits.sort(key=lambda h: -score(h))
+        if hits and score(hits[0]) > 0:  # stay on topic: only the best-matching tier (within one noun of the top)
+            hits = [h for h in hits if score(h) >= max(1, score(hits[0]) - 2)]
+        lit = {h["id"]: brightness(h["previewURL"]) for h in hits[:10]}  # horror: prefer dark, then not blown-out
+        hits = [next((h for h in hits[:10] if 20 <= lit[h["id"]] <= 100),
+                     next((h for h in hits[:10] if lit[h["id"]] <= 150), hits[0]))] if hits else []
+    if not hits:
+        raise RuntimeError(f"no Pixabay video or photo for {q!r}")
+    h = hits[0]
+    img = os.path.splitext(dest)[0] + "_photo.jpg"
+    open(img, "wb").write(get(h["largeImageURL"], True))
+    cmd = ["python3", os.path.join(HERE, "parallax.py"), img, dest,
+           "--move", spec.get("move", PHOTO_MOVES[i % len(PHOTO_MOVES)]), "--dur", str(spec.get("dur", 10)),
+           "--strength", str(spec.get("strength", 0.07)), "--fog", str(spec.get("fog", 0.2)), "--dust", str(spec.get("dust", 40))]
+    if log:
+        run(cmd, log)
+    else:
+        subprocess.run(cmd, check=True, capture_output=True)
+    used_clips.add(f"img:{h['id']}")
+    return {"id": h["id"], "user": h["user"], "query": q, "tags": h.get("tags", ""), "kind": "photo-parallax",
+            "page": h.get("pageURL", "")}
 
 
 def run(cmd, log):
@@ -150,7 +200,11 @@ def produce(args):
         for i, q in enumerate(day["clips"][slug]):
             f = "clip.mp4" if i == 0 else f"clip{i + 1}.mp4"
             if not os.path.exists(os.path.join(ep, f)):
-                credits[f] = fetch_clip(q, os.path.join(ep, f))
+                if isinstance(q, dict) or str(q).startswith("photo:"):  # still photo -> free parallax motion
+                    spec = q if isinstance(q, dict) else {"photo": q.split(":", 1)[1].strip()}
+                    credits[f] = fetch_photo(spec, os.path.join(ep, f), i, log)
+                else:
+                    credits[f] = fetch_clip(q, os.path.join(ep, f))
         if credits:
             json.dump(credits, open(os.path.join(ep, "clip_credits.json"), "w"), indent=1)
         st = "voice"
@@ -265,7 +319,7 @@ if __name__ == "__main__":
         idx = json.load(open(idx_p))
         idx["titles"] += [r["title"] for r in results if r["ok"] and r["title"] not in idx["titles"]]
         json.dump(idx, open(idx_p, "w"), indent=1, ensure_ascii=False)
-        json.dump(sorted(used_clips), open(USED_P, "w"))
+        json.dump(sorted(used_clips, key=lambda x: (isinstance(x, str), str(x).zfill(12))), open(USED_P, "w"))
         json.dump(results, open(os.path.join(DAY, "results.json"), "w"), indent=1, ensure_ascii=False)
         report(results, series_ok, channel_stats() if UPLOAD else (None, None))
         sys.exit(0 if all(r["ok"] for r in results) else 1)
