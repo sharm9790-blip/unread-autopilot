@@ -29,10 +29,21 @@ You need no API keys. Never upload, never touch secrets.
 
 ## Story rules (from the channel's analytics - see LEARNINGS.md)
 
-- **45-60 words** of narration → 20-30 s. Never over 62 words.
-- **First line = a command, a threat or an impossible fact** ("Don't whistle after dark." / "Thirty desks. Thirty-one students.").
-  Never open on setup or a neutral notification.
+- **45-55 words** of narration → 25-30 s. Never over 58 words.
+- **First line = the hook: 5-12 words, the scary word in the first 3** ("Don't whistle after dark." / "Thirty desks.
+  Thirty-one students."). Never open on setup, a greeting or a neutral notification.
+- **Put a number or a name in the hook when it fits** ("after 9 PM", "Bus 0", "Room 214", "seven coins"): concrete beats vague.
+- Hook formulas that work for horror (rotate them across the day, name the one you used in `fmt` notes):
+  - *Negative command* - "Never answer roll call after lights out." (the channel's proven winner)
+  - *Impossible number* - "30 desks. 31 students."
+  - *Mid-sentence start* - "...and that's when the second voice answered." (fill in the setup by second 8)
+  - *Callout* - "Hostel students: never answer the midnight roll call." (people tag friends → shares)
+  - *Verbatim question* - "Why does my dog stare at the corner at 3 AM?" (matches what people search)
+  - *Pick one* - "3 doors. Only one is your mom." (comment 1, 2 or 3)
 - One clear twist in the last 2 lines, then the comment question in the description, then the spoken `Subscribe... <tag line>`.
+- **Loop:** the tag line after "Subscribe..." **repeats a word from the hook** so the replay connects
+  ("Don't whistle after dark ... Subscribe... and never whistle after dark."). Part 1s too: "Subscribe... before the last ferry leaves."
+  `check_day.py` rejects a day without it.
 - ElevenLabs v3 tags allowed: `[whispering]`, `[quietly]`, `[long pause]`, `[slowly]`. Start with `[whispering]`.
 - Settings that fit viewers in India / Malaysia / Philippines / Indonesia are welcome (village rules, night buses, hostels,
   exam halls, family homes), but keep names short and the language simple.
@@ -53,7 +64,11 @@ You need no API keys. Never upload, never touch secrets.
 - End with `title3(...)` on the twist (3 short ALL-CAPS lines + footer question). UI scenes: `lock(...)` notification,
   `card(...)` (avatar letter/●/!, header, 1-2 lines), `call(start, "Mom")`, `lines(...)` for big custom text.
 - `sfx`: (type, anchor, delay) with type `sting` / `heartbeat` / `knock` / `buzz`. `shake`/`glitch`: lists of anchor words.
-- `thumb`: {"scene": index of a clip scene, "lines": [white line, red line] (≤14 chars each), "sub": "small line"}.
+- `thumb`: {"scene": index of a clip scene, "lines": [white line, red line] (≤14 chars each, max 16), "sub": "small line"}.
+  **The same two lines are the on-screen hook card for the first 2.8 s** (read before the voice is heard, most viewers
+  start muted), so make them the hook in ≤6 words total, e.g. ["DON'T WHISTLE", "AFTER DARK"].
+- Change the picture every ~4 s: footage auto-punches in/out every 3.5 s, but still add a 2nd clip, a `card` or a `lock`
+  in the middle instead of one clip for 15+ seconds.
 - `speed=1.05-1.1` only if a story runs long.
 
 ## Example (copy the shape)
@@ -68,7 +83,7 @@ day = Day(__file__)
 day.ep("whistle", "rules",
    "[whispering] Don't whistle after dark. [quietly] My grandmother said it calls them. Last night, walking home alone, "
    "I forgot. I whistled one song. [long pause] Behind me, something whistled it back. Every note. [whispering] Then it "
-   "whistled the next song... the one I was about to pick. Subscribe... and keep quiet tonight.",
+   "whistled the next song... the one I was about to pick. Subscribe... and never whistle after dark.",
    [clip(speed=0.5, grade={"dim": 0.95, "tint": COOL}),
     title3("next-0.3", "IT KNEW", "MY NEXT", "SONG.", "Would you turn around?", ("pick", 0.4))],
    [("sting", "dont", 0), ("heartbeat", "behind", 0), ("sting", "every", 0), ("sting", "next", 0)],
@@ -82,7 +97,7 @@ day.ep("whistle", "rules",
 day.ep("bus-p1", "series",
    "[whispering] Never get on a bus with no number. [quietly] One stopped for me at 2 AM. Empty. Warm. The driver never "
    "looked at me. Every seat had a name tag. [long pause] The last row had mine. And under my name... a stop. Tonight. "
-   "[whispering] Part two is on my channel. Subscribe... before it stops for you.",
+   "[whispering] Part two is on my channel. Subscribe... before the bus with no number stops for you.",
    [clip(grade={"dim": 0.9, "tint": COOL}),
     card("last-0.2", "0", "Route 0 · Last row", ["RESERVED: YOU", "Your stop: TONIGHT"]),
     title3("part-0.1", "PART 2", "ON THE", "CHANNEL.", "Route 0 continues", ("channel", 0.3))],

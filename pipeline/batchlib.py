@@ -95,6 +95,8 @@ class Day:
                         + [{"type": "buzz", "at": "subscribe", "delay": 1.6}],
                  "subscribe": {"at": "subscribe", "text": end_text},
                  "scenes": scenes, "thumbnail": thumb,
+                 "hook": {"lines": thumb["lines"], "until": 2.8},  # on-screen hook at frame 1 (most viewers start muted)
+                 "beat_zoom": 3.5,  # footage punches in/out every 3.5 s so the picture never sits still
                  "upload": {"title": f"{title} #creepy #horror"[:100], "playlist": "scary",
                             "description": f"{hook}\n\n{question} Tell me in the comments 👇\n{more}\n"
                                            f"Subscribe to UNREAD for a new scary story every night.\n\n"

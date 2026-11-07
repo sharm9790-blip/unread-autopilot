@@ -1471,6 +1471,9 @@ def current(t):
     return SCENES[-1]
 
 
+CAP_Y = int(STORY.get("caption_y", 1290))  # keeps captions above the Shorts title/channel overlay (safe zone ends ~1440)
+
+
 def draw_caption(img, t, s):
     c = caption_at(t)
     if not c or not s.get("captions", True) or not STORY.get("captions", True):  # story-level off: multi-language long-form
@@ -1483,7 +1486,7 @@ def draw_caption(img, t, s):
         nm = sp.get("name", spk).upper()
         tw = d.textlength(nm, font=fl)
         col = tuple(sp.get("color", [255, 200, 60]))
-        ty = H - 262 if LAND else 1370
+        ty = H - 262 if LAND else CAP_Y - 90
         d.rounded_rectangle(((W - tw) / 2 - 20, ty, (W + tw) / 2 + 20, ty + (50 if LAND else 62)), 26, fill=(10, 10, 12), outline=col, width=4)
         d.text(((W - tw) / 2, ty + (8 if LAND else 10)), nm, font=fl, fill=col)
     parts = [w["text"].strip().strip("\"").upper() for w in c]
@@ -1492,7 +1495,7 @@ def draw_caption(img, t, s):
     x = (W - sum(widths) - space * (len(parts) - 1)) / 2
     for w, p, wd in zip(c, parts, widths):
         active = w["start"] <= t <= w["end"] + 0.08
-        d.text((x, H - 198 if LAND else 1460), p, font=FONT_CAP, fill=(235, 30, 30) if active else (255, 255, 255),
+        d.text((x, H - 198 if LAND else CAP_Y), p, font=FONT_CAP, fill=(235, 30, 30) if active else (255, 255, 255),
                stroke_width=8, stroke_fill=(0, 0, 0))
         x += wd + space
     return img
@@ -1694,13 +1697,54 @@ def subscribe_card(img, t):
     return img
 
 
+def beat_zoom(img, t, s):
+    """Footage never sits still longer than `beat_zoom` seconds: alternate a quick punch-in / punch-out on clip scenes."""
+    n = float(STORY.get("beat_zoom") or 0)
+    if not n or s["type"] not in ("clip", "stage") or VOICE_END and t > VOICE_END:
+        return img
+    k = int((t - s["_t"]) // n)
+    z0, z1 = (1.0, 1.07) if k % 2 == 0 else (1.07, 1.0)
+    if k == 0:
+        z0 = z1 = 1.0
+    z = z0 + (z1 - z0) * ease(min(1.0, ((t - s["_t"]) - k * n) / 0.35))
+    if z <= 1.001:
+        return img
+    cw, ch = W / z, H / z
+    return img.crop((int((W - cw) / 2), int((H - ch) / 2), int((W + cw) / 2), int((H + ch) / 2))).resize((W, H), Image.BILINEAR)
+
+
+def hook_card(img, t):
+    """The on-screen hook, readable at frame 1 (most viewers start muted): story "hook": {"lines": [white, red], "until": s}."""
+    hk = STORY.get("hook")
+    if not hk or LAND:
+        return img
+    until = float(hk.get("until", 2.8))
+    if t >= until:
+        return img
+    a = min(1.0, (until - t) / 0.35)
+    layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    y = int(hk.get("y", 330))
+    for k, txt in enumerate(hk["lines"][:2]):
+        size = 150
+        while size > 70 and d.textlength(txt, font=font(F_CAP, size)) > W - 140:
+            size -= 6
+        f = font(F_CAP, size)
+        col = (255, 255, 255) if k == 0 else (230, 25, 25)
+        d.text(((W - d.textlength(txt, font=f)) / 2, y), txt, font=f, fill=col + (int(255 * a),),
+               stroke_width=9, stroke_fill=(0, 0, 0, int(255 * a)))
+        y += int(size * 1.12)
+    return Image.alpha_composite(img.convert("RGBA"), layer).convert("RGB")
+
+
 def frame(t, i):
     s = current(t)
-    img = SCENE_FN[s["type"]](s, t)
+    img = beat_zoom(SCENE_FN[s["type"]](s, t), t, s)
     idx = SCENES.index(s)
     if TRANSITIONS == "fade" and idx > 0 and t - s["_t"] < FADE_T:  # crossfade from the previous scene
         pv = SCENES[idx - 1]
-        img = Image.blend(SCENE_FN[pv["type"]](pv, t), img, ease((t - s["_t"]) / FADE_T))
+        img = Image.blend(beat_zoom(SCENE_FN[pv["type"]](pv, t), t, pv), img, ease((t - s["_t"]) / FADE_T))
+    img = hook_card(img, t)
     if STORY.get("subscribe"):
         img = subscribe_card(img, t)
     if STORY.get("badge"):
