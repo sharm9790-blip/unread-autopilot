@@ -1,0 +1,74 @@
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/parallax.py daily/2026-11-08/water-tank/clip2_photo.jpg daily/2026-11-08/water-tank/clip2.mp4 --move orbit --dur 10 --strength 0.07 --fog 0.2 --dust 40
+
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Device set to use cpu
+  depth: Depth Anything V2 (saved clip2_photo.depth.png); move orbit, 10.0s @ 30fps, 1080x1920
+
+  frame 0/300
+  frame 30/300
+  frame 60/300
+  frame 90/300
+  frame 120/300
+  frame 150/300
+  frame 180/300
+  frame 210/300
+  frame 240/300
+  frame 270/300
+  wrote daily/2026-11-08/water-tank/clip2.mp4            
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/tts.py daily/2026-11-08/water-tank --voice BycOlIr9Aytiubl0LIIY
+voice.mp3 + words.json  words=52  spoken=30.2s
+
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/thumbnail.py daily/2026-11-08/water-tank
+thumbnail.png + upload.md
+
+[vost#0:0/rawvideo @ 0x603ebcb41400] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x603ebcb41080] Error muxing a packet
+[out#0/rawvideo @ 0x603ebcb41080] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x603ebcb41080] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x603ebcb41080] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x603ebcb41080] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/render.py daily/2026-11-08/water-tank
+done daily/2026-11-08/water-tank/short.mp4  33.2s  106 MB
+
+[vost#0:0/rawvideo @ 0x5901790951c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x590179094e40] Error muxing a packet
+[out#0/rawvideo @ 0x590179094e40] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x590179094e40] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x61cd6a42e400] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x61cd6a42e080] Error muxing a packet
+[out#0/rawvideo @ 0x61cd6a42e080] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x61cd6a42e080] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x590179094e40] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x590179094e40] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x61cd6a42e080] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x61cd6a42e080] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/youtube_upload.py daily/2026-11-08/water-tank --publish-at 2026-11-13T18:00:00+05:30
+uploading 7%
+uploading 15%
+uploading 23%
+uploading 31%
+uploading 39%
+uploading 47%
+uploading 55%
+uploading 63%
+uploading 71%
+uploading 78%
+uploading 86%
+uploading 94%
+{
+ "id": "-c_AgeCFq4E",
+ "url": "https://youtube.com/shorts/-c_AgeCFq4E",
+ "privacy": "private",
+ "title": "Three Knocks Every Night From the Water Tank. Tonight, Four. #creepy #horror",
+ "thumbnail": "set",
+ "playlist": "\ud83d\ude31 Scary Stories"
+}
+
+

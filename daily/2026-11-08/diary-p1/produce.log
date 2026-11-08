@@ -1,0 +1,67 @@
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/parallax.py daily/2026-11-08/diary-p1/clip2_photo.jpg daily/2026-11-08/diary-p1/clip2.mp4 --move orbit --dur 10 --strength 0.07 --fog 0.2 --dust 40
+
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Device set to use cpu
+  depth: Depth Anything V2 (saved clip2_photo.depth.png); move orbit, 10.0s @ 30fps, 1080x1920
+
+  frame 0/300
+  frame 30/300
+  frame 60/300
+  frame 90/300
+  frame 120/300
+  frame 150/300
+  frame 180/300
+  frame 210/300
+  frame 240/300
+  frame 270/300
+  wrote daily/2026-11-08/diary-p1/clip2.mp4            
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/tts.py daily/2026-11-08/diary-p1 --voice BycOlIr9Aytiubl0LIIY
+voice.mp3 + words.json  words=54  spoken=38.2s
+
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/thumbnail.py daily/2026-11-08/diary-p1
+thumbnail.png + upload.md
+
+[vost#0:0/rawvideo @ 0x6149ea5ffd80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x6149ea5f31c0] Error muxing a packet
+[out#0/rawvideo @ 0x6149ea5f31c0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x6149ea5f31c0] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x6149ea5f31c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x6149ea5f31c0] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/render.py daily/2026-11-08/diary-p1
+done daily/2026-11-08/diary-p1/short.mp4  41.2s  105 MB
+
+[vost#0:0/rawvideo @ 0x5c2ec7dc3d80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5c2ec7db71c0] Error muxing a packet
+[out#0/rawvideo @ 0x5c2ec7db71c0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5c2ec7db71c0] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5c2ec7db71c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5c2ec7db71c0] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/youtube_upload.py daily/2026-11-08/diary-p1 --publish-at 2026-11-13T14:30:00+05:30
+uploading 8%
+uploading 16%
+uploading 24%
+uploading 32%
+uploading 40%
+uploading 48%
+uploading 56%
+uploading 64%
+uploading 72%
+uploading 80%
+uploading 88%
+uploading 96%
+{
+ "id": "Dov8IulOkmI",
+ "url": "https://youtube.com/shorts/Dov8IulOkmI",
+ "privacy": "private",
+ "title": "The Diary \u00b7 Pt 1: Never Buy a Diary After the Shop Closes #creepy #horror",
+ "thumbnail": "set",
+ "playlist": "\ud83d\ude31 Scary Stories"
+}
+
+

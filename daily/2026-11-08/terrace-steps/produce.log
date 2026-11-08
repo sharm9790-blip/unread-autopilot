@@ -1,0 +1,73 @@
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/parallax.py daily/2026-11-08/terrace-steps/clip2_photo.jpg daily/2026-11-08/terrace-steps/clip2.mp4 --move orbit --dur 10 --strength 0.07 --fog 0.2 --dust 40
+
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Device set to use cpu
+  depth: Depth Anything V2 (saved clip2_photo.depth.png); move orbit, 10.0s @ 30fps, 1080x1920
+
+  frame 0/300
+  frame 30/300
+  frame 60/300
+  frame 90/300
+  frame 120/300
+  frame 150/300
+  frame 180/300
+  frame 210/300
+  frame 240/300
+  frame 270/300
+  wrote daily/2026-11-08/terrace-steps/clip2.mp4            
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/tts.py daily/2026-11-08/terrace-steps --voice BycOlIr9Aytiubl0LIIY
+voice.mp3 + words.json  words=47  spoken=29.9s
+
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/thumbnail.py daily/2026-11-08/terrace-steps
+thumbnail.png + upload.md
+
+[vost#0:0/rawvideo @ 0x621fd2486600] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x621fd248a840] Error muxing a packet
+[out#0/rawvideo @ 0x621fd248a840] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x621fd248a840] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x621fd248a840] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x621fd248a840] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/render.py daily/2026-11-08/terrace-steps
+done daily/2026-11-08/terrace-steps/short.mp4  32.9s  98 MB
+
+[vost#0:0/rawvideo @ 0x6471549c2280] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x6471549c1f00] Error muxing a packet
+[vost#0:0/rawvideo @ 0x58314b3b9600] [out#0/rawvideo @ 0x6471549c1f00] Error submitting a packet to the muxer: Broken pipe
+Task finished with error code: -32 (Broken pipe)
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x58314b3bd840] Error muxing a packet
+[out#0/rawvideo @ 0x58314b3bd840] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x58314b3bd840] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x6471549c1f00] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x6471549c1f00] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x6471549c1f00] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x58314b3bd840] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x58314b3bd840] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/youtube_upload.py daily/2026-11-08/terrace-steps --publish-at 2026-11-13T12:30:00+05:30
+uploading 8%
+uploading 17%
+uploading 25%
+uploading 34%
+uploading 42%
+uploading 51%
+uploading 59%
+uploading 68%
+uploading 77%
+uploading 85%
+uploading 94%
+{
+ "id": "kmRpa3osFxA",
+ "url": "https://youtube.com/shorts/kmRpa3osFxA",
+ "privacy": "private",
+ "title": "Never Count the Steps to the Terrace. I Counted 13 #creepy #horror",
+ "thumbnail": "set",
+ "playlist": "\ud83d\ude31 Scary Stories"
+}
+
+
