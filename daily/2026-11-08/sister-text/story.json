@@ -1,0 +1,125 @@
+{
+ "title": "Your Sister Texts: Come Downstairs. She's Asleep Beside You",
+ "format": "text-story",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "footsteps"
+ ],
+ "glitch": [
+  "whispers",
+  "isnt"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "buzz",
+   "at": "texts"
+  },
+  {
+   "type": "buzz",
+   "at": "again"
+  },
+  {
+   "type": "sting",
+   "at": "footsteps"
+  },
+  {
+   "type": "sting",
+   "at": "isnt"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.95,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "lock",
+   "clock": "3:07",
+   "note_from": "Sister",
+   "note_body": "Come downstairs",
+   "note_at": "phone",
+   "start": "asleep",
+   "date": "Sunday, November 8"
+  },
+  {
+   "type": "card",
+   "start": "why-0.2",
+   "avatar": "!",
+   "title": "Sister · Message",
+   "lines": [
+    "Why aren't you coming?",
+    "Seen 3:07 AM"
+   ]
+  },
+  {
+   "type": "title",
+   "start": "isnt-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "THAT ISN'T",
+     "at": "isnt-0.1",
+     "delay": 0
+    },
+    {
+     "text": "ME OUT",
+     "at": "isnt-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "THERE.",
+     "at": "isnt-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Would you go down?",
+    "at": "subscribe",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "SISTER TEXTS:",
+   "COME DOWNSTAIRS"
+  ],
+  "sub": "she's asleep beside you"
+ },
+ "hook": {
+  "lines": [
+   "SISTER TEXTS:",
+   "COME DOWNSTAIRS"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Your Sister Texts: Come Downstairs. She's Asleep Beside You #creepy #horror",
+  "playlist": "scary",
+  "description": "Your sister texts you to come downstairs. She's asleep next to you. Then the footsteps start climbing.\n\nWould you go down? Tell me in the comments 👇\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ }
+}

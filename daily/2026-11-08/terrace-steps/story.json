@@ -1,0 +1,120 @@
+{
+ "title": "Never Count the Steps to the Terrace. I Counted 13",
+ "format": "rules",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "thirteen"
+ ],
+ "glitch": [
+  "thirteen",
+  "finally"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "never"
+  },
+  {
+   "type": "heartbeat",
+   "at": "thirteen"
+  },
+  {
+   "type": "sting",
+   "at": "dark"
+  },
+  {
+   "type": "sting",
+   "at": "finally"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.95,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "turned-0.2"
+  },
+  {
+   "type": "title",
+   "start": "finally-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "SOMEONE",
+     "at": "finally-0.1",
+     "delay": 0
+    },
+    {
+     "text": "FINALLY",
+     "at": "finally-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "COUNTED.",
+     "at": "finally-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Would you go back down?",
+    "at": "subscribe",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "NEVER COUNT THE",
+   "STEPS UP"
+  ],
+  "sub": "grandpa said there are twelve"
+ },
+ "hook": {
+  "lines": [
+   "NEVER COUNT THE",
+   "STEPS UP"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Never Count the Steps to the Terrace. I Counted 13 #creepy #horror",
+  "playlist": "scary",
+  "description": "Grandpa said there are twelve steps to the terrace. Last night I counted thirteen. Then the stairs kept going down.\n\nWould you go back down? Tell me in the comments 👇\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ }
+}

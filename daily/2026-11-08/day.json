@@ -1,0 +1,39 @@
+{
+ "date": "2026-11-08",
+ "order": [
+  "terrace-steps",
+  "diary-p1",
+  "diary-p2",
+  "water-tank",
+  "sister-text"
+ ],
+ "schedule": {
+  "terrace-steps": "2026-11-08T12:30:00+05:30",
+  "diary-p1": "2026-11-08T14:30:00+05:30",
+  "diary-p2": "2026-11-08T16:30:00+05:30",
+  "water-tank": "2026-11-08T18:00:00+05:30",
+  "sister-text": "2026-11-08T19:30:00+05:30"
+ },
+ "clips": {
+  "terrace-steps": [
+   "dark staircase night",
+   "photo: old concrete stairs"
+  ],
+  "diary-p1": [
+   "old notebook dark",
+   "photo: old shop night"
+  ],
+  "diary-p2": [
+   "dark room lamp night",
+   "photo: antique pen paper"
+  ],
+  "water-tank": [
+   "dark rooftop night",
+   "photo: rusty water tank"
+  ],
+  "sister-text": [
+   "dark bedroom stairs",
+   "photo: phone glowing dark room"
+  ]
+ }
+}

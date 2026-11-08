@@ -1,0 +1,123 @@
+{
+ "title": "The Diary · Pt 2: The Shopkeeper Was Standing Behind Me",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "shopkeeper"
+ ],
+ "glitch": [
+  "writer",
+  "writing"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "dont"
+  },
+  {
+   "type": "heartbeat",
+   "at": "look"
+  },
+  {
+   "type": "sting",
+   "at": "writer"
+  },
+  {
+   "type": "sting",
+   "at": "writing"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.8,
+    "desat": 0.3,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "card",
+   "start": "pen-0.2",
+   "avatar": "●",
+   "title": "Diary · Last page",
+   "lines": [
+    "WRITER: YOU",
+    "Next line: ..."
+   ]
+  },
+  {
+   "type": "title",
+   "start": "writing-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "MY HAND",
+     "at": "writing-0.1",
+     "delay": 0
+    },
+    {
+     "text": "WROTE HIS",
+     "at": "writing-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "NEXT LINE.",
+     "at": "writing-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Part 1 is on the channel",
+    "at": "page",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "DON'T READ",
+   "THE LAST PAGE"
+  ],
+  "sub": "the shopkeeper was behind me"
+ },
+ "hook": {
+  "lines": [
+   "DON'T READ",
+   "THE LAST PAGE"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "The Diary · Pt 2: The Shopkeeper Was Standing Behind Me #creepy #horror",
+  "playlist": "scary",
+  "description": "I read the last page. The shopkeeper stood behind me in the lamp's reflection. Then my hand started writing.\n\nDid you guess the twist? Tell me in the comments 👇\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ },
+ "series": {
+  "name": "The Diary",
+  "part": 2,
+  "of": 2,
+  "episode": "The Shopkeeper Was Standing Behind Me"
+ }
+}

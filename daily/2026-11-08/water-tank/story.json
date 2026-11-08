@@ -1,0 +1,120 @@
+{
+ "title": "Three Knocks Every Night From the Water Tank. Tonight, Four.",
+ "format": "monologue",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "inside"
+ ],
+ "glitch": [
+  "four",
+  "inside"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "knock",
+   "at": "three"
+  },
+  {
+   "type": "heartbeat",
+   "at": "four"
+  },
+  {
+   "type": "sting",
+   "at": "inside"
+  },
+  {
+   "type": "sting",
+   "at": "here"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.9,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "climbed-0.2"
+  },
+  {
+   "type": "title",
+   "start": "four-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "FOUR.",
+     "at": "four-0.1",
+     "delay": 0
+    },
+    {
+     "text": "BECAUSE",
+     "at": "four-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "YOU'RE HERE.",
+     "at": "four-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Would you open the lid?",
+    "at": "knocks",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "3 KNOCKS",
+   "FROM THE TANK"
+  ],
+  "sub": "tonight there were four"
+ },
+ "hook": {
+  "lines": [
+   "3 KNOCKS",
+   "FROM THE TANK"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Three Knocks Every Night From the Water Tank. Tonight, Four. #creepy #horror",
+  "playlist": "scary",
+  "description": "Dad said it's just the pipes. Tonight I counted four knocks, opened the lid, and something answered from inside.\n\nWould you open the lid? Tell me in the comments 👇\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ }
+}
