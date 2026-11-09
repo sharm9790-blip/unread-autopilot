@@ -165,6 +165,55 @@ def tg(text):
         print("telegram failed:", e, "\n", text)
 
 
+STATS = os.path.join(ROOT, "state", "ig_stats.json")
+
+
+def ig_stats(tok):
+    """Daily Instagram summary like the YouTube one: followers (+change), likes/comments on the last 7 days of
+    Reels, best Reel. Views/reach are added when the token has instagram_manage_insights (else skipped)."""
+    at, uid = tok["access_token"], tok["ig_user_id"]
+    me = curl(["-G", f"{FB}/{uid}", "--data-urlencode", "fields=followers_count,media_count",
+               "--data-urlencode", f"access_token={at}"])
+    media = curl(["-G", f"{FB}/{uid}/media", "--data-urlencode",
+                  "fields=id,caption,timestamp,like_count,comments_count,permalink", "--data-urlencode", "limit=40",
+                  "--data-urlencode", f"access_token={at}"]).get("data", [])
+    since = datetime.datetime.now(IST) - datetime.timedelta(days=7)
+    week = [m for m in media if datetime.datetime.strptime(m["timestamp"], "%Y-%m-%dT%H:%M:%S%z") >= since]
+    views = {}
+    for m in week[:25]:
+        try:
+            ins = curl(["-G", f"{FB}/{m['id']}/insights", "--data-urlencode", "metric=views",
+                        "--data-urlencode", f"access_token={at}"])
+            views[m["id"]] = int(ins["data"][0]["values"][0]["value"])
+        except Exception:  # noqa: BLE001 - no insights permission on this token
+            break
+    hist = load(STATS, {})
+    today = datetime.datetime.now(IST).date().isoformat()
+    prev = [v for d, v in sorted(hist.items()) if d < today]
+    f = me.get("followers_count", 0)
+    hist[today] = f
+    save(STATS, dict(sorted(hist.items())[-90:]))
+    delta = f" ({f - prev[-1]:+d} since yesterday)" if prev else ""
+    likes, comm = sum(m.get("like_count", 0) for m in week), sum(m.get("comments_count", 0) for m in week)
+    out = ["━━━━━━━━━━━━━━━", f"👥 <b>{f}</b> followers{delta} · {me.get('media_count', 0)} posts",
+           f"📅 Last 7 days: <b>{len(week)}</b> Reels · ❤️ {likes} · 💬 {comm}"
+           + (f" · 👁 <b>{sum(views.values())}</b> views" if views else "")]
+    if week:
+        key = (lambda m: views.get(m["id"], 0)) if views else (lambda m: m.get("like_count", 0) * 3 + m.get("comments_count", 0))
+        b = max(week, key=key)
+        name = html.escape((b.get("caption") or "").split("\n")[0][:55])
+        out.append(f'🏆 Best: <a href="{b["permalink"]}">{name}</a> ({views.get(b["id"], b.get("like_count", 0))}'
+                   f'{" views" if views else " likes"})')
+    return out
+
+
+def stats_lines(tok):
+    try:
+        return ig_stats(tok)
+    except Exception as e:  # noqa: BLE001 - stats are a bonus
+        return [f"<i>Instagram stats unavailable: {html.escape(str(e)[:100])}</i>"]
+
+
 def post_due(dry=False):
     q, posted = load(QUEUE, {}), load(POSTED, {})
     today = datetime.datetime.now(IST).date()
@@ -172,12 +221,13 @@ def post_due(dry=False):
                   and datetime.datetime.fromisoformat(v["publish_at"]).astimezone(IST).date() < today),
                  key=lambda kv: kv[1]["publish_at"])
     head = f"📸 <b>UNREAD · Instagram · {today.strftime('%a %d %b')}</b>"
+    tok = json.loads(os.environ.get("IG_TOKEN_JSON") or open(os.path.expanduser("~/.config/unread-instagram/token.json")).read())
     if not due:
         waiting = len([k for k in q if k not in posted])
-        tg(f"{head}\nNothing from yesterday to cross-post. {waiting} Short(s) waiting for their YouTube day.")
+        tg("\n".join([head, f"Nothing from yesterday to cross-post. {waiting} Short(s) waiting for their YouTube day."]
+                      + stats_lines(tok)))
         return 0
     live = youtube_public([k for k, _ in due])
-    tok = json.loads(os.environ.get("IG_TOKEN_JSON") or open(os.path.expanduser("~/.config/unread-instagram/token.json")).read())
     lines, ok, fail = [head], 0, 0
     for k, v in due[:MAX_PER_RUN]:
         title = html.escape(v["title"])
@@ -219,7 +269,7 @@ def post_due(dry=False):
     if len(due) > MAX_PER_RUN:
         lines.append(f"<i>{len(due) - MAX_PER_RUN} more next run</i>")
     lines.insert(1, f"<b>{ok}</b> Reel(s) posted" + (f" · {fail} failed" if fail else ""))
-    tg("\n".join(lines))
+    tg("\n".join(lines + stats_lines(tok)))
     return 1 if fail and not ok else 0
 
 
@@ -227,6 +277,11 @@ if __name__ == "__main__":
     if len(sys.argv) >= 5 and sys.argv[1] == "stash":
         print(stash(sys.argv[2], sys.argv[3], sys.argv[4]))
     elif len(sys.argv) >= 2 and sys.argv[1] == "post":
-        sys.exit(post_due(dry="--dry-run" in sys.argv))
+        try:
+            sys.exit(post_due(dry="--dry-run" in sys.argv))
+        except Exception as e:  # noqa: BLE001 - always tell Telegram, even if the run dies early
+            tg(f"❌ <b>UNREAD · Instagram run crashed</b>\n<code>{html.escape(str(e)[:300])}</code>\n"
+               f"Nothing was posted; it retries tomorrow at 05:15 IST.")
+            raise
     else:
         print(__doc__)
