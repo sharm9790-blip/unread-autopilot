@@ -5,7 +5,7 @@ Daily scary Shorts for the UNREAD YouTube channel, fully in the cloud.
 1. **06:00 IST** - claude.ai cloud routine runs the `daily-shorts` skill: writes 5 new stories (one 2-part series) into
    `daily/<date>/`, lints them with `pipeline/check_day.py`, pushes to `claude/daily-shorts`.
 2. **GitHub Actions** (`produce.yml`) - Pixabay clips, ElevenLabs voice, render, upload scheduled at
-   12:30 / 14:30 / 16:30 / 18:00 / 19:30 IST, series links, then a Telegram report (@sharmi_yt_upload_status_bot).
+   12:30 / 16:30 / 18:00 / 19:30 IST, series links, then a Telegram report (@sharmi_yt_upload_status_bot).
 3. **08:00 IST** - if no stories were written, Telegram warns.
 
 Secrets (repo settings): `PIXABAY_API_KEY`, `ELEVENLABS_API_KEY`, `YT_CLIENT_SECRET_JSON`, `YT_TOKEN_JSON`,

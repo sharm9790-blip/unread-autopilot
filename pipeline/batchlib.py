@@ -6,7 +6,7 @@
            clips=["dark street night walking", "foggy alley night"])
     day.save()
 
-Each ep gets the next slot (12:30, 14:30, 16:30, 18:00, 19:30 IST). `clips` are Pixabay video search queries, in order:
+4 eps a day: standalones get 12:30 and 16:30 IST, the 2-part series gets 18:00 (Part 1) and 19:30 (Part 2). `clips` are Pixabay video search queries, in order:
 clip("...") scenes use clip.mp4, clip2.mp4 ... matching them. produce.py downloads the best hit for each.
 Series: pass series=series("Route 0", part, 2, "Episode title"); Part 1 must end "Part two is on my channel. Subscribe...".
 """
@@ -16,7 +16,10 @@ import os
 import re
 
 COOL, WARM, CCTV = [0.82, 0.88, 1.12], [1.05, 0.92, 0.82], [0.78, 1.05, 0.82]
-SLOTS = ["12:30", "14:30", "16:30", "18:00", "19:30"]
+# 4/day (Nov 9 data: 14:30 got 79-264 views vs 600-1,000 at the others). Standalones take the day slots, the 2-part
+# series takes the evening: Part 1 at 18:00, Part 2 at 19:30 (Part 1s at 14:30 got 44-139; at 18:00, 959).
+SOLO_SLOTS, SERIES_SLOTS = ["12:30", "16:30"], ["18:00", "19:30"]
+SLOTS = sorted(SOLO_SLOTS + SERIES_SLOTS)
 TAGS = "#shorts #scarystories #horror #creepy #horrorstory #scary"
 TAG_LIST = ("scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, "
             "creepy, unread, horror rules, 3am")
@@ -78,7 +81,16 @@ class Day:
         d = os.path.join(self.dir, slug)
         os.makedirs(d, exist_ok=True)
         open(os.path.join(d, "narration.txt"), "w").write(narration.strip() + "\n")
-        hhmm = SLOTS[len(self.order)]
+        taken = {v[11:16] for v in self.schedule.values()}
+        if series:
+            hhmm = SERIES_SLOTS[min(series["part"], len(SERIES_SLOTS)) - 1]
+        else:
+            free = [s for s in SOLO_SLOTS if s not in taken]
+            if not free:
+                raise SystemExit(f"{slug}: only {len(SOLO_SLOTS)} standalones a day ({', '.join(SOLO_SLOTS)})")
+            hhmm = free[0]
+        if hhmm in taken:
+            raise SystemExit(f"{slug}: slot {hhmm} is already used")
         self.order.append(slug)
         self.schedule[slug] = f"{self.date.isoformat()}T{hhmm}:00+05:30"
         self.clips[slug] = clips
@@ -107,6 +119,7 @@ class Day:
         json.dump(story, open(os.path.join(d, "story.json"), "w"), indent=1, ensure_ascii=False)
 
     def save(self):
+        self.order.sort(key=lambda s: self.schedule[s])  # produce.py staggers late runs in this order
         json.dump({"date": self.date.isoformat(), "order": self.order, "schedule": self.schedule, "clips": self.clips},
                   open(os.path.join(self.dir, "day.json"), "w"), indent=1)
         for slug in self.order:
