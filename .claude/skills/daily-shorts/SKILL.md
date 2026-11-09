@@ -20,7 +20,7 @@ You need no API keys. Never upload, never touch secrets.
    - **one 2-part series** → Part 1 at 18:00, Part 2 at 19:30 (Part 1 ends on a cliffhanger: "...Part two is on my channel.
      Subscribe..."; Part 2 opens with a new command line, pays it off with a twist, footer "Part 1 is on the channel").
      Part 1 must work as a complete scare on its own: viewers who never see Part 2 still need a payoff.
-   (No 14:30 slot any more: it got 79-264 views vs 600-1,000 at the others.)
+   (4/day: fewer posts per day did better in October. Part 1s at 14:30 got 44-139; the one at 18:00 got 959.)
    Rotate formats across the day: rules / pick-one (comment 1, 2 or 3) / second-person / text-story / voice-call.
    Use the helpers in `pipeline/batchlib.py` (`Day`, `clip`, `title3`, `lines`, `card`, `lock`, `call`, `series`, `COOL`, `WARM`).
    Copy the structure of the example below.

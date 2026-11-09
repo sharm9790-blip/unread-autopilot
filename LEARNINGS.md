@@ -25,7 +25,7 @@ Lessons from YouTube Analytics on 2026-10-26 (pulled with `scripts/yt_analytics.
 
 ## Nov 2026 additions
 - 2-part series (Part 1 cliffhanger "Part two is on my channel", Part 2 one slot later the same day) send viewers to the next video; series parts earned the most views historically (Alder Lane, Mile Marker 13).
-- Slots (from 2026-11-10): 12:30 / 16:30 standalones, 18:00 Part 1, 19:30 Part 2. 14:30 dropped. 21:00+ is the worst.
+- Slots (from 2026-11-10): 12:30 / 16:30 standalones, 18:00 Part 1, 19:30 Part 2 (4/day; 14:30 dropped for volume, not proven weak). 21:00+ is the worst.
 - From 2026-11-08 (ideas from the Instagram agent skill's Reel rules, not yet proven on UNREAD - compare engagedPct and
   outlier before/after with yt_analytics.py): on-screen hook card for the first 2.8 s, captions inside the safe zone
   (y 230-1440), picture changes every ~3.5 s, closing line echoes the hook (loop), number/name in the hook when it fits.
@@ -34,7 +34,9 @@ Lessons from YouTube Analytics on 2026-10-26 (pulled with `scripts/yt_analytics.
 - **Length:** ≤30 s median 599 views vs 222 over 30 s (month: 25-30 s 599, 31-44 s 144, 45 s+ 42). The autopilot drifted to
   32-41 s because the voice reads ~1.75 words/s + 3 s end card. Now: 40-48 words, and produce.py speeds the voice up to
   1.15x so the Short lands at ≤30 s; the Telegram report flags anything still longer.
-- **Slot:** 14:30 got 79/125/139/264 while 12:30, 18:00 and 19:30 got 600-1,050 for their best. 14:30 dropped → 4/day.
+- **Slot:** 14:30 got 79/125/139/264, but two were Part 1s and one a weak title, and "The School Said Dad Picked Him Up"
+  got 905 at 14:30 on Nov 8. So 14:30 is NOT proven bad; it was dropped to post 4/day (fewer posts per day did better
+  in October) and to free the evening for the series. Re-test it with a strong standalone before ruling it out.
 - **Series:** Part 1s got 44/125/139 (three at 14:30) vs 959 for the one at 18:00; Part 2s 473-613. Series now 18:00 + 19:30.
 - **Titles:** winners = a threat inside home/family + a short contradicting sentence ("The School Said Dad Picked Him Up.
   I'm His Dad." 905, "A Man Whispered on My Baby Monitor. I Live Alone." 880). Losers = number puzzles, transit,
