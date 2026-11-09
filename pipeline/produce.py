@@ -128,6 +128,25 @@ def fetch_photo(spec, dest, i, log=None):
             "page": h.get("pageURL", "")}
 
 
+TARGET_S, MAX_SPEED = 29.5, 1.15  # Shorts <=30 s get ~3x the median views of 31-44 s ones (LEARNINGS.md)
+
+
+def fit_length(ep):
+    """After TTS: speed the voice up (max 1.15x) so voice + end card lands at <=29.5 s. Flags it if still long."""
+    sp = os.path.join(ep, "story.json")
+    story = json.load(open(sp))
+    w = json.load(open(os.path.join(ep, "words.json")))
+    w = w.get("words", w) if isinstance(w, dict) else w
+    voice, tail = float(w[-1]["end"]), float(story.get("tail", 3.0))
+    need = voice / max(TARGET_S - tail, 1.0)
+    speed = round(min(MAX_SPEED, max(float(story.get("speed", 1.0)), need)), 3)
+    if speed != story.get("speed"):
+        story["speed"] = speed
+        json.dump(story, open(sp, "w"), indent=1, ensure_ascii=False)
+    est = round(voice / speed + tail, 1)
+    return {"speed": speed, **({"long": est} if est > 30.5 else {})}
+
+
 def run(cmd, log):
     r = subprocess.run(cmd, capture_output=True, text=True)
     open(log, "a").write(f"$ {' '.join(cmd)}\n{r.stdout}\n{r.stderr}\n")
@@ -210,6 +229,8 @@ def produce(args):
         st = "voice"
         if not os.path.exists(os.path.join(ep, "words.json")):
             run(["python3", os.path.join(HERE, "tts.py"), ep, "--voice", VOICE], log)
+        st = "fit"
+        out.update(fit_length(ep))
         st = "render"
         run(["python3", os.path.join(HERE, "thumbnail.py"), ep], log)
         if not os.path.exists(os.path.join(ep, "short.mp4")):
@@ -293,7 +314,8 @@ def report(results, series_ok, stats):
         if r["ok"]:
             t = datetime.datetime.fromisoformat(r["at"]).astimezone(IST).strftime("%H:%M")
             link = f'<a href="{r["url"]}">{title}</a>' if r.get("url") else title
-            lines.append(f"🕒 <b>{t}</b>  {link}  <i>{r.get('seconds', '')}s</i>")
+            long = " ⚠️ over 30 s, write shorter" if (r.get("seconds") or 0) > 30.5 else ""
+            lines.append(f"🕒 <b>{t}</b>  {link}  <i>{r.get('seconds', '')}s</i>{long}")
         else:
             lines.append(f"❌ {title}\n      <i>failed at {r['step']}: {html.escape(r['error'][:120])}</i>")
     if series_ok:

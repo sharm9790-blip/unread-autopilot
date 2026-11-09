@@ -38,15 +38,18 @@ def check(day_dir):
     index = json.load(open(os.path.join(ROOT, "stories_index.json")))
     used = {t.lower() for t in index["titles"]}
     problems = []
-    if len(day["order"]) != 5:
-        problems.append(f"expected 5 episodes, got {len(day['order'])}")
+    if len(day["order"]) != 4:
+        problems.append(f"expected 4 episodes (2 standalones + a 2-part series), got {len(day['order'])}")
+    times = sorted(t[11:16] for t in day["schedule"].values())
+    if times != ["12:30", "16:30", "18:00", "19:30"]:
+        problems.append(f"slots {times}: need 12:30 + 16:30 standalones and the series at 18:00 / 19:30")
     for slug in day["order"]:
         ep = os.path.join(day_dir, slug)
         st = json.load(open(os.path.join(ep, "story.json")))
         words = clean_words(open(os.path.join(ep, "narration.txt")).read())
         p = lambda msg: problems.append(f"{slug}: {msg}")
-        if not 40 <= len(words) <= 66:
-            p(f"{len(words)} words (keep 45-62 for a 20-30 s Short)")
+        if not 36 <= len(words) <= 50:
+            p(f"{len(words)} words (keep 40-48: the voice reads ~1.75 words/s, and Shorts over 30 s get a third of the views)")
         if "subscribe" not in words:
             p("narration has no 'Subscribe...' line")
         else:  # loop: the closing tag line echoes the hook so the replay connects
