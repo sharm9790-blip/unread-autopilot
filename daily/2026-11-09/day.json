@@ -1,5 +1,5 @@
 {
- "date": "2026-11-09",
+ "date": "2026-11-14",
  "order": [
   "feet-door",
   "floor0-p1",
@@ -8,11 +8,11 @@
   "cinema-seat"
  ],
  "schedule": {
-  "feet-door": "2026-11-09T12:30:00+05:30",
-  "floor0-p1": "2026-11-09T14:30:00+05:30",
-  "floor0-p2": "2026-11-09T16:30:00+05:30",
-  "papa-flight": "2026-11-09T18:00:00+05:30",
-  "cinema-seat": "2026-11-09T19:30:00+05:30"
+  "feet-door": "2026-11-14T12:30:00+05:30",
+  "floor0-p1": "2026-11-14T14:30:00+05:30",
+  "floor0-p2": "2026-11-14T16:30:00+05:30",
+  "papa-flight": "2026-11-14T18:00:00+05:30",
+  "cinema-seat": "2026-11-14T19:30:00+05:30"
  },
  "clips": {
   "feet-door": [
@@ -33,5 +33,6 @@
    "empty cinema theater",
    "photo: empty cinema seats dark"
   ]
- }
+ },
+ "moved_from": "2026-11-09"
 }

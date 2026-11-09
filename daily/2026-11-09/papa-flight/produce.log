@@ -1,0 +1,50 @@
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/tts.py daily/2026-11-09/papa-flight --voice BycOlIr9Aytiubl0LIIY
+voice.mp3 + words.json  words=54  spoken=35.0s
+
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/thumbnail.py daily/2026-11-09/papa-flight
+thumbnail.png + upload.md
+
+[vost#0:0/rawvideo @ 0x57b99f657100] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x57b99f656d80] Error muxing a packet
+[out#0/rawvideo @ 0x57b99f656d80] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x57b99f656d80] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x57b99f656d80] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x57b99f656d80] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/render.py daily/2026-11-09/papa-flight
+done daily/2026-11-09/papa-flight/short.mp4  38.0s  115 MB
+
+[vost#0:0/rawvideo @ 0x5b61577b1100] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5b61577b0d80] Error muxing a packet
+[out#0/rawvideo @ 0x5b61577b0d80] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5b61577b0d80] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5b61577b0d80] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5b61577b0d80] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/youtube_upload.py daily/2026-11-09/papa-flight --publish-at 2026-11-14T18:00:00+05:30
+uploading 7%
+uploading 14%
+uploading 21%
+uploading 29%
+uploading 36%
+uploading 43%
+uploading 50%
+uploading 58%
+uploading 65%
+uploading 72%
+uploading 80%
+uploading 87%
+uploading 94%
+{
+ "id": "JkOX2Tcn1e8",
+ "url": "https://youtube.com/shorts/JkOX2Tcn1e8",
+ "privacy": "private",
+ "title": "Papa's Flight Is Still in the Air. He's Knocking. #creepy #horror",
+ "thumbnail": "set",
+ "playlist": "\ud83d\ude31 Scary Stories"
+}
+
+
