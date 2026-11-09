@@ -1,0 +1,232 @@
+#!/usr/bin/env python3
+"""Cross-post UNREAD Shorts to Instagram (@unread1111) the day after they go public on YouTube.
+
+Storage: rendered Shorts are kept as assets of the GitHub release "ig-queue" (release assets have no storage quota,
+unlike Actions artifacts) and listed in state/ig_queue.json; posted ones move to state/ig_posted.json and their asset
+is deleted.
+
+    python3 pipeline/ig_daily.py stash <episode_dir> <youtube_id> <publish_at>   # produce.py calls this after upload
+    python3 pipeline/ig_daily.py post [--dry-run]    # daily 05:15 IST: post every Short public on YouTube since
+                                                     # yesterday or earlier that isn't on Instagram yet; Telegram report
+Env: IG_TOKEN_JSON ({"mode": "fb", "access_token": Page token, "ig_user_id": "1784..."}), TELEGRAM_BOT_TOKEN,
+TELEGRAM_CHAT_ID, GH_TOKEN (Actions) + YouTube token files (to confirm the Short is public).
+"""
+import datetime
+import html
+import json
+import os
+import subprocess
+import sys
+import tempfile
+import time
+import urllib.parse
+import urllib.request
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.abspath(os.path.join(HERE, ".."))
+QUEUE = os.path.join(ROOT, "state", "ig_queue.json")
+POSTED = os.path.join(ROOT, "state", "ig_posted.json")
+REPO = os.environ.get("GITHUB_REPOSITORY", "sharm9790-blip/unread-autopilot")
+RELEASE = "ig-queue"
+FB = "https://graph.facebook.com/v26.0"
+IST = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
+TAGS = "#scarystories #horrorstories #creepy #horror #shortstory #scary #reels"
+MAX_PER_RUN, MAX_TRIES = 8, 3
+
+
+def load(p, default):
+    try:
+        return json.load(open(p))
+    except Exception:  # noqa: BLE001
+        return default
+
+
+def save(p, d):
+    os.makedirs(os.path.dirname(p), exist_ok=True)
+    json.dump(d, open(p, "w"), indent=1, ensure_ascii=False)
+
+
+def gh(*args, check=True):
+    r = subprocess.run(["gh", *args, "-R", REPO], capture_output=True, text=True)
+    if check and r.returncode:
+        raise RuntimeError(f"gh {args[0]} {args[1] if len(args) > 1 else ''}: {(r.stderr or r.stdout).strip()[:200]}")
+    return r
+
+
+# ---------- stash (after a Short is rendered + scheduled on YouTube) ----------
+
+def caption(story):
+    up = story.get("upload", {})
+    desc = [l.strip() for l in up.get("description", "").split("\n") if l.strip()]
+    hook = desc[0] if desc else story.get("title", "")
+    q = next((l.replace("Tell me in the comments 👇", "").strip() for l in desc if "comments" in l), "")
+    s = story.get("series")
+    more = ("▶️ Part {} is on YouTube, link in bio".format(s["part"] + 1) if s and s["part"] < s["of"]
+            else "▶️ More stories on YouTube, link in bio")
+    return f"{hook}\n\n{(q + ' 👇') if q else 'Would you have looked? 👇'}\n\n{more}\n.\n{TAGS}"[:2200]
+
+
+def ig_copy(src, dst):
+    """Instagram rejects Reels above ~25 Mbps; 8 Mbps H.264 + AAC, faststart (~30 MB for 30 s)."""
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", src, "-c:v", "libx264", "-preset", "medium",
+                    "-b:v", "8M", "-maxrate", "10M", "-bufsize", "20M", "-pix_fmt", "yuv420p",
+                    "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", dst], check=True)
+
+
+def stash(ep, yt_id, publish_at):
+    story = json.load(open(os.path.join(ep, "story.json")))
+    q = load(QUEUE, {})
+    if yt_id in q or yt_id in load(POSTED, {}):
+        return q.get(yt_id)
+    if gh("release", "view", RELEASE, check=False).returncode:
+        gh("release", "create", RELEASE, "--title", "Instagram queue (automatic)", "--prerelease",
+           "--notes", "Rendered Shorts waiting to be cross-posted to Instagram by pipeline/ig_daily.py. Do not edit.")
+    with tempfile.TemporaryDirectory() as tmp:
+        f = os.path.join(tmp, f"{yt_id}.mp4")
+        ig_copy(os.path.join(ep, "short.mp4"), f)
+        gh("release", "upload", RELEASE, f, "--clobber")
+    q[yt_id] = {"title": story.get("title", ""), "publish_at": publish_at, "caption": caption(story),
+                "asset": f"{yt_id}.mp4", "episode": os.path.relpath(ep, ROOT)}
+    save(QUEUE, q)
+    return q[yt_id]
+
+
+# ---------- post (daily) ----------
+
+def curl(args):
+    r = subprocess.run(["curl", "-sS", *args], capture_output=True, text=True)
+    try:
+        d = json.loads(r.stdout)
+    except ValueError:
+        raise RuntimeError(f"bad response: {r.stdout[:200]} {r.stderr[:200]}") from None
+    if "error" in d:
+        e = d["error"]
+        raise RuntimeError(f"IG_TOKEN_EXPIRED: {e.get('message', '')[:150]}" if e.get("code") == 190
+                           else f"API error {e.get('code')}: {e.get('message', '')[:200]}")
+    return d
+
+
+def ig_post(tok, video, cap):
+    at, uid = tok["access_token"], tok["ig_user_id"]
+    c = curl(["-X", "POST", f"{FB}/{uid}/media", "--data-urlencode", "media_type=REELS",
+              "--data-urlencode", "upload_type=resumable", "--data-urlencode", f"caption={cap}",
+              "--data-urlencode", "share_to_feed=true", "--data-urlencode", f"access_token={at}"])
+    cid = c["id"]
+    up = curl(["-X", "POST", f"https://rupload.facebook.com/ig-api-upload/v26.0/{cid}",
+               "-H", f"Authorization: OAuth {at}", "-H", "offset: 0", "-H", f"file_size: {os.path.getsize(video)}",
+               "--data-binary", f"@{video}"])
+    if not up.get("success", True):
+        raise RuntimeError(f"upload failed: {up}")
+    st = {}
+    for _ in range(90):  # Instagram transcodes, usually < 2 min
+        st = curl(["-G", f"{FB}/{cid}", "--data-urlencode", "fields=status_code,status",
+                   "--data-urlencode", f"access_token={at}"])
+        if st.get("status_code") == "FINISHED":
+            break
+        if st.get("status_code") in ("ERROR", "EXPIRED"):
+            raise RuntimeError(f"processing failed: {st.get('status', '')[:150]}")
+        time.sleep(10)
+    else:
+        raise RuntimeError(f"processing timed out ({st.get('status_code')})")
+    pub = curl(["-X", "POST", f"{FB}/{uid}/media_publish", "--data-urlencode", f"creation_id={cid}",
+                "--data-urlencode", f"access_token={at}"])
+    link = curl(["-G", f"{FB}/{pub['id']}", "--data-urlencode", "fields=permalink",
+                 "--data-urlencode", f"access_token={at}"]).get("permalink", "")
+    return pub["id"], link
+
+
+def youtube_public(ids):
+    """{id: True/False} live privacy status; {} if YouTube can't be reached (then trust publish_at)."""
+    try:
+        sys.path.insert(0, HERE)
+        from youtube_upload import credentials
+        from googleapiclient.discovery import build
+        yt = build("youtube", "v3", credentials=credentials())
+        out = {}
+        for k in range(0, len(ids), 50):
+            for v in yt.videos().list(part="status", id=",".join(ids[k:k + 50])).execute()["items"]:
+                out[v["id"]] = v["status"]["privacyStatus"] == "public"
+        return out
+    except Exception as e:  # noqa: BLE001
+        print("youtube check skipped:", e)
+        return {}
+
+
+def tg(text):
+    t, c = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
+    if not (t and c):
+        print(text)
+        return
+    data = urllib.parse.urlencode({"chat_id": c, "text": text, "parse_mode": "HTML",
+                                   "disable_web_page_preview": "true"}).encode()
+    try:
+        urllib.request.urlopen(f"https://api.telegram.org/bot{t}/sendMessage", data, timeout=30)
+    except Exception as e:  # noqa: BLE001
+        print("telegram failed:", e, "\n", text)
+
+
+def post_due(dry=False):
+    q, posted = load(QUEUE, {}), load(POSTED, {})
+    today = datetime.datetime.now(IST).date()
+    due = sorted(((k, v) for k, v in q.items() if k not in posted
+                  and datetime.datetime.fromisoformat(v["publish_at"]).astimezone(IST).date() < today),
+                 key=lambda kv: kv[1]["publish_at"])
+    head = f"📸 <b>UNREAD · Instagram · {today.strftime('%a %d %b')}</b>"
+    if not due:
+        waiting = len([k for k in q if k not in posted])
+        tg(f"{head}\nNothing from yesterday to cross-post. {waiting} Short(s) waiting for their YouTube day.")
+        return 0
+    live = youtube_public([k for k, _ in due])
+    tok = json.loads(os.environ.get("IG_TOKEN_JSON") or open(os.path.expanduser("~/.config/unread-instagram/token.json")).read())
+    lines, ok, fail = [head], 0, 0
+    for k, v in due[:MAX_PER_RUN]:
+        title = html.escape(v["title"])
+        if live and not live.get(k, False):
+            lines.append(f"⏸ {title}  <i>not public on YouTube yet, retry tomorrow</i>")
+            continue
+        if dry:
+            lines.append(f"🧪 would post: {title}")
+            continue
+        try:
+            with tempfile.TemporaryDirectory() as tmp:
+                gh("release", "download", RELEASE, "-p", v["asset"], "-D", tmp)
+                mid, link = ig_post(tok, os.path.join(tmp, v["asset"]), v["caption"])
+            posted[k] = {"media_id": mid, "permalink": link, "title": v["title"],
+                         "at": datetime.datetime.now(IST).strftime("%Y-%m-%d %H:%M")}
+            q.pop(k, None)
+            save(POSTED, posted), save(QUEUE, q)
+            gh("release", "delete-asset", RELEASE, v["asset"], "-y", check=False)
+            lines.append(f'✅ <a href="{link}">{title}</a>')
+            ok += 1
+            time.sleep(60)  # don't fire Reels back-to-back
+        except Exception as e:  # noqa: BLE001
+            fail += 1
+            v["tries"] = v.get("tries", 0) + 1
+            msg = str(e)
+            if v["tries"] >= MAX_TRIES and "IG_TOKEN_EXPIRED" not in msg:
+                q.pop(k, None)
+                gh("release", "delete-asset", RELEASE, v["asset"], "-y", check=False)
+                lines.append(f"❌ {title}  <i>gave up after {MAX_TRIES} tries: {html.escape(msg[:100])}</i>")
+            else:
+                q[k] = v
+                lines.append(f"⚠️ {title}  <i>{html.escape(msg[:120])} (retry tomorrow)</i>")
+            save(QUEUE, q)
+            if "IG_TOKEN_EXPIRED" in msg:
+                lines.append("🔑 <b>Instagram token expired.</b> Make a new long-lived token, run "
+                             "<code>python3 instagram/unread/ig_post.py --save-token</code> on the Mac, then "
+                             "<code>gh secret set IG_TOKEN_JSON &lt; ~/.config/unread-instagram/token.json</code>")
+                break
+    if len(due) > MAX_PER_RUN:
+        lines.append(f"<i>{len(due) - MAX_PER_RUN} more next run</i>")
+    lines.insert(1, f"<b>{ok}</b> Reel(s) posted" + (f" · {fail} failed" if fail else ""))
+    tg("\n".join(lines))
+    return 1 if fail and not ok else 0
+
+
+if __name__ == "__main__":
+    if len(sys.argv) >= 5 and sys.argv[1] == "stash":
+        print(stash(sys.argv[2], sys.argv[3], sys.argv[4]))
+    elif len(sys.argv) >= 2 and sys.argv[1] == "post":
+        sys.exit(post_due(dry="--dry-run" in sys.argv))
+    else:
+        print(__doc__)
