@@ -16,6 +16,7 @@ import traceback
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
+import threading
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, ".."))
@@ -25,6 +26,7 @@ DAY = sys.argv[1].rstrip("/")
 UPLOAD = "--no-upload" not in sys.argv
 day = json.load(open(os.path.join(DAY, "day.json")))
 USED_P = os.path.join(ROOT, "state", "used_clips.json")
+IG_LOCK = threading.Lock()  # ig_queue.json is written from 3 worker threads
 used_clips = set(json.load(open(USED_P))) if os.path.exists(USED_P) else set()
 
 
@@ -291,6 +293,15 @@ def produce(args):
             out["url"] = json.load(open(os.path.join(ep, "uploaded.json")))["url"]
         out["at"] = out.get("at", day["schedule"][slug])
         out["ok"] = True
+        if UPLOAD and out.get("url"):  # keep an Instagram copy; ig_daily.py posts it the day after YouTube
+            try:
+                import ig_daily
+                with IG_LOCK:
+                    ig_daily.stash(ep, out["url"].rstrip("/").split("/")[-1], out["at"])
+                out["ig"] = True
+            except Exception as e:  # noqa: BLE001 - Instagram is a bonus; never fail the Short over it
+                out["ig_error"] = str(e)[:120]
+                open(log, "a").write(f"instagram stash failed: {e}\n")
     except Exception as e:
         out.update(ok=False, step=st, error=str(e)[:200])
         open(log, "a").write(traceback.format_exc())
@@ -371,6 +382,11 @@ def report(results, series_ok, stats):
                   f"(today ${falgen.spent_today():.2f} of ${falgen.cap():.2f} cap)"]
         if fb:
             lines.append(f"<i>↩️ {len(fb)} fell back to free footage: {html.escape(fb[0][:90])}</i>")
+    ig = sum(1 for r in results if r.get("ig"))
+    ige = [r["ig_error"] for r in results if r.get("ig_error")]
+    if ig or ige:
+        lines.append(f"📸 {ig} saved for Instagram (posted the day after YouTube)"
+                     + (f" · <i>{len(ige)} failed: {html.escape(ige[0][:80])}</i>" if ige else ""))
     if series_ok:
         lines += ["━━━━━━━━━━━━━━━"] + [f"🔗 Series <b>{html.escape(n)}</b> {'linked' if v else 'link failed'}"
                                          for n, v in series_ok.items()]

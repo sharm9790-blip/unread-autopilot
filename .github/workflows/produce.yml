@@ -8,18 +8,19 @@ on:
   workflow_dispatch:
     inputs:
       day:
-        description: "daily folder date (YYYY-MM-DD); empty = newest without results"
+        description: "daily folder date (YYYY-MM-DD); empty = newest without results; \"instagram\" = run the Instagram cross-post now"
         required: false
   schedule:
     - cron: "30 2 * * *"            # 08:00 IST daily stats
     - cron: "30 6,10,14,18 * * *"   # 12:00 / 16:00 / 20:00 / 00:00 IST live pulse
+    - cron: "45 23 * * *"           # 05:15 IST: cross-post yesterday's YouTube Shorts to Instagram
 
 concurrency: { group: produce, cancel-in-progress: false }
 permissions: { contents: write }
 
 jobs:
   produce:
-    if: github.event_name != 'schedule'
+    if: github.event_name != 'schedule' && github.event.inputs.day != 'instagram'
     runs-on: ubuntu-latest
     timeout-minutes: 100
     steps:
@@ -59,6 +60,7 @@ jobs:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GH_TOKEN: ${{ github.token }}            # stash an Instagram copy in the ig-queue release
         run: python3 pipeline/produce.py daily/${{ steps.day.outputs.day }}
       - name: Save results
         if: always() && steps.day.outputs.day != ''
@@ -126,3 +128,34 @@ jobs:
       - uses: actions/cache/save@v4
         if: always()
         with: { path: ~/.cache/unread-pulse.json, key: "pulse-${{ github.run_id }}" }
+
+  instagram:
+    if: github.event.schedule == '45 23 * * *' || (github.event_name == 'workflow_dispatch' && github.event.inputs.day == 'instagram')
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: claude/daily-shorts }
+      - name: Tools + YouTube credentials (to confirm each Short is public)
+        env:
+          YT_CLIENT_SECRET_JSON: ${{ secrets.YT_CLIENT_SECRET_JSON }}
+          YT_TOKEN_JSON: ${{ secrets.YT_TOKEN_JSON }}
+        run: |
+          pip install -q google-api-python-client google-auth-oauthlib
+          mkdir -p ~/.config/scary-short && umask 077
+          printf '%s' "$YT_CLIENT_SECRET_JSON" > ~/.config/scary-short/client_secret.json
+          printf '%s' "$YT_TOKEN_JSON" > ~/.config/scary-short/youtube_token.json
+      - name: Post yesterday's Shorts as Reels
+        env:
+          IG_TOKEN_JSON: ${{ secrets.IG_TOKEN_JSON }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GH_TOKEN: ${{ github.token }}
+        run: python3 pipeline/ig_daily.py post
+      - name: Save Instagram state
+        if: always()
+        run: |
+          git config user.name "unread-autopilot" && git config user.email "actions@users.noreply.github.com"
+          git add state/ig_queue.json state/ig_posted.json 2>/dev/null || true
+          git commit -m "instagram $(TZ=Asia/Kolkata date +%F)" || exit 0
+          git pull --rebase -q origin claude/daily-shorts && git push -q origin HEAD:claude/daily-shorts
