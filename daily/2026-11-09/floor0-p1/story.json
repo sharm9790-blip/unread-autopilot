@@ -1,0 +1,122 @@
+{
+ "title": "Floor 0 · Pt 1: My Lift Grew a Tenth Button",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "zero"
+ ],
+ "glitch": [
+  "late",
+  "village"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "zero"
+  },
+  {
+   "type": "heartbeat",
+   "at": "pressed"
+  },
+  {
+   "type": "sting",
+   "at": "late"
+  },
+  {
+   "type": "sting",
+   "at": "village"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "PART 2 ON THE CHANNEL"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.9,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "card",
+   "start": "every-0.2",
+   "avatar": "0",
+   "title": "Lift · Floor 0",
+   "lines": [
+    "ALL DOORS: YOUR NAME",
+    "Mom is waiting"
+   ]
+  },
+  {
+   "type": "title",
+   "start": "part-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "PART 2",
+     "at": "part-0.1",
+     "delay": 0
+    },
+    {
+     "text": "ON THE",
+     "at": "part-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "CHANNEL.",
+     "at": "part-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Floor 0 continues",
+    "at": "channel",
+    "delay": 0.3
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "LIFT BUTTON",
+   "FLOOR ZERO"
+  ],
+  "sub": "every door had my name"
+ },
+ "hook": {
+  "lines": [
+   "LIFT BUTTON",
+   "FLOOR ZERO"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Floor 0 · Pt 1: My Lift Grew a Tenth Button #creepy #horror",
+  "playlist": "scary",
+  "description": "My building has nine floors. Tonight the lift showed a button for zero. Every door had my name.\n\nWould you press it? Tell me in the comments 👇\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ },
+ "series": {
+  "name": "Floor 0",
+  "part": 1,
+  "of": 2,
+  "episode": "My Lift Grew a Tenth Button"
+ }
+}

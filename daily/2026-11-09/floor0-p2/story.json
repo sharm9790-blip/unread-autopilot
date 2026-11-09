@@ -1,0 +1,122 @@
+{
+ "title": "Floor 0 · Pt 2: Someone Else Is Living in My Flat",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "mother"
+ ],
+ "glitch": [
+  "voice",
+  "someone"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "dont"
+  },
+  {
+   "type": "sting",
+   "at": "mother"
+  },
+  {
+   "type": "heartbeat",
+   "at": "closed"
+  },
+  {
+   "type": "sting",
+   "at": "someone"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.8,
+    "desat": 0.3,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "lock",
+   "clock": "9:09",
+   "note_from": "My Flat",
+   "note_body": "Welcome home. We kept your bed.",
+   "note_at": "upstairs",
+   "start": "upstairs-0.2",
+   "date": "Monday, November 9"
+  },
+  {
+   "type": "title",
+   "start": "someone-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "SOMEONE ELSE",
+     "at": "someone-0.1",
+     "delay": 0
+    },
+    {
+     "text": "LIVES MY",
+     "at": "someone-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "LIFE NOW.",
+     "at": "someone-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Part 1 is on the channel",
+    "at": "life",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "I PRESSED NINE.",
+   "IT STOPPED AT 0"
+  ],
+  "sub": "floor zero, part 2"
+ },
+ "hook": {
+  "lines": [
+   "I PRESSED NINE.",
+   "IT STOPPED AT 0"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Floor 0 · Pt 2: Someone Else Is Living in My Flat #creepy #horror",
+  "playlist": "scary",
+  "description": "I pressed nine. The lift stopped at zero. My mother said, in my voice, come home.\n\nDid you guess the twist? Tell me in the comments 👇\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ },
+ "series": {
+  "name": "Floor 0",
+  "part": 2,
+  "of": 2,
+  "episode": "Someone Else Is Living in My Flat"
+ }
+}

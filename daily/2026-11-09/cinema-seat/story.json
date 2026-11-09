@@ -1,0 +1,120 @@
+{
+ "title": "1 Ticket. Seat 7. Someone Is Sitting in Seat 8.",
+ "format": "second-person",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "leaning"
+ ],
+ "glitch": [
+  "leaning",
+  "whispers"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "seat"
+  },
+  {
+   "type": "heartbeat",
+   "at": "breathe"
+  },
+  {
+   "type": "sting",
+   "at": "leaning"
+  },
+  {
+   "type": "sting",
+   "at": "turn"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.95,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "on-0.2"
+  },
+  {
+   "type": "title",
+   "start": "turn-0.2",
+   "captions": true,
+   "lines": [
+    {
+     "text": "DON'T TURN.",
+     "at": "turn-0.2",
+     "delay": 0
+    },
+    {
+     "text": "IT'S ONLY",
+     "at": "turn-0.2",
+     "delay": 0.5
+    },
+    {
+     "text": "WATCHING.",
+     "at": "turn-0.2",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Would you turn?",
+    "at": "watching",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "1 TICKET.",
+   "SEAT 8 TAKEN"
+  ],
+  "sub": "the midnight show"
+ },
+ "hook": {
+  "lines": [
+   "1 TICKET.",
+   "SEAT 8 TAKEN"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "1 Ticket. Seat 7. Someone Is Sitting in Seat 8. #creepy #horror",
+  "playlist": "scary",
+  "description": "The midnight show is empty, except seat 8. Then the screen shows you, and what leans close.\n\nWould you turn around? Tell me in the comments 👇\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ }
+}

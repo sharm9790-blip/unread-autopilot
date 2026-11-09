@@ -1,0 +1,37 @@
+{
+ "date": "2026-11-09",
+ "order": [
+  "feet-door",
+  "floor0-p1",
+  "floor0-p2",
+  "papa-flight",
+  "cinema-seat"
+ ],
+ "schedule": {
+  "feet-door": "2026-11-09T12:30:00+05:30",
+  "floor0-p1": "2026-11-09T14:30:00+05:30",
+  "floor0-p2": "2026-11-09T16:30:00+05:30",
+  "papa-flight": "2026-11-09T18:00:00+05:30",
+  "cinema-seat": "2026-11-09T19:30:00+05:30"
+ },
+ "clips": {
+  "feet-door": [
+   "dark bedroom door night",
+   "photo: dark hallway doorway"
+  ],
+  "floor0-p1": [
+   "elevator interior night",
+   "photo: apartment corridor night"
+  ],
+  "floor0-p2": [
+   "elevator doors opening dark"
+  ],
+  "papa-flight": [
+   "apartment door peephole dark"
+  ],
+  "cinema-seat": [
+   "empty cinema theater",
+   "photo: empty cinema seats dark"
+  ]
+ }
+}

@@ -1,0 +1,111 @@
+{
+ "title": "Papa's Flight Is Still in the Air. He's Knocking.",
+ "format": "voice-call",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "peephole"
+ ],
+ "glitch": [
+  "waved",
+  "lips"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "buzz",
+   "at": "papas"
+  },
+  {
+   "type": "heartbeat",
+   "at": "app"
+  },
+  {
+   "type": "sting",
+   "at": "peephole"
+  },
+  {
+   "type": "sting",
+   "at": "lips"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.95,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "call",
+   "start": "papa-0.2",
+   "contact": "Papa"
+  },
+  {
+   "type": "title",
+   "start": "lips-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "HIS LIPS",
+     "at": "lips-0.1",
+     "delay": 0
+    },
+    {
+     "text": "WEREN'T",
+     "at": "lips-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "MOVING.",
+     "at": "lips-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Would you open it?",
+    "at": "moving",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "PAPA'S FLIGHT",
+   "IS STILL UP"
+  ],
+  "sub": "he's knocking anyway"
+ },
+ "hook": {
+  "lines": [
+   "PAPA'S FLIGHT",
+   "IS STILL UP"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Papa's Flight Is Still in the Air. He's Knocking. #creepy #horror",
+  "playlist": "scary",
+  "description": "The app says Papa is at 31,000 feet. At 2 AM he called to say he's outside the door.\n\nWould you open it? Tell me in the comments 👇\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ }
+}

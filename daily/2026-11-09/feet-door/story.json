@@ -1,0 +1,120 @@
+{
+ "title": "Never Sleep With Your Feet Toward the Door. I Did.",
+ "format": "rules",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "gripped"
+ ],
+ "glitch": [
+  "hallway",
+  "body"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "never"
+  },
+  {
+   "type": "heartbeat",
+   "at": "cold"
+  },
+  {
+   "type": "sting",
+   "at": "hallway"
+  },
+  {
+   "type": "sting",
+   "at": "body"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.95,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "through-0.2"
+  },
+  {
+   "type": "title",
+   "start": "body-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "MY BODY",
+     "at": "body-0.1",
+     "delay": 0
+    },
+    {
+     "text": "WAS STILL",
+     "at": "body-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "IN BED.",
+     "at": "body-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Which way do you sleep?",
+    "at": "lying",
+    "delay": 0.3
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "FEET TOWARD",
+   "THE DOOR?"
+  ],
+  "sub": "something pulled me out"
+ },
+ "hook": {
+  "lines": [
+   "FEET TOWARD",
+   "THE DOOR?"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Never Sleep With Your Feet Toward the Door. I Did. #creepy #horror",
+  "playlist": "scary",
+  "description": "Grandma said sleeping with your feet toward the door invites them. Last night something pulled me out by the ankles.\n\nWhich way do you sleep? Tell me in the comments 👇\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ }
+}
