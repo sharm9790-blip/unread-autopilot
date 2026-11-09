@@ -385,7 +385,7 @@ def report(results, series_ok, stats):
     ig = sum(1 for r in results if r.get("ig"))
     ige = [r["ig_error"] for r in results if r.get("ig_error")]
     if ig or ige:
-        lines.append(f"📸 {ig} saved for Instagram (posted the day after YouTube)"
+        lines.append(f"📸 {ig} saved for Instagram (posted 2 days after YouTube, top 2 by views)"
                      + (f" · <i>{len(ige)} failed: {html.escape(ige[0][:80])}</i>" if ige else ""))
     if series_ok:
         lines += ["━━━━━━━━━━━━━━━"] + [f"🔗 Series <b>{html.escape(n)}</b> {'linked' if v else 'link failed'}"

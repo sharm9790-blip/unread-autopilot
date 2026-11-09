@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Cross-post UNREAD Shorts to Instagram (@unread1111) the day after they go public on YouTube.
+"""Cross-post UNREAD Shorts to Instagram (@unread1111) 2 days after they go public on YouTube (IG_LAG_DAYS),
+the 2 with the most YouTube views per day (IG_PER_DAY); the rest of that day's Shorts are skipped.
 
 Storage: rendered Shorts are kept as assets of the GitHub release "ig-queue" (release assets have no storage quota,
 unlike Actions artifacts) and listed in state/ig_queue.json; posted ones move to state/ig_posted.json and their asset
@@ -31,7 +32,9 @@ RELEASE = "ig-queue"
 FB = "https://graph.facebook.com/v26.0"
 IST = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
 TAGS = "#scarystories #horrorstories #creepy #horror #shortstory #scary #reels"
-MAX_PER_RUN, MAX_TRIES = 8, 3
+MAX_TRIES = 3
+PER_DAY = int(os.environ.get("IG_PER_DAY", "2"))  # Reels per day; the rest of that day's Shorts are skipped
+LAG_DAYS = int(os.environ.get("IG_LAG_DAYS", "2"))  # Instagram posts a Short this many days after YouTube
 
 
 def load(p, default):
@@ -136,7 +139,7 @@ def ig_post(tok, video, cap):
 
 
 def youtube_public(ids):
-    """{id: True/False} live privacy status; {} if YouTube can't be reached (then trust publish_at)."""
+    """{id: (is_public, views)} live from YouTube; {} if YouTube can't be reached (then trust publish_at)."""
     try:
         sys.path.insert(0, HERE)
         from youtube_upload import credentials
@@ -144,8 +147,8 @@ def youtube_public(ids):
         yt = build("youtube", "v3", credentials=credentials())
         out = {}
         for k in range(0, len(ids), 50):
-            for v in yt.videos().list(part="status", id=",".join(ids[k:k + 50])).execute()["items"]:
-                out[v["id"]] = v["status"]["privacyStatus"] == "public"
+            for v in yt.videos().list(part="status,statistics", id=",".join(ids[k:k + 50])).execute()["items"]:
+                out[v["id"]] = (v["status"]["privacyStatus"] == "public", int(v["statistics"].get("viewCount", 0)))
         return out
     except Exception as e:  # noqa: BLE001
         print("youtube check skipped:", e)
@@ -218,22 +221,37 @@ def post_due(dry=False):
     q, posted = load(QUEUE, {}), load(POSTED, {})
     today = datetime.datetime.now(IST).date()
     due = sorted(((k, v) for k, v in q.items() if k not in posted
-                  and datetime.datetime.fromisoformat(v["publish_at"]).astimezone(IST).date() < today),
+                  and datetime.datetime.fromisoformat(v["publish_at"]).astimezone(IST).date()
+                  <= today - datetime.timedelta(days=LAG_DAYS)),
                  key=lambda kv: kv[1]["publish_at"])
     head = f"📸 <b>UNREAD · Instagram · {today.strftime('%a %d %b')}</b>"
     tok = json.loads(os.environ.get("IG_TOKEN_JSON") or open(os.path.expanduser("~/.config/unread-instagram/token.json")).read())
     if not due:
         waiting = len([k for k in q if k not in posted])
-        tg("\n".join([head, f"Nothing from yesterday to cross-post. {waiting} Short(s) waiting for their YouTube day."]
+        tg("\n".join([head, f"Nothing due today. {waiting} Short(s) waiting ({LAG_DAYS} days after YouTube)."]
                       + stats_lines(tok)))
         return 0
     live = youtube_public([k for k, _ in due])
     lines, ok, fail = [head], 0, 0
-    for k, v in due[:MAX_PER_RUN]:
+    if live:  # only Shorts already public; post the PER_DAY with the most YouTube views, skip the rest
+        waiting = [(k, v) for k, v in due if not live.get(k, (False, 0))[0]]
+        ready = sorted(((k, v) for k, v in due if live.get(k, (False, 0))[0]), key=lambda kv: -live[kv[0]][1])
+        pick, skip = ready[:PER_DAY], ready[PER_DAY:]
+        for k, v in waiting:
+            lines.append(f"⏸ {html.escape(v['title'])}  <i>not public on YouTube yet, retry tomorrow</i>")
+        for k, v in skip:
+            q.pop(k, None)
+            if not dry:
+                gh("release", "delete-asset", RELEASE, v["asset"], "-y", check=False)
+        if skip:
+            save(QUEUE, q) if not dry else None
+            lines.append(f"<i>⏭ skipped {len(skip)} with fewer YouTube views: "
+                         + ", ".join(f"{html.escape(v['title'][:30])} ({live[k][1]})" for k, v in skip) + "</i>")
+        pick.sort(key=lambda kv: kv[1]["publish_at"])  # keep series order (Part 1 before Part 2)
+    else:  # YouTube unreachable: oldest first, nothing skipped
+        pick = due[:PER_DAY]
+    for k, v in pick:
         title = html.escape(v["title"])
-        if live and not live.get(k, False):
-            lines.append(f"⏸ {title}  <i>not public on YouTube yet, retry tomorrow</i>")
-            continue
         if dry:
             lines.append(f"🧪 would post: {title}")
             continue
@@ -246,7 +264,7 @@ def post_due(dry=False):
             q.pop(k, None)
             save(POSTED, posted), save(QUEUE, q)
             gh("release", "delete-asset", RELEASE, v["asset"], "-y", check=False)
-            lines.append(f'✅ <a href="{link}">{title}</a>')
+            lines.append(f'✅ <a href="{link}">{title}</a>' + (f"  <i>({live[k][1]} YouTube views)</i>" if live else ""))
             ok += 1
             time.sleep(60)  # don't fire Reels back-to-back
         except Exception as e:  # noqa: BLE001
@@ -266,8 +284,6 @@ def post_due(dry=False):
                              "<code>python3 instagram/unread/ig_post.py --save-token</code> on the Mac, then "
                              "<code>gh secret set IG_TOKEN_JSON &lt; ~/.config/unread-instagram/token.json</code>")
                 break
-    if len(due) > MAX_PER_RUN:
-        lines.append(f"<i>{len(due) - MAX_PER_RUN} more next run</i>")
     lines.insert(1, f"<b>{ok}</b> Reel(s) posted" + (f" · {fail} failed" if fail else ""))
     tg("\n".join(lines + stats_lines(tok)))
     return 1 if fail and not ok else 0
