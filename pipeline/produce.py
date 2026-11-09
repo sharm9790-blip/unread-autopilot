@@ -47,13 +47,25 @@ MOOD = {"dark", "night", "scary", "creepy", "horror", "empty", "spooky", "old"}
 NO = ("anime", "cartoon", "animation", "animated", "3d", "render", "christmas", "cute", "kawaii", "deer", "cooking", "food", "wedding", "party")
 
 
+def crop_w(v):
+    """Width of the 9:16 crop a rendition gives (the Short is 1080 wide; below ~900 it looks soft)."""
+    return min(v.get("width") or 0, (v.get("height") or 0) * 9 / 16)
+
+
+def sharp(h):
+    """Smallest Pixabay rendition whose vertical crop is >= 900 px wide (medium was 405 px -> 2.7x upscale);
+    else the sharpest one available. Skips 4K when a lighter file is already sharp enough."""
+    vs = [h["videos"][k] for k in ("medium", "large", "xlarge") if h["videos"].get(k, {}).get("url")]
+    return next((v for v in vs if crop_w(v) >= 900), max(vs, key=crop_w))
+
+
 def fetch_clip(query, dest):
     """Best Pixabay hit: the query's nouns in its tags first (searching the full query and the nouns alone), then mood
     words; long enough, not reused, not cartoon, not black/blown-out."""
     key = os.environ["PIXABAY_API_KEY"]
     if isinstance(query, int) or str(query).isdigit():  # the writer pinned an exact Pixabay video id
         h = get(f"https://pixabay.com/api/videos/?key={key}&id={int(query)}")["hits"][0]
-        v = h["videos"]["medium"] if h["videos"]["medium"].get("url") else h["videos"]["large"]
+        v = sharp(h)
         open(dest, "wb").write(get(v["url"], True))
         used_clips.add(h["id"])
         return {"id": h["id"], "user": h["user"], "query": query, "tags": h.get("tags", "")}
@@ -66,10 +78,11 @@ def fetch_clip(query, dest):
                 seen.add(h["id"])
                 hits.append(h)
     has = lambda h, w: w.rstrip("s") in h.get("tags", "").lower()
-    score = lambda h: 3 * sum(has(h, w) for w in nouns) + sum(has(h, w) for w in words if w in MOOD)
+    score = lambda h: 3 * sum(has(h, w) for w in nouns) + sum(has(h, w) for w in words if w in MOOD) \
+        + (1 if crop_w(sharp(h)) >= 1000 else 0)  # tie-break toward footage that stays sharp in a 9:16 crop
     ok = [h for h in hits if h["id"] not in used_clips and h["duration"] >= 4 and not any(n in h.get("tags", "").lower() for n in NO)]
     ranked = sorted(ok, key=lambda h: -score(h))
-    vid = lambda h: h["videos"]["medium"] if h["videos"]["medium"].get("url") else h["videos"]["large"]
+    vid = sharp
     pick = next((h for h in ranked[:8] if 30 <= brightness(vid(h)["thumbnail"]) <= 165), ranked[0] if ranked else None)
     if not pick:
         info = fetch_photo({"photo": query}, dest, 0)  # no usable footage: animate a still instead (free parallax)
@@ -116,16 +129,43 @@ def fetch_photo(spec, dest, i, log=None):
     h = hits[0]
     img = os.path.splitext(dest)[0] + "_photo.jpg"
     open(img, "wb").write(get(h["largeImageURL"], True))
-    cmd = ["python3", os.path.join(HERE, "parallax.py"), img, dest,
-           "--move", spec.get("move", PHOTO_MOVES[i % len(PHOTO_MOVES)]), "--dur", str(spec.get("dur", 10)),
-           "--strength", str(spec.get("strength", 0.07)), "--fog", str(spec.get("fog", 0.2)), "--dust", str(spec.get("dust", 40))]
-    if log:
-        run(cmd, log)
-    else:
-        subprocess.run(cmd, check=True, capture_output=True)
+    parallax(img, dest, i, spec, log)
     used_clips.add(f"img:{h['id']}")
     return {"id": h["id"], "user": h["user"], "query": q, "tags": h.get("tags", ""), "kind": "photo-parallax",
             "page": h.get("pageURL", "")}
+
+
+def parallax(img, dest, i, spec, log=None):
+    cmd = ["python3", os.path.join(HERE, "parallax.py"), img, dest,
+           "--move", spec.get("move", PHOTO_MOVES[i % len(PHOTO_MOVES)]), "--dur", str(spec.get("dur", 10)),
+           "--strength", str(spec.get("strength", 0.07)), "--fog", str(spec.get("fog", 0.2)), "--dust", str(spec.get("dust", 40))]
+    run(cmd, log) if log else subprocess.run(cmd, check=True, capture_output=True)
+
+
+def fetch_ai(spec, dest, i, log=None):
+    """{"ai": "<shot description>", "motion": "<what moves>"?, "fallback": "<pixabay words>"?, "move": ...}
+    ai only      -> FLUX.2 still (story-specific, native 1080x1920) -> free parallax clip
+    ai + motion  -> FLUX.2 still -> Boreal AI video clip (the hero shot); parallax if the clip can't be paid for
+    No key / daily cap reached / fal error -> the fallback words as a free Pixabay photo-parallax clip."""
+    import falgen
+    img = os.path.splitext(dest)[0] + "_ai.jpg"
+    try:
+        im = falgen.image(spec["ai"], img)
+    except falgen.Unavailable as e:
+        words = spec.get("fallback") or " ".join(w for w in spec["ai"].split()[:4])
+        info = fetch_photo({**{k: v for k, v in spec.items() if k in ("move", "dur", "strength", "fog", "dust")},
+                            "photo": words}, dest, i, log)
+        return {**info, "fallback": f"fal: {e}"[:160], "usd": 0}
+    info = {"kind": "ai-image-parallax", "prompt": spec["ai"], "model": im["model"], "usd": im["usd"]}
+    if spec.get("motion"):
+        try:
+            v = falgen.video(im["url"], spec["motion"], dest, float(spec.get("clip_dur", 6)))
+            return {**info, "kind": "ai-video", "motion": spec["motion"], "video_model": v["model"],
+                    "usd": round(im["usd"] + v["usd"], 4)}
+        except falgen.Unavailable as e:
+            info["fallback"] = f"clip: {e}"[:160]
+    parallax(img, dest, i, spec, log)
+    return info
 
 
 TARGET_S, MAX_SPEED = 29.5, 1.15  # Shorts <=30 s get ~3x the median views of 31-44 s ones (LEARNINGS.md)
@@ -219,13 +259,18 @@ def produce(args):
         for i, q in enumerate(day["clips"][slug]):
             f = "clip.mp4" if i == 0 else f"clip{i + 1}.mp4"
             if not os.path.exists(os.path.join(ep, f)):
-                if isinstance(q, dict) or str(q).startswith("photo:"):  # still photo -> free parallax motion
+                if isinstance(q, dict) and "ai" in q:  # paid fal.ai still (+ hero clip), free fallback
+                    credits[f] = fetch_ai(q, os.path.join(ep, f), i, log)
+                elif isinstance(q, dict) or str(q).startswith("photo:"):  # still photo -> free parallax motion
                     spec = q if isinstance(q, dict) else {"photo": q.split(":", 1)[1].strip()}
                     credits[f] = fetch_photo(spec, os.path.join(ep, f), i, log)
                 else:
                     credits[f] = fetch_clip(q, os.path.join(ep, f))
         if credits:
             json.dump(credits, open(os.path.join(ep, "clip_credits.json"), "w"), indent=1)
+        out["usd"] = round(sum(float(c.get("usd") or 0) for c in credits.values()), 3)
+        out["ai"] = sum(1 for c in credits.values() if str(c.get("kind", "")).startswith("ai"))
+        out["fallbacks"] = [c["fallback"] for c in credits.values() if c.get("fallback")]
         st = "voice"
         if not os.path.exists(os.path.join(ep, "words.json")):
             run(["python3", os.path.join(HERE, "tts.py"), ep, "--voice", VOICE], log)
@@ -318,6 +363,14 @@ def report(results, series_ok, stats):
             lines.append(f"🕒 <b>{t}</b>  {link}  <i>{r.get('seconds', '')}s</i>{long}")
         else:
             lines.append(f"❌ {title}\n      <i>failed at {r['step']}: {html.escape(r['error'][:120])}</i>")
+    usd, ai = sum(r.get("usd", 0) for r in results), sum(r.get("ai", 0) for r in results)
+    fb = [f for r in results for f in r.get("fallbacks", [])]
+    if usd or ai or fb:
+        import falgen
+        lines += ["━━━━━━━━━━━━━━━", f"🎨 AI visuals: <b>{ai}</b> · fal spend <b>${usd:.2f}</b> "
+                  f"(today ${falgen.spent_today():.2f} of ${falgen.cap():.2f} cap)"]
+        if fb:
+            lines.append(f"<i>↩️ {len(fb)} fell back to free footage: {html.escape(fb[0][:90])}</i>")
     if series_ok:
         lines += ["━━━━━━━━━━━━━━━"] + [f"🔗 Series <b>{html.escape(n)}</b> {'linked' if v else 'link failed'}"
                                          for n, v in series_ok.items()]

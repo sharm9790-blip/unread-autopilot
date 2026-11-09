@@ -85,6 +85,14 @@ def check(day_dir):
         n_files = {s["file"] for s in st["scenes"] if s["type"] == "clip"}
         if not n_files:
             p("no Pixabay clip scene")
+        ai = [q for q in day["clips"].get(slug, []) if isinstance(q, dict) and "ai" in q]
+        if len(ai) > 2:
+            p(f"{len(ai)} AI clips (max 2 per episode: one hero with motion + one still; budget is ~$0.40/day)")
+        if sum(1 for q in ai if q.get("motion")) > 1:
+            p("more than one AI hero clip (with motion) - keep one per episode")
+        for q in ai:
+            if not str(q.get("fallback", "")).strip():
+                p(f"AI clip {q['ai'][:40]!r} needs a 'fallback' Pixabay query (used when fal is unavailable)")
         if len(day["clips"].get(slug, [])) < len(n_files):
             p(f"{len(n_files)} clip files but {len(day['clips'].get(slug, []))} search queries")
         for x in st["sfx"]:
