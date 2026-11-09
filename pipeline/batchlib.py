@@ -16,7 +16,7 @@ import os
 import re
 
 COOL, WARM, CCTV = [0.82, 0.88, 1.12], [1.05, 0.92, 0.82], [0.78, 1.05, 0.82]
-# 4/day (Nov 9 data: 14:30 got 79-264 views vs 600-1,000 at the others). Standalones take the day slots, the 2-part
+# 4/day (fewer posts per day did better; 14:30 dropped for volume, not proven weak). Standalones take the day slots, the 2-part
 # series takes the evening: Part 1 at 18:00, Part 2 at 19:30 (Part 1s at 14:30 got 44-139; at 18:00, 959).
 SOLO_SLOTS, SERIES_SLOTS = ["12:30", "16:30"], ["18:00", "19:30"]
 SLOTS = sorted(SOLO_SLOTS + SERIES_SLOTS)
