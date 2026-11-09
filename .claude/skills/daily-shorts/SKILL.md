@@ -73,6 +73,20 @@ You need no API keys. Never upload, never touch secrets.
   Moves: dolly-in, dolly-out, orbit, pan-left, pan-right, rise, fall (default rotates per clip); optional `dur`,
   `strength` (0.07), `fog` (0.2), `dust` (40). Mix them: about 1 photo clip per episode alongside real footage.
   A video query with no usable hit falls back to a photo clip automatically.
+- **AI clips (paid, fal.ai, ~$0.40/day budget):** story-specific shots that stock footage can't give. Per episode use
+  **exactly 2 AI entries**: one hero clip on the scare beat and one AI still; any other clip stays a free Pixabay query.
+  - Hero: `{"ai": "<shot>", "motion": "<what moves>", "fallback": "<2-4 pixabay words>"}` → AI still animated into a
+    6 s AI video. Motion must be small and slow: "the figure's head turns toward camera", "the door opens an inch",
+    "the monitor screen flickers and a face appears". No fast action, no talking, no text on screen.
+  - Still: `{"ai": "<shot>", "fallback": "<words>", "move": "dolly-in"}` → AI still with the free parallax camera move.
+  - `<shot>` is one concrete sentence a cinematographer could shoot: subject, place, light, framing, e.g.
+    "A green-lit baby monitor on a dark nightstand, its screen showing a crib with a tall thin figure beside it,
+    close-up, 3 AM". The house horror style (dark, film grain, realistic, no text) is added automatically.
+    Keep people at a distance, in shadow or from behind (faces in AI stills look fake up close). No gore, no
+    children in danger shown on screen (suggest it: an empty crib, a small shoe), no real brands or famous people.
+  - Put the hero clip where the twist lands (its scene starts on the twist anchor), the still earlier.
+  - If fal has no key, hits the daily cap or fails, production uses the `fallback` words as a free Pixabay photo clip,
+    so always give a good `fallback`.
 - Anchors are narration words (lowercase, punctuation dropped: "don't" → `dont`, "I'm" → `im`, "Thirty-one" → `thirtyone`),
   matched by prefix, searched forward from the previous scene's start; `word#2` = 2nd match, `word-0.3` = 0.3 s earlier.
   Beware prefixes: `we` also matches "wet" - pick distinctive words.
