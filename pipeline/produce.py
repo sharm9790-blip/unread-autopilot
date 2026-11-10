@@ -374,6 +374,9 @@ def report(results, series_ok, stats):
             lines.append(f"🕒 <b>{t}</b>  {link}  <i>{r.get('seconds', '')}s</i>{long}")
         else:
             lines.append(f"❌ {title}\n      <i>failed at {r['step']}: {html.escape(r['error'][:120])}</i>")
+    if any("ELEVENLABS_OUT_OF_CREDITS" in str(r.get("error", "")) for r in results):
+        lines += ["━━━━━━━━━━━━━━━", "🔋 <b>ElevenLabs credits ran out.</b> Top up (₹500 ≈ 31k credits ≈ 3 weeks), then "
+                  f"GitHub → Actions → Run workflow with day <code>{os.path.basename(DAY)}</code> to make the missing Shorts."]
     usd, ai = sum(r.get("usd", 0) for r in results), sum(r.get("ai", 0) for r in results)
     fb = [f for r in results for f in r.get("fallbacks", [])]
     if usd or ai or fb:
