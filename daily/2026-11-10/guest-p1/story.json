@@ -1,0 +1,122 @@
+{
+ "title": "Guest Room · Pt 1: Mom Makes the Bed Daily. Nobody Visits.",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "cold"
+ ],
+ "glitch": [
+  "good",
+  "face"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "never"
+  },
+  {
+   "type": "heartbeat",
+   "at": "cold"
+  },
+  {
+   "type": "sting",
+   "at": "good"
+  },
+  {
+   "type": "sting",
+   "at": "face"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "PART 2 ON THE CHANNEL"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.9,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "card",
+   "start": "framed-0.2",
+   "avatar": "!",
+   "title": "Guest Room · Nightstand",
+   "lines": [
+    "A BOY WITH MY FACE",
+    "Dated 1994"
+   ]
+  },
+  {
+   "type": "title",
+   "start": "part-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "PART 2",
+     "at": "part-0.1",
+     "delay": 0
+    },
+    {
+     "text": "ON THE",
+     "at": "part-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "CHANNEL.",
+     "at": "part-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Guest Room continues",
+    "at": "channel",
+    "delay": 0.3
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "NEVER SLEEP IN",
+   "THE GUEST ROOM"
+  ],
+  "sub": "mom makes the bed daily"
+ },
+ "hook": {
+  "lines": [
+   "NEVER SLEEP IN",
+   "THE GUEST ROOM"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Guest Room · Pt 1: Mom Makes the Bed Daily. Nobody Visits. #creepy #horror",
+  "playlist": "scary",
+  "description": "Mom makes the guest room bed every morning. Nobody visits. I slept there once, and something tucked me in.\n\nWould you sleep there? Tell me in the comments 👇\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ },
+ "series": {
+  "name": "Guest Room",
+  "part": 1,
+  "of": 2,
+  "episode": "Mom Makes the Bed Daily. Nobody Visits."
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "date": "2026-11-10",
+ "order": [
+  "mom-text",
+  "cat-tooth",
+  "guest-p1",
+  "guest-p2"
+ ],
+ "schedule": {
+  "mom-text": "2026-11-10T12:30:00+05:30",
+  "cat-tooth": "2026-11-10T16:30:00+05:30",
+  "guest-p1": "2026-11-10T18:00:00+05:30",
+  "guest-p2": "2026-11-10T19:30:00+05:30"
+ },
+ "clips": {
+  "mom-text": [
+   "car night road passenger",
+   "photo: house doorway night"
+  ],
+  "cat-tooth": [
+   "cat dark bedroom night",
+   "photo: dark wall bedroom night"
+  ],
+  "guest-p1": [
+   "bedroom door dark night",
+   "photo: old bedroom bed dark"
+  ],
+  "guest-p2": [
+   "dark bedroom hallway night"
+  ]
+ }
+}

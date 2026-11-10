@@ -1,0 +1,120 @@
+{
+ "title": "My Cat Left a Baby Tooth on My Pillow. I Have No Kids.",
+ "format": "second-person",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "wall"
+ ],
+ "glitch": [
+  "giggled",
+  "smile"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "tooth"
+  },
+  {
+   "type": "heartbeat",
+   "at": "stayed"
+  },
+  {
+   "type": "sting",
+   "at": "giggled"
+  },
+  {
+   "type": "sting",
+   "at": "smile"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.95,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "behind-0.2"
+  },
+  {
+   "type": "title",
+   "start": "smile-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "ONE MORE",
+     "at": "smile-0.1",
+     "delay": 0
+    },
+    {
+     "text": "TOOTH FOR",
+     "at": "smile-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "HIS SMILE.",
+     "at": "smile-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Would you check your pillow?",
+    "at": "smile",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "BABY TOOTH",
+   "ON MY PILLOW"
+  ],
+  "sub": "I have no kids"
+ },
+ "hook": {
+  "lines": [
+   "BABY TOOTH",
+   "ON MY PILLOW"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "My Cat Left a Baby Tooth on My Pillow. I Have No Kids. #creepy #horror",
+  "playlist": "scary",
+  "description": "Every night my cat leaves a baby tooth on my pillow. Last night I heard who she's been giving them to.\n\nWould you check your pillow? Tell me in the comments 👇\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ }
+}
