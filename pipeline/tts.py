@@ -65,8 +65,14 @@ def main():
         data=json.dumps({"text": text, "model_id": model}).encode(),
         headers={"xi-api-key": api_key(), "Content-Type": "application/json"},
     )
-    with urllib.request.urlopen(req, timeout=180) as r:
-        res = json.load(r)
+    try:
+        with urllib.request.urlopen(req, timeout=180) as r:
+            res = json.load(r)
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", "replace")
+        if "quota" in body.lower() or "credits" in body.lower():  # produce.py's report turns this into a top-up alert
+            sys.exit(f"ELEVENLABS_OUT_OF_CREDITS: needs ~{len(text)} credits for this Short. {body[:120]}")
+        sys.exit(f"ElevenLabs HTTP {e.code}: {body[:160]}")
     open(os.path.join(ep, "voice.mp3"), "wb").write(base64.b64decode(res["audio_base64"]))
     al = res.get("alignment") or res["normalized_alignment"]  # raw text keeps "3:17" as typed
     words = words_from_alignment(al)
