@@ -1,0 +1,46 @@
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/tts.py daily/2026-11-10/guest-p2 --voice BycOlIr9Aytiubl0LIIY
+voice.mp3 + words.json  words=43  spoken=24.1s
+
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/thumbnail.py daily/2026-11-10/guest-p2
+thumbnail.png + upload.md
+
+[vost#0:0/rawvideo @ 0x5f4c95fcea40] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5f4c95fce6c0] Error muxing a packet
+[out#0/rawvideo @ 0x5f4c95fce6c0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5f4c95fce6c0] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5f4c95fce6c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5f4c95fce6c0] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/render.py daily/2026-11-10/guest-p2
+done daily/2026-11-10/guest-p2/short.mp4  27.1s  79 MB
+
+[vost#0:0/rawvideo @ 0x617cb64afa40] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x617cb64af6c0] Error muxing a packet
+[out#0/rawvideo @ 0x617cb64af6c0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x617cb64af6c0] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x617cb64af6c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x617cb64af6c0] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/youtube_upload.py daily/2026-11-10/guest-p2 --publish-at 2026-11-16T19:30:00+05:30
+uploading 10%
+uploading 21%
+uploading 31%
+uploading 42%
+uploading 52%
+uploading 63%
+uploading 74%
+uploading 84%
+uploading 95%
+{
+ "id": "Qa_HLfhtwU4",
+ "url": "https://youtube.com/shorts/Qa_HLfhtwU4",
+ "privacy": "private",
+ "title": "Guest Room \u00b7 Pt 2: He Followed Me Home. Mom Warned Me. #creepy #horror",
+ "thumbnail": "set",
+ "playlist": "\ud83d\ude31 Scary Stories"
+}
+
+

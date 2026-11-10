@@ -1,0 +1,61 @@
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/parallax.py daily/2026-11-10/guest-p1/clip2_photo.jpg daily/2026-11-10/guest-p1/clip2.mp4 --move orbit --dur 10 --strength 0.07 --fog 0.2 --dust 40
+
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Device set to use cpu
+  depth: Depth Anything V2 (saved clip2_photo.depth.png); move orbit, 10.0s @ 30fps, 1080x1920
+
+  frame 0/300
+  frame 30/300
+  frame 60/300
+  frame 90/300
+  frame 120/300
+  frame 150/300
+  frame 180/300
+  frame 210/300
+  frame 240/300
+  frame 270/300
+  wrote daily/2026-11-10/guest-p1/clip2.mp4            
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/tts.py daily/2026-11-10/guest-p1 --voice BycOlIr9Aytiubl0LIIY
+voice.mp3 + words.json  words=45  spoken=20.9s
+
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/thumbnail.py daily/2026-11-10/guest-p1
+thumbnail.png + upload.md
+
+[vost#0:0/rawvideo @ 0x63ac3d58e3c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x63ac3d4f9500] Error muxing a packet
+[out#0/rawvideo @ 0x63ac3d4f9500] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x63ac3d4f9500] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x63ac3d4f9500] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x63ac3d4f9500] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/render.py daily/2026-11-10/guest-p1
+done daily/2026-11-10/guest-p1/short.mp4  23.9s  58 MB
+
+[vost#0:0/rawvideo @ 0x632cceef13c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x632ccee5c500] Error muxing a packet
+[out#0/rawvideo @ 0x632ccee5c500] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x632ccee5c500] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x632ccee5c500] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x632ccee5c500] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/youtube_upload.py daily/2026-11-10/guest-p1 --publish-at 2026-11-16T18:00:00+05:30
+uploading 14%
+uploading 29%
+uploading 43%
+uploading 58%
+uploading 72%
+uploading 87%
+{
+ "id": "kLVCLD1q4HA",
+ "url": "https://youtube.com/shorts/kLVCLD1q4HA",
+ "privacy": "private",
+ "title": "Guest Room \u00b7 Pt 1: Mom Makes the Bed Daily. Nobody Visits. #creepy #horror",
+ "thumbnail": "set",
+ "playlist": "\ud83d\ude31 Scary Stories"
+}
+
+

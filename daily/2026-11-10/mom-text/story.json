@@ -1,7 +1,7 @@
 {
  "title": "Mom Texted Me to Come Home. She Was Driving Me Home.",
  "format": "text-story",
- "speed": 1.0,
+ "speed": 1.051,
  "tail": 3.0,
  "transitions": "fade",
  "shake": [
@@ -60,7 +60,7 @@
    "note_body": "Don't get out with her.",
    "note_at": "another",
    "start": "another-0.2",
-   "date": "Tuesday, November 10"
+   "date": "Monday, November 16"
   },
   {
    "type": "title",
