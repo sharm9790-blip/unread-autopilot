@@ -128,7 +128,9 @@ day.ep("bus-p1", "series",
    "looked at me. Every seat had a name tag. [long pause] The last row had mine. And under my name... a stop. Tonight. "
    "[whispering] Part two is on my channel. Subscribe... before the bus with no number stops for you.",
    [clip(grade={"dim": 0.9, "tint": COOL}),
+    clip("every-0.2", file="clip2.mp4"),   # AI still (clips[1])
     card("last-0.2", "0", "Route 0 · Last row", ["RESERVED: YOU", "Your stop: TONIGHT"]),
+    clip("mine-0.2", file="clip3.mp4"),    # AI hero clip on the twist (clips[2])
     title3("part-0.1", "PART 2", "ON THE", "CHANNEL.", "Route 0 continues", ("channel", 0.3))],
    [("sting", "never", 0), ("heartbeat", "every", 0), ("sting", "mine", 0), ("sting", "tonight", 0)],
    ["mine"], ["mine", "tonight"],
@@ -136,7 +138,16 @@ day.ep("bus-p1", "series",
    "Route 0 · Pt 1: Never Get on a Bus With No Number",
    "A bus with no number stopped for me at 2 AM. Every seat had a name tag. The last row had mine.",
    "Would you get on?",
-   clips=["bus night city"], series=series("Route 0", 1, 2, "Never Get on a Bus With No Number"))
+   clips=["bus night city",
+          {"ai": "Rows of empty seats inside a dim night bus, each seat with a small paper name tag, shot down the aisle, "
+                 "cold fluorescent light", "move": "dolly-in", "fallback": "empty bus seats night"},
+          {"ai": "The last row of an empty night bus, one paper name tag lit by a flickering tube light, the driver a "
+                 "dark shape far away in the mirror", "motion": "the light flickers and the driver's head slowly turns "
+                 "toward camera", "fallback": "bus interior dark"}],
+   series=series("Route 0", 1, 2, "Never Get on a Bus With No Number"))
+
+# Every episode needs exactly these 2 AI entries (check_day.py rejects the day otherwise); the whistle example above
+# predates them - add one AI still + one AI hero clip to it the same way.
 
 # ... bus-p2 (series part 2) and one more standalone (4 total; batchlib sets the slots) ...
 day.save()
