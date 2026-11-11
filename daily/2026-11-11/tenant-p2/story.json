@@ -1,0 +1,123 @@
+{
+ "title": "Upstairs Tenant · Pt 2: A Hand Lowered a Rent Book With My Name",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "pale"
+ ],
+ "glitch": [
+  "hatch",
+  "name"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "dont"
+  },
+  {
+   "type": "sting",
+   "at": "pale"
+  },
+  {
+   "type": "heartbeat",
+   "at": "hatch"
+  },
+  {
+   "type": "sting",
+   "at": "name"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.8,
+    "desat": 0.3,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "card",
+   "start": "hatch-0.2",
+   "avatar": "!",
+   "title": "Rent Book · Ceiling",
+   "lines": [
+    "TENANT: UNKNOWN",
+    "Next tenant: YOU"
+   ]
+  },
+  {
+   "type": "title",
+   "start": "name-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "MY NAME",
+     "at": "name-0.1",
+     "delay": 0
+    },
+    {
+     "text": "WAS THE",
+     "at": "name-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "NEXT TENANT.",
+     "at": "name-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Part 1 is on the channel",
+    "at": "written",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "MY NAME IS IN",
+   "THE RENT BOOK"
+  ],
+  "sub": "upstairs tenant, part 2"
+ },
+ "hook": {
+  "lines": [
+   "MY NAME IS IN",
+   "THE RENT BOOK"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Upstairs Tenant · Pt 2: A Hand Lowered a Rent Book With My Name #creepy #horror",
+  "playlist": "scary",
+  "description": "Mom told me the tenant came with the house. Then a hatch opened above my bed and something handed down a rent book with my name.\n\nDid you guess the twist? Tell me in the comments 👇\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ },
+ "series": {
+  "name": "Upstairs Tenant",
+  "part": 2,
+  "of": 2,
+  "episode": "A Hand Lowered a Rent Book With My Name"
+ }
+}

@@ -1,0 +1,144 @@
+{
+ "title": "Someone Hummed in Our Nursery. My Wife Was Asleep Beside Me.",
+ "format": "second-person",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "humming"
+ ],
+ "glitch": [
+  "crib",
+  "mama"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "dont"
+  },
+  {
+   "type": "heartbeat",
+   "at": "humming"
+  },
+  {
+   "type": "sting",
+   "at": "crib"
+  },
+  {
+   "type": "sting",
+   "at": "mama"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.95,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "matches-0.2"
+  },
+  {
+   "type": "card",
+   "start": "crib-0.2",
+   "avatar": "!",
+   "title": "Nursery · 3:02 AM",
+   "lines": [
+    "THE CRIB IS ROCKING",
+    "Mama is asleep next to you"
+   ]
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "shh-0.3"
+  },
+  {
+   "type": "title",
+   "start": "mama-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "MAMA'S",
+     "at": "mama-0.1",
+     "delay": 0
+    },
+    {
+     "text": "ASLEEP NEXT",
+     "at": "mama-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "TO ME.",
+     "at": "mama-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Would you open the door?",
+    "at": "here",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "DON'T ENTER",
+   "THE NURSERY"
+  ],
+  "sub": "my wife is asleep beside me"
+ },
+ "hook": {
+  "lines": [
+   "DON'T ENTER",
+   "THE NURSERY"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Someone Hummed in Our Nursery. My Wife Was Asleep Beside Me. #creepy #horror",
+  "playlist": "scary",
+  "description": "A lullaby hummed from the nursery at 3 AM. My wife was asleep next to me. The crib was rocking.\n\nWould you open the door? Tell me in the comments 👇\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ }
+}

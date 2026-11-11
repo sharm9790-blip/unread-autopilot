@@ -1,0 +1,69 @@
+{
+ "date": "2026-11-11",
+ "order": [
+  "dad-call",
+  "nursery",
+  "tenant-p1",
+  "tenant-p2"
+ ],
+ "schedule": {
+  "dad-call": "2026-11-11T12:30:00+05:30",
+  "nursery": "2026-11-11T16:30:00+05:30",
+  "tenant-p1": "2026-11-11T18:00:00+05:30",
+  "tenant-p2": "2026-11-11T19:30:00+05:30"
+ },
+ "clips": {
+  "dad-call": [
+   "family dinner table dark",
+   {
+    "ai": "A ringing phone face-up on a dim dinner table, a man's blurred silhouette sitting across, warm dim lamp, close-up, night",
+    "move": "dolly-in",
+    "fallback": "dinner table dark night"
+   },
+   {
+    "ai": "A man seated at a dim dinner table seen from behind in shadow, a lit phone screen in the foreground",
+    "motion": "the man's head slowly turns toward the camera",
+    "fallback": "dark dining room night"
+   }
+  ],
+  "nursery": [
+   "dark hallway door night",
+   {
+    "ai": "A dark nursery with a wooden crib rocking gently, a faint pale shape bending over it, moonlight through curtains, wide shot",
+    "move": "dolly-in",
+    "fallback": "photo: dark nursery crib"
+   },
+   {
+    "ai": "A wooden crib in a dark room, a small night-light glowing, a tall pale shadow on the wall above it",
+    "motion": "the crib rocks slowly and the shadow on the wall leans over it",
+    "fallback": "dark room night"
+   }
+  ],
+  "tenant-p1": [
+   "ceiling dark room night",
+   {
+    "ai": "A bare ceiling of a dim old Indian house bedroom with a single bulb, faint dust in the air, shot looking up",
+    "move": "dolly-in",
+    "fallback": "photo: old ceiling dark room"
+   },
+   {
+    "ai": "A plain ceiling in a dark room with a small hatch-like seam, a thin line of light leaking from it",
+    "motion": "the seam in the ceiling opens a crack and the light flickers",
+    "fallback": "dark ceiling light"
+   }
+  ],
+  "tenant-p2": [
+   "dark ceiling hatch night",
+   {
+    "ai": "A dim bedroom seen from the bed, a small square hatch open in the ceiling with darkness inside, wide shot",
+    "move": "dolly-in",
+    "fallback": "photo: dark ceiling room"
+   },
+   {
+    "ai": "A small open hatch in a dark ceiling, a pale thin hand lowering an old notebook on a string into the room",
+    "motion": "the pale hand slowly lowers the notebook",
+    "fallback": "dark attic hatch"
+   }
+  ]
+ }
+}

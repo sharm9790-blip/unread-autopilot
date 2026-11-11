@@ -1,0 +1,150 @@
+{
+ "title": "Upstairs Tenant · Pt 1: Our House Has One Floor. Something Knocks.",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "knocked"
+ ],
+ "glitch": [
+  "footsteps",
+  "stairs"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "knock",
+   "at": "knock"
+  },
+  {
+   "type": "heartbeat",
+   "at": "tenant"
+  },
+  {
+   "type": "sting",
+   "at": "footsteps"
+  },
+  {
+   "type": "sting",
+   "at": "stairs"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "PART 2 ON THE CHANNEL"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.9,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "card",
+   "start": "ceiling-0.2",
+   "avatar": "!",
+   "title": "Ceiling · 11:00 PM",
+   "lines": [
+    "KNOCK. KNOCK. KNOCK.",
+    "Our house has one floor"
+   ]
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "footsteps-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "stairs-0.3"
+  },
+  {
+   "type": "title",
+   "start": "part-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "PART 2",
+     "at": "part-0.1",
+     "delay": 0
+    },
+    {
+     "text": "ON THE",
+     "at": "part-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "CHANNEL.",
+     "at": "part-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Upstairs Tenant continues",
+    "at": "channel",
+    "delay": 0.3
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "NEVER ANSWER",
+   "THE KNOCK ABOVE"
+  ],
+  "sub": "our house has one floor"
+ },
+ "hook": {
+  "lines": [
+   "NEVER ANSWER",
+   "THE KNOCK ABOVE"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Upstairs Tenant · Pt 1: Our House Has One Floor. Something Knocks. #creepy #horror",
+  "playlist": "scary",
+  "description": "Every night at 11 something knocks on our ceiling. Our house has one floor. Mom says it's the tenant. Last night I knocked back.\n\nWould you knock back? Tell me in the comments 👇\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ },
+ "series": {
+  "name": "Upstairs Tenant",
+  "part": 1,
+  "of": 2,
+  "episode": "Our House Has One Floor. Something Knocks."
+ }
+}
