@@ -1,0 +1,71 @@
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/parallax.py daily/2026-11-11/dad-call/clip2_ai.jpg daily/2026-11-11/dad-call/clip2.mp4 --move dolly-in --dur 10 --strength 0.07 --fog 0.2 --dust 40
+
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Device set to use cpu
+  depth: Depth Anything V2 (saved clip2_ai.depth.png); move dolly-in, 10.0s @ 30fps, 1080x1920
+
+  frame 0/300
+  frame 30/300
+  frame 60/300
+  frame 90/300
+  frame 120/300
+  frame 150/300
+  frame 180/300
+  frame 210/300
+  frame 240/300
+  frame 270/300
+  wrote daily/2026-11-11/dad-call/clip2.mp4            
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/tts.py daily/2026-11-11/dad-call --voice BycOlIr9Aytiubl0LIIY
+voice.mp3 + words.json  words=41  spoken=23.0s
+
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/thumbnail.py daily/2026-11-11/dad-call
+thumbnail.png + upload.md
+
+[vost#0:0/rawvideo @ 0x5cbbed6d0280] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5cbbed6cff00] Error muxing a packet
+[out#0/rawvideo @ 0x5cbbed6cff00] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5cbbed6cff00] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5cbbed6cff00] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5cbbed6cff00] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/render.py daily/2026-11-11/dad-call
+done daily/2026-11-11/dad-call/short.mp4  26.0s  79 MB
+
+[vost#0:0/rawvideo @ 0x587559be15c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x587559b8d700] Error muxing a packet
+[out#0/rawvideo @ 0x587559b8d700] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x587559b8d700] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5a2071d5b280] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5a2071d5af00] Error muxing a packet
+[out#0/rawvideo @ 0x5a2071d5af00] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5a2071d5af00] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x587559b8d700] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x587559b8d700] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5a2071d5af00] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5a2071d5af00] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/youtube_upload.py daily/2026-11-11/dad-call --publish-at 2026-11-17T12:30:00+05:30
+uploading 10%
+uploading 21%
+uploading 31%
+uploading 42%
+uploading 52%
+uploading 63%
+uploading 73%
+uploading 84%
+uploading 95%
+{
+ "id": "P6eL2Dk3iEI",
+ "url": "https://youtube.com/shorts/P6eL2Dk3iEI",
+ "privacy": "private",
+ "title": "Dad Called From the Office. Dad Was Eating Dinner Beside Me. #creepy #horror",
+ "thumbnail": "set",
+ "playlist": "\ud83d\ude31 Scary Stories"
+}
+
+

@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 172686,
+  "user": "Eaktas06",
+  "query": "family dinner table dark",
+  "tags": "dining table, table, eat, dinner, family, family dinner"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A ringing phone face-up on a dim dinner table, a man's blurred silhouette sitting across, warm dim lamp, close-up, night",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "A man seated at a dim dinner table seen from behind in shadow, a lit phone screen in the foreground",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the man's head slowly turns toward the camera",
+  "video_model": "creatify/boreal"
+ }
+}

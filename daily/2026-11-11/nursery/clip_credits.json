@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 373307,
+  "user": "Openly",
+  "query": "dark hallway door night",
+  "tags": "ai generated, empty hallway, hallway, closed door, loneliness, solitude, abandoned, empty, silence, mystery, nostalgia, memories, interior, architecture, shadows, light, deserted, melancholy, atmospheric, emotional, perspective, doorway, forgotten, 4k"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A dark nursery with a wooden crib rocking gently, a faint pale shape bending over it, moonlight through curtains, wide shot",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "A wooden crib in a dark room, a small night-light glowing, a tall pale shadow on the wall above it",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the crib rocks slowly and the shadow on the wall leans over it",
+  "video_model": "creatify/boreal"
+ }
+}
