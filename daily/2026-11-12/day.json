@@ -1,0 +1,69 @@
+{
+ "date": "2026-11-12",
+ "order": [
+  "tiffin",
+  "window-wave",
+  "album-p1",
+  "album-p2"
+ ],
+ "schedule": {
+  "tiffin": "2026-11-12T12:30:00+05:30",
+  "window-wave": "2026-11-12T16:30:00+05:30",
+  "album-p1": "2026-11-12T18:00:00+05:30",
+  "album-p2": "2026-11-12T19:30:00+05:30"
+ },
+ "clips": {
+  "tiffin": [
+   "kitchen morning dark",
+   {
+    "ai": "Two steel tiffin boxes on a dim kitchen counter at dawn, one lid slightly open, a faint small shadow behind them, close-up",
+    "move": "dolly-in",
+    "fallback": "photo: steel tiffin box kitchen"
+   },
+   {
+    "ai": "An empty school classroom bench seen from behind in dim light, a small steel tiffin box on the desk behind it",
+    "motion": "the tiffin lid slowly lifts open on its own",
+    "fallback": "empty classroom dark"
+   }
+  ],
+  "window-wave": [
+   "dark bedroom window night",
+   {
+    "ai": "A dark apartment bedroom window at night, curtain half open, city lights far below, a faint pale smear on the glass, wide shot",
+    "move": "dolly-in",
+    "fallback": "photo: dark window night"
+   },
+   {
+    "ai": "A bedroom window at night seen from the bed in shadow, a pale thin hand pressed against the outside of the glass",
+    "motion": "the pale hand slowly waves outside the glass",
+    "fallback": "window rain night dark"
+   }
+  ],
+  "album-p1": [
+   "old photo album dark",
+   {
+    "ai": "An old family photo album open on a table, one tall figure cut out of a group photo leaving a dark gap beside a child, warm lamp, close-up",
+    "move": "dolly-in",
+    "fallback": "photo: old family photo album"
+   },
+   {
+    "ai": "A camera screen glowing in a dim living room showing a family photo with a tall black gap beside a girl, close-up",
+    "motion": "the screen flickers and the black gap slowly widens",
+    "fallback": "camera screen dark room"
+   }
+  ],
+  "album-p2": [
+   "dark living room old photos",
+   {
+    "ai": "A crying man sitting in a dim living room holding an old photo album, seen from behind, a girl faint at the doorway far away",
+    "move": "dolly-in",
+    "fallback": "photo: dark living room old"
+   },
+   {
+    "ai": "An old photo album open under a lamp, every photo of a girl cut into a clean empty outline, close-up, dim room",
+    "motion": "the lamp flickers and a faint pale shape appears in one empty outline",
+    "fallback": "old album dark"
+   }
+  ]
+ }
+}

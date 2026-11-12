@@ -1,0 +1,136 @@
+{
+ "title": "Photo Album · Pt 1: Dad Cuts Someone Out of Every Family Photo",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "gap"
+ ],
+ "glitch": [
+  "tall",
+  "gap"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "never"
+  },
+  {
+   "type": "heartbeat",
+   "at": "album"
+  },
+  {
+   "type": "sting",
+   "at": "gap"
+  },
+  {
+   "type": "sting",
+   "at": "tall"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "PART 2 ON THE CHANNEL"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.9,
+    "tint": [
+     1.05,
+     0.92,
+     0.82
+    ]
+   }
+  },
+  {
+   "type": "card",
+   "start": "diwali-0.2",
+   "avatar": "D",
+   "title": "Dad · Diwali Photo",
+   "lines": [
+    "1 photo taken",
+    "Someone is missing beside you"
+   ]
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "screen-0.2"
+  },
+  {
+   "type": "title",
+   "start": "part-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "PART 2",
+     "at": "part-0.1",
+     "delay": 0
+    },
+    {
+     "text": "ON THE",
+     "at": "part-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "CHANNEL.",
+     "at": "part-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Photo Album continues",
+    "at": "channel",
+    "delay": 0.3
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "DAD CUTS ONE",
+   "PERSON OUT"
+  ],
+  "sub": "of every family photo"
+ },
+ "hook": {
+  "lines": [
+   "DAD CUTS ONE",
+   "PERSON OUT"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Photo Album · Pt 1: Dad Cuts Someone Out of Every Family Photo #creepy #horror",
+  "playlist": "scary",
+  "description": "In every family album Dad cuts one person out. Always the same height, always beside me. Last night his new photo had a gap too.\n\nWould you ask Dad? Tell me in the comments 👇\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ },
+ "series": {
+  "name": "Photo Album",
+  "part": 1,
+  "of": 2,
+  "episode": "Dad Cuts Someone Out of Every Family Photo"
+ }
+}

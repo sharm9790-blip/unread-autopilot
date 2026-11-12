@@ -1,0 +1,130 @@
+{
+ "title": "Mom Packs Two Tiffins. I'm an Only Child.",
+ "format": "text-story",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "turned"
+ ],
+ "glitch": [
+  "tiny",
+  "thanks"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "never"
+  },
+  {
+   "type": "heartbeat",
+   "at": "only"
+  },
+  {
+   "type": "sting",
+   "at": "turned"
+  },
+  {
+   "type": "sting",
+   "at": "thanks"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.95,
+    "tint": [
+     1.05,
+     0.92,
+     0.82
+    ]
+   }
+  },
+  {
+   "type": "card",
+   "start": "mom-0.2",
+   "avatar": "M",
+   "title": "Mom · Morning",
+   "lines": [
+    "Two tiffins packed",
+    "The second one is not for you"
+   ]
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "turned-0.2"
+  },
+  {
+   "type": "title",
+   "start": "thanks-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "SOMETHING",
+     "at": "thanks-0.1",
+     "delay": 0
+    },
+    {
+     "text": "THANKED ME.",
+     "at": "thanks-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "FROM BEHIND.",
+     "at": "thanks-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Would you turn around?",
+    "at": "didi",
+    "delay": 0.2
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "NEVER EAT THE",
+   "SECOND TIFFIN"
+  ],
+  "sub": "mom packs two. I'm an only child"
+ },
+ "hook": {
+  "lines": [
+   "NEVER EAT THE",
+   "SECOND TIFFIN"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Mom Packs Two Tiffins. I'm an Only Child. #creepy #horror",
+  "playlist": "scary",
+  "description": "Mom packs two tiffins every morning, but I have no siblings. When I asked who the second one was for, she said the girl behind me.\n\nWould you turn around? Tell me in the comments 👇\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ }
+}

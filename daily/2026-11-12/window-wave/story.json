@@ -1,0 +1,134 @@
+{
+ "title": "My Son Waves Goodnight to the Window. We're on the Fifth Floor.",
+ "format": "second-person",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "pale"
+ ],
+ "glitch": [
+  "hand",
+  "wife"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "dont"
+  },
+  {
+   "type": "heartbeat",
+   "at": "fifth"
+  },
+  {
+   "type": "sting",
+   "at": "hand"
+  },
+  {
+   "type": "sting",
+   "at": "wife"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.95,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "looked-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "hand-0.2"
+  },
+  {
+   "type": "title",
+   "start": "wife-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "MY WIFE",
+     "at": "wife-0.1",
+     "delay": 0
+    },
+    {
+     "text": "WAVED BACK.",
+     "at": "wife-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "ASLEEP.",
+     "at": "wife-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Would you wake her?",
+    "at": "back",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "DON'T WAVE BACK",
+   "AT THE WINDOW"
+  ],
+  "sub": "we live on the fifth floor"
+ },
+ "hook": {
+  "lines": [
+   "DON'T WAVE BACK",
+   "AT THE WINDOW"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "My Son Waves Goodnight to the Window. We're on the Fifth Floor. #creepy #horror",
+  "playlist": "scary",
+  "description": "My son waves goodnight to our window every night. We live on the fifth floor. Tonight something waved back, and so did my sleeping wife.\n\nWould you wake her? Tell me in the comments 👇\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ }
+}
