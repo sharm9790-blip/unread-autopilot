@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 108689,
+  "user": "RoyBuri",
+  "query": "dark living room old photos",
+  "tags": "surfing, mobile, internet, communication, hand, man, living room, room, sofa, table, pillow, photo, scroll"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A crying man sitting in a dim living room holding an old photo album, seen from behind, a girl faint at the doorway far away",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "An old photo album open under a lamp, every photo of a girl cut into a clean empty outline, close-up, dim room",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the lamp flickers and a faint pale shape appears in one empty outline",
+  "video_model": "creatify/boreal"
+ }
+}

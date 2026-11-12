@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 359834,
+  "user": "Luna_Isla_Melody",
+  "query": "dark bedroom window night",
+  "tags": "ai generated, rainy forest, night rain, cabin window, cozy bedroom, stormy night, forest view, rain ambience, peaceful, relaxing, sleep, dark forest, pine trees, moody, nature background, screensaver"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A dark apartment bedroom window at night, curtain half open, city lights far below, a faint pale smear on the glass, wide shot",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "A bedroom window at night seen from the bed in shadow, a pale thin hand pressed against the outside of the glass",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the pale hand slowly waves outside the glass",
+  "video_model": "creatify/boreal"
+ }
+}

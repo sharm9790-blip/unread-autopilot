@@ -67,5 +67,70 @@
     "usd": -0.072
    }
   ]
+ },
+ "2026-11-12": {
+  "usd": 0.576,
+  "items": [
+   {
+    "what": "image fal-ai/flux-2",
+    "usd": 0.036,
+    "at": "06:09"
+   },
+   {
+    "what": "image fal-ai/flux-2",
+    "usd": 0.036,
+    "at": "06:09"
+   },
+   {
+    "what": "image fal-ai/flux-2",
+    "usd": 0.036,
+    "at": "06:09"
+   },
+   {
+    "what": "image fal-ai/flux-2",
+    "usd": 0.036,
+    "at": "06:15"
+   },
+   {
+    "what": "image fal-ai/flux-2",
+    "usd": 0.036,
+    "at": "06:15"
+   },
+   {
+    "what": "image fal-ai/flux-2",
+    "usd": 0.036,
+    "at": "06:15"
+   },
+   {
+    "what": "video creatify/boreal 6s",
+    "usd": 0.072,
+    "at": "06:15"
+   },
+   {
+    "what": "video creatify/boreal 6s",
+    "usd": 0.072,
+    "at": "06:15"
+   },
+   {
+    "what": "video creatify/boreal 6s",
+    "usd": 0.072,
+    "at": "06:15"
+   },
+   {
+    "what": "image fal-ai/flux-2",
+    "usd": 0.036,
+    "at": "06:36"
+   },
+   {
+    "what": "image fal-ai/flux-2",
+    "usd": 0.036,
+    "at": "06:40"
+   },
+   {
+    "what": "video creatify/boreal 6s",
+    "usd": 0.072,
+    "at": "06:40"
+   }
+  ]
  }
 }

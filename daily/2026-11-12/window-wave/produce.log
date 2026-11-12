@@ -1,0 +1,76 @@
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/parallax.py daily/2026-11-12/window-wave/clip2_ai.jpg daily/2026-11-12/window-wave/clip2.mp4 --move dolly-in --dur 10 --strength 0.07 --fog 0.2 --dust 40
+
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Device set to use cpu
+  depth: Depth Anything V2 (saved clip2_ai.depth.png); move dolly-in, 10.0s @ 30fps, 1080x1920
+
+  frame 0/300
+  frame 30/300
+  frame 60/300
+  frame 90/300
+  frame 120/300
+  frame 150/300
+  frame 180/300
+  frame 210/300
+  frame 240/300
+  frame 270/300
+  wrote daily/2026-11-12/window-wave/clip2.mp4            
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/tts.py daily/2026-11-12/window-wave --voice BycOlIr9Aytiubl0LIIY
+voice.mp3 + words.json  words=47  spoken=24.4s
+
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/thumbnail.py daily/2026-11-12/window-wave
+thumbnail.png + upload.md
+
+[vost#0:0/rawvideo @ 0x6039a2df0d40] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x6039a2df1980] Error muxing a packet
+[out#0/rawvideo @ 0x6039a2df1980] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x6039a2df1980] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x6039a2df1980] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x6039a2df1980] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/render.py daily/2026-11-12/window-wave
+done daily/2026-11-12/window-wave/short.mp4  27.4s  63 MB
+
+[vost#0:0/rawvideo @ 0x5615c419e780] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5615c419e400] Error muxing a packet
+[out#0/rawvideo @ 0x5615c419e400] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5615c419e400] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x6284e712f5c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x6284e70db700] Error muxing a packet
+[out#0/rawvideo @ 0x6284e70db700] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x6284e70db700] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x605407a4ed40] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x605407a4f980] Error muxing a packet
+[out#0/rawvideo @ 0x605407a4f980] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x605407a4f980] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5615c419e400] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5615c419e400] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x6284e70db700] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x6284e70db700] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x605407a4f980] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x605407a4f980] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/youtube_upload.py daily/2026-11-12/window-wave --publish-at 2026-11-18T16:30:00+05:30
+uploading 13%
+uploading 26%
+uploading 39%
+uploading 53%
+uploading 66%
+uploading 79%
+uploading 92%
+{
+ "id": "v863pFJoSFE",
+ "url": "https://youtube.com/shorts/v863pFJoSFE",
+ "privacy": "private",
+ "title": "My Son Waves Goodnight to the Window. We're on the Fifth Floor. #creepy #horror",
+ "thumbnail": "set",
+ "playlist": "\ud83d\ude31 Scary Stories"
+}
+
+

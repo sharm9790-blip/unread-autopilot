@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 346301,
+  "user": "SurkhabAhmad-786",
+  "query": "kitchen morning dark",
+  "tags": "coffee, steam, cup, pour, drink, morning, hot, beverage, caffeine, fresh, brew, barista, espresso, liquid, aroma, breakfast, mug, kitchen, cafe, beans, dark, organic, preparation, warm, flavor, ai generated"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Two steel tiffin boxes on a dim kitchen counter at dawn, one lid slightly open, a faint small shadow behind them, close-up",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "An empty school classroom bench seen from behind in dim light, a small steel tiffin box on the desk behind it",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the tiffin lid slowly lifts open on its own",
+  "video_model": "creatify/boreal"
+ }
+}
