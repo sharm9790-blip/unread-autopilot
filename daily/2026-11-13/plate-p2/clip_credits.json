@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 373869,
+  "user": "saikotdas",
+  "query": "kitchen dark night stove",
+  "tags": "ai generated, kitchen fire, stove fire, grease fire, burning pan, moke inhalation, modern kitchen, stove, burner, home, interior, late night"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A woman crying at a dim kitchen table seen from behind, a stove glowing in the background, an old woman's faint silhouette at the stove far away",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "A dining table with five plates at night, the fifth plate at one chair with a small paper name card, warm dim lamp, close-up",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the steam from the fifth plate curls and the lamp flickers",
+  "video_model": "creatify/boreal"
+ }
+}

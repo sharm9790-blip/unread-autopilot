@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 78640,
+  "user": "Engin_Akyurt",
+  "query": "dinner table dark home",
+  "tags": "laptop, coffee, work, computer, office, write, keyboard, internet, technology, table, wood, home, cup, tea, beverage, caffeine, design"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A dim family dining table set with five steel plates, one at an empty chair with steam rising, warm lamp, close-up",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "A single steel plate of food on the floor outside a dark bedroom door at night, steam rising, a thin shadow under the door",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the steam curls and the shadow under the door shifts",
+  "video_model": "creatify/boreal"
+ }
+}

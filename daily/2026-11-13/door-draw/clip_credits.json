@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 98501,
+  "user": "JuliusH",
+  "query": "child bedroom dark night",
+  "tags": "sleep, dream, fantasy, fairy tale, child, moon, bear, teddy, lullaby, moonlight, dream world, night, dark, girl, fairy, angel, wing, stars, sparkle"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A child's bedroom wall at night with a small crayon-drawn brown door, a toy on the floor, nightlight glow, close-up",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "A small crayon-drawn door on a dark bedroom wall standing open to blackness, a faint pale hand inside the dark, a small boy seen from behind",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the pale hand inside the doorway slowly waves",
+  "video_model": "creatify/boreal"
+ }
+}

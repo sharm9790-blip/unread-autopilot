@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 375207,
+  "user": "Openly",
+  "query": "dark front door night",
+  "tags": "ai generated, home, entrance, house, home entrance, approaching, arrival, doorway, front door, residential, house exterior, homecoming, architecture, property, real estate, welcome, hello, doorstep, residential property, neighborhood, modern home, exterior, indoors, outdoor, cinematic"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A dim apartment entrance at night, a golden retriever sitting wagging its tail facing the closed front door, wide shot, one lamp",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "A dog at a dark front door looking up at empty air as if someone stands there, seen from behind the sofa in shadow",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the dog's tail wags and its head tilts up slowly",
+  "video_model": "creatify/boreal"
+ }
+}
