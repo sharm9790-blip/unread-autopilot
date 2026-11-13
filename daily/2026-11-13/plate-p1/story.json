@@ -1,0 +1,136 @@
+{
+ "title": "Grandma's Plate · Pt 1: Grandma Sets a Fifth Plate. We Are Four.",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "knows"
+ ],
+ "glitch": [
+  "knows",
+  "warm"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "never"
+  },
+  {
+   "type": "heartbeat",
+   "at": "grandma"
+  },
+  {
+   "type": "sting",
+   "at": "knows"
+  },
+  {
+   "type": "sting",
+   "at": "warm"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "PART 2 ON THE CHANNEL"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.9,
+    "tint": [
+     1.05,
+     0.92,
+     0.82
+    ]
+   }
+  },
+  {
+   "type": "card",
+   "start": "grandma-0.2",
+   "avatar": "G",
+   "title": "Grandma · Dinner",
+   "lines": [
+    "Plates on table: 5",
+    "Family members: 4"
+   ]
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "tonight-0.2"
+  },
+  {
+   "type": "title",
+   "start": "part-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "PART 2",
+     "at": "part-0.1",
+     "delay": 0
+    },
+    {
+     "text": "ON THE",
+     "at": "part-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "CHANNEL.",
+     "at": "part-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Grandma's Plate continues",
+    "at": "channel",
+    "delay": 0.3
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "NEVER EAT THE",
+   "FIFTH PLATE"
+  ],
+  "sub": "grandma sets five. we are four"
+ },
+ "hook": {
+  "lines": [
+   "NEVER EAT THE",
+   "FIFTH PLATE"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Grandma's Plate · Pt 1: Grandma Sets a Fifth Plate. We Are Four. #creepy #horror",
+  "playlist": "scary",
+  "description": "Grandma sets a fifth plate every night, though we are four. I ate it once. Tonight a warm plate waited outside my door.\n\nWould you eat it? Tell me in the comments 👇\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ },
+ "series": {
+  "name": "Grandma's Plate",
+  "part": 1,
+  "of": 2,
+  "episode": "Grandma Sets a Fifth Plate. We Are Four."
+ }
+}

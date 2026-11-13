@@ -1,0 +1,69 @@
+{
+ "date": "2026-11-13",
+ "order": [
+  "dog-greet",
+  "door-draw",
+  "plate-p1",
+  "plate-p2"
+ ],
+ "schedule": {
+  "dog-greet": "2026-11-13T12:30:00+05:30",
+  "door-draw": "2026-11-13T16:30:00+05:30",
+  "plate-p1": "2026-11-13T18:00:00+05:30",
+  "plate-p2": "2026-11-13T19:30:00+05:30"
+ },
+ "clips": {
+  "dog-greet": [
+   "dark front door night",
+   {
+    "ai": "A dim apartment entrance at night, a golden retriever sitting wagging its tail facing the closed front door, wide shot, one lamp",
+    "move": "dolly-in",
+    "fallback": "photo: dog waiting at door"
+   },
+   {
+    "ai": "A dog at a dark front door looking up at empty air as if someone stands there, seen from behind the sofa in shadow",
+    "motion": "the dog's tail wags and its head tilts up slowly",
+    "fallback": "dog door night dark"
+   }
+  ],
+  "door-draw": [
+   "child bedroom dark night",
+   {
+    "ai": "A child's bedroom wall at night with a small crayon-drawn brown door, a toy on the floor, nightlight glow, close-up",
+    "move": "dolly-in",
+    "fallback": "photo: child crayon drawing wall"
+   },
+   {
+    "ai": "A small crayon-drawn door on a dark bedroom wall standing open to blackness, a faint pale hand inside the dark, a small boy seen from behind",
+    "motion": "the pale hand inside the doorway slowly waves",
+    "fallback": "dark doorway bedroom"
+   }
+  ],
+  "plate-p1": [
+   "dinner table dark home",
+   {
+    "ai": "A dim family dining table set with five steel plates, one at an empty chair with steam rising, warm lamp, close-up",
+    "move": "dolly-in",
+    "fallback": "photo: dinner table plates dark"
+   },
+   {
+    "ai": "A single steel plate of food on the floor outside a dark bedroom door at night, steam rising, a thin shadow under the door",
+    "motion": "the steam curls and the shadow under the door shifts",
+    "fallback": "dark hallway door night"
+   }
+  ],
+  "plate-p2": [
+   "kitchen dark night stove",
+   {
+    "ai": "A woman crying at a dim kitchen table seen from behind, a stove glowing in the background, an old woman's faint silhouette at the stove far away",
+    "move": "dolly-in",
+    "fallback": "photo: dark kitchen night"
+   },
+   {
+    "ai": "A dining table with five plates at night, the fifth plate at one chair with a small paper name card, warm dim lamp, close-up",
+    "motion": "the steam from the fifth plate curls and the lamp flickers",
+    "fallback": "dinner table dark"
+   }
+  ]
+ }
+}

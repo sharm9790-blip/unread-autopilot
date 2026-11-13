@@ -1,0 +1,123 @@
+{
+ "title": "Grandma's Plate · Pt 2: Grandma Died in March. Dinner Is Still Served.",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "wept"
+ ],
+ "glitch": [
+  "fifth",
+  "name"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "dont"
+  },
+  {
+   "type": "heartbeat",
+   "at": "march"
+  },
+  {
+   "type": "sting",
+   "at": "fifth"
+  },
+  {
+   "type": "sting",
+   "at": "name"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.8,
+    "desat": 0.3,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "card",
+   "start": "march-0.2",
+   "avatar": "!",
+   "title": "Mom · Kitchen",
+   "lines": [
+    "Grandma died in March",
+    "Who has been cooking?"
+   ]
+  },
+  {
+   "type": "title",
+   "start": "fifth-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "THE FIFTH",
+     "at": "fifth-0.1",
+     "delay": 0
+    },
+    {
+     "text": "PLATE HAD",
+     "at": "fifth-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "MY NAME.",
+     "at": "fifth-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Part 1 is on the channel",
+    "at": "name",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "GRANDMA DIED",
+   "IN MARCH"
+  ],
+  "sub": "so who cooks dinner?"
+ },
+ "hook": {
+  "lines": [
+   "GRANDMA DIED",
+   "IN MARCH"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Grandma's Plate · Pt 2: Grandma Died in March. Dinner Is Still Served. #creepy #horror",
+  "playlist": "scary",
+  "description": "Mom said Grandma died in March. Something has cooked since. Tonight the fifth plate had my name on it.\n\nDid you guess the twist? Tell me in the comments 👇\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ },
+ "series": {
+  "name": "Grandma's Plate",
+  "part": 2,
+  "of": 2,
+  "episode": "Grandma Died in March. Dinner Is Still Served."
+ }
+}
