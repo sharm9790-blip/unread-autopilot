@@ -1,0 +1,69 @@
+{
+ "date": "2026-11-14",
+ "order": [
+  "parrot",
+  "tuck-in",
+  "vn-p1",
+  "vn-p2"
+ ],
+ "schedule": {
+  "parrot": "2026-11-14T12:30:00+05:30",
+  "tuck-in": "2026-11-14T16:30:00+05:30",
+  "vn-p1": "2026-11-14T18:00:00+05:30",
+  "vn-p2": "2026-11-14T19:30:00+05:30"
+ },
+ "clips": {
+  "parrot": [
+   "dark living room night",
+   {
+    "ai": "A grey parrot in a cage in a dim living room at night, staring toward a dark staircase, lit by a faint streetlight, wide shot",
+    "move": "dolly-in",
+    "fallback": "photo: parrot cage dark room"
+   },
+   {
+    "ai": "A dark staircase at night seen from the top, a pale shape faintly visible at the bottom near the front door, a parrot cage in the foreground",
+    "motion": "the pale shape at the bottom of the stairs slowly turns its head upward",
+    "fallback": "dark staircase night"
+   }
+  ],
+  "tuck-in": [
+   "dark bedroom bed night",
+   {
+    "ai": "A made bed at night with the blanket pulled neatly to the pillow, a phone glowing on the nightstand, a dark bedroom door behind, close-up",
+    "move": "dolly-in",
+    "fallback": "photo: bed blanket dark bedroom"
+   },
+   {
+    "ai": "A dark bedroom bed seen from the foot, the blanket slightly raised by an unseen shape beside the sleeping woman, dim moonlight",
+    "motion": "the blanket slowly pulls tight and a faint pale hand shows at its edge",
+    "fallback": "bedroom dark blanket"
+   }
+  ],
+  "vn-p1": [
+   "dark house door night",
+   {
+    "ai": "A phone on a dark nightstand showing a voice note waveform, glowing in a dim hallway, close-up, 3 AM",
+    "move": "dolly-in",
+    "fallback": "photo: phone glowing dark hallway"
+   },
+   {
+    "ai": "A narrow dark hallway ending at a closed bedroom door with a thin line of light underneath, a shadow moving behind the gap",
+    "motion": "the shadow under the door slowly shifts and the light flickers",
+    "fallback": "dark hallway door night"
+   }
+  ],
+  "vn-p2": [
+   "dark bedroom door night",
+   {
+    "ai": "An elderly woman sitting upright in a dim bedroom seen from the doorway, her hands gripping the blanket, a dark gap under the bed",
+    "move": "dolly-in",
+    "fallback": "photo: old woman bed dark room"
+   },
+   {
+    "ai": "The dark gap under a bed in a dim bedroom, two pale fingers curling out from the shadow along the floor, close-up",
+    "motion": "the pale fingers slowly curl and withdraw into the dark",
+    "fallback": "dark under bed"
+   }
+  ]
+ }
+}

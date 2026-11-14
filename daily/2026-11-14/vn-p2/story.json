@@ -1,0 +1,123 @@
+{
+ "title": "Voice Note · Pt 2: Mom's Lips Never Moved. The Voice Was Under Her Bed.",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "whisper"
+ ],
+ "glitch": [
+  "mouthed",
+  "come"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "dont"
+  },
+  {
+   "type": "heartbeat",
+   "at": "whisper"
+  },
+  {
+   "type": "sting",
+   "at": "mouthed"
+  },
+  {
+   "type": "sting",
+   "at": "come"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.8,
+    "desat": 0.3,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "card",
+   "start": "whisper-0.2",
+   "avatar": "!",
+   "title": "Mom · Bedroom",
+   "lines": [
+    "Her lips are not moving",
+    "The voice is under the bed"
+   ]
+  },
+  {
+   "type": "title",
+   "start": "come-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "COME IN,",
+     "at": "come-0.1",
+     "delay": 0
+    },
+    {
+     "text": "BETA.",
+     "at": "come-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "IT HAD HER VOICE.",
+     "at": "come-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Part 1 is on the channel",
+    "at": "voice",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "HER LIPS",
+   "DIDN'T MOVE"
+  ],
+  "sub": "the voice was under her bed"
+ },
+ "hook": {
+  "lines": [
+   "HER LIPS",
+   "DIDN'T MOVE"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Voice Note · Pt 2: Mom's Lips Never Moved. The Voice Was Under Her Bed. #creepy #horror",
+  "playlist": "scary",
+  "description": "Mom's lips weren't moving. The whisper came from under her bed, in her voice. She mouthed one word: run.\n\nDid you guess the twist? Tell me in the comments 👇\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ },
+ "series": {
+  "name": "Voice Note",
+  "part": 2,
+  "of": 2,
+  "episode": "Mom's Lips Never Moved. The Voice Was Under Her Bed."
+ }
+}

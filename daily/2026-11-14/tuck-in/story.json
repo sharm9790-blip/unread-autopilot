@@ -1,0 +1,143 @@
+{
+ "title": "Someone Tucked Me In at 2 AM. My Husband Is Abroad.",
+ "format": "second-person",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "tighter"
+ ],
+ "glitch": [
+  "tighter"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "someone"
+  },
+  {
+   "type": "heartbeat",
+   "at": "texted"
+  },
+  {
+   "type": "sting",
+   "at": "did"
+  },
+  {
+   "type": "sting",
+   "at": "tighter"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.95,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "texted-0.2"
+  },
+  {
+   "type": "card",
+   "start": "did-0.2",
+   "avatar": "H",
+   "title": "Husband · Abroad",
+   "lines": [
+    "Did it fix the blanket?",
+    "It does that for me too."
+   ]
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "tighter-0.3"
+  },
+  {
+   "type": "title",
+   "start": "tighter-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "IT PULLED",
+     "at": "tighter-0.1",
+     "delay": 0
+    },
+    {
+     "text": "THE BLANKET",
+     "at": "tighter-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "TIGHTER.",
+     "at": "tighter-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Would you look under it?",
+    "at": "tucked",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "SOMEONE TUCKED",
+   "ME IN"
+  ],
+  "sub": "my husband is abroad"
+ },
+ "hook": {
+  "lines": [
+   "SOMEONE TUCKED",
+   "ME IN"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Someone Tucked Me In at 2 AM. My Husband Is Abroad. #creepy #horror",
+  "playlist": "scary",
+  "description": "Someone tucked me in last night, warm hands, blanket to my chin. My husband is abroad. His reply made it worse.\n\nWould you look under the blanket? Tell me in the comments 👇\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ }
+}

@@ -1,0 +1,136 @@
+{
+ "title": "Voice Note · Pt 1: Mom Hasn't Spoken Since Her Stroke. She Sent Me a Voice Note.",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "inside"
+ ],
+ "glitch": [
+  "outside",
+  "inside"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "dont"
+  },
+  {
+   "type": "heartbeat",
+   "at": "voice"
+  },
+  {
+   "type": "sting",
+   "at": "inside"
+  },
+  {
+   "type": "sting",
+   "at": "someone"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "PART 2 ON THE CHANNEL"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.9,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "card",
+   "start": "voice-0.2",
+   "avatar": "M",
+   "title": "Mom · Voice note 0:07",
+   "lines": [
+    "Mom hasn't spoken in 2 years",
+    "\"Don't come home.\""
+   ]
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "outside-0.2"
+  },
+  {
+   "type": "title",
+   "start": "part-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "PART 2",
+     "at": "part-0.1",
+     "delay": 0
+    },
+    {
+     "text": "ON THE",
+     "at": "part-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "CHANNEL.",
+     "at": "part-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Voice Note continues",
+    "at": "channel",
+    "delay": 0.3
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "MOM CAN'T SPEAK",
+   "SHE SENT A VOICE"
+  ],
+  "sub": "'Don't come home.'"
+ },
+ "hook": {
+  "lines": [
+   "MOM CAN'T SPEAK",
+   "SHE SENT A VOICE"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Voice Note · Pt 1: Mom Hasn't Spoken Since Her Stroke. She Sent Me a Voice Note. #creepy #horror",
+  "playlist": "scary",
+  "description": "Mom hasn't spoken since her stroke. At 3 AM she sent a voice note: Don't come home. I was already outside her door.\n\nWould you open the door? Tell me in the comments 👇\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ },
+ "series": {
+  "name": "Voice Note",
+  "part": 1,
+  "of": 2,
+  "episode": "Mom Hasn't Spoken Since Her Stroke. She Sent Me a Voice Note."
+ }
+}
