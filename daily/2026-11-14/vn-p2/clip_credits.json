@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 225775,
+  "user": "Kaffees\u00fcchtig",
+  "query": "dark bedroom door night",
+  "tags": "clouds, sky, night, dark, summer"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "An elderly woman sitting upright in a dim bedroom seen from the doorway, her hands gripping the blanket, a dark gap under the bed",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "The dark gap under a bed in a dim bedroom, two pale fingers curling out from the shadow along the floor, close-up",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the pale fingers slowly curl and withdraw into the dark",
+  "video_model": "creatify/boreal"
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 290401,
+  "user": "AmbientSoul",
+  "query": "dark bedroom bed night",
+  "tags": "luxury bedroom, cozy room, soft pillows, fireplace, night interior, elegant bedroom, city view, plush bed, warm lighting, nighttime, relaxing space, upscale interior, modern classic, romantic room, peaceful bedroom, home decor, ambient lighting, interior design, stylish bedroom, firelight, ai generated"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A made bed at night with the blanket pulled neatly to the pillow, a phone glowing on the nightstand, a dark bedroom door behind, close-up",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "A dark bedroom bed seen from the foot, the blanket slightly raised by an unseen shape beside the sleeping woman, dim moonlight",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the blanket slowly pulls tight and a faint pale hand shows at its edge",
+  "video_model": "creatify/boreal"
+ }
+}

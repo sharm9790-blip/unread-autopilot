@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 334255,
+  "user": "IAmTheDrama",
+  "query": "dark living room night",
+  "tags": "dark room, fireplace, rain outside window, cinemagraph, moody aesthetic, cozy fire, rainy night, ambient loop, calming rain, warm glow, night atmosphere, relaxing visuals, hygge vibes, peaceful moment, indoor cozy, firelight, tranquil scene, slow living, stormy night, aesthetic video, comfort vibes, soothing ambiance, quiet night, rain ambiance, moody interior"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A grey parrot in a cage in a dim living room at night, staring toward a dark staircase, lit by a faint streetlight, wide shot",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "A dark staircase at night seen from the top, a pale shape faintly visible at the bottom near the front door, a parrot cage in the foreground",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the pale shape at the bottom of the stairs slowly turns its head upward",
+  "video_model": "creatify/boreal"
+ }
+}

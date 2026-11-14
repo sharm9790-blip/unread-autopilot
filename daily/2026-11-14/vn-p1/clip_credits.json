@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 266972,
+  "user": "NEON-SHARE",
+  "query": "dark house door night",
+  "tags": "dawn, house, tree, door, windows, sofa, screen, living room"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A phone on a dark nightstand showing a voice note waveform, glowing in a dim hallway, close-up, 3 AM",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "A narrow dark hallway ending at a closed bedroom door with a thin line of light underneath, a shadow moving behind the gap",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the shadow under the door slowly shifts and the light flickers",
+  "video_model": "creatify/boreal"
+ }
+}
