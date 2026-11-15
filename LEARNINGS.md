@@ -43,3 +43,14 @@ Lessons from YouTube Analytics on 2026-10-26 (pulled with `scripts/yt_analytics.
   objects ("30 Desks. 31 Students." 190, "3 Elevators Open at 3 AM" 154, "My Cleaner Cleaned 4 Rooms" 79).
 - **Engagement:** ~15 likes per 1K views is fine, but only 3 comments across 23 Shorts and ~15 shares a month.
 - Compare Shorts from the first batch with these rules against Nov 3-7 before treating them as proven.
+
+## Update 2026-11-15 (Analytics to Nov 12 + live views; and a "break the 1K cap" Shorts-growth video)
+- Views/Short fell after Nov 8: Nov 8 releases ~1,000 each; Nov 9-11 ~100-500; Nov 12-14 ~25-200. 7-day views -32%.
+  "Stayed vs swiped" (engagedPct) dropped from 30-44% (Nov 8) to 15-25% (Nov 9-10), the same days photo-parallax clips
+  started replacing real footage and posting rose to 4-5/day. Likely causes, not proven.
+- Changes from Nov 16: **3 Shorts/day** (12:30 standalone, 18:00 Part 1, 19:30 Part 2); the **first clip is always real
+  moving footage**; each standalone copies the *shape* of a `state/winners.json` top Short (refreshed daily from live
+  views); a tailored "📤 Send this to ..." share line in every description.
+- Not used from the video: trending music and custom Shorts thumbnails need the YouTube phone app (no API) and music
+  under narration hurts horror; channel warm-up only matters for brand-new channels.
+- Re-check ~Nov 20: engagedPct and median views of Nov 16+ Shorts vs Nov 9-14.

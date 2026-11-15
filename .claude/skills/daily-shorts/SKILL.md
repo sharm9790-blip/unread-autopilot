@@ -6,7 +6,7 @@ description: Write today's 4 UNREAD scary Shorts (stories + scenes + Pixabay sea
 # Daily UNREAD Shorts (story writer)
 
 You write the stories. GitHub Actions (`.github/workflows/produce.yml`) does everything else when you push:
-Pixabay clips → ElevenLabs voice → render → YouTube upload at 12:30 / 16:30 / 18:00 / 19:30 IST → series links → Telegram report.
+Pixabay clips → ElevenLabs voice → render → YouTube upload at 12:30 / 18:00 / 19:30 IST → series links → Telegram report.
 You need no API keys. Never upload, never touch secrets.
 
 ## Steps
@@ -15,18 +15,29 @@ You need no API keys. Never upload, never touch secrets.
    Today's date = the date in **Asia/Kolkata** (`TZ=Asia/Kolkata date +%F`). If `daily/<date>/day.json` already exists, stop: today is done.
 2. Read `LEARNINGS.md` (what wins on this channel - follow every rule), `stories_index.json` (titles already used - never reuse
    a title or its premise), and the narrations in the last 7 `daily/*/` folders (don't repeat their twists or settings).
-3. Write `daily/<date>/make_day.py` with exactly **4 episodes** (batchlib assigns the slots):
-   - 2 standalones → 12:30 and 16:30. Put the strongest standalone first.
+   Also read `state/winners.json` (refreshed 08:00 daily from live views): `top` = Shorts that passed ~1K, `bottom` = flops.
+   **Double down:** the standalone must reuse the *shape* of a `top` entry (same kind of threat, same title pattern,
+   e.g. "<family member> did X. <contradiction>.") with a brand-new premise. Never echo a `bottom` entry's setting or pattern.
+   **Vary the idea:** don't repeat yesterday's opening word, setting or twist type (repetitive ideas get skipped).
+3. Write `daily/<date>/make_day.py` with exactly **3 episodes** (batchlib assigns the slots):
+   - 1 standalone → 12:30. Make it the strongest story of the day.
    - **one 2-part series** → Part 1 at 18:00, Part 2 at 19:30 (Part 1 ends on a cliffhanger: "...Part two is on my channel.
      Subscribe..."; Part 2 opens with a new command line, pays it off with a twist, footer "Part 1 is on the channel").
      Part 1 must work as a complete scare on its own: viewers who never see Part 2 still need a payoff.
-   (4/day: fewer posts per day did better in October. Part 1s at 14:30 got 44-139; the one at 18:00 got 959.)
+   (3/day from Nov 15: views per Short fell when we posted 4-5/day on Nov 11-14; fewer, stronger posts did better in October.)
    Rotate formats across the day: rules / pick-one (comment 1, 2 or 3) / second-person / text-story / voice-call.
    Use the helpers in `pipeline/batchlib.py` (`Day`, `clip`, `title3`, `lines`, `card`, `lock`, `call`, `series`, `COOL`, `WARM`).
    Copy the structure of the example below.
 4. Run `python3 daily/<date>/make_day.py` then `python3 pipeline/check_day.py daily/<date>`. Fix every problem it lists and re-run until it prints `OK`.
-5. `git add daily/<date> && git commit -m "day <date>: <4 titles, short>" && git push origin claude/daily-shorts`. That push starts production.
-   Reply with the 4 titles and their slots.
+5. `git add daily/<date> && git commit -m "day <date>: <3 titles, short>" && git push origin claude/daily-shorts`. That push starts production.
+   Reply with the 3 titles and their slots.
+
+## First 3 seconds (decide whether YouTube keeps pushing the Short)
+- Frame 1 = **real moving footage** (first entry in `clips=[...]` is a Pixabay query or pinned id, never `photo:` or AI;
+  `check_day.py` enforces it), the on-screen hook card, and a `("sting", <first hook word>, 0)` so it starts loud.
+- The scariest line is the first line. No setup, no "So last night...".
+- Pass `share="<the friend who ...>"` to `day.ep(...)`, fitted to the story ("the friend who sleeps with the door open",
+  "your sister"): it becomes "📤 Send this to ... 👀" in the description. Shares are the channel's weakest signal (≈0).
 
 ## Story rules (from the channel's analytics - see LEARNINGS.md)
 
@@ -56,7 +67,7 @@ You need no API keys. Never upload, never touch secrets.
   Stop Staring at Her". Use baby, child, spouse, parent, pet, your own bed / room / phone.
 - **Avoid** (79-190 views): number puzzles and abstract setups ("30 Desks. 31 Students.", "3 Elevators Open at 3 AM"),
   transit and public places with no one you love in them ("The Train Said: Passenger in Car 4"), chores or objects
-  ("My Cleaner Cleaned 4 Rooms"). Each day, at least 3 of the 4 titles use the winning formula.
+  ("My Cleaner Cleaned 4 Rooms"). Each day, at least 2 of the 3 titles use the winning formula.
 
 ## Scenes
 
@@ -149,7 +160,7 @@ day.ep("bus-p1", "series",
 # Every episode needs exactly these 2 AI entries (check_day.py rejects the day otherwise); the whistle example above
 # predates them - add one AI still + one AI hero clip to it the same way.
 
-# ... bus-p2 (series part 2) and one more standalone (4 total; batchlib sets the slots) ...
+# ... bus-p2 (series part 2) (3 total; batchlib sets the slots) ...
 day.save()
 ```
 

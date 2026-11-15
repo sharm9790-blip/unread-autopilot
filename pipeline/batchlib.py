@@ -18,7 +18,7 @@ import re
 COOL, WARM, CCTV = [0.82, 0.88, 1.12], [1.05, 0.92, 0.82], [0.78, 1.05, 0.82]
 # 4/day (fewer posts per day did better; 14:30 dropped for volume, not proven weak). Standalones take the day slots, the 2-part
 # series takes the evening: Part 1 at 18:00, Part 2 at 19:30 (Part 1s at 14:30 got 44-139; at 18:00, 959).
-SOLO_SLOTS, SERIES_SLOTS = ["12:30", "16:30"], ["18:00", "19:30"]
+SOLO_SLOTS, SERIES_SLOTS = ["12:30"], ["18:00", "19:30"]  # 3/day from 2026-11-15 (5/day on Nov 11-14 cut views per Short)
 SLOTS = sorted(SOLO_SLOTS + SERIES_SLOTS)
 TAGS = "#shorts #scarystories #horror #creepy #horrorstory #scary"
 TAG_LIST = ("scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, "
@@ -77,7 +77,7 @@ class Day:
         self.order, self.schedule, self.clips = [], {}, {}
 
     def ep(self, slug, fmt, narration, scenes, sfx, shake, glitch, thumb, title, hook, question,
-           clips, series=None, speed=1.0, extra_tags=""):
+           clips, series=None, speed=1.0, extra_tags="", share=""):
         d = os.path.join(self.dir, slug)
         os.makedirs(d, exist_ok=True)
         open(os.path.join(d, "narration.txt"), "w").write(narration.strip() + "\n")
@@ -110,7 +110,8 @@ class Day:
                  "hook": {"lines": thumb["lines"], "until": 2.8},  # on-screen hook at frame 1 (most viewers start muted)
                  "beat_zoom": 3.5,  # footage punches in/out every 3.5 s so the picture never sits still
                  "upload": {"title": f"{title} #creepy #horror"[:100], "playlist": "scary",
-                            "description": f"{hook}\n\n{question} Tell me in the comments 👇\n{more}\n"
+                            "description": f"{hook}\n\n{question} Tell me in the comments 👇\n"
+                                           f"📤 Send this to {share or 'the friend who would never survive this'} 👀\n{more}\n"
                                            f"Subscribe to UNREAD for a new scary story every night.\n\n"
                                            f"Footage: Pixabay · Voice: AI narration\n\n{TAGS}{extra_tags}",
                             "tags": TAG_LIST}}

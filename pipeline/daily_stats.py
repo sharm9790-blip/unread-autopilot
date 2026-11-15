@@ -1,6 +1,7 @@
 """Daily UNREAD stats → Telegram (runs every morning in GitHub Actions; also works on the Mac).
 
-Usage: python3 pipeline/daily_stats.py [--print] [--weekly | --pulse]
+Usage: python3 pipeline/daily_stats.py [--print] [--weekly | --pulse | --winners]
+--winners: write state/winners.json (top/bottom Shorts of 14 days, live views) for the 06:00 writer.
 --pulse: live subs/views + last-24h Shorts, with change since the previous pulse (12:00/16:00/20:00/00:00 IST).
 Every day: the short high-level message below. --weekly: the detailed 28-day deep-dive instead (on request only).
 - Last 7 days vs the 7 before (YouTube Analytics API; its data runs ~2-3 days behind, the message says up to when)
@@ -12,6 +13,7 @@ import datetime
 import html
 import json
 import os
+import re
 import sys
 import urllib.parse
 import urllib.request
@@ -67,7 +69,7 @@ def recent_shorts(yt, since):
             break
     out = []
     for i in range(0, len(ids), 50):
-        for v in yt.videos().list(part="snippet,statistics,status", id=",".join(ids[i:i + 50])).execute()["items"]:
+        for v in yt.videos().list(part="snippet,statistics,status,contentDetails", id=",".join(ids[i:i + 50])).execute()["items"]:
             if v["status"]["privacyStatus"] != "public":
                 continue
             t = datetime.datetime.fromisoformat(v["snippet"]["publishedAt"].replace("Z", "+00:00")).astimezone(IST)
@@ -75,7 +77,8 @@ def recent_shorts(yt, since):
                 s = v["statistics"]
                 out.append({"id": v["id"], "title": v["snippet"]["title"].split(" #")[0], "at": t,
                             "views": int(s.get("viewCount", 0)), "likes": int(s.get("likeCount", 0)),
-                            "comments": int(s.get("commentCount", 0))})
+                            "comments": int(s.get("commentCount", 0)),
+                            "long": bool(re.search(r"\d+H|[2-9]M|\d\dM", v["contentDetails"].get("duration", "")))})
     return out
 
 
@@ -193,6 +196,23 @@ def pulse():
     return "\n".join(L)
 
 
+def winners(path=os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "state", "winners.json")):
+    """Top and bottom Shorts of the last 14 days by live views (each at least 48 h old) -> state/winners.json.
+    The 06:00 writer reads it to double down on what passed ~1K and avoid what flopped."""
+    from googleapiclient.discovery import build
+    yt = build("youtube", "v3", credentials=creds())
+    now = datetime.datetime.now(IST)
+    rows = [r for r in recent_shorts(yt, now - datetime.timedelta(days=14)) if now - r["at"] >= datetime.timedelta(hours=48) and not r["long"]]
+    rows.sort(key=lambda r: -r["views"])
+    med = sorted(r["views"] for r in rows)[len(rows) // 2] if rows else 0
+    pick = lambda rs: [{"title": r["title"], "views": r["views"], "x_median": round(r["views"] / med, 1) if med else None,
+                        "published": r["at"].strftime("%Y-%m-%d %H:%M")} for r in rs]
+    out = {"updated": now.strftime("%Y-%m-%d %H:%M IST"), "median_views": med, "n": len(rows),
+           "top": pick(rows[:6]), "bottom": pick(rows[-6:][::-1] if len(rows) > 6 else [])}
+    json.dump(out, open(path, "w"), indent=1, ensure_ascii=False)
+    return out
+
+
 def tg(text):
     tok, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
     data = urllib.parse.urlencode({"chat_id": chat, "text": text, "parse_mode": "HTML",
@@ -207,6 +227,10 @@ if __name__ == "__main__":
         except Exception as e:
             msg = f"⚡ <b>UNREAD pulse</b>\n❌ <code>{html.escape(str(e)[:200])}</code>"
         print(msg) if "--print" in sys.argv or not os.environ.get("TELEGRAM_BOT_TOKEN") else tg(msg)
+        sys.exit(0)
+    if "--winners" in sys.argv:
+        w = winners()
+        print(f"winners.json: median {w['median_views']} over {w['n']} Shorts; top {w['top'][0]['title'] if w['top'] else '-'}")
         sys.exit(0)
     if "--weekly" in sys.argv:  # detailed deep-dive only on request; the daily message stays high level
         try:
