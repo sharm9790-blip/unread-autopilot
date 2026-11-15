@@ -1,0 +1,123 @@
+{
+ "title": "Night Feed · Pt 2: My Baby Said: He Feeds Me Every Night.",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "figure"
+ ],
+ "glitch": [
+  "reached",
+  "every"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "dont"
+  },
+  {
+   "type": "heartbeat",
+   "at": "figure"
+  },
+  {
+   "type": "sting",
+   "at": "reached"
+  },
+  {
+   "type": "sting",
+   "at": "every"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.8,
+    "desat": 0.3,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "card",
+   "start": "figure-0.2",
+   "avatar": "!",
+   "title": "Nursery · 3:00 AM",
+   "lines": [
+    "He held out his arms",
+    "She reached for him"
+   ]
+  },
+  {
+   "type": "title",
+   "start": "every-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "HE FEEDS",
+     "at": "every-0.1",
+     "delay": 0
+    },
+    {
+     "text": "HER EVERY",
+     "at": "every-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "NIGHT.",
+     "at": "every-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Part 1 is on the channel",
+    "at": "baby",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "HE HELD OUT",
+   "HIS ARMS"
+  ],
+  "sub": "my husband was miles away"
+ },
+ "hook": {
+  "lines": [
+   "HE HELD OUT",
+   "HIS ARMS"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Night Feed · Pt 2: My Baby Said: He Feeds Me Every Night. #creepy #horror",
+  "playlist": "scary",
+  "description": "My husband was miles away. The figure held out its arms and my baby reached for it. Then she said he feeds her every night.\n\nDid you guess the twist? Tell me in the comments 👇\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ },
+ "series": {
+  "name": "Night Feed",
+  "part": 2,
+  "of": 2,
+  "episode": "My Baby Said: He Feeds Me Every Night."
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "date": "2026-11-15",
+ "order": [
+  "dada",
+  "tank-p",
+  "nf-p1",
+  "nf-p2"
+ ],
+ "schedule": {
+  "dada": "2026-11-15T12:30:00+05:30",
+  "tank-p": "2026-11-15T16:30:00+05:30",
+  "nf-p1": "2026-11-15T18:00:00+05:30",
+  "nf-p2": "2026-11-15T19:30:00+05:30"
+ },
+ "clips": {
+  "dada": [
+   "dark living room night",
+   {
+    "ai": "An empty wooden dining chair beside a baby high chair in a dim kitchen at night, soft lamp light, wide shot",
+    "move": "dolly-in",
+    "fallback": "photo: empty chair dark kitchen"
+   },
+   {
+    "ai": "A dim kitchen at night, a wooden chair pulled slightly out from the table, a pale faint shape leaning over it toward a baby seat",
+    "motion": "the chair slowly slides back an inch and the pale shape leans forward",
+    "fallback": "dark kitchen night"
+   }
+  ],
+  "tank-p": [
+   "dark bedroom closet night",
+   {
+    "ai": "A wooden bedroom cupboard door slightly ajar in a dark room, a thin line of light, a mother's silhouette holding a child in the foreground",
+    "move": "dolly-in",
+    "fallback": "photo: wooden cupboard dark room"
+   },
+   {
+    "ai": "A closed dark wooden cupboard in a dim bedroom, a faint pale small handprint on the inside of a gap at the door edge, close-up",
+    "motion": "the door trembles and opens one inch",
+    "fallback": "dark closet door"
+   }
+  ],
+  "nf-p1": [
+   "dark nursery night",
+   {
+    "ai": "A dark nursery at night with an empty crib, a baby bottle on the rail, faint blue night-light, a tall shadow on the wall, wide shot",
+    "move": "dolly-in",
+    "fallback": "photo: empty crib dark nursery"
+   },
+   {
+    "ai": "A dim nursery crib seen from the doorway, a tall thin silhouette bent over it in the dark, a mother's shoulder in the foreground",
+    "motion": "the silhouette's head slowly turns toward camera",
+    "fallback": "dark nursery crib"
+   }
+  ],
+  "nf-p2": [
+   "dark nursery door night",
+   {
+    "ai": "A tall thin dark figure standing beside a crib in a dim nursery with its arms held out, seen from behind the mother, faint blue light",
+    "move": "dolly-in",
+    "fallback": "photo: dark nursery shadow figure"
+   },
+   {
+    "ai": "A baby's small hand reaching out of a mother's arms toward a dark shape in a dim nursery, close-up, blue night-light",
+    "motion": "the baby's hand slowly stretches toward the dark and the light flickers",
+    "fallback": "dark nursery night"
+   }
+  ]
+ }
+}

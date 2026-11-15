@@ -1,0 +1,136 @@
+{
+ "title": "Night Feed · Pt 1: My Husband Feeds the Baby at 3 AM. I'm Holding the Baby.",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "walked"
+ ],
+ "glitch": [
+  "baby#2",
+  "who"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "dont"
+  },
+  {
+   "type": "heartbeat",
+   "at": "singing"
+  },
+  {
+   "type": "sting",
+   "at": "baby#2"
+  },
+  {
+   "type": "sting",
+   "at": "who"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "PART 2 ON THE CHANNEL"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.9,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "card",
+   "start": "singing-0.2",
+   "avatar": "H",
+   "title": "Husband · Working night shift",
+   "lines": [
+    "Home at 6 AM",
+    "Don't wake the baby"
+   ]
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "who-0.2"
+  },
+  {
+   "type": "title",
+   "start": "part-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "PART 2",
+     "at": "part-0.1",
+     "delay": 0
+    },
+    {
+     "text": "ON THE",
+     "at": "part-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "CHANNEL.",
+     "at": "part-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Night Feed continues",
+    "at": "channel",
+    "delay": 0.3
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "DON'T FEED",
+   "THE BABY"
+  ],
+  "sub": "he feeds her at 3 AM"
+ },
+ "hook": {
+  "lines": [
+   "DON'T FEED",
+   "THE BABY"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Night Feed · Pt 1: My Husband Feeds the Baby at 3 AM. I'm Holding the Baby. #creepy #horror",
+  "playlist": "scary",
+  "description": "At 3 AM I heard my husband feeding the baby in the nursery. I walked in. The baby was already in my arms.\n\nWould you open the nursery door? Tell me in the comments 👇\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am"
+ },
+ "series": {
+  "name": "Night Feed",
+  "part": 1,
+  "of": 2,
+  "episode": "My Husband Feeds the Baby at 3 AM. I'm Holding the Baby."
+ }
+}
