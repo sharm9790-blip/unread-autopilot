@@ -51,6 +51,10 @@ def check(day_dir):
     times = sorted(t[11:16] for t in day["schedule"].values())
     if times != ["12:30", "18:00", "19:30"]:
         problems.append(f"slots {times}: need the 12:30 standalone and the series at 18:00 / 19:30")
+    looks = {slug: json.load(open(os.path.join(day_dir, slug, "story.json"))).get("look") for slug in day["order"]}
+    two_d = [sl for sl, lk in looks.items() if lk == "2d"]
+    if len(two_d) != 1 or day["schedule"][two_d[0]][11:16] != "12:30":
+        problems.append(f"exactly one 2D Short a day, the 12:30 standalone (look='2d'); found {two_d or 'none'}")
     for slug in day["order"]:
         ep = os.path.join(day_dir, slug)
         st = json.load(open(os.path.join(ep, "story.json")))
@@ -100,15 +104,32 @@ def check(day_dir):
         for c, v in loc.items():
             if not v["title"].strip() or len(v["title"]) > 100 or not v["description"].strip():
                 p(f"langs[{c!r}]: title must be 1-85 characters and hook non-empty")
-        first = (day["clips"].get(slug) or [None])[0]
-        if not (isinstance(first, int) or (isinstance(first, str) and not first.lower().startswith("photo"))):
-            p("the first clip must be real moving Pixabay footage (a query or pinned id), not a photo or AI entry: "
-              "the first 3 s decide whether viewers swipe")
-        ai = [q for q in day["clips"].get(slug, []) if isinstance(q, dict) and "ai" in q]
-        heroes = sum(1 for q in ai if q.get("motion"))
-        if len(ai) != 2 or heroes != 1:
-            p(f"needs exactly 2 AI entries in clips=[...] (1 hero with 'motion' + 1 still with 'move'), has "
-              f"{len(ai)} ({heroes} hero) - see 'AI clips' in the skill; fal falls back to Pixabay if unavailable")
+        clips_l = day["clips"].get(slug, [])
+        ai = [q for q in clips_l if isinstance(q, dict) and "ai" in q]
+        is_2d = st.get("look") == "2d"
+        if is_2d:  # 2D illustrated + 2.5D parallax Short (the 12:30 standalone)
+            if not str(st.get("characters", "")).strip():
+                p("2D Short needs characters='...' (one fixed description of each character, reused in every picture)")
+            if len(ai) != len(clips_l) or not 6 <= len(ai) <= 8:
+                p(f"2D Short needs 6-8 clips and every one an AI picture {{'ai': ..., 'move': ...}}, has {len(ai)}/{len(clips_l)}")
+            keys = sum(1 for q in ai if q.get("key"))
+            if keys != 2:
+                p(f"2D Short needs exactly 2 'key': True pictures (the hook = first clip, and the twist), has {keys}")
+            if ai and not ai[0].get("key"):
+                p("2D Short: the first picture is the hook, mark it 'key': True (best model, fast push-in)")
+            if any(q.get("motion") for q in ai):
+                p("2D Short: no 'motion' (AI video) entries - motion comes from the free 2.5D camera moves")
+            if len(n_files) < len(ai):
+                p(f"2D Short: {len(ai)} pictures but only {len(n_files)} clip scenes - give every picture its own clip() scene")
+        else:
+            first = (clips_l or [None])[0]
+            if not (isinstance(first, int) or (isinstance(first, str) and not first.lower().startswith("photo"))):
+                p("the first clip must be real moving Pixabay footage (a query or pinned id), not a photo or AI entry: "
+                  "the first 3 s decide whether viewers swipe")
+            heroes = sum(1 for q in ai if q.get("motion"))
+            if len(ai) != 2 or heroes != 1:
+                p(f"needs exactly 2 AI entries in clips=[...] (1 hero with 'motion' + 1 still with 'move'), has "
+                  f"{len(ai)} ({heroes} hero) - see 'AI clips' in the skill; fal falls back to Pixabay if unavailable")
         for q in ai:
             if not str(q.get("fallback", "")).strip():
                 p(f"AI clip {q['ai'][:40]!r} needs a 'fallback' Pixabay query (used when fal is unavailable)")

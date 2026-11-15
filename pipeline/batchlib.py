@@ -77,7 +77,7 @@ class Day:
         self.order, self.schedule, self.clips = [], {}, {}
 
     def ep(self, slug, fmt, narration, scenes, sfx, shake, glitch, thumb, title, hook, question,
-           clips, series=None, speed=1.0, extra_tags="", share="", langs=None):
+           clips, series=None, speed=1.0, extra_tags="", share="", langs=None, look="footage", characters=""):
         d = os.path.join(self.dir, slug)
         os.makedirs(d, exist_ok=True)
         open(os.path.join(d, "narration.txt"), "w").write(narration.strip() + "\n")
@@ -115,6 +115,8 @@ class Day:
                                            f"Subscribe to UNREAD for a new scary story every night.\n\n"
                                            f"Footage: Pixabay · Voice: AI narration\n\n{TAGS}{extra_tags}",
                             "tags": TAG_LIST}}
+        if look == "2d":  # 2D illustrated + 2.5D parallax Short: every clip is an AI picture in one style
+            story["look"], story["characters"] = "2d", characters
         if langs:  # {"hi": {"title": ..., "hook": ...}, ...}: localized title + description (rest stays English)
             rest = story["upload"]["description"].split("\n\n", 1)[1]
             story["upload"]["localizations"] = {

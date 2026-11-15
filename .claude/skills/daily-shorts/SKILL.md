@@ -60,8 +60,37 @@ You need no API keys. Never upload, never touch secrets.
 - Translate the *meaning* naturally, the way a native speaker would title it (keep the threat and the contradiction);
   under 70 characters; keep names, numbers and "Pt 1"/"Pt 2". Don't add hashtags (they're appended automatically).
 
+## The 12:30 standalone is a 2D + 2.5D animated Short (test from 2026-11-16)
+- Pass `look="2d"` and `characters="..."` to its `day.ep(...)`. The two evening series Shorts stay on footage as above.
+- **Every clip is an AI picture** (6-8 of them, a new picture every ~3.5-4 s, each on the line it shows):
+  `{"ai": "<what this picture shows>", "move": "dolly-in", "fallback": "<2-4 pixabay words>"}`. No real footage, no
+  `"motion"` (the free 2.5D camera move, fog and dust animate it). The art style is added automatically (dark 2D
+  storybook illustration, navy/teal/amber), so describe only the content: who, where, what, framing, light.
+- **`"key": True` on exactly 2 pictures: the first one (the hook) and the twist.** They use the best model; the
+  others use a cheaper one, so put the important detail in the key pictures.
+- `characters="..."`: one fixed line per character, reused in every picture so they look the same, e.g.
+  `"Mom: Indian woman, 35, long black braid, green cotton saree. Riya: girl, 8, two short braids, yellow nightdress."`
+  In each picture just name them ("Mom stands in the doorway..."). Keep faces in shadow, mid-shot or from behind.
+- Give every picture its own `clip(start, file="clipN.mp4")` scene; first scene has no start. Hook picture = a
+  `dolly-in`; vary the rest (pan-left, rise, dolly-out, orbit, fall).
+- Example:
+  ```python
+  day.ep("cat-door", "rules", narration, [
+      clip(),                                   # clip.mp4  - hook picture
+      clip("every-0.2", file="clip2.mp4"), clip("tonight-0.2", file="clip3.mp4"),
+      clip("door-0.2", file="clip4.mp4"), clip("mom-0.2", file="clip5.mp4"),
+      clip("behind-0.2", file="clip6.mp4"),     # clip6.mp4 - the twist
+      title3("smiled-0.3", "SHE", "WASN'T", "MOM.", "Would you open it?", ("open", 0.4))], ...,
+      clips=[{"ai": "A black cat frozen in a dark hallway, fur on end, staring at a closed front door", "key": True, "move": "dolly-in", "fallback": "black cat dark"},
+             {"ai": "Riya in bed hugging a pillow, door slightly open, hallway light", "move": "pan-left", "fallback": "child bedroom night"},
+             ...,
+             {"ai": "Mom standing behind Riya in the dark, smiling too wide, her eyes reflecting light", "key": True, "move": "rise", "fallback": "dark figure hallway"}],
+      look="2d", characters="Mom: Indian woman, 35, long black braid, green cotton saree. Riya: girl, 8, two short braids, yellow nightdress.")
+  ```
+- Cost ~$0.12 per 2D Short (2 key pictures $0.045 each + ~5 cheap ones). `check_day.py` enforces all of this.
+
 ## First 3 seconds (decide whether YouTube keeps pushing the Short)
-- Frame 1 = **real moving footage** (first entry in `clips=[...]` is a Pixabay query or pinned id, never `photo:` or AI;
+- Frame 1 (footage Shorts) = **real moving footage** (first entry in `clips=[...]` is a Pixabay query or pinned id, never `photo:` or AI;
   `check_day.py` enforces it), the on-screen hook card, and a `("sting", <first hook word>, 0)` so it starts loud.
 - The scariest line is the first line. No setup, no "So last night...".
 - **Line 2 (seconds 3-8) escalates at once** with a second impossible detail: retention falls from ~100% to ~60%
