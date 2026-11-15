@@ -244,15 +244,17 @@ def pick(c, views, max_s):
 def main_build():
     args = sys.argv
     local = [args[i + 1] for i, a in enumerate(args) if a == "--local"]
-    max_s = 60 * float(args[args.index("--max-min") + 1]) if "--max-min" in args else 12 * 60
+    max_s = 60 * float(args[args.index("--max-min") + 1]) if "--max-min" in args else 15 * 60
     c = candidates(local)
     if not c:
         print("compilation: nothing queued")
         return
     views = live_views(list(c))
     order, total = pick(c, views, max_s)
-    if len(order) < 8:
-        print(f"compilation: only {len(order)} eligible Shorts (need 8); skipping this week")
+    min_s = 60 * float(args[args.index("--min-min") + 1]) if "--min-min" in args else 8 * 60
+    if total < min_s:  # 8+ min = mid-roll ads once monetized; unused Shorts carry over to next Sunday
+        print(f"compilation: only {len(order)} Shorts / {total / 60:.1f} min ready (need {min_s / 60:.0f}); "
+              "skipping this week, they carry over")
         return
     work = tempfile.mkdtemp(prefix="comp-")
     segs, chapters, t = [], [], 0.0
