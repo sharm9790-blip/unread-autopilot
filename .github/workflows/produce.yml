@@ -97,6 +97,7 @@ jobs:
           mkdir -p ~/.config/scary-short && umask 077
           printf '%s' "$YT_ANALYTICS_TOKEN_JSON" > ~/.config/scary-short/analytics_token.json
           python3 pipeline/daily_stats.py
+          python3 pipeline/daily_stats.py --renewals || true   # ElevenLabs / Claude / fal.ai: alert the day before
           # top/bottom Shorts by live views -> state/winners.json, read by tomorrow's 06:00 writer (double down on winners)
           python3 pipeline/viral_scan.py || true   # other channels' viral scary Shorts (14 days) -> state/viral.json
           [ -n "$APIFY_TOKEN" ] && python3 pipeline/social_scan.py || true   # TikTok + Instagram viral (Apify, ~$0.11/day)
