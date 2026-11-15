@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 172145,
+  "user": "briroseee",
+  "query": "dark living room night",
+  "tags": "living room, window, blizzard, snowy, snow, winter"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "An empty wooden dining chair beside a baby high chair in a dim kitchen at night, soft lamp light, wide shot",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "A dim kitchen at night, a wooden chair pulled slightly out from the table, a pale faint shape leaning over it toward a baby seat",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the chair slowly slides back an inch and the pale shape leans forward",
+  "video_model": "creatify/boreal"
+ }
+}

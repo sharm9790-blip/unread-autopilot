@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 257593,
+  "user": "JoshuaWoroniecki",
+  "query": "dark nursery night",
+  "tags": "campfire, flames, night, fire, camp, burn, burning, wood, outdoors, bonfire, wind, sparks, orange, night time, dark, consume, firewood"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A dark nursery at night with an empty crib, a baby bottle on the rail, faint blue night-light, a tall shadow on the wall, wide shot",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "A dim nursery crib seen from the doorway, a tall thin silhouette bent over it in the dark, a mother's shoulder in the foreground",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the silhouette's head slowly turns toward camera",
+  "video_model": "creatify/boreal"
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 41506,
+  "user": "AlexKopeykin",
+  "query": "dark bedroom closet night",
+  "tags": "shelves, books, library, education, reading, a shelf, to read, literature, closet, the culture, language, development"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A wooden bedroom cupboard door slightly ajar in a dark room, a thin line of light, a mother's silhouette holding a child in the foreground",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "A closed dark wooden cupboard in a dim bedroom, a faint pale small handprint on the inside of a gap at the door edge, close-up",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the door trembles and opens one inch",
+  "video_model": "creatify/boreal"
+ }
+}
