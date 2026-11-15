@@ -187,7 +187,13 @@ def renewals():
         except Exception as e:  # noqa: BLE001
             out.append(f"🎙 ElevenLabs renewal: couldn't check ({str(e)[:60]})")
     c = cfg.get("claude", {})
-    if c.get("next_renewal"):
+    if c.get("ends"):  # subscription cancelled: the cloud routines (06:00 story writer) stop with it
+        e = datetime.datetime.fromisoformat(c["ends"]).replace(hour=23, minute=59, tzinfo=IST)
+        if e > now and (e.date() - now.date()).days <= 1:
+            out.append(f"🤖 <b>Claude subscription ends {e.strftime('%a %d %b')}</b>: the 06:00 story writer "
+                       "(and other Claude routines) stop after that, so no new Shorts get written. "
+                       "Resubscribe at claude.ai → Settings → Billing to keep the autopilot running.")
+    elif c.get("next_renewal"):
         r = datetime.datetime.fromisoformat(c["next_renewal"]).replace(hour=9, tzinfo=IST)
         while c.get("monthly", True) and r < now - datetime.timedelta(hours=12):  # roll forward month by month
             m = r.month % 12 + 1
