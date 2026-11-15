@@ -4,7 +4,7 @@
     image(prompt, out_jpg)                    FLUX.2 dev still, 1080x1920, house horror style added
     video(image_url, motion, out_mp4, dur=6)  Boreal 720p 9:16 clip animated from that still
 
-Key: env FAL_KEY, else ~/.config/fal/key. Cap: env FAL_DAILY_CAP (USD per IST day, default 0.60).
+Key: env FAL_KEY, else ~/.config/fal/key. Cap: env FAL_DAILY_CAP (USD per IST day, default 0.64).
 Every charge is logged in state/fal_spend.json (committed by the workflow), so the cap holds across runs.
 Raises Unavailable when there is no key, the cap would be crossed, or fal fails, so callers can fall back
 to free Pixabay footage + parallax and the daily run never breaks.
@@ -121,7 +121,7 @@ def spent_today():
 
 
 def cap():
-    return float(os.environ.get("FAL_DAILY_CAP", "0.60"))
+    return float(os.environ.get("FAL_DAILY_CAP", "0.64"))
 
 
 def _reserve(usd, what):
