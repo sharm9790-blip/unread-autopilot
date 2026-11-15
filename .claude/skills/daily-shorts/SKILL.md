@@ -27,6 +27,9 @@ You need no API keys. Never upload, never touch secrets.
    their *patterns* ("Grandma's rule: if she calls my name after midnight, don't answer", "Dad's outside, but Mom says
    it's not him. Who do you trust?", "Our door says 4... we're only 3"). Their videos run 60-180 s; **ours stay
    25-30 s** because that's what wins on YouTube Shorts for UNREAD.
+   And `state/vidiq_research.md` (vidIQ outlier research across YouTube/Instagram/TikTok): pick one of its 6 patterns
+   for at least one episode a day (e.g. a pet that warns a family member is an impostor; "Mom does X twice";
+   "In <place>, if ... at night" for Indian/Filipino settings; Grandma's one warning).
    **Vary the idea:** don't repeat yesterday's opening word, setting or twist type (repetitive ideas get skipped).
 3. Write `daily/<date>/make_day.py` with exactly **3 episodes** (batchlib assigns the slots):
    - 1 standalone → 12:30. Make it the strongest story of the day.
