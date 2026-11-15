@@ -18,6 +18,11 @@ You need no API keys. Never upload, never touch secrets.
    Also read `state/winners.json` (refreshed 08:00 daily from live views): `top` = Shorts that passed ~1K, `bottom` = flops.
    **Double down:** the standalone must reuse the *shape* of a `top` entry (same kind of threat, same title pattern,
    e.g. "<family member> did X. <contradiction>.") with a brand-new premise. Never echo a `bottom` entry's setting or pattern.
+   Also read `state/viral.json`: scary Shorts from OTHER channels that went viral in the last 14 days, ranked by
+   `outlier` (views ÷ channel subscribers: high = the idea and hook did the work, not the channel's size). Learn the
+   **title and hook patterns** (e.g. "If your cat ever hisses at you when you come home... DON'T GO INSIDE",
+   "My mom texted me at 3:17... but she was asleep next to my hospital bed", "6 rules for the night shift at ..."),
+   then write your own new story. **Never copy** a viral video's story, title, twist or lines.
    **Vary the idea:** don't repeat yesterday's opening word, setting or twist type (repetitive ideas get skipped).
 3. Write `daily/<date>/make_day.py` with exactly **3 episodes** (batchlib assigns the slots):
    - 1 standalone → 12:30. Make it the strongest story of the day.
