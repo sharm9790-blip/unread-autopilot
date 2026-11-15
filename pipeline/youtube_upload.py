@@ -47,9 +47,14 @@ def build_body(ep):
     publish_at = arg("--publish-at")
     if publish_at:  # scheduled publish requires private until then
         status.update(privacyStatus="private", publishAt=publish_at)
-    return {"snippet": {"title": title, "description": desc[:5000], "tags": tags,
-                        "categoryId": str(up.get("category", "24"))},
+    body = {"snippet": {"title": title, "description": desc[:5000], "tags": tags,
+                        "categoryId": str(up.get("category", "24")),
+                        "defaultLanguage": up.get("language", "en"), "defaultAudioLanguage": up.get("language", "en")},
             "status": status}
+    if up.get("localizations"):  # translated title + description, shown to viewers whose YouTube is in that language
+        body["localizations"] = {k: {"title": v["title"][:100], "description": v["description"][:5000]}
+                                 for k, v in up["localizations"].items()}
+    return body
 
 
 def credentials():
@@ -96,13 +101,23 @@ def main():
     from googleapiclient.discovery import build
     from googleapiclient.http import MediaFileUpload
     yt = build("youtube", "v3", credentials=credentials())
-    req = yt.videos().insert(part="snippet,status", body=body,
-                             media_body=MediaFileUpload(video, chunksize=8 * 1024 * 1024, resumable=True))
-    resp = None
-    while resp is None:
-        st, resp = req.next_chunk()
-        if st:
-            print(f"uploading {int(st.progress() * 100)}%", flush=True)
+    def send(b):
+        req = yt.videos().insert(part="snippet,status" + (",localizations" if "localizations" in b else ""), body=b,
+                                 media_body=MediaFileUpload(video, chunksize=8 * 1024 * 1024, resumable=True))
+        r = None
+        while r is None:
+            st, r = req.next_chunk()
+            if st:
+                print(f"uploading {int(st.progress() * 100)}%", flush=True)
+        return r
+    try:
+        resp = send(body)
+    except Exception as e:  # noqa: BLE001 - a bad translation must never cost the Short: retry in English only
+        if "localizations" not in body or "quota" in str(e).lower():
+            raise
+        print(f"upload with translations failed ({str(e)[:120]}); retrying English-only", flush=True)
+        body.pop("localizations")
+        resp = send(body)
     vid = resp["id"]
     result = {"id": vid, "url": f"https://youtube.com/shorts/{vid}" if up.get("shorts", True) else f"https://youtu.be/{vid}", "privacy": body["status"]["privacyStatus"],
               "title": body["snippet"]["title"]}

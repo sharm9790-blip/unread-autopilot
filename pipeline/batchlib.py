@@ -77,7 +77,7 @@ class Day:
         self.order, self.schedule, self.clips = [], {}, {}
 
     def ep(self, slug, fmt, narration, scenes, sfx, shake, glitch, thumb, title, hook, question,
-           clips, series=None, speed=1.0, extra_tags="", share=""):
+           clips, series=None, speed=1.0, extra_tags="", share="", langs=None):
         d = os.path.join(self.dir, slug)
         os.makedirs(d, exist_ok=True)
         open(os.path.join(d, "narration.txt"), "w").write(narration.strip() + "\n")
@@ -115,6 +115,11 @@ class Day:
                                            f"Subscribe to UNREAD for a new scary story every night.\n\n"
                                            f"Footage: Pixabay · Voice: AI narration\n\n{TAGS}{extra_tags}",
                             "tags": TAG_LIST}}
+        if langs:  # {"hi": {"title": ..., "hook": ...}, ...}: localized title + description (rest stays English)
+            rest = story["upload"]["description"].split("\n\n", 1)[1]
+            story["upload"]["localizations"] = {
+                k: {"title": f"{v['title']} #creepy #horror"[:100], "description": f"{v['hook']}\n\n{rest}"}
+                for k, v in langs.items()}
         if series:
             story["series"] = series
         json.dump(story, open(os.path.join(d, "story.json"), "w"), indent=1, ensure_ascii=False)

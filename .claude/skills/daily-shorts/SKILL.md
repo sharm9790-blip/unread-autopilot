@@ -41,6 +41,19 @@ You need no API keys. Never upload, never touch secrets.
 5. `git add daily/<date> && git commit -m "day <date>: <3 titles, short>" && git push origin claude/daily-shorts`. That push starts production.
    Reply with the 3 titles and their slots.
 
+## Languages (translated title + first description line; the voice stays English)
+- Every `day.ep(...)` gets `langs={...}` for **hi** (Hindi), **fil** (Filipino), **id** (Indonesian), **ms** (Malay):
+  UNREAD's biggest audiences after English (India 26% of views, Philippines 16%, Malaysia 7%, Indonesia 6%).
+  Viewers whose YouTube is set to that language see the translated title and hook. `check_day.py` requires all 4.
+  ```python
+  langs={"hi": {"title": "अंधेरे के बाद कभी सीटी मत बजाना", "hook": "दादी कहती थीं कि सीटी उन्हें बुलाती है।"},
+         "fil": {"title": "Huwag Sumipol Pagdilim", "hook": "Sabi ng lola ko, tinatawag sila ng sipol."},
+         "id": {"title": "Jangan Bersiul Setelah Gelap", "hook": "Nenek bilang siulan memanggil mereka."},
+         "ms": {"title": "Jangan Bersiul Selepas Gelap", "hook": "Nenek kata siulan memanggil mereka."}}
+  ```
+- Translate the *meaning* naturally, the way a native speaker would title it (keep the threat and the contradiction);
+  under 70 characters; keep names, numbers and "Pt 1"/"Pt 2". Don't add hashtags (they're appended automatically).
+
 ## First 3 seconds (decide whether YouTube keeps pushing the Short)
 - Frame 1 = **real moving footage** (first entry in `clips=[...]` is a Pixabay query or pinned id, never `photo:` or AI;
   `check_day.py` enforces it), the on-screen hook card, and a `("sting", <first hook word>, 0)` so it starts loud.

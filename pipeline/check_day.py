@@ -33,6 +33,9 @@ def find(words, spec, after):
     return None
 
 
+LANGS = ["hi", "fil", "id", "ms"]  # top viewer countries after English: IN 26%, PH 16%, ID 6%, MY 7%
+
+
 def check(day_dir):
     day = json.load(open(os.path.join(day_dir, "day.json")))
     index = json.load(open(os.path.join(ROOT, "stories_index.json")))
@@ -85,6 +88,13 @@ def check(day_dir):
         n_files = {s["file"] for s in st["scenes"] if s["type"] == "clip"}
         if not n_files:
             p("no Pixabay clip scene")
+        loc = st.get("upload", {}).get("localizations", {})
+        miss = [c for c in LANGS if c not in loc]
+        if miss:
+            p(f"langs= needs translated title + hook for {', '.join(miss)} (viewers: India, Philippines, Indonesia, Malaysia)")
+        for c, v in loc.items():
+            if not v["title"].strip() or len(v["title"]) > 100 or not v["description"].strip():
+                p(f"langs[{c!r}]: title must be 1-85 characters and hook non-empty")
         first = (day["clips"].get(slug) or [None])[0]
         if not (isinstance(first, int) or (isinstance(first, str) and not first.lower().startswith("photo"))):
             p("the first clip must be real moving Pixabay footage (a query or pinned id), not a photo or AI entry: "

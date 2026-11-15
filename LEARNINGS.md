@@ -60,3 +60,6 @@ Lessons from YouTube Analytics on 2026-10-26 (pulled with `scripts/yt_analytics.
   "If your cat ever hisses at you when you come home... DON'T GO INSIDE" 36x outlier on YouTube), "N rules for the
   night shift at ..." and interactive "#decide" series (RED-EYE Part 1: 20M). Hinglish/Hindi horror is exploding in
   India on Reels and Shorts (1-4M on tiny accounts): a possible separate test. Their videos run 60-180 s; keep ours 25-30 s.
+- **Languages (from 2026-11-16):** uploads set defaultLanguage/defaultAudioLanguage = en and add translated titles +
+  hook lines for hi / fil / id / ms (top viewer countries Oct 15-Nov 14: IN 26% with the best retention 77%, US 21%,
+  PH 16%, GB 7%, MY 7%, ID 6%). Compare views from those countries before/after ~Nov 25.
