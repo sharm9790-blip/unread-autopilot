@@ -23,6 +23,10 @@ You need no API keys. Never upload, never touch secrets.
    **title and hook patterns** (e.g. "If your cat ever hisses at you when you come home... DON'T GO INSIDE",
    "My mom texted me at 3:17... but she was asleep next to my hospital bed", "6 rules for the night shift at ..."),
    then write your own new story. **Never copy** a viral video's story, title, twist or lines.
+   And `state/social_viral.json`: the same for **TikTok and Instagram** (hook = first line of the caption). Borrow
+   their *patterns* ("Grandma's rule: if she calls my name after midnight, don't answer", "Dad's outside, but Mom says
+   it's not him. Who do you trust?", "Our door says 4... we're only 3"). Their videos run 60-180 s; **ours stay
+   25-30 s** because that's what wins on YouTube Shorts for UNREAD.
    **Vary the idea:** don't repeat yesterday's opening word, setting or twist type (repetitive ideas get skipped).
 3. Write `daily/<date>/make_day.py` with exactly **3 episodes** (batchlib assigns the slots):
    - 1 standalone → 12:30. Make it the strongest story of the day.
