@@ -63,3 +63,4 @@ Lessons from YouTube Analytics on 2026-10-26 (pulled with `scripts/yt_analytics.
 - **Languages (from 2026-11-16):** uploads set defaultLanguage/defaultAudioLanguage = en and add translated titles +
   hook lines for hi / fil / id / ms (top viewer countries Oct 15-Nov 14: IN 26% with the best retention 77%, US 21%,
   PH 16%, GB 7%, MY 7%, ID 6%). Compare views from those countries before/after ~Nov 25.
+- **2026-11-15:** translations widened to 26 languages (check_day.LANGS) at the user's request.

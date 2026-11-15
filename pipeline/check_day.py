@@ -33,7 +33,12 @@ def find(words, spec, after):
     return None
 
 
-LANGS = ["hi", "fil", "id", "ms"]  # top viewer countries after English: IN 26%, PH 16%, ID 6%, MY 7%
+# translated title + hook on every Short: UNREAD's viewer countries (IN 26%, PH 16%, MY 7%, ID 6%, SE, DE, IT, MM...)
+# plus YouTube's largest language markets. Codes from youtube i18nLanguages (83 supported).
+LANGS = ["hi", "ta", "te", "bn", "mr", "ur",          # India / South Asia
+         "fil", "id", "ms", "my", "th", "vi",          # South-East Asia
+         "es", "pt", "fr", "de", "it", "nl", "sv", "pl", "ru", "tr",  # Europe / Americas
+         "ar", "ja", "ko", "zh-CN"]                     # Middle East / East Asia
 
 
 def check(day_dir):
@@ -91,7 +96,7 @@ def check(day_dir):
         loc = st.get("upload", {}).get("localizations", {})
         miss = [c for c in LANGS if c not in loc]
         if miss:
-            p(f"langs= needs translated title + hook for {', '.join(miss)} (viewers: India, Philippines, Indonesia, Malaysia)")
+            p(f"langs= needs a translated title + hook for: {', '.join(miss)} (all {len(LANGS)} in check_day.LANGS)")
         for c, v in loc.items():
             if not v["title"].strip() or len(v["title"]) > 100 or not v["description"].strip():
                 p(f"langs[{c!r}]: title must be 1-85 characters and hook non-empty")
