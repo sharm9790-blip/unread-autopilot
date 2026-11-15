@@ -16,6 +16,7 @@ import os
 import re
 import sys
 import urllib.parse
+import urllib.error
 import urllib.request
 
 TOKEN = os.path.expanduser("~/.config/scary-short/analytics_token.json")
@@ -112,7 +113,46 @@ def build_message():
                   f"{html.escape(best['title'][:44])}",
                   f"💤 Weakest: <b>{k(worst['views'])}</b> · {html.escape(worst['title'][:44])}",
                   f"📈 Median Short this week: <b>{k(med)}</b> views ({len(older)} Shorts)"]
+    c = costs_line()
+    if c:
+        lines += ["━━━━━━━━━━━━━━━"] + c
     return "\n".join(lines)
+
+
+def costs_line():
+    """ElevenLabs credits left + fal.ai spend: two lines for the morning message (never raises)."""
+    out = []
+    key = os.environ.get("ELEVENLABS_API_KEY", "")
+    if not key:
+        try:
+            key = json.load(open(os.path.expanduser("~/.claude/settings.json")))["env"]["ELEVENLABS_API_KEY"]
+        except Exception:  # noqa: BLE001
+            key = ""
+    if key:
+        try:
+            req = urllib.request.Request("https://api.elevenlabs.io/v1/user/subscription", headers={"xi-api-key": key})
+            d = json.load(urllib.request.urlopen(req, timeout=20))
+            left = int(d["character_limit"]) - int(d["character_count"])
+            reset = datetime.datetime.fromtimestamp(int(d.get("next_character_count_reset_unix") or 0), IST)
+            days = left // 1050  # ~3 Shorts x ~350 credits a day
+            warn = " ⚠️ <b>top up soon</b>" if left < 3000 or reset.date() - datetime.date.today() > datetime.timedelta(days=days) else ""
+            out.append(f"🎙 ElevenLabs: <b>{left:,}</b> / {int(d['character_limit']):,} credits left "
+                       f"(≈{days} days of Shorts) · resets {reset.strftime('%d %b')}{warn}")
+        except urllib.error.HTTPError as e:
+            body = e.read().decode("utf-8", "replace")
+            out.append("🎙 ElevenLabs credits: turn on <b>User → Read</b> for the API key (ElevenLabs → Developers → API Keys) to see them here"
+                       if "user_read" in body else f"🎙 ElevenLabs credits: unavailable ({e.code})")
+        except Exception as e:  # noqa: BLE001
+            out.append(f"🎙 ElevenLabs credits: unavailable ({str(e)[:60]})")
+    try:
+        led = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "state", "fal_spend.json")))
+        y = (datetime.datetime.now(IST) - datetime.timedelta(days=1)).date().isoformat()
+        last7 = sum(v["usd"] for d_, v in led.items() if d_ >= (datetime.date.today() - datetime.timedelta(days=7)).isoformat())
+        out.append(f"🎨 fal.ai: ${led.get(y, {}).get('usd', 0):.2f} yesterday · ${last7:.2f} last 7 days "
+                   f"(cap ${float(os.environ.get('FAL_DAILY_CAP', '0.64')):.2f}/day)")
+    except Exception:  # noqa: BLE001
+        pass
+    return out
 
 
 def weekly_detail():
