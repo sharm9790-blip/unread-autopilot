@@ -155,6 +155,63 @@ def costs_line():
     return out
 
 
+def renewals():
+    """Alerts for the next 36 h (sent at 08:00, so 'tomorrow' is always caught): ElevenLabs renewal (from its API),
+    Claude renewal (state/renewals.json, by hand), fal.ai prepaid credit running low. Returns alert lines (may be [])."""
+    now = datetime.datetime.now(IST)
+    soon = lambda t: t > now and (t.date() - now.date()).days <= 1  # due tomorrow (the day-before alert) or later today
+    root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+    cfg = json.load(open(os.path.join(root, "state", "renewals.json")))
+    out = []
+    key = os.environ.get("ELEVENLABS_API_KEY", "")
+    if not key:
+        try:
+            key = json.load(open(os.path.expanduser("~/.claude/settings.json")))["env"]["ELEVENLABS_API_KEY"]
+        except Exception:  # noqa: BLE001
+            key = ""
+    if key:
+        try:
+            d = json.load(urllib.request.urlopen(urllib.request.Request(
+                "https://api.elevenlabs.io/v1/user/subscription", headers={"xi-api-key": key}), timeout=20))
+            inv = d.get("next_invoice") or {}
+            pay = datetime.datetime.fromtimestamp(int(inv.get("next_payment_attempt_unix") or 0), IST)
+            reset = datetime.datetime.fromtimestamp(int(d.get("next_character_count_reset_unix") or 0), IST)
+            amt = f"{(inv.get('amount_due_cents') or 0) / 100:,.0f} {str(d.get('currency', '')).upper()}"
+            if d.get("status") != "active" or not inv:
+                if soon(reset):
+                    out.append(f"🎙 <b>ElevenLabs</b> {d.get('tier')} plan ends <b>{reset.strftime('%a %d %b, %H:%M')}</b> "
+                               "with no renewal: subscribe (Starter) or the daily voice-overs stop.")
+            elif soon(pay):
+                out.append(f"🎙 <b>ElevenLabs</b> renews <b>{pay.strftime('%a %d %b, %H:%M')}</b> · {amt} · "
+                           f"credits refill {reset.strftime('%d %b %H:%M')}")
+        except Exception as e:  # noqa: BLE001
+            out.append(f"🎙 ElevenLabs renewal: couldn't check ({str(e)[:60]})")
+    c = cfg.get("claude", {})
+    if c.get("next_renewal"):
+        r = datetime.datetime.fromisoformat(c["next_renewal"]).replace(hour=9, tzinfo=IST)
+        while c.get("monthly", True) and r < now - datetime.timedelta(hours=12):  # roll forward month by month
+            m = r.month % 12 + 1
+            r = r.replace(year=r.year + (r.month == 12), month=m)
+        if soon(r):
+            out.append(f"🤖 <b>Claude</b> {c.get('plan', '')} renews <b>{r.strftime('%a %d %b')}</b> "
+                       "(the 06:00 story writer runs on it)")
+    try:
+        led = json.load(open(os.path.join(root, "state", "fal_spend.json")))
+        paid = sum(t["usd"] for t in cfg.get("fal", {}).get("topups", []))
+        first = min(t["date"] for t in cfg["fal"]["topups"])
+        spent = sum(v["usd"] for d_, v in led.items() if d_ >= first)
+        week = [v["usd"] for d_, v in led.items() if d_ >= (now.date() - datetime.timedelta(days=7)).isoformat()]
+        per_day = max(sum(week) / max(len(week), 1), 0.01)
+        left = paid - spent
+        days = left / per_day
+        if days <= 4 or left < 2:
+            out.append(f"🎨 <b>fal.ai</b> credit low: <b>${left:.2f}</b> left ≈ {days:.0f} days at ${per_day:.2f}/day. "
+                       "Top up at fal.ai → Billing, then add it to state/renewals.json (or tell Claude).")
+    except Exception:  # noqa: BLE001
+        pass
+    return out
+
+
 def weekly_detail():
     """Monday deep-dive, same shape as the manual analysis: last 28 days of Shorts by length, series vs standalone,
     top outliers, best subscriber converters, shares and how many stayed to watch."""
@@ -267,6 +324,14 @@ if __name__ == "__main__":
         except Exception as e:
             msg = f"⚡ <b>UNREAD pulse</b>\n❌ <code>{html.escape(str(e)[:200])}</code>"
         print(msg) if "--print" in sys.argv or not os.environ.get("TELEGRAM_BOT_TOKEN") else tg(msg)
+        sys.exit(0)
+    if "--renewals" in sys.argv:  # one alert message only when something renews/runs out within ~a day
+        al = renewals()
+        if al:
+            msg = "⏰ <b>UNREAD · renewal reminder</b>\n" + "\n".join(al)
+            print(msg) if "--print" in sys.argv or not os.environ.get("TELEGRAM_BOT_TOKEN") else tg(msg)
+        else:
+            print("renewals: nothing due today or tomorrow")
         sys.exit(0)
     if "--winners" in sys.argv:
         w = winners()

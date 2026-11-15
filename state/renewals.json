@@ -1,0 +1,5 @@
+{
+ "_note": "Edited by hand. Claude has no API for its renewal date: set claude.next_renewal (YYYY-MM-DD). fal is prepaid: add each top-up to fal.topups.",
+ "claude": {"plan": "", "next_renewal": "", "monthly": true},
+ "fal": {"topups": [{"date": "2026-11-09", "usd": 20.0}]}
+}
