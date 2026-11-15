@@ -295,6 +295,12 @@ def main_build():
     story = {"title": title, "upload": {"title": title, "description": desc, "shorts": False, "video": "compilation.mp4",
                                         "playlist": "scary", "category": "24",
                                         "tags": "scary stories, horror stories compilation, creepy stories, scary stories to fall asleep to, short horror stories, unread"}}
+    try:  # translated title + intro for the same 26 languages as the Shorts; chapters stay English
+        from translate import localizations
+        lead, rest = desc.split("\n\n00:00", 1)
+        story["upload"]["localizations"] = localizations(title, lead, "00:00" + rest)
+    except Exception as e:  # noqa: BLE001 - translations are a bonus
+        print("compilation translations skipped:", e)
     json.dump(story, open(os.path.join(out_dir, "story.json"), "w"), indent=1, ensure_ascii=False)
     json.dump(order, open(os.path.join(out_dir, "order.json"), "w"))
     print(f"compilation: {n} stories, {t / 60:.1f} min -> {video}")
