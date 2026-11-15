@@ -144,15 +144,21 @@ def parallax(img, dest, i, spec, log=None):
     run(cmd, log) if log else subprocess.run(cmd, check=True, capture_output=True)
 
 
-def fetch_ai(spec, dest, i, log=None):
+def fetch_ai(spec, dest, i, log=None, story=None):
     """{"ai": "<shot description>", "motion": "<what moves>"?, "fallback": "<pixabay words>"?, "move": ...}
     ai only      -> FLUX.2 still (story-specific, native 1080x1920) -> free parallax clip
     ai + motion  -> FLUX.2 still -> Boreal AI video clip (the hero shot); parallax if the clip can't be paid for
     No key / daily cap reached / fal error -> the fallback words as a free Pixabay photo-parallax clip."""
     import falgen
     img = os.path.splitext(dest)[0] + "_ai.jpg"
+    story = story or {}
+    look = story.get("look", "cinematic")
+    prompt = spec["ai"]
+    if look == "2d" and story.get("characters"):  # same characters in every picture
+        prompt = f"{prompt}. Characters (draw them exactly like this): {story['characters']}"
     try:
-        im = falgen.image(spec["ai"], img)
+        # 2D Shorts: FLUX.2 for the hook + twist pictures ("key": true), cheap FLUX schnell for the rest
+        im = falgen.image(prompt, img, look=look, fast=(look == "2d" and not spec.get("key")))
     except falgen.Unavailable as e:
         words = spec.get("fallback") or " ".join(w for w in spec["ai"].split()[:4])
         info = fetch_photo({**{k: v for k, v in spec.items() if k in ("move", "dur", "strength", "fog", "dust")},
@@ -258,11 +264,12 @@ def produce(args):
     try:
         st = "clips"
         credits = {}
+        story_now = json.load(open(os.path.join(ep, "story.json")))
         for i, q in enumerate(day["clips"][slug]):
             f = "clip.mp4" if i == 0 else f"clip{i + 1}.mp4"
             if not os.path.exists(os.path.join(ep, f)):
                 if isinstance(q, dict) and "ai" in q:  # paid fal.ai still (+ hero clip), free fallback
-                    credits[f] = fetch_ai(q, os.path.join(ep, f), i, log)
+                    credits[f] = fetch_ai(q, os.path.join(ep, f), i, log, story_now)
                 elif isinstance(q, dict) or str(q).startswith("photo:"):  # still photo -> free parallax motion
                     spec = q if isinstance(q, dict) else {"photo": q.split(":", 1)[1].strip()}
                     credits[f] = fetch_photo(spec, os.path.join(ep, f), i, log)

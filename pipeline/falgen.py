@@ -27,10 +27,17 @@ IST = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
 IMAGE_MODEL = os.environ.get("FAL_IMAGE_MODEL", "fal-ai/flux-2")
 VIDEO_MODEL = os.environ.get("FAL_VIDEO_MODEL", "creatify/boreal")
 # fallback prices if the pricing API is unreachable (USD); deliberately on the high side
-FALLBACK = {"fal-ai/flux-2": ("megapixels", 0.015), "creatify/boreal": ("seconds", 0.012)}
+FAST_IMAGE_MODEL = os.environ.get("FAL_FAST_IMAGE_MODEL", "fal-ai/flux/schnell")  # cheap in-between 2D pictures
+FALLBACK = {"fal-ai/flux-2": ("megapixels", 0.015), "creatify/boreal": ("seconds", 0.012),
+            "fal-ai/flux/schnell": ("megapixels", 0.003)}
 STYLE = ("Realistic cinematic horror film still, vertical 9:16 frame, dark low-key lighting, deep shadows, "
          "muted desaturated colors, subtle 35mm film grain, shallow depth of field, photographic, eerie and quiet. "
          "No text, no watermark, no captions, no logos.")
+# 2D + 2.5D look (story "look": "2d"): illustrated storybook horror, one fixed style so the channel is recognisable
+STYLE_2D = ("Dark 2D illustrated horror storybook art, hand-painted digital illustration, flat shapes with soft "
+            "painterly shading, heavy black shadows, limited palette of deep navy, teal and dim amber light, "
+            "clean silhouettes, subtle paper texture, vertical 9:16 frame, eerie and quiet, no gore. "
+            "No text, no watermark, no captions, no logos.")
 _lock = threading.Lock()
 
 
@@ -168,12 +175,15 @@ def _download(url, out):
     open(out, "wb").write(data)
 
 
-def image(prompt, out, w=1088, h=1920, style=True):
-    """FLUX.2 dev still -> out (jpeg). Returns {"url", "usd", "model"}. 1088 wide (multiple of 16); parallax crops."""
-    usd = cost(IMAGE_MODEL, megapixels=w * h / 1e6)
-    _reserve(usd, f"image {IMAGE_MODEL}")
+def image(prompt, out, w=1088, h=1920, style=True, look="cinematic", fast=False):
+    """FLUX.2 dev still -> out (jpeg). Returns {"url", "usd", "model"}. 1088 wide (multiple of 16); parallax crops.
+    look="2d" -> STYLE_2D; fast=True -> FLUX schnell (~1/7 the price) for in-between pictures."""
+    model = FAST_IMAGE_MODEL if fast else IMAGE_MODEL
+    usd = cost(model, megapixels=w * h / 1e6)
+    _reserve(usd, f"image {model}")
+    sty = STYLE_2D if look == "2d" else STYLE
     try:
-        r = _run(IMAGE_MODEL, {"prompt": f"{prompt.strip()}. {STYLE}" if style else prompt,
+        r = _run(model, {"prompt": f"{prompt.strip()}. {sty}" if style else prompt,
                                "image_size": {"width": w, "height": h}, "num_images": 1,
                                "output_format": "jpeg", "enable_safety_checker": True}, timeout=300)
         if any(r.get("has_nsfw_concepts") or []):
@@ -183,7 +193,7 @@ def image(prompt, out, w=1088, h=1920, style=True):
     except Exception as e:
         _refund(usd, "image")
         raise e if isinstance(e, Unavailable) else Unavailable(f"image failed: {e}")
-    return {"url": url, "usd": round(usd, 4), "model": IMAGE_MODEL}
+    return {"url": url, "usd": round(usd, 4), "model": model}
 
 
 def video(image_url, motion, out, dur=6.0):
