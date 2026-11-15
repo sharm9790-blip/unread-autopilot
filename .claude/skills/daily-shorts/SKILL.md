@@ -64,6 +64,10 @@ You need no API keys. Never upload, never touch secrets.
 - Frame 1 = **real moving footage** (first entry in `clips=[...]` is a Pixabay query or pinned id, never `photo:` or AI;
   `check_day.py` enforces it), the on-screen hook card, and a `("sting", <first hook word>, 0)` so it starts loud.
 - The scariest line is the first line. No setup, no "So last night...".
+- **Line 2 (seconds 3-8) escalates at once** with a second impossible detail: retention falls from ~100% to ~60%
+  there on every UNREAD Short. Never spend line 2 on explanation. Put one more turn ~75% of the way in.
+- **Write for UNREAD's real audience: adults 25-44 (65% of viewers), many of them parents.** Threats to a child,
+  baby, partner or parent at home beat teen/school-life settings.
 - Pass `share="<the friend who ...>"` to `day.ep(...)`, fitted to the story ("the friend who sleeps with the door open",
   "your sister"): it becomes "📤 Send this to ... 👀" in the description. Shares are the channel's weakest signal (≈0).
 

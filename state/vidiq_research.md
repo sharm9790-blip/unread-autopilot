@@ -57,3 +57,22 @@ Best: "My Cat Left a Baby Tooth on My Pillow. I Have No Kids." 96; "My Son Waves
 Fifth Floor." 95; "Mom Packs Two Tiffins. I'm an Only Child." 93. Lowest: "Photo Album · Pt 1: Dad Cuts Someone Out of
 Every Family Photo" 82 -> adding the contradiction ("...She's Always Next to Me.") scored 95.
 Rule: titles = <impossible family fact>. <short contradiction that names who/where>. Two sentences beat one.
+
+## 9. UNREAD's own audience + retention (YouTube Analytics Oct 25-Nov 14, vidIQ curve) - 2026-11-15
+- **Who watches: adults, not teens.** 35-44 = 38% (women 21%, men 17%), 25-34 = 27%, 45-54 = 13%, 13-17 = 10%.
+  Parents and spouses -> threats to a child, a baby, a partner, a parent, the family home land hardest (explains why
+  "School Said Dad Picked Him Up", "Baby Monitor", "Mom Called at Midnight" won). Write for a 30-40-year-old parent.
+- **Where views come from:** Shorts feed 89%, YouTube search 6% (2.4K views), channel page 2%, subscribers' feed ~0%.
+  So the first 3 s decide almost everything; titles also matter a little for search (plain searchable words).
+- **Where viewers leave:** both the best and a weak Short hold ~100% to 10% of the video, then fall to ~60% by 25%
+  (~seconds 3-8). The best one keeps 29% at 75% vs 15% for the weak one. -> Line 2 (seconds 3-8) must escalate
+  immediately (a second impossible detail), never explain or set up; save one more turn for 70-80% of the way in.
+- **How fast views come:** median Short has 12 views at 24 h, 18 at 48 h, 24 at 7 days; winners take off on day 1-2
+  or not at all. Judge a Short after 48 h.
+- More like our best Short ("The School Said Dad Picked Him Up. I'm His Dad."): "The daycare called and said your son
+  was picked up an hour ago by his dad. I'm a single..." 163K, 6.5x. The premise is proven; write fresh variants
+  (school / daycare / tuition / bus pickup by someone claiming to be the parent).
+- Regional India hits: "Don't go near water in Assam!" 3.5M; "Bihar's haunted highway" rules 105x; "Papa brought 100
+  crackers... I counted 101 explosions" (Diwali) 330x - number contradiction + festival night.
+- Micro-format: "Be honest: would you sleep knowing someone tried your door last night?" (5 s, one image) 971K -
+  a question-only post; good as a Community post/poll idea rather than a Short.
