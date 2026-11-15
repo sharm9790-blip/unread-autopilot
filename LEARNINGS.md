@@ -54,3 +54,9 @@ Lessons from YouTube Analytics on 2026-10-26 (pulled with `scripts/yt_analytics.
 - Not used from the video: trending music and custom Shorts thumbnails need the YouTube phone app (no API) and music
   under narration hurts horror; channel warm-up only matters for brand-new channels.
 - Re-check ~Nov 20: engagedPct and median views of Nov 16+ Shorts vs Nov 9-14.
+- **Viral elsewhere (2026-11-15 scans: YouTube search + TikTok/Instagram via Apify):** winning hooks are a family rule
+  or a family contradiction ("Grandma's rule: if she calls my name after midnight, don't answer" 1.4M TikTok;
+  "Dad's outside, but Mom says it's not him. Who do you trust?" 835K; "Our door says 4... we're only 3" 1.4M IG;
+  "If your cat ever hisses at you when you come home... DON'T GO INSIDE" 36x outlier on YouTube), "N rules for the
+  night shift at ..." and interactive "#decide" series (RED-EYE Part 1: 20M). Hinglish/Hindi horror is exploding in
+  India on Reels and Shorts (1-4M on tiny accounts): a possible separate test. Their videos run 60-180 s; keep ours 25-30 s.
