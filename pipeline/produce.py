@@ -302,6 +302,12 @@ def produce(args):
             except Exception as e:  # noqa: BLE001 - Instagram is a bonus; never fail the Short over it
                 out["ig_error"] = str(e)[:120]
                 open(log, "a").write(f"instagram stash failed: {e}\n")
+            try:  # and a copy for the Sunday long-form compilation (compile_week.py)
+                import compile_week
+                with IG_LOCK:
+                    compile_week.stash(ep, out["url"].rstrip("/").split("/")[-1], out["at"])
+            except Exception as e:  # noqa: BLE001 - the compilation is a bonus too
+                open(log, "a").write(f"compilation stash failed: {e}\n")
     except Exception as e:
         out.update(ok=False, step=st, error=str(e)[:200])
         open(log, "a").write(traceback.format_exc())
