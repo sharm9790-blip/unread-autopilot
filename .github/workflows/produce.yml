@@ -57,7 +57,7 @@ jobs:
         env:
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           FAL_KEY: ${{ secrets.FAL_KEY }}          # paid AI stills + hero clips (pipeline/falgen.py); optional
-          FAL_DAILY_CAP: "0.60"                    # hard USD cap per IST day (~$18/month max)
+          FAL_DAILY_CAP: "0.64"                    # hard USD cap per IST day (~$19/month max)
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
