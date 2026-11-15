@@ -38,3 +38,22 @@ Use: a weekly UNREAD rules series in 25-30 s (3 rules, the 3rd broken = twist).
 ## 6. Formats that win on TikTok/Instagram (for reference)
 - Interactive "#decide" / "What would you do?" series and numbered Parts ("Part 6") keep viewers coming back.
 - Most hits are 60-180 s, but UNREAD's data says 25-30 s wins on our Shorts: keep ours short, borrow the hooks.
+
+## 7. Philippines (UNREAD's #2 audience, 16%) - vidIQ 2026-11-15
+- "If a black dog sleeps under your house in the Philippines..." 38x; "There's a city in the Philippines you're never
+  supposed to visit... NEVER eat the food" (Biringan) 112x; "NEVER GO OUT AFTER 6 PM - the vampire of the province" 90x;
+  "Why are these legs standing alone?" (manananggal) 1.3M.
+Use: provincial house, the 6 PM curfew, a black dog under the house, food you must not eat; keep stories original.
+
+## 8. Hindi/Hinglish horror (for a possible Hindi channel; not for UNREAD English titles)
+- "सास ने कहा था, रात को किसी को नमक मत देना" (mother-in-law's rule: never give salt at night) - 2.5M, 23x
+- "काली चौदस की रात... पीछे मत देखना!" (Kali Chaudas night... don't look back) - 5M, 240x
+- "मंगलवार रात ग्यारह बजे खाली पूजा घर में घंटी किसने बजाई?" (who rang the bell in the empty prayer room) - 32x
+- "दादी की तेरहवीं के बाद 12 चाबियाँ" (12 keys after Grandma's 13th-day rite) Part 3 - 1.1M
+Same engine as UNREAD: a family elder's rule + a festival/ritual night + a numbered series. Hindi hits run 50-90 s.
+
+## Title scores (vidIQ, 0-100, Shorts) for scheduled Nov 16-19 titles: 82-96, all strong.
+Best: "My Cat Left a Baby Tooth on My Pillow. I Have No Kids." 96; "My Son Waves Goodnight to the Window. We're on the
+Fifth Floor." 95; "Mom Packs Two Tiffins. I'm an Only Child." 93. Lowest: "Photo Album · Pt 1: Dad Cuts Someone Out of
+Every Family Photo" 82 -> adding the contradiction ("...She's Always Next to Me.") scored 95.
+Rule: titles = <impossible family fact>. <short contradiction that names who/where>. Two sentences beat one.
