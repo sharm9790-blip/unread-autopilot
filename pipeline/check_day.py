@@ -38,11 +38,11 @@ def check(day_dir):
     index = json.load(open(os.path.join(ROOT, "stories_index.json")))
     used = {t.lower() for t in index["titles"]}
     problems = []
-    if len(day["order"]) != 4:
-        problems.append(f"expected 4 episodes (2 standalones + a 2-part series), got {len(day['order'])}")
+    if len(day["order"]) != 3:
+        problems.append(f"expected 3 episodes (1 standalone + a 2-part series), got {len(day['order'])}")
     times = sorted(t[11:16] for t in day["schedule"].values())
-    if times != ["12:30", "16:30", "18:00", "19:30"]:
-        problems.append(f"slots {times}: need 12:30 + 16:30 standalones and the series at 18:00 / 19:30")
+    if times != ["12:30", "18:00", "19:30"]:
+        problems.append(f"slots {times}: need the 12:30 standalone and the series at 18:00 / 19:30")
     for slug in day["order"]:
         ep = os.path.join(day_dir, slug)
         st = json.load(open(os.path.join(ep, "story.json")))
@@ -85,6 +85,10 @@ def check(day_dir):
         n_files = {s["file"] for s in st["scenes"] if s["type"] == "clip"}
         if not n_files:
             p("no Pixabay clip scene")
+        first = (day["clips"].get(slug) or [None])[0]
+        if not (isinstance(first, int) or (isinstance(first, str) and not first.lower().startswith("photo"))):
+            p("the first clip must be real moving Pixabay footage (a query or pinned id), not a photo or AI entry: "
+              "the first 3 s decide whether viewers swipe")
         ai = [q for q in day["clips"].get(slug, []) if isinstance(q, dict) and "ai" in q]
         heroes = sum(1 for q in ai if q.get("motion"))
         if len(ai) != 2 or heroes != 1:
