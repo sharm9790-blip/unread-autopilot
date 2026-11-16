@@ -1,0 +1,247 @@
+{
+ "title": "Dog Warning · Pt 2: My Real Wife Shouted From the Street",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "thing"
+ ],
+ "glitch": [
+  "crawl",
+  "real"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "never"
+  },
+  {
+   "type": "heartbeat",
+   "at": "shaking"
+  },
+  {
+   "type": "sting",
+   "at": "crawl"
+  },
+  {
+   "type": "sting",
+   "at": "real"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.8,
+    "desat": 0.3,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "thing-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "crawl-0.3"
+  },
+  {
+   "type": "title",
+   "start": "real-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "MY REAL",
+     "at": "real-0.1",
+     "delay": 0
+    },
+    {
+     "text": "WIFE WAS",
+     "at": "real-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "OUTSIDE.",
+     "at": "real-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Part 1 is on the channel",
+    "at": "light",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "NEVER CALL",
+   "THE DOG"
+  ],
+  "sub": "my real wife was outside"
+ },
+ "hook": {
+  "lines": [
+   "NEVER CALL",
+   "THE DOG"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Dog Warning · Pt 2: My Real Wife Shouted From the Street #creepy #horror",
+  "playlist": "scary",
+  "description": "Something in my wife's shape called my dog out from under the bed. Then my real wife shouted from the street.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "कुत्ते की चेतावनी Pt 2: मेरी असली पत्नी सड़क से चिल्लाई #creepy #horror",
+    "description": "मेरी पत्नी के रूप में कुछ ने कुत्ते को बुलाया। तभी असली पत्नी चिल्लाई।\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "நாயின் எச்சரிக்கை Pt 2: என் உண்மையான மனைவி தெருவிலிருந்து கத்தினாள் #creepy #horror",
+    "description": "மனைவி உருவில் ஏதோ நாயை அழைத்தது. அப்போது உண்மையான மனைவி கத்தினாள்.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "కుక్క హెచ్చరిక Pt 2: నా అసలైన భార్య వీధిలోంచి అరిచింది #creepy #horror",
+    "description": "భార్య రూపంలో ఏదో కుక్కను పిలిచింది. అప్పుడు అసలు భార్య అరిచింది.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "কুকুরের সতর্কতা Pt 2: আমার আসল স্ত্রী রাস্তা থেকে চেঁচাল #creepy #horror",
+    "description": "স্ত্রীর রূপে কিছু একটা কুকুরকে ডাকল। তখন আসল স্ত্রী চেঁচাল।\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "कुत्र्याचा इशारा Pt 2: माझी खरी बायको रस्त्यावरून ओरडली #creepy #horror",
+    "description": "बायकोच्या रूपातल्या कशाने कुत्र्याला हाक मारली. तेव्हा खरी बायको ओरडली.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "کتے کی وارننگ Pt 2: میری اصلی بیوی سڑک سے چلائی #creepy #horror",
+    "description": "بیوی کی شکل میں کسی چیز نے کتے کو بلایا۔ پھر اصلی بیوی چلائی۔\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Babala ng Aso Pt 2: Sumigaw ang Tunay Kong Asawa Mula sa Kalsada #creepy #horror",
+    "description": "May tumawag sa aso ko na kamukha ng asawa ko. Saka sumigaw ang tunay.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Peringatan Anjing Pt 2: Istri Asliku Berteriak dari Jalan #creepy #horror",
+    "description": "Sesuatu berwujud istriku memanggil anjingku. Lalu istri asliku berteriak.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Amaran Anjing Pt 2: Isteri Sebenar Saya Menjerit dari Jalan #creepy #horror",
+    "description": "Sesuatu berupa isteri saya memanggil anjing saya. Lalu isteri sebenar menjerit.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "ခွေးသတိပေးချက် Pt 2: ကျွန်တော့်ဇနီးအစစ်က လမ်းပေါ်ကနေ အော်တယ် #creepy #horror",
+    "description": "ဇနီးပုံစံနဲ့ တစ်ခုခုက ခွေးကိုခေါ်တယ်။ ဒါနဲ့ ဇနီးအစစ်က အော်တယ်။\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "คำเตือนจากหมา Pt 2: ภรรยาตัวจริงตะโกนมาจากถนน #creepy #horror",
+    "description": "บางสิ่งในร่างภรรยาเรียกหมาของผม แล้วภรรยาตัวจริงก็ตะโกน\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Chó Cảnh Báo Pt 2: Vợ Thật Của Tôi Hét Từ Ngoài Đường #creepy #horror",
+    "description": "Thứ mang hình vợ tôi gọi con chó ra. Rồi vợ thật hét lên.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Aviso del Perro Pt 2: Mi Esposa de Verdad Gritó Desde la Calle #creepy #horror",
+    "description": "Algo con la forma de mi esposa llamó al perro. Entonces gritó la de verdad.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "Aviso do Cão Pt 2: Minha Esposa de Verdade Gritou da Rua #creepy #horror",
+    "description": "Algo com a forma da minha esposa chamou o cão. Então a de verdade gritou.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Chien Alerte Pt 2: Ma Vraie Femme a Crié Depuis la Rue #creepy #horror",
+    "description": "Quelque chose sous les traits de ma femme a appelé le chien. Puis la vraie a crié.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Hundewarnung Pt 2: Meine Echte Frau Rief von der Straße #creepy #horror",
+    "description": "Etwas in der Gestalt meiner Frau rief den Hund. Dann schrie die echte.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Avviso del Cane Pt 2: La Mia Vera Moglie Ha Gridato dalla Strada #creepy #horror",
+    "description": "Qualcosa con la forma di mia moglie ha chiamato il cane. Poi ha gridato quella vera.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Hondenwaarschuwing Pt 2: Mijn Echte Vrouw Riep vanaf de Straat #creepy #horror",
+    "description": "Iets in de gedaante van mijn vrouw riep de hond. Toen riep de echte.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Hundvarning Pt 2: Min Riktiga Fru Ropade från Gatan #creepy #horror",
+    "description": "Något i min frus skepnad kallade på hunden. Sedan ropade den riktiga.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Ostrzeżenie Psa Pt 2: Moja Prawdziwa Żona Krzyknęła z Ulicy #creepy #horror",
+    "description": "Coś w postaci mojej żony zawołało psa. Wtedy krzyknęła prawdziwa.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Предупреждение Пса Pt 2: Моя Настоящая Жена Крикнула с Улицы #creepy #horror",
+    "description": "Нечто в облике жены позвало пса. Потом закричала настоящая.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Köpeğin Uyarısı Pt 2: Gerçek Karım Sokaktan Bağırdı #creepy #horror",
+    "description": "Karımın suretindeki bir şey köpeği çağırdı. Sonra gerçek karım bağırdı.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "تحذير الكلب Pt 2: زوجتي الحقيقية صرخت من الشارع #creepy #horror",
+    "description": "نادى شيء بهيئة زوجتي كلبي. ثم صرخت زوجتي الحقيقية.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "犬の警告 Pt 2: 本物の妻が通りから叫んだ #creepy #horror",
+    "description": "妻の姿をした何かが犬を呼んだ。そのとき本物の妻が叫んだ。\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "개의 경고 Pt 2: 진짜 아내가 길에서 소리쳤다 #creepy #horror",
+    "description": "아내의 모습을 한 무언가가 개를 불렀다. 그때 진짜 아내가 소리쳤다.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "狗的警告 Pt 2: 真正的妻子在街上喊了一声 #creepy #horror",
+    "description": "妻子模样的东西叫出了狗。这时真正的妻子喊了起来。\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who talks to their dog at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "series": {
+  "name": "Dog Warning",
+  "part": 2,
+  "of": 2,
+  "episode": "My Real Wife Shouted From the Street"
+ }
+}

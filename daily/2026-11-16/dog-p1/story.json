@@ -1,0 +1,246 @@
+{
+ "title": "Dog Warning · Pt 1: My Dog Stopped Growling at My Wife",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "stood"
+ ],
+ "glitch": [
+  "hand",
+  "fur"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "never"
+  },
+  {
+   "type": "heartbeat",
+   "at": "since"
+  },
+  {
+   "type": "sting",
+   "at": "stood"
+  },
+  {
+   "type": "sting",
+   "at": "fur"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "PART 2 ON THE CHANNEL"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.9,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "tonight-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "hand-0.4"
+  },
+  {
+   "type": "title",
+   "start": "part-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "PART 2",
+     "at": "part-0.1",
+     "delay": 0
+    },
+    {
+     "text": "ON THE",
+     "at": "part-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "CHANNEL.",
+     "at": "part-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Dog Warning continues",
+    "at": "channel",
+    "delay": 0.3
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "DOG STOPPED",
+   "GROWLING"
+  ],
+  "sub": "at my wife"
+ },
+ "hook": {
+  "lines": [
+   "DOG STOPPED",
+   "GROWLING"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Dog Warning · Pt 1: My Dog Stopped Growling at My Wife #creepy #horror",
+  "playlist": "scary",
+  "description": "My dog growled at my wife every night since she came back. Tonight he went quiet. She stood over me smiling, her hand full of fur.\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "कुत्ते की चेतावनी Pt 1: मेरा कुत्ता पत्नी पर गुर्राना बंद कर गया #creepy #horror",
+    "description": "मेरा कुत्ता रोज़ रात पत्नी पर गुर्राता था। आज रात वह चुप हो गया।\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "நாயின் எச்சரிக்கை Pt 1: என் நாய் மனைவியைப் பார்த்து உறுமுவதை நிறுத்தியது #creepy #horror",
+    "description": "என் நாய் தினமும் மனைவியைப் பார்த்து உறுமும். இன்றிரவு அமைதியானது.\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "కుక్క హెచ్చరిక Pt 1: నా కుక్క నా భార్యపై గుర్రుమనడం ఆపింది #creepy #horror",
+    "description": "నా కుక్క ప్రతి రాత్రి నా భార్యపై గుర్రుమనేది. ఈ రాత్రి మౌనంగా ఉంది.\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "কুকুরের সতর্কতা Pt 1: আমার কুকুর স্ত্রীর দিকে গর্জন থামাল #creepy #horror",
+    "description": "আমার কুকুর রোজ রাতে স্ত্রীর দিকে গর্জন করত। আজ রাতে চুপ।\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "कुत्र्याचा इशारा Pt 1: माझ्या कुत्र्याने बायकोवर गुरगुरणं थांबवलं #creepy #horror",
+    "description": "माझा कुत्रा रोज रात्री बायकोवर गुरगुरायचा. आज रात्री शांत झाला.\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "کتے کی وارننگ Pt 1: میرے کتے نے بیوی پر غرانا بند کر دیا #creepy #horror",
+    "description": "میرا کتا ہر رات بیوی پر غراتا تھا۔ آج رات خاموش ہو گیا۔\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Babala ng Aso Pt 1: Tumigil ang Aso Ko sa Pag-ungol sa Asawa Ko #creepy #horror",
+    "description": "Gabi-gabi inuungol ng aso ko ang asawa ko. Ngayong gabi, tumahimik siya.\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Peringatan Anjing Pt 1: Anjingku Berhenti Menggeram pada Istriku #creepy #horror",
+    "description": "Anjingku menggeram pada istriku tiap malam. Malam ini dia diam.\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Amaran Anjing Pt 1: Anjing Saya Berhenti Menggeram pada Isteri #creepy #horror",
+    "description": "Anjing saya menggeram pada isteri setiap malam. Malam ini dia diam.\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "ခွေးသတိပေးချက် Pt 1: ကျွန်တော့်ခွေး ဇနီးကို ဟောင်တာ ရပ်သွားတယ် #creepy #horror",
+    "description": "ကျွန်တော့်ခွေးက ညတိုင်း ဇနီးကို ဟောင်တယ်။ ဒီည တိတ်သွားတယ်။\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "คำเตือนจากหมา Pt 1: หมาของผมหยุดขู่ภรรยาผม #creepy #horror",
+    "description": "หมาผมขู่ภรรยาทุกคืน คืนนี้มันเงียบไป\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Chó Cảnh Báo Pt 1: Chó Tôi Thôi Gầm Gừ Vợ Tôi #creepy #horror",
+    "description": "Chó tôi gầm gừ vợ tôi mỗi đêm. Đêm nay nó im lặng.\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Aviso del Perro Pt 1: Mi Perro Dejó de Gruñirle a Mi Esposa #creepy #horror",
+    "description": "Mi perro le gruñía a mi esposa cada noche. Esta noche se quedó callado.\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "Aviso do Cão Pt 1: Meu Cão Parou de Rosnar Para Minha Esposa #creepy #horror",
+    "description": "Meu cão rosnava para minha esposa toda noite. Hoje ele ficou quieto.\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Chien Alerte Pt 1: Mon Chien Ne Grogne Plus Contre Ma Femme #creepy #horror",
+    "description": "Mon chien grognait contre ma femme chaque nuit. Ce soir, il s'est tu.\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Hundewarnung Pt 1: Mein Hund Hörte Auf, Meine Frau Anzuknurren #creepy #horror",
+    "description": "Mein Hund knurrte meine Frau jede Nacht an. Heute Nacht war er still.\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Avviso del Cane Pt 1: Il Mio Cane Ha Smesso di Ringhiare a Mia Moglie #creepy #horror",
+    "description": "Il mio cane ringhiava a mia moglie ogni notte. Stanotte è rimasto zitto.\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Hondenwaarschuwing Pt 1: Mijn Hond Stopte met Grommen naar Mijn Vrouw #creepy #horror",
+    "description": "Mijn hond gromde elke nacht naar mijn vrouw. Vannacht was hij stil.\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Hundvarning Pt 1: Min Hund Slutade Morra åt Min Fru #creepy #horror",
+    "description": "Min hund morrade åt min fru varje natt. I natt blev han tyst.\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Ostrzeżenie Psa Pt 1: Mój Pies Przestał Warczeć na Żonę #creepy #horror",
+    "description": "Mój pies warczał na żonę co noc. Dziś w nocy ucichł.\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Предупреждение Пса Pt 1: Мой Пёс Перестал Рычать на Жену #creepy #horror",
+    "description": "Мой пёс каждую ночь рычал на жену. Сегодня он затих.\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Köpeğin Uyarısı Pt 1: Köpeğim Karıma Hırlamayı Bıraktı #creepy #horror",
+    "description": "Köpeğim her gece karıma hırlardı. Bu gece sustu.\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "تحذير الكلب Pt 1: كلبي توقف عن النباح على زوجتي #creepy #horror",
+    "description": "كان كلبي يزمجر على زوجتي كل ليلة. الليلة صمت.\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "犬の警告 Pt 1: 犬が妻に唸るのをやめた #creepy #horror",
+    "description": "犬は毎晩、妻に唸っていた。今夜は静かだった。\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "개의 경고 Pt 1: 우리 개가 아내에게 으르렁거리길 멈췄다 #creepy #horror",
+    "description": "우리 개는 매일 밤 아내에게 으르렁거렸다. 오늘 밤은 조용했다.\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "狗的警告 Pt 1: 我的狗不再对妻子低吼了 #creepy #horror",
+    "description": "我的狗每晚都对妻子低吼。今晚它安静了。\n\nWould you check on the dog? Tell me in the comments 👇\n📤 Send this to the friend whose dog hates a certain person 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "series": {
+  "name": "Dog Warning",
+  "part": 1,
+  "of": 2,
+  "episode": "My Dog Stopped Growling at My Wife"
+ }
+}

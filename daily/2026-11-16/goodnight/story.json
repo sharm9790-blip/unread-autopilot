@@ -1,0 +1,284 @@
+{
+ "title": "Mom Said Goodnight Twice. Mom Was Asleep Beside Me.",
+ "format": "rules",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "hallway"
+ ],
+ "glitch": [
+  "asleep",
+  "doorknob"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "if"
+  },
+  {
+   "type": "heartbeat",
+   "at": "tonight"
+  },
+  {
+   "type": "sting",
+   "at": "again"
+  },
+  {
+   "type": "sting",
+   "at": "asleep"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "tonight-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "ten-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip4.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "hallway-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip5.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "again-0.1"
+  },
+  {
+   "type": "clip",
+   "file": "clip6.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "asleep-0.4"
+  },
+  {
+   "type": "title",
+   "start": "turned-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "SHE WAS",
+     "at": "turned-0.1",
+     "delay": 0
+    },
+    {
+     "text": "ASLEEP",
+     "at": "turned-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "BESIDE ME.",
+     "at": "turned-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Would you open it?",
+    "at": "lock",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "SAID IT TWICE",
+   "LOCK THE DOOR"
+  ],
+  "sub": "she was asleep beside me"
+ },
+ "hook": {
+  "lines": [
+   "SAID IT TWICE",
+   "LOCK THE DOOR"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Mom Said Goodnight Twice. Mom Was Asleep Beside Me. #creepy #horror",
+  "playlist": "scary",
+  "description": "Mom said goodnight and kissed my forehead. Ten minutes later she said it again from the hallway. She was asleep beside me.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "माँ ने दो बार शुभरात्रि कहा। माँ मेरे पास सो रही थी #creepy #horror",
+    "description": "माँ ने दो बार शुभरात्रि कहा। दूसरी बार हॉल से आवाज़ आई।\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "அம்மா இருமுறை குட்நைட் சொன்னாள். அம்மா என் அருகில் தூங்கினாள் #creepy #horror",
+    "description": "அம்மா இருமுறை குட்நைட் சொன்னாள். இரண்டாவது முறை நடைபாதையிலிருந்து.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "అమ్మ రెండుసార్లు గుడ్‌నైట్ చెప్పింది. అమ్మ నా పక్కనే నిద్రపోతోంది #creepy #horror",
+    "description": "అమ్మ రెండుసార్లు గుడ్‌నైట్ చెప్పింది. రెండోసారి హాల్లోంచి.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "মা দুবার শুভরাত্রি বলল। মা আমার পাশেই ঘুমিয়ে ছিল #creepy #horror",
+    "description": "মা দুবার শুভরাত্রি বলল। দ্বিতীয়বার করিডোর থেকে।\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "आईने दोनदा गुडनाईट म्हटलं. आई माझ्या शेजारी झोपली होती #creepy #horror",
+    "description": "आईने दोनदा गुडनाईट म्हटलं. दुसऱ्यांदा हॉलमधून.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "امی نے دو بار شب بخیر کہا۔ امی میرے پاس سو رہی تھیں #creepy #horror",
+    "description": "امی نے دو بار شب بخیر کہا۔ دوسری بار راہداری سے۔\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Dalawang Beses Nag-Goodnight si Mama. Tulog Siya Katabi Ko #creepy #horror",
+    "description": "Dalawang beses nag-goodnight si Mama. Ang pangalawa ay galing sa pasilyo.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Ibu Bilang Selamat Malam Dua Kali. Ibu Tidur di Sebelahku #creepy #horror",
+    "description": "Ibu bilang selamat malam dua kali. Yang kedua dari lorong.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Ibu Kata Selamat Malam Dua Kali. Ibu Tidur di Sebelahku #creepy #horror",
+    "description": "Ibu kata selamat malam dua kali. Yang kedua dari lorong.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "အမေ ညကောင်းပါစေ နှစ်ကြိမ်ပြောတယ်။ အမေက ကျွန်မဘေးမှာ အိပ်နေတယ် #creepy #horror",
+    "description": "အမေ ညကောင်းပါစေ နှစ်ကြိမ်ပြောတယ်။ ဒုတိယအကြိမ်က စင်္ကြံကနေ။\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "แม่บอกฝันดีสองครั้ง แต่แม่หลับอยู่ข้างฉัน #creepy #horror",
+    "description": "แม่บอกฝันดีสองครั้ง ครั้งที่สองมาจากทางเดิน\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Mẹ Chúc Ngủ Ngon Hai Lần. Mẹ Đang Ngủ Cạnh Tôi #creepy #horror",
+    "description": "Mẹ chúc ngủ ngon hai lần. Lần thứ hai vọng từ hành lang.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Mamá Dijo Buenas Noches Dos Veces. Dormía a Mi Lado #creepy #horror",
+    "description": "Mamá dijo buenas noches dos veces. La segunda vino del pasillo.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "A Mãe Disse Boa Noite Duas Vezes. Ela Dormia Ao Meu Lado #creepy #horror",
+    "description": "A mãe disse boa noite duas vezes. A segunda veio do corredor.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Maman a Dit Bonne Nuit Deux Fois. Elle Dormait à Côté de Moi #creepy #horror",
+    "description": "Maman a dit bonne nuit deux fois. La seconde venait du couloir.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Mama Sagte Zweimal Gute Nacht. Sie Schlief Neben Mir #creepy #horror",
+    "description": "Mama sagte zweimal Gute Nacht. Das zweite Mal vom Flur.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Mamma Ha Detto Buonanotte Due Volte. Dormiva Accanto a Me #creepy #horror",
+    "description": "Mamma ha detto buonanotte due volte. La seconda dal corridoio.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Mama Zei Twee Keer Welterusten. Ze Sliep Naast Me #creepy #horror",
+    "description": "Mama zei twee keer welterusten. De tweede keer vanuit de gang.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Mamma Sa God Natt Två Gånger. Hon Sov Bredvid Mig #creepy #horror",
+    "description": "Mamma sa god natt två gånger. Andra gången från hallen.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Mama Powiedziała Dobranoc Dwa Razy. Spała Obok Mnie #creepy #horror",
+    "description": "Mama powiedziała dobranoc dwa razy. Drugi raz z korytarza.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Мама Дважды Пожелала Спокойной Ночи. Она Спала Рядом #creepy #horror",
+    "description": "Мама дважды пожелала спокойной ночи. Второй раз из коридора.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Annem İki Kez İyi Geceler Dedi. Yanımda Uyuyordu #creepy #horror",
+    "description": "Annem iki kez iyi geceler dedi. İkincisi koridordan geldi.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "قالت أمي تصبحين على خير مرتين. وكانت نائمة بجانبي #creepy #horror",
+    "description": "قالت أمي تصبحين على خير مرتين. والثانية جاءت من الممر.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "ママはおやすみを2回言った。ママは隣で寝ていた #creepy #horror",
+    "description": "ママはおやすみを2回言った。2回目は廊下からだった。\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "엄마가 잘 자라고 두 번 말했다. 엄마는 내 옆에서 자고 있었다 #creepy #horror",
+    "description": "엄마가 잘 자라고 두 번 말했다. 두 번째는 복도에서였다.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "妈妈说了两次晚安。妈妈却睡在我身边 #creepy #horror",
+    "description": "妈妈说了两次晚安。第二次是从走廊传来的。\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who sleeps with the door unlocked 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "look": "2d",
+ "characters": "Mom: Indian woman, 35, long black braid, green cotton saree. Riya: girl, 8, two short braids, yellow nightdress."
+}

@@ -1,0 +1,75 @@
+{
+ "date": "2026-11-16",
+ "order": [
+  "goodnight",
+  "dog-p1",
+  "dog-p2"
+ ],
+ "schedule": {
+  "goodnight": "2026-11-16T12:30:00+05:30",
+  "dog-p1": "2026-11-16T18:00:00+05:30",
+  "dog-p2": "2026-11-16T19:30:00+05:30"
+ },
+ "clips": {
+  "goodnight": [
+   {
+    "ai": "Mom stands in a dark bedroom doorway at night, hand on the door, backlit by warm hallway light, Riya in bed under a blanket, medium shot",
+    "key": true,
+    "move": "dolly-in",
+    "fallback": "dark hallway door"
+   },
+   {
+    "ai": "Mom bends to kiss sleepy Riya's forehead in bed, soft amber lamp light, shot from behind Mom",
+    "move": "pan-left",
+    "fallback": "child bedroom night"
+   },
+   {
+    "ai": "A wall clock showing ten past ten in a quiet dark bedroom, moonlight through the window, Riya's eyes open in bed",
+    "move": "rise",
+    "fallback": "clock night bedroom"
+   },
+   {
+    "ai": "A long dark hallway with a thin line of warm light under a closed bedroom door, a tall shadow standing in the hallway, wide shot",
+    "move": "dolly-out",
+    "fallback": "dark hallway night"
+   },
+   {
+    "ai": "Riya sits up in bed hearing a sound, her face in shadow, the closed door in front of her, teal moonlight",
+    "move": "orbit",
+    "fallback": "girl bed dark"
+   },
+   {
+    "ai": "Mom asleep in bed beside Riya, calm, eyes closed, while the bedroom doorknob turns slowly in the dark behind them, shot over Mom's shoulder",
+    "key": true,
+    "move": "fall",
+    "fallback": "door handle dark"
+   }
+  ],
+  "dog-p1": [
+   "dog dark room night",
+   {
+    "ai": "A dog's empty bed beside a bedroom door at night, dark room, a faint silhouette of a woman standing at the foot of a bed, wide shot, cold light",
+    "move": "dolly-in",
+    "fallback": "photo: dark bedroom door night"
+   },
+   {
+    "ai": "A woman's silhouette standing over a bed in the dark, smiling, one hand hanging down holding clumps of brown fur, shot from the pillow",
+    "motion": "the woman's head slowly tilts and her hand tightens",
+    "fallback": "dark figure bedroom"
+   }
+  ],
+  "dog-p2": [
+   "under bed dark",
+   {
+    "ai": "A dark bedroom, a woman kneeling on the floor beside a bed with one hand held out toward the gap beneath it, seen from behind, cold teal light",
+    "move": "dolly-in",
+    "fallback": "photo: dark bedroom floor shadow"
+   },
+   {
+    "ai": "Under a dark bed, a frightened dog's eyes catching the light as it slowly creeps forward toward an outstretched pale hand, low angle",
+    "motion": "the dog slowly creeps forward and the light flickers",
+    "fallback": "dog under bed dark"
+   }
+  ]
+ }
+}
