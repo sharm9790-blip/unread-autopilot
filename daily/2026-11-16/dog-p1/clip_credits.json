@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 73663,
+  "user": "vladd267",
+  "query": "dog dark room night",
+  "tags": "dog, room, nap, pet, lights, animal, vacation"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A dog's empty bed beside a bedroom door at night, dark room, a faint silhouette of a woman standing at the foot of a bed, wide shot, cold light",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "A woman's silhouette standing over a bed in the dark, smiling, one hand hanging down holding clumps of brown fur, shot from the pillow",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the woman's head slowly tilts and her hand tightens",
+  "video_model": "creatify/boreal"
+ }
+}

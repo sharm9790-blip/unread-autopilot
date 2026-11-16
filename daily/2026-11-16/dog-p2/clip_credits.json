@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 374283,
+  "user": "Kanenori",
+  "query": "under bed dark",
+  "tags": "cloud, summer, towering cumulus clouds observed, under development, airplane, sky, japan"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A dark bedroom, a woman kneeling on the floor beside a bed with one hand held out toward the gap beneath it, seen from behind, cold teal light",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "Under a dark bed, a frightened dog's eyes catching the light as it slowly creeps forward toward an outstretched pale hand, low angle",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the dog slowly creeps forward and the light flickers",
+  "video_model": "creatify/boreal"
+ }
+}

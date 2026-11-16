@@ -1,0 +1,38 @@
+{
+ "clip.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Mom stands in a dark bedroom doorway at night, hand on the door, backlit by warm hallway light, Riya in bed under a blanket, medium shot",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Mom bends to kiss sleepy Riya's forehead in bed, soft amber lamp light, shot from behind Mom",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip3.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A wall clock showing ten past ten in a quiet dark bedroom, moonlight through the window, Riya's eyes open in bed",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip4.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A long dark hallway with a thin line of warm light under a closed bedroom door, a tall shadow standing in the hallway, wide shot",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip5.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Riya sits up in bed hearing a sound, her face in shadow, the closed door in front of her, teal moonlight",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip6.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Mom asleep in bed beside Riya, calm, eyes closed, while the bedroom doorknob turns slowly in the dark behind them, shot over Mom's shoulder",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ }
+}

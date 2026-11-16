@@ -1,0 +1,33 @@
+{
+ "gTNipMdaaM0": {
+  "title": "Dog Warning · Pt 1: My Dog Stopped Growling at My Wife",
+  "publish_at": "2026-11-22T18:00:00+05:30",
+  "end": 17.89,
+  "asset": "gTNipMdaaM0.mp4",
+  "series": {
+   "name": "Dog Warning",
+   "part": 1,
+   "of": 2,
+   "episode": "My Dog Stopped Growling at My Wife"
+  }
+ },
+ "sUI-DgUnHM4": {
+  "title": "Dog Warning · Pt 2: My Real Wife Shouted From the Street",
+  "publish_at": "2026-11-22T19:30:00+05:30",
+  "end": 18.08,
+  "asset": "sUI-DgUnHM4.mp4",
+  "series": {
+   "name": "Dog Warning",
+   "part": 2,
+   "of": 2,
+   "episode": "My Real Wife Shouted From the Street"
+  }
+ },
+ "LxYPGPxkjeM": {
+  "title": "Mom Said Goodnight Twice. Mom Was Asleep Beside Me.",
+  "publish_at": "2026-11-22T12:30:00+05:30",
+  "end": 19.94,
+  "asset": "LxYPGPxkjeM.mp4",
+  "series": null
+ }
+}
