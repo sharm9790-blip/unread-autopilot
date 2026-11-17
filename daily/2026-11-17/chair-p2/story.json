@@ -1,0 +1,247 @@
+{
+ "title": "Rocking Chair · Pt 2: Grandpa Came Home. He Died at 3 AM.",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "rocked"
+ ],
+ "glitch": [
+  "shape",
+  "died"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "never"
+  },
+  {
+   "type": "heartbeat",
+   "at": "pale"
+  },
+  {
+   "type": "sting",
+   "at": "rocked"
+  },
+  {
+   "type": "sting",
+   "at": "died"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.8,
+    "desat": 0.3,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "better-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "shape-0.3"
+  },
+  {
+   "type": "title",
+   "start": "died-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "HE DIED",
+     "at": "died-0.1",
+     "delay": 0
+    },
+    {
+     "text": "AT 3 AM",
+     "at": "died-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "IN BED.",
+     "at": "died-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Part 1 is on the channel",
+    "at": "sit",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "NEVER TURN",
+   "YOUR BACK"
+  ],
+  "sub": "grandpa died at 3"
+ },
+ "hook": {
+  "lines": [
+   "NEVER TURN",
+   "YOUR BACK"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Rocking Chair · Pt 2: Grandpa Came Home. He Died at 3 AM. #creepy #horror",
+  "playlist": "scary",
+  "description": "Grandpa came home pale and sat in his chair. Then the hospital called: he had died at 3 AM.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "रॉकिंग चेयर · भाग 2: दादाजी घर आए। अस्पताल बोला, वो 3 बजे गुज़र गए #creepy #horror",
+    "description": "दादाजी घर आकर कुर्सी पर बैठे। अस्पताल ने कहा, वो 3 बजे गुज़र चुके थे।\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "ராக்கிங் நாற்காலி · பகுதி 2: தாத்தா வீடு வந்தார். அவர் 3 மணிக்கே இறந்துவிட்டார் #creepy #horror",
+    "description": "தாத்தா வீடு வந்து நாற்காலியில் அமர்ந்தார். அவர் 3 மணிக்கே இறந்துவிட்டதாக மருத்துவமனை சொன்னது.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "రాకింగ్ చైర్ · పార్ట్ 2: తాతయ్య ఇంటికొచ్చారు. 3 గంటలకే చనిపోయారని ఆసుపత్రి చెప్పింది #creepy #horror",
+    "description": "తాతయ్య ఇంటికొచ్చి కుర్చీలో కూర్చున్నారు. ఆయన 3 గంటలకే చనిపోయారని ఆసుపత్రి చెప్పింది.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "রকিং চেয়ার · পর্ব ২: দাদু বাড়ি এলেন। হাসপাতাল বলল, তিনটায় মারা গেছেন #creepy #horror",
+    "description": "দাদু বাড়ি এসে চেয়ারে বসলেন। হাসপাতাল বলল, তিনি তিনটায় মারা গেছেন।\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "रॉकिंग चेअर · भाग 2: आजोबा घरी आले. हॉस्पिटल म्हणालं, ते 3 वाजता गेले #creepy #horror",
+    "description": "आजोबा घरी येऊन खुर्चीवर बसले. हॉस्पिटल म्हणालं, ते 3 वाजताच गेले होते.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "راکنگ چیئر · حصہ 2: دادا گھر آئے۔ ہسپتال نے کہا وہ 3 بجے چل بسے #creepy #horror",
+    "description": "دادا گھر آ کر کرسی پر بیٹھ گئے۔ ہسپتال نے کہا وہ 3 بجے ہی چل بسے تھے۔\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Rocking Chair · Pt 2: Umuwi si Lolo. Sabi ng Ospital, Pumanaw Siya ng 3 #creepy #horror",
+    "description": "Umuwi si Lolo at umupo sa upuan. Sabi ng ospital, pumanaw na siya ng 3.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Kursi Goyang · Pt 2: Kakek Pulang. Rumah Sakit Bilang Dia Wafat Jam 3 #creepy #horror",
+    "description": "Kakek pulang dan duduk di kursi. Rumah sakit bilang dia sudah wafat jam 3.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Kerusi Goyang · Pt 2: Atuk Pulang. Hospital Kata Dia Meninggal Pukul 3 #creepy #horror",
+    "description": "Atuk pulang dan duduk di kerusi. Hospital kata dia sudah meninggal pukul 3.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "ချာချာလှည့်ကုလားထိုင် · အပိုင်း ၂: အဖိုးအိမ်ပြန်လာတယ်။ ဆေးရုံက သူ ၃ နာရီမှာ ဆုံးပြီတဲ့ #creepy #horr",
+    "description": "အဖိုးအိမ်ပြန်လာပြီး ကုလားထိုင်မှာ ထိုင်တယ်။ ဆေးရုံက ၃ နာရီမှာပဲ ဆုံးပြီတဲ့။\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "เก้าอี้โยก · ตอนที่ 2: ตากลับบ้านมา แต่โรงพยาบาลบอกว่าตาเสียตอนตีสาม #creepy #horror",
+    "description": "ตากลับบ้านมานั่งเก้าอี้ แต่โรงพยาบาลบอกว่าตาเสียตั้งแต่ตีสาม\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Ghế Bập Bênh · Tập 2: Ông Về Nhà. Bệnh Viện Báo Ông Mất Lúc 3 Giờ #creepy #horror",
+    "description": "Ông về nhà và ngồi vào ghế. Bệnh viện nói ông đã mất lúc 3 giờ.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "La Mecedora · Pt 2: El Abuelo Volvió a Casa. Murió a las 3 AM #creepy #horror",
+    "description": "El abuelo volvió a casa y se sentó en la silla. El hospital dijo que murió a las 3.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "A Cadeira de Balanço · Pt 2: O Avô Voltou. Morreu às 3 da Manhã #creepy #horror",
+    "description": "O vovô voltou para casa e sentou na cadeira. O hospital disse que ele morreu às 3.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Le Fauteuil à Bascule · Pt 2: Papi Est Rentré. Il Est Mort à 3 h #creepy #horror",
+    "description": "Papi est rentré et s'est assis dans le fauteuil. L'hôpital dit qu'il est mort à 3 h.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Der Schaukelstuhl · Pt 2: Opa Kam Heim. Er Starb um 3 Uhr #creepy #horror",
+    "description": "Opa kam nach Hause und setzte sich in den Stuhl. Das Krankenhaus sagte, er starb um 3.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "La Sedia a Dondolo · Pt 2: Il Nonno Tornò a Casa. Era Morto alle 3 #creepy #horror",
+    "description": "Il nonno tornò a casa e si sedette sulla sedia. L'ospedale disse che era morto alle 3.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "De Schommelstoel · Pt 2: Opa Kwam Thuis. Hij Stierf om 3 Uur #creepy #horror",
+    "description": "Opa kwam thuis en ging in de stoel zitten. Het ziekenhuis zei dat hij om 3 uur stierf.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Gungstolen · Pt 2: Morfar Kom Hem. Han Dog Klockan 3 #creepy #horror",
+    "description": "Morfar kom hem och satte sig i stolen. Sjukhuset sa att han dog klockan 3.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Fotel Bujany · Cz. 2: Dziadek Wrócił. Zmarł o 3 w Nocy #creepy #horror",
+    "description": "Dziadek wrócił do domu i usiadł w fotelu. Szpital powiedział, że zmarł o 3.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Кресло-Качалка · Ч. 2: Дедушка Вернулся. Он Умер в 3 Часа Ночи #creepy #horror",
+    "description": "Дедушка вернулся домой и сел в кресло. Больница сказала, что он умер в 3.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Sallanan Sandalye · Böl. 2: Dedem Eve Geldi. Saat 3'te Ölmüştü #creepy #horror",
+    "description": "Dedem eve gelip sandalyeye oturdu. Hastane saat 3'te öldüğünü söyledi.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "الكرسي الهزاز · ج2: عاد جدي إلى البيت. مات في الثالثة فجرًا #creepy #horror",
+    "description": "عاد جدي إلى البيت وجلس على الكرسي. قال المستشفى إنه مات في الثالثة.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "ロッキングチェア · Pt2: 祖父が帰ってきた。祖父は3時に亡くなっていた #creepy #horror",
+    "description": "祖父は帰宅して椅子に座った。病院は3時に亡くなったと言った。\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "흔들의자 · 2부: 할아버지가 집에 오셨다. 3시에 돌아가셨다는데 #creepy #horror",
+    "description": "할아버지가 집에 와서 의자에 앉았다. 병원은 3시에 돌아가셨다고 했다.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "摇椅 · 第2集: 爷爷回家了。医院说他3点就去世了 #creepy #horror",
+    "description": "爷爷回家坐到了椅子上。医院却说他3点就去世了。\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never sits in someone else's chair 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "series": {
+  "name": "Rocking Chair",
+  "part": 2,
+  "of": 2,
+  "episode": "Grandpa Came Home. He Died at 3 AM."
+ }
+}

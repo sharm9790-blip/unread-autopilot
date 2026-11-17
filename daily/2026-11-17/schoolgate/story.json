@@ -1,0 +1,284 @@
+{
+ "title": "My Daughter Waited at the School Gate. She Was Home Sick.",
+ "format": "rules",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "whispered"
+ ],
+ "glitch": [
+  "girl",
+  "smiled"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "sick"
+  },
+  {
+   "type": "heartbeat",
+   "at": "hugged"
+  },
+  {
+   "type": "sting",
+   "at": "texted"
+  },
+  {
+   "type": "sting",
+   "at": "smiled"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "hugged-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "whispered-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip4.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "wife-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip5.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "bed-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip6.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "girl-0.1"
+  },
+  {
+   "type": "title",
+   "start": "smiled-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "IT WAS",
+     "at": "smiled-0.1",
+     "delay": 0
+    },
+    {
+     "text": "NOT MY",
+     "at": "smiled-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "DAUGHTER.",
+     "at": "smiled-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Would you let go?",
+    "at": "watch",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "SICK DAUGHTER",
+   "AT THE GATE"
+  ],
+  "sub": "she was home in bed"
+ },
+ "hook": {
+  "lines": [
+   "SICK DAUGHTER",
+   "AT THE GATE"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "My Daughter Waited at the School Gate. She Was Home Sick. #creepy #horror",
+  "playlist": "scary",
+  "description": "My sick daughter was waiting at the school gate. She felt cold. My wife texted that our daughter was still in her bed.\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "बेटी स्कूल गेट पर इंतज़ार कर रही थी। वो घर पर बीमार थी #creepy #horror",
+    "description": "बीमार बेटी स्कूल के गेट पर मेरा इंतज़ार कर रही थी।\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "மகள் பள்ளி வாசலில் காத்திருந்தாள். அவள் வீட்டில் நோயுற்றிருந்தாள் #creepy #horror",
+    "description": "நோயுற்ற என் மகள் பள்ளி வாசலில் எனக்காகக் காத்திருந்தாள்.\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "కూతురు స్కూల్ గేట్ దగ్గర ఎదురుచూసింది. ఆమె ఇంట్లో అనారోగ్యంగా ఉంది #creepy #horror",
+    "description": "అనారోగ్యంగా ఉన్న నా కూతురు స్కూల్ గేట్ దగ్గర నా కోసం ఎదురుచూస్తోంది.\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "মেয়ে স্কুলের গেটে অপেক্ষা করছিল। সে বাড়িতে অসুস্থ ছিল #creepy #horror",
+    "description": "আমার অসুস্থ মেয়ে স্কুলের গেটে আমার জন্য অপেক্ষা করছিল।\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "मुलगी शाळेच्या गेटवर वाट पाहत होती. ती घरी आजारी होती #creepy #horror",
+    "description": "माझी आजारी मुलगी शाळेच्या गेटवर माझी वाट पाहत होती.\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "بیٹی اسکول کے گیٹ پر انتظار کر رہی تھی۔ وہ گھر پر بیمار تھی #creepy #horror",
+    "description": "میری بیمار بیٹی اسکول کے گیٹ پر میرا انتظار کر رہی تھی۔\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Naghihintay ang Anak Ko sa Gate ng Eskwela. May Sakit Siya sa Bahay #creepy #horror",
+    "description": "Naghihintay sa akin ang may sakit kong anak sa gate ng eskwela.\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Putriku Menunggu di Gerbang Sekolah. Dia Sakit di Rumah #creepy #horror",
+    "description": "Putriku yang sedang sakit menungguku di gerbang sekolah.\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Anak Saya Menunggu di Pintu Pagar Sekolah. Dia Sakit di Rumah #creepy #horror",
+    "description": "Anak saya yang sakit sedang menunggu saya di pintu pagar sekolah.\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "သမီး ကျောင်းတံခါးမှာ စောင့်နေတယ်။ သူက အိမ်မှာ နေမကောင်းဘူး #creepy #horror",
+    "description": "နေမကောင်းတဲ့ ကျွန်တော့်သမီး ကျောင်းတံခါးမှာ စောင့်နေတယ်။\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "ลูกสาวรออยู่หน้าประตูโรงเรียน แต่เธอป่วยอยู่ที่บ้าน #creepy #horror",
+    "description": "ลูกสาวที่ป่วยของฉันรออยู่หน้าประตูโรงเรียน\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Con Gái Đợi Ở Cổng Trường. Con Đang Ốm Ở Nhà #creepy #horror",
+    "description": "Đứa con gái đang ốm của tôi đứng đợi ở cổng trường.\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Mi Hija Me Esperaba en la Puerta del Colegio. Estaba Enferma en Casa #creepy #horror",
+    "description": "Mi hija enferma me esperaba en la puerta del colegio.\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "Minha Filha Esperava no Portão da Escola. Estava Doente em Casa #creepy #horror",
+    "description": "Minha filha doente me esperava no portão da escola.\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Ma Fille M'Attendait à l'École. Elle Était Malade à la Maison #creepy #horror",
+    "description": "Ma fille malade m'attendait devant le portail de l'école.\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Meine Tochter Wartete am Schultor. Sie War Krank zu Hause #creepy #horror",
+    "description": "Meine kranke Tochter wartete am Schultor auf mich.\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Mia Figlia Aspettava al Cancello della Scuola. Era Malata a Casa #creepy #horror",
+    "description": "Mia figlia malata mi aspettava davanti al cancello della scuola.\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Mijn Dochter Wachtte bij het Schoolhek. Ze Was Thuis Ziek #creepy #horror",
+    "description": "Mijn zieke dochter stond me op te wachten bij het schoolhek.\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Min Dotter Väntade vid Skolporten. Hon Var Sjuk Hemma #creepy #horror",
+    "description": "Min sjuka dotter väntade på mig vid skolporten.\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Córka Czekała przy Bramie Szkoły. Była Chora w Domu #creepy #horror",
+    "description": "Moja chora córka czekała na mnie przy bramie szkoły.\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Дочь Ждала у Школьных Ворот. Она Болела Дома #creepy #horror",
+    "description": "Моя больная дочь ждала меня у школьных ворот.\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Kızım Okul Kapısında Bekliyordu. Evde Hastaydı #creepy #horror",
+    "description": "Hasta olan kızım okul kapısında beni bekliyordu.\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "ابنتي كانت تنتظر عند بوابة المدرسة. وكانت مريضة في البيت #creepy #horror",
+    "description": "كانت ابنتي المريضة تنتظرني عند بوابة المدرسة.\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "娘が校門で待っていた。娘は家で寝込んでいた #creepy #horror",
+    "description": "病気のはずの娘が、校門で私を待っていた。\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "딸이 교문 앞에서 기다렸다. 딸은 집에서 아팠다 #creepy #horror",
+    "description": "아픈 내 딸이 교문 앞에서 나를 기다리고 있었다.\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "女儿在校门口等我。她明明在家生病 #creepy #horror",
+    "description": "生病的女儿正在校门口等我。\n\nWould you let go of her? Tell me in the comments 👇\n📤 Send this to the friend who picks up their kid from school 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "look": "2d",
+ "characters": "Papa: Indian man, 38, short black hair, grey shirt, tired face. Anaya: girl, 8, two braids, red school uniform, very pale."
+}

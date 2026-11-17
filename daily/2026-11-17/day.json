@@ -1,0 +1,75 @@
+{
+ "date": "2026-11-17",
+ "order": [
+  "schoolgate",
+  "chair-p1",
+  "chair-p2"
+ ],
+ "schedule": {
+  "schoolgate": "2026-11-17T12:30:00+05:30",
+  "chair-p1": "2026-11-17T18:00:00+05:30",
+  "chair-p2": "2026-11-17T19:30:00+05:30"
+ },
+ "clips": {
+  "schoolgate": [
+   {
+    "ai": "A small girl in a red school uniform stands alone at an empty school gate in grey afternoon light, Papa walking toward her from behind, wide shot",
+    "key": true,
+    "move": "dolly-in",
+    "fallback": "school gate empty"
+   },
+   {
+    "ai": "Papa kneels and hugs the small girl at the school gate, shot from behind Papa, the girl's pale hands on his shirt, cold teal light",
+    "move": "pan-left",
+    "fallback": "father hugging child"
+   },
+   {
+    "ai": "Close shot of the girl's pale face in shadow beside Papa's ear, she is whispering, school gate blurred behind",
+    "move": "rise",
+    "fallback": "child shadow dusk"
+   },
+   {
+    "ai": "Papa standing at the gate reading a phone screen, his worried face lit blue by the phone, dusk",
+    "move": "dolly-out",
+    "fallback": "man phone dusk"
+   },
+   {
+    "ai": "Anaya, a sick girl, asleep in her bed at home under a blanket, warm lamp, a thermometer on the nightstand, wide shot",
+    "move": "orbit",
+    "fallback": "sick child bed"
+   },
+   {
+    "ai": "Papa holding the girl in his arms at the gate, the girl's head over his shoulder smiling too wide at the camera, her eyes reflecting light, dusk",
+    "key": true,
+    "move": "fall",
+    "fallback": "child smile dark"
+   }
+  ],
+  "chair-p1": [
+   "rocking chair dark",
+   {
+    "ai": "An old wooden rocking chair in a dark living room at night, a tall thin shadow sitting in it facing the window, wide shot, cold moonlight",
+    "move": "dolly-in",
+    "fallback": "photo: rocking chair dark room"
+   },
+   {
+    "ai": "A hospital bed at night with an old man sitting up screaming, a phone glowing on the blanket, a nurse rushing in from the corridor, dim green light",
+    "motion": "the old man's head turns slowly toward camera",
+    "fallback": "hospital room night"
+   }
+  ],
+  "chair-p2": [
+   "old man armchair dark",
+   {
+    "ai": "A pale old man in a white kurta sitting in a wooden rocking chair in a dark living room, a boy watching from the doorway, seen from behind the boy, warm dim lamp",
+    "move": "dolly-in",
+    "fallback": "photo: old man chair dark"
+   },
+   {
+    "ai": "Behind a rocking chair in a dark room a tall thin shadow bends over the sitting old man, smiling, moonlight through curtains, wide shot",
+    "motion": "the rocking chair slowly rocks and the shadow leans closer",
+    "fallback": "dark figure room"
+   }
+  ]
+ }
+}

@@ -1,0 +1,246 @@
+{
+ "title": "Rocking Chair · Pt 1: Grandpa's Chair Rocks. He's in Hospital.",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "shape"
+ ],
+ "glitch": [
+  "sit",
+  "screaming"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "never"
+  },
+  {
+   "type": "heartbeat",
+   "at": "rocks"
+  },
+  {
+   "type": "sting",
+   "at": "shape"
+  },
+  {
+   "type": "sting",
+   "at": "screaming"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "PART 2 ON THE CHANNEL"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.9,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "tonight-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "hospital-0.4"
+  },
+  {
+   "type": "title",
+   "start": "part-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "PART 2",
+     "at": "part-0.1",
+     "delay": 0
+    },
+    {
+     "text": "ON THE",
+     "at": "part-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "CHANNEL.",
+     "at": "part-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Rocking Chair continues",
+    "at": "channel",
+    "delay": 0.3
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "NEVER SIT IN",
+   "GRANDPA'S CHAIR"
+  ],
+  "sub": "it rocks at 3 AM"
+ },
+ "hook": {
+  "lines": [
+   "NEVER SIT IN",
+   "GRANDPA'S CHAIR"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Rocking Chair · Pt 1: Grandpa's Chair Rocks. He's in Hospital. #creepy #horror",
+  "playlist": "scary",
+  "description": "Grandpa's chair rocks by itself at 3 AM. He is in the hospital. Tonight a shape sat in it. Then the hospital called.\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "रॉकिंग चेयर · भाग 1: दादाजी की कुर्सी हिलती है। वो अस्पताल में हैं #creepy #horror",
+    "description": "दादाजी की कुर्सी रात 3 बजे हिलती है, जबकि दादाजी अस्पताल में हैं।\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "ராக்கிங் நாற்காலி · பகுதி 1: தாத்தாவின் நாற்காலி ஆடுகிறது. அவர் மருத்துவமனையில் #creepy #horror",
+    "description": "தாத்தாவின் நாற்காலி அதிகாலை 3 மணிக்கு ஆடுகிறது, தாத்தாவோ மருத்துவமனையில்.\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "రాకింగ్ చైర్ · పార్ట్ 1: తాతయ్య కుర్చీ ఊగుతోంది. ఆయన ఆసుపత్రిలో ఉన్నారు #creepy #horror",
+    "description": "తాతయ్య కుర్చీ రాత్రి 3 గంటలకు ఊగుతుంది, తాతయ్య ఆసుపత్రిలో ఉన్నారు.\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "রকিং চেয়ার · পর্ব ১: দাদুর চেয়ার দোলে। দাদু হাসপাতালে #creepy #horror",
+    "description": "দাদুর চেয়ার রাত ৩টায় দোলে, অথচ দাদু হাসপাতালে।\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "रॉकिंग चेअर · भाग 1: आजोबांची खुर्ची हलते. ते हॉस्पिटलमध्ये आहेत #creepy #horror",
+    "description": "आजोबांची खुर्ची रात्री 3 वाजता हलते, आणि आजोबा हॉस्पिटलमध्ये आहेत.\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "راکنگ چیئر · حصہ 1: دادا کی کرسی ہلتی ہے۔ وہ ہسپتال میں ہیں #creepy #horror",
+    "description": "دادا کی کرسی رات 3 بجے ہلتی ہے، جبکہ دادا ہسپتال میں ہیں۔\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Rocking Chair · Pt 1: Gumagalaw ang Upuan ni Lolo. Nasa Ospital Siya #creepy #horror",
+    "description": "Gumagalaw ang upuan ni Lolo ng 3 AM, pero nasa ospital si Lolo.\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Kursi Goyang · Pt 1: Kursi Kakek Bergoyang. Kakek Ada di Rumah Sakit #creepy #horror",
+    "description": "Kursi Kakek bergoyang jam 3 pagi, padahal Kakek ada di rumah sakit.\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Kerusi Goyang · Pt 1: Kerusi Atuk Bergoyang. Atuk di Hospital #creepy #horror",
+    "description": "Kerusi Atuk bergoyang pada pukul 3 pagi, sedangkan Atuk di hospital.\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "ချာချာလှည့်ကုလားထိုင် · အပိုင်း ၁: အဖိုး့ကုလားထိုင် လှုပ်နေတယ်။ သူက ဆေးရုံမှာ #creepy #horror",
+    "description": "အဖိုးက ဆေးရုံမှာဖြစ်ပြီး ညသုံးနာရီမှာ သူ့ကုလားထိုင် လှုပ်နေတယ်။\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "เก้าอี้โยก · ตอนที่ 1: เก้าอี้ของตาโยกเอง แต่ตาอยู่โรงพยาบาล #creepy #horror",
+    "description": "เก้าอี้ของตาโยกตอนตีสาม ทั้งที่ตาอยู่โรงพยาบาล\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Ghế Bập Bênh · Tập 1: Ghế Của Ông Tự Đung Đưa. Ông Nằm Viện #creepy #horror",
+    "description": "Ghế của ông tự đung đưa lúc 3 giờ sáng, trong khi ông đang nằm viện.\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "La Mecedora · Pt 1: La Silla del Abuelo Se Mece. Él Está en el Hospital #creepy #horror",
+    "description": "La silla del abuelo se mece a las 3 AM, pero el abuelo está en el hospital.\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "A Cadeira de Balanço · Pt 1: A Cadeira do Avô Balança. Ele Está no Hospital #creepy #horror",
+    "description": "A cadeira do vovô balança às 3 da manhã, mas ele está no hospital.\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Le Fauteuil à Bascule · Pt 1: Celui de Papi Bouge. Il Est à l'Hôpital #creepy #horror",
+    "description": "Le fauteuil de papi bouge à 3 h du matin, alors qu'il est à l'hôpital.\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Der Schaukelstuhl · Pt 1: Opas Stuhl Schaukelt. Er Liegt im Krankenhaus #creepy #horror",
+    "description": "Opas Stuhl schaukelt um 3 Uhr nachts, obwohl Opa im Krankenhaus liegt.\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "La Sedia a Dondolo · Pt 1: Quella del Nonno Dondola. Lui È in Ospedale #creepy #horror",
+    "description": "La sedia del nonno dondola alle 3 di notte, ma il nonno è in ospedale.\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "De Schommelstoel · Pt 1: Opa's Stoel Schommelt. Hij Ligt in het Ziekenhuis #creepy #horror",
+    "description": "Opa's stoel schommelt om 3 uur 's nachts, terwijl Opa in het ziekenhuis ligt.\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Gungstolen · Pt 1: Morfars Stol Gungar. Han Ligger på Sjukhus #creepy #horror",
+    "description": "Morfars stol gungar klockan 3 på natten, fast han ligger på sjukhus.\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Fotel Bujany · Cz. 1: Fotel Dziadka Się Buja. Dziadek Jest w Szpitalu #creepy #horror",
+    "description": "Fotel dziadka buja się o 3 w nocy, a dziadek leży w szpitalu.\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Кресло-Качалка · Ч. 1: Дедушкино Кресло Качается. Он в Больнице #creepy #horror",
+    "description": "Дедушкино кресло качается в 3 часа ночи, а дедушка в больнице.\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Sallanan Sandalye · Böl. 1: Dedemin Sandalyesi Sallanıyor. Hastanede #creepy #horror",
+    "description": "Dedemin sandalyesi gece 3'te sallanıyor, oysa dedem hastanede.\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "الكرسي الهزاز · ج1: كرسي جدي يهتز. وجدي في المستشفى #creepy #horror",
+    "description": "كرسي جدي يهتز في الثالثة فجرًا بينما جدي في المستشفى.\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "ロッキングチェア · Pt1: 祖父の椅子が揺れる。祖父は入院中 #creepy #horror",
+    "description": "祖父の椅子が午前3時に揺れる。祖父は入院しているのに。\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "흔들의자 · 1부: 할아버지 의자가 흔들린다. 할아버지는 병원에 #creepy #horror",
+    "description": "할아버지 의자가 새벽 3시에 흔들린다. 할아버지는 병원에 계신데.\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "摇椅 · 第1集: 爷爷的椅子在摇。爷爷还在住院 #creepy #horror",
+    "description": "爷爷的椅子凌晨3点自己摇起来，可爷爷还在住院。\n\nWould you sit in it? Tell me in the comments 👇\n📤 Send this to the friend whose grandparent has an old chair 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "series": {
+  "name": "Rocking Chair",
+  "part": 1,
+  "of": 2,
+  "episode": "Grandpa's Chair Rocks. He's in Hospital."
+ }
+}
