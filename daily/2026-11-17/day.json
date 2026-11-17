@@ -1,14 +1,14 @@
 {
- "date": "2026-11-17",
+ "date": "2026-11-23",
  "order": [
   "schoolgate",
   "chair-p1",
   "chair-p2"
  ],
  "schedule": {
-  "schoolgate": "2026-11-17T12:30:00+05:30",
-  "chair-p1": "2026-11-17T18:00:00+05:30",
-  "chair-p2": "2026-11-17T19:30:00+05:30"
+  "schoolgate": "2026-11-23T12:30:00+05:30",
+  "chair-p1": "2026-11-23T18:00:00+05:30",
+  "chair-p2": "2026-11-23T19:30:00+05:30"
  },
  "clips": {
   "schoolgate": [
@@ -71,5 +71,6 @@
     "fallback": "dark figure room"
    }
   ]
- }
+ },
+ "moved_from": "2026-11-17"
 }

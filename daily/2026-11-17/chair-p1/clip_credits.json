@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 356998,
+  "user": "mycuppatea",
+  "query": "rocking chair dark",
+  "tags": "ai generated, mother, baby, family, mom, mum, love, child, motherhood, portrait, parenthood, happy, happiness, parent, infant, newborn, sleeping, rocking chair, rocking, soothing"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "An old wooden rocking chair in a dark living room at night, a tall thin shadow sitting in it facing the window, wide shot, cold moonlight",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "A hospital bed at night with an old man sitting up screaming, a phone glowing on the blanket, a nurse rushing in from the corridor, dim green light",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the old man's head turns slowly toward camera",
+  "video_model": "creatify/boreal"
+ }
+}

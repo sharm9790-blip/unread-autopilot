@@ -1,0 +1,38 @@
+{
+ "clip.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A small girl in a red school uniform stands alone at an empty school gate in grey afternoon light, Papa walking toward her from behind, wide shot",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Papa kneels and hugs the small girl at the school gate, shot from behind Papa, the girl's pale hands on his shirt, cold teal light",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip3.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Close shot of the girl's pale face in shadow beside Papa's ear, she is whispering, school gate blurred behind",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip4.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Papa standing at the gate reading a phone screen, his worried face lit blue by the phone, dusk",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip5.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Anaya, a sick girl, asleep in her bed at home under a blanket, warm lamp, a thermometer on the nightstand, wide shot",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip6.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Papa holding the girl in his arms at the gate, the girl's head over his shoulder smiling too wide at the camera, her eyes reflecting light, dusk",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ }
+}
