@@ -1,0 +1,79 @@
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/parallax.py daily/2026-11-18/crib-p1/clip2_ai.jpg daily/2026-11-18/crib-p1/clip2.mp4 --move dolly-in --dur 10 --strength 0.07 --fog 0.2 --dust 40
+
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Device set to use cpu
+  depth: Depth Anything V2 (saved clip2_ai.depth.png); move dolly-in, 10.0s @ 30fps, 1080x1920
+
+  frame 0/300
+  frame 30/300
+  frame 60/300
+  frame 90/300
+  frame 120/300
+  frame 150/300
+  frame 180/300
+  frame 210/300
+  frame 240/300
+  frame 270/300
+  wrote daily/2026-11-18/crib-p1/clip2.mp4            
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/tts.py daily/2026-11-18/crib-p1 --voice BycOlIr9Aytiubl0LIIY
+voice.mp3 + words.json  words=47  spoken=27.8s
+
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/thumbnail.py daily/2026-11-18/crib-p1
+thumbnail.png + upload.md
+
+[vost#0:0/rawvideo @ 0x5ef03c5033c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5ef03c503040] Error muxing a packet
+[out#0/rawvideo @ 0x5ef03c503040] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5ef03c503040] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5ef03c503040] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5ef03c503040] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/render.py daily/2026-11-18/crib-p1
+done daily/2026-11-18/crib-p1/short.mp4  29.5s  84 MB
+
+[vost#0:0/rawvideo @ 0x5c039afe63c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5c039afe6040] Error muxing a packet
+[out#0/rawvideo @ 0x5c039afe6040] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5c039afe6040] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5900f99545c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5900f9900700] Error muxing a packet
+[out#0/rawvideo @ 0x5900f9900700] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5900f9900700] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5c5c6e6b6700] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5c5c6e6b6380] Error muxing a packet
+[out#0/rawvideo @ 0x5c5c6e6b6380] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5c5c6e6b6380] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5c5c6e6b6380] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5c5c6e6b6380] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5900f9900700] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5900f9900700] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5c039afe6040] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5c039afe6040] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/youtube_upload.py daily/2026-11-18/crib-p1 --publish-at 2026-11-24T18:00:00+05:30
+uploading 9%
+uploading 19%
+uploading 29%
+uploading 39%
+uploading 49%
+uploading 59%
+uploading 69%
+uploading 79%
+uploading 89%
+uploading 99%
+{
+ "id": "pNa5VqX2Ugw",
+ "url": "https://youtube.com/shorts/pNa5VqX2Ugw",
+ "privacy": "private",
+ "title": "Crib Hand \u00b7 Pt 1: Someone Holds My Baby's Hand. My Husband Is Asleep. #creepy #horror",
+ "thumbnail": "set",
+ "playlist": "\ud83d\ude31 Scary Stories"
+}
+
+

@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 253997,
+  "user": "iddea_photo",
+  "query": "father baby crib night",
+  "tags": "kiss, love, together, father, family, baby, parent, child, dad, man, people, happy, play, girl, cold, winter, snow, look"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A calm husband in a dark nursery standing beside a crib, hand resting on the rail, wife seen from behind in the doorway, thin warm lamp light",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "A woman's hand held tightly by long grey fingers reaching from under a crib in a dark nursery, close-up, cold blue night light",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the grey fingers slowly tighten around the hand",
+  "video_model": "creatify/boreal"
+ }
+}

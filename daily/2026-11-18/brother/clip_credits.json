@@ -1,0 +1,38 @@
+{
+ "clip.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A tall soldier in olive uniform stands in the doorway of an Indian home at night, his face in shadow, Ma smiling at him from inside, warm lamp, wide shot",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Ma hugging the soldier brother in a small living room, shot from behind the soldier, warm dim light",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip3.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Riya's phone on a table glowing in a dark room, a caller named Captain on the screen, close-up",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip4.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A lonely army border post at night, barbed wire and a watchtower under cold moonlight, wide shot",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip5.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Ma serving rotis to the soldier brother at a low dining table, the brother seen from behind, a third roti on the plate, warm kitchen light",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip6.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "The soldier brother at the dinner table turning his head to smile too wide at the camera, eyes reflecting light, Riya in the foreground from behind, dark room",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ }
+}
