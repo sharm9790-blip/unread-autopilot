@@ -1,55 +1,49 @@
 {
- "updated": "2026-11-17 08:46 IST",
- "median_views": 288,
- "n": 51,
+ "updated": "2026-11-18 08:51 IST",
+ "median_views": 330,
+ "n": 50,
  "top": [
   {
    "title": "Papa's Flight Is Still in the Air. He's Knocking.",
-   "views": 1717,
-   "x_median": 6.0,
+   "views": 1715,
+   "x_median": 5.2,
    "published": "2026-11-14 12:30"
   },
   {
    "title": "Never Pick Up Coins From the Road at Night",
    "views": 1059,
-   "x_median": 3.7,
+   "x_median": 3.2,
    "published": "2026-11-04 19:30"
   },
   {
    "title": "The School Said Dad Picked Him Up. I'm His Dad.",
    "views": 1020,
-   "x_median": 3.5,
+   "x_median": 3.1,
    "published": "2026-11-08 14:30"
   },
   {
    "title": "The 3 AM Bakery · Pt 1: The Baker Wrote My Name and a Date",
    "views": 1006,
-   "x_median": 3.5,
+   "x_median": 3.0,
    "published": "2026-11-08 18:00"
   },
   {
    "title": "Something Held My Foot in Bed. My Wife Was at Work.",
    "views": 1001,
-   "x_median": 3.5,
+   "x_median": 3.0,
    "published": "2026-11-08 16:30"
   },
   {
    "title": "My Baby Laughs at the Corner Every Night. I Filmed It.",
    "views": 987,
-   "x_median": 3.4,
+   "x_median": 3.0,
    "published": "2026-11-04 18:00"
   }
  ],
  "bottom": [
   {
-   "title": "Route 0 · Pt 1: Never Get on a Bus With No Number",
-   "views": 49,
-   "x_median": 0.2,
-   "published": "2026-11-03 21:45"
-  },
-  {
    "title": "Never Sit Behind the Driver on the Night Bus",
-   "views": 59,
+   "views": 60,
    "x_median": 0.2,
    "published": "2026-11-12 16:30"
   },
@@ -66,14 +60,20 @@
    "published": "2026-11-11 19:30"
   },
   {
+   "title": "1 Ticket. Seat 7. Someone Is Sitting in Seat 8.",
+   "views": 70,
+   "x_median": 0.2,
+   "published": "2026-11-15 18:00"
+  },
+  {
    "title": "I Live in a Studio. My Cleaner Cleaned 4 Rooms.",
    "views": 81,
-   "x_median": 0.3,
+   "x_median": 0.2,
    "published": "2026-11-06 14:30"
   },
   {
    "title": "The Well · Pt 2: The Girl Climbed Out. She Wanted My Cousin.",
-   "views": 84,
+   "views": 85,
    "x_median": 0.3,
    "published": "2026-11-12 19:30"
   }
