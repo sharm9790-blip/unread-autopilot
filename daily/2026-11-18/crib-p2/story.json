@@ -1,0 +1,247 @@
+{
+ "title": "Crib Hand · Pt 2: My Husband Knew. He Feeds It Her Hand.",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "pulled#2"
+ ],
+ "glitch": [
+  "fed",
+  "tonight"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "never"
+  },
+  {
+   "type": "heartbeat",
+   "at": "pulled"
+  },
+  {
+   "type": "sting",
+   "at": "breathing"
+  },
+  {
+   "type": "sting",
+   "at": "tonight"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.8,
+    "desat": 0.3,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "husband-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "tonight-0.3"
+  },
+  {
+   "type": "title",
+   "start": "subscribe-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "IT HELD",
+     "at": "subscribe-0.1",
+     "delay": 0
+    },
+    {
+     "text": "MY HAND",
+     "at": "subscribe-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "INSTEAD.",
+     "at": "subscribe-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Part 1 is on the channel",
+    "at": "never",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "NEVER PULL",
+   "HER HAND AWAY"
+  ],
+  "sub": "my husband knew"
+ },
+ "hook": {
+  "lines": [
+   "NEVER PULL",
+   "HER HAND AWAY"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Crib Hand · Pt 2: My Husband Knew. He Feeds It Her Hand. #creepy #horror",
+  "playlist": "scary",
+  "description": "Something under the crib pulled my baby's hand. My husband said to let it. He had fed it her hand every night.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "Pt 2: पति को पता था। वो उसे बच्चे का हाथ देता है #creepy #horror",
+    "description": "पालने के नीचे से किसी ने बच्चे का हाथ खींचा और पति बोला: उसे पकड़ने दो।\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "Pt 2: கணவருக்குத் தெரியும். அவர் அதற்கு குழந்தையின் கையைக் கொடுக்கிறார் #creepy #horror",
+    "description": "தொட்டிலுக்கு அடியில் ஏதோ குழந்தையின் கையை இழுத்தது, கணவர் சொன்னார்: விடு.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "Pt 2: భర్తకు తెలుసు. అతను దానికి బిడ్డ చేయి ఇస్తున్నాడు #creepy #horror",
+    "description": "ఊయల కింద ఏదో బిడ్డ చేయి లాగింది, భర్త అన్నాడు: పట్టుకోనివ్వు.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "Pt 2: স্বামী জানত। সে ওকে বাচ্চার হাত দেয় #creepy #horror",
+    "description": "দোলনার নিচে কিছু বাচ্চার হাত টানল, স্বামী বলল: ধরতে দাও।\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "Pt 2: नवऱ्याला माहीत होतं. तो त्याला बाळाचा हात देतो #creepy #horror",
+    "description": "पाळण्याखाली काहीतरी बाळाचा हात ओढतं आणि नवरा म्हणाला: धरू दे.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "Pt 2: شوہر کو پتا تھا۔ وہ اسے بچے کا ہاتھ دیتا ہے #creepy #horror",
+    "description": "جھولے کے نیچے کسی نے بچے کا ہاتھ کھینچا اور شوہر بولا: پکڑنے دو۔\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Pt 2: Alam ng Asawa Ko. Ibinibigay Niya ang Kamay ng Baby #creepy #horror",
+    "description": "May humila sa kamay ng baby mula sa ilalim ng crib, sabi ng asawa ko: hayaan mo.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Pt 2: Suamiku Tahu. Dia Memberikan Tangan Bayi #creepy #horror",
+    "description": "Sesuatu di bawah boks menarik tangan bayiku dan suamiku bilang: biarkan.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Pt 2: Suami Saya Tahu. Dia Beri Tangan Bayi Kepadanya #creepy #horror",
+    "description": "Sesuatu di bawah katil bayi tarik tangan bayi dan suami saya kata: biarkan.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "Pt 2: ခင်ပွန်းသိတယ်။ သူက ကလေးလက်ကို ပေးနေတာ #creepy #horror",
+    "description": "ခြေတံရိုးအောက်က တစ်ခုက ကလေးလက်ကို ဆွဲတယ်၊ ခင်ပွန်းက ပြောတယ်- ကိုင်ခွင့်ပေးလိုက်။\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "Pt 2: สามีรู้ เขายื่นมือลูกให้มัน #creepy #horror",
+    "description": "มีบางอย่างใต้เปลดึงมือลูก สามีบอกว่า ปล่อยให้มันจับ\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Pt 2: Chồng Tôi Biết. Anh Ấy Đưa Tay Con Cho Nó #creepy #horror",
+    "description": "Có thứ dưới cũi kéo tay con, và chồng tôi nói: cứ để nó nắm.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Pt 2: Mi Marido Lo Sabía. Le Da la Mano de la Bebé #creepy #horror",
+    "description": "Algo bajo la cuna tiró de la mano de mi bebé y mi marido dijo: déjalo.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "Pt 2: Meu Marido Sabia. Ele Dá a Mão da Bebê a Ela #creepy #horror",
+    "description": "Algo sob o berço puxou a mão do bebê e meu marido disse: deixa.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Pt 2: Mon Mari Savait. Il Lui Donne la Main du Bébé #creepy #horror",
+    "description": "Quelque chose sous le lit a tiré la main du bébé, et mon mari a dit : laisse-le.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Pt 2: Mein Mann Wusste Es. Er Gibt Ihm die Babyhand #creepy #horror",
+    "description": "Etwas unter dem Bett zog an der Babyhand, und mein Mann sagte: lass es.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Pt 2: Mio Marito Sapeva. Gli Dà la Manina della Bimba #creepy #horror",
+    "description": "Qualcosa sotto la culla ha tirato la mano della bimba e mio marito ha detto: lascia.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Pt 2: Mijn Man Wist het. Hij Geeft Het Haar Handje #creepy #horror",
+    "description": "Iets onder het bedje trok aan de hand van mijn baby en mijn man zei: laat maar.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Pt 2: Min Man Visste. Han Ger Den Hennes Hand #creepy #horror",
+    "description": "Något under spjälsängen drog i bebisens hand och min man sa: låt den.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Pt 2: Mąż Wiedział. Daje Temu Rączkę Dziecka #creepy #horror",
+    "description": "Coś pod łóżeczkiem pociągnęło rączkę dziecka, a mąż powiedział: pozwól mu.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Pt 2: Муж Знал. Он Отдаёт Ему Руку Малышки #creepy #horror",
+    "description": "Что-то под кроваткой потянуло руку малыша, а муж сказал: пусть держит.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Pt 2: Eşim Biliyordu. Ona Bebeğin Elini Veriyor #creepy #horror",
+    "description": "Beşiğin altındaki bir şey bebeğin elini çekti, eşim dedi ki: bırak tutsun.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "Pt 2: زوجي كان يعرف. إنه يعطيه يد الطفلة #creepy #horror",
+    "description": "شيء تحت السرير شدّ يد الطفلة وقال زوجي: دعيه.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "Pt 2: 夫は知っていた。赤ちゃんの手を差し出していた #creepy #horror",
+    "description": "ベビーベッドの下の何かが赤ちゃんの手を引き、夫は言った。握らせておけ。\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "Pt 2: 남편은 알고 있었다. 아기 손을 내어주고 있었다 #creepy #horror",
+    "description": "침대 아래의 무언가가 아기 손을 당기자 남편이 말했다. 잡게 둬.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "Pt 2: 丈夫早就知道。他把宝宝的手递给了它 #creepy #horror",
+    "description": "婴儿床下有东西拉住宝宝的手,丈夫说:让它握着。\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who checks on her baby every night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "series": {
+  "name": "Crib Hand",
+  "part": 2,
+  "of": 2,
+  "episode": "My Husband Knew. He Feeds It Her Hand."
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "date": "2026-11-18",
+ "order": [
+  "brother",
+  "crib-p1",
+  "crib-p2"
+ ],
+ "schedule": {
+  "brother": "2026-11-18T12:30:00+05:30",
+  "crib-p1": "2026-11-18T18:00:00+05:30",
+  "crib-p2": "2026-11-18T19:30:00+05:30"
+ },
+ "clips": {
+  "brother": [
+   {
+    "ai": "A tall soldier in olive uniform stands in the doorway of an Indian home at night, his face in shadow, Ma smiling at him from inside, warm lamp, wide shot",
+    "key": true,
+    "move": "dolly-in",
+    "fallback": "soldier doorway night"
+   },
+   {
+    "ai": "Ma hugging the soldier brother in a small living room, shot from behind the soldier, warm dim light",
+    "move": "pan-left",
+    "fallback": "mother hugging son"
+   },
+   {
+    "ai": "Riya's phone on a table glowing in a dark room, a caller named Captain on the screen, close-up",
+    "move": "rise",
+    "fallback": "phone ringing dark"
+   },
+   {
+    "ai": "A lonely army border post at night, barbed wire and a watchtower under cold moonlight, wide shot",
+    "move": "dolly-out",
+    "fallback": "border fence night"
+   },
+   {
+    "ai": "Ma serving rotis to the soldier brother at a low dining table, the brother seen from behind, a third roti on the plate, warm kitchen light",
+    "move": "orbit",
+    "fallback": "indian kitchen night"
+   },
+   {
+    "ai": "The soldier brother at the dinner table turning his head to smile too wide at the camera, eyes reflecting light, Riya in the foreground from behind, dark room",
+    "key": true,
+    "move": "fall",
+    "fallback": "dark smile figure"
+   }
+  ],
+  "crib-p1": [
+   "baby crib dark room",
+   {
+    "ai": "A dark nursery at night, a crib with a tiny hand lifted between the bars and long grey fingers curled around it from beneath, green night-camera light, close-up",
+    "move": "dolly-in",
+    "fallback": "photo: crib dark nursery"
+   },
+   {
+    "ai": "A couple's bed in a dark bedroom, the husband lying asleep with his eyes closed, the wife sitting up rigid in the foreground from behind, a crib dimly visible at the far end",
+    "motion": "the husband's lips slowly move in his sleep",
+    "fallback": "bedroom night dark"
+   }
+  ],
+  "crib-p2": [
+   "father baby crib night",
+   {
+    "ai": "A calm husband in a dark nursery standing beside a crib, hand resting on the rail, wife seen from behind in the doorway, thin warm lamp light",
+    "move": "dolly-in",
+    "fallback": "photo: father nursery dark"
+   },
+   {
+    "ai": "A woman's hand held tightly by long grey fingers reaching from under a crib in a dark nursery, close-up, cold blue night light",
+    "motion": "the grey fingers slowly tighten around the hand",
+    "fallback": "hand reaching dark"
+   }
+  ]
+ }
+}

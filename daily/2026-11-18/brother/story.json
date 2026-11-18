@@ -1,0 +1,284 @@
+{
+ "title": "My Brother Came Home From the Army. He's Still at the Border.",
+ "format": "rules",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "captain"
+ ],
+ "glitch": [
+  "third",
+  "smiled"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "brother"
+  },
+  {
+   "type": "heartbeat",
+   "at": "hugged"
+  },
+  {
+   "type": "sting",
+   "at": "captain"
+  },
+  {
+   "type": "sting",
+   "at": "smiled"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "hugged-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "captain-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip4.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "border-0.3"
+  },
+  {
+   "type": "clip",
+   "file": "clip5.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "serving-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip6.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "smiled-0.1"
+  },
+  {
+   "type": "title",
+   "start": "subscribe-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "IT WAS",
+     "at": "subscribe-0.1",
+     "delay": 0
+    },
+    {
+     "text": "NOT MY",
+     "at": "subscribe-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "BROTHER.",
+     "at": "subscribe-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Would you open the door?",
+    "at": "before",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "BROTHER'S HOME",
+   "BUT HE'S AWAY"
+  ],
+  "sub": "his captain called"
+ },
+ "hook": {
+  "lines": [
+   "BROTHER'S HOME",
+   "BUT HE'S AWAY"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "My Brother Came Home From the Army. He's Still at the Border. #creepy #horror",
+  "playlist": "scary",
+  "description": "My brother came home from the army tonight. His captain called: he is still at the border.\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "भाई सेना से घर आया। वो अभी भी बॉर्डर पर है #creepy #horror",
+    "description": "भाई आज रात सेना से घर आया, पर उसका कप्तान कहता है वो बॉर्डर पर है।\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "அண்ணன் ராணுவத்திலிருந்து வந்தான். அவன் இன்னும் எல்லையில் இருக்கிறான் #creepy #horror",
+    "description": "அண்ணன் இன்றிரவு ராணுவத்திலிருந்து வந்தான், ஆனால் அவன் எல்லையில் இருப்பதாக கேப்டன் சொல்கிறார்.\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "అన్న ఆర్మీ నుంచి ఇంటికి వచ్చాడు. అతను ఇంకా బోర్డర్‌లోనే ఉన్నాడు #creepy #horror",
+    "description": "అన్న ఈ రాత్రి ఆర్మీ నుంచి వచ్చాడు, కానీ అతను బోర్డర్‌లో ఉన్నాడని కెప్టెన్ అంటున్నాడు.\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "ভাই সেনা থেকে বাড়ি এলো। সে এখনও সীমান্তে #creepy #horror",
+    "description": "ভাই আজ রাতে সেনা থেকে এলো, কিন্তু ক্যাপ্টেন বলছেন সে সীমান্তে।\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "भाऊ सैन्यातून घरी आला. तो अजूनही सीमेवर आहे #creepy #horror",
+    "description": "भाऊ आज रात्री सैन्यातून आला, पण कॅप्टन म्हणतो तो सीमेवर आहे.\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "بھائی فوج سے گھر آیا۔ وہ ابھی بھی سرحد پر ہے #creepy #horror",
+    "description": "بھائی آج رات فوج سے آیا، مگر کپتان کہتا ہے وہ سرحد پر ہے۔\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Umuwi ang Kuya Galing Army. Nasa Border Pa Rin Siya #creepy #horror",
+    "description": "Umuwi si Kuya ngayong gabi, pero sabi ng kapitan nasa border pa siya.\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Kakakku Pulang dari Militer. Dia Masih di Perbatasan #creepy #horror",
+    "description": "Kakakku pulang malam ini, tapi kaptennya bilang dia masih di perbatasan.\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Abang Pulang dari Tentera. Dia Masih di Sempadan #creepy #horror",
+    "description": "Abang saya pulang malam ini, tapi kapten kata dia masih di sempadan.\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "အစ်ကို စစ်တပ်က အိမ်ပြန်လာတယ်။ သူက နယ်စပ်မှာ ရှိနေဆဲ #creepy #horror",
+    "description": "အစ်ကို ဒီညအိမ်ပြန်လာတယ်၊ ဒါပေမဲ့ ဗိုလ်မှူးက သူ နယ်စပ်မှာရှိတယ်လို့ ပြောတယ်။\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "พี่ชายกลับจากกองทัพ แต่เขายังอยู่ที่ชายแดน #creepy #horror",
+    "description": "คืนนี้พี่ชายกลับบ้าน แต่กัปตันบอกว่าเขายังอยู่ที่ชายแดน\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Anh Trai Về Nhà Từ Quân Đội. Anh Vẫn Ở Biên Giới #creepy #horror",
+    "description": "Tối nay anh trai về nhà, nhưng đại úy nói anh vẫn ở biên giới.\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Mi Hermano Volvió del Ejército. Sigue en la Frontera #creepy #horror",
+    "description": "Mi hermano llegó esta noche, pero su capitán dice que sigue en la frontera.\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "Meu Irmão Voltou do Exército. Ele Ainda Está na Fronteira #creepy #horror",
+    "description": "Meu irmão chegou hoje à noite, mas o capitão diz que ele está na fronteira.\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Mon Frère Est Rentré de l'Armée. Il Est Toujours à la Frontière #creepy #horror",
+    "description": "Mon frère est rentré ce soir, mais son capitaine dit qu'il est à la frontière.\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Mein Bruder Kam von der Armee Heim. Er Ist Noch an der Grenze #creepy #horror",
+    "description": "Mein Bruder kam heute Nacht heim, doch sein Hauptmann sagt, er sei an der Grenze.\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Mio Fratello È Tornato dall'Esercito. È Ancora al Confine #creepy #horror",
+    "description": "Mio fratello è tornato stanotte, ma il capitano dice che è al confine.\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Mijn Broer Kwam Thuis van het Leger. Hij Is Nog aan de Grens #creepy #horror",
+    "description": "Mijn broer kwam vanavond thuis, maar zijn kapitein zegt dat hij aan de grens is.\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Min Bror Kom Hem från Armén. Han Är Kvar vid Gränsen #creepy #horror",
+    "description": "Min bror kom hem i natt, men hans kapten säger att han är vid gränsen.\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Brat Wrócił z Wojska. Wciąż Jest na Granicy #creepy #horror",
+    "description": "Brat wrócił dziś w nocy, ale jego kapitan mówi, że jest na granicy.\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Брат Вернулся из Армии. Он Всё Ещё на Границе #creepy #horror",
+    "description": "Брат вернулся сегодня ночью, но его капитан говорит, что он на границе.\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Abim Askerden Geldi. O Hâlâ Sınırda #creepy #horror",
+    "description": "Abim bu gece geldi ama komutanı hâlâ sınırda olduğunu söylüyor.\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "عاد أخي من الجيش. لكنه ما زال على الحدود #creepy #horror",
+    "description": "عاد أخي الليلة، لكن قائده يقول إنه ما زال على الحدود.\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "兄が軍から帰ってきた。彼はまだ国境にいる #creepy #horror",
+    "description": "今夜兄が帰ってきたが、隊長は彼がまだ国境にいると言う。\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "오빠가 군대에서 돌아왔다. 그는 아직 국경에 있다 #creepy #horror",
+    "description": "오늘 밤 오빠가 돌아왔는데, 대위는 그가 아직 국경에 있다고 한다.\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "哥哥从部队回家了。他还在边境 #creepy #horror",
+    "description": "今晚哥哥回家了,可队长说他还在边境。\n\nWould you open the door for him? Tell me in the comments 👇\n📤 Send this to the friend whose brother is far from home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "look": "2d",
+ "characters": "Brother: Indian man, 28, olive army uniform, short hair, face always half in shadow. Ma: Indian woman, 55, grey-streaked bun, orange saree. Riya: girl, 16, long braid, blue kurta."
+}

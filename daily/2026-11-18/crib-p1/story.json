@@ -1,0 +1,246 @@
+{
+ "title": "Crib Hand · Pt 1: Someone Holds My Baby's Hand. My Husband Is Asleep.",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "fingers"
+ ],
+ "glitch": [
+  "under",
+  "asleep"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "someone"
+  },
+  {
+   "type": "heartbeat",
+   "at": "tiny"
+  },
+  {
+   "type": "sting",
+   "at": "grey"
+  },
+  {
+   "type": "sting",
+   "at": "asleep"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "PART 2 ON THE CHANNEL"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.9,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "last-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "husband-0.2"
+  },
+  {
+   "type": "title",
+   "start": "part-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "PART 2",
+     "at": "part-0.1",
+     "delay": 0
+    },
+    {
+     "text": "ON THE",
+     "at": "part-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "CHANNEL.",
+     "at": "part-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Crib Hand continues",
+    "at": "channel",
+    "delay": 0.3
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "SOMEONE HOLDS",
+   "MY BABY'S HAND"
+  ],
+  "sub": "every night at 3 AM"
+ },
+ "hook": {
+  "lines": [
+   "SOMEONE HOLDS",
+   "MY BABY'S HAND"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Crib Hand · Pt 1: Someone Holds My Baby's Hand. My Husband Is Asleep. #creepy #horror",
+  "playlist": "scary",
+  "description": "Every night someone holds my baby's hand through the crib bars. Last night I saw the fingers. Then my husband whispered.\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "Pt 1: कोई मेरे बच्चे का हाथ थामता है। पति सो रहे हैं #creepy #horror",
+    "description": "हर रात कोई पालने की सलाखों से मेरे बच्चे का हाथ थामता है।\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "Pt 1: யாரோ என் குழந்தையின் கையைப் பிடிக்கிறார்கள். கணவர் தூங்குகிறார் #creepy #horror",
+    "description": "ஒவ்வொரு இரவும் யாரோ தொட்டில் கம்பிகள் வழியாக என் குழந்தையின் கையைப் பிடிக்கிறார்கள்.\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "Pt 1: ఎవరో నా బిడ్డ చేయి పట్టుకుంటున్నారు. భర్త నిద్రపోతున్నాడు #creepy #horror",
+    "description": "ప్రతి రాత్రి ఎవరో ఊయల ఊచల నుంచి నా బిడ్డ చేయి పట్టుకుంటారు.\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "Pt 1: কেউ আমার বাচ্চার হাত ধরে। স্বামী ঘুমিয়ে আছে #creepy #horror",
+    "description": "প্রতি রাতে কেউ দোলনার শিকের ফাঁক দিয়ে আমার বাচ্চার হাত ধরে।\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "Pt 1: कोणीतरी माझ्या बाळाचा हात धरतं. नवरा झोपलाय #creepy #horror",
+    "description": "दररोज रात्री कोणीतरी पाळण्याच्या गजांतून माझ्या बाळाचा हात धरतं.\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "Pt 1: کوئی میرے بچے کا ہاتھ تھامتا ہے۔ شوہر سو رہے ہیں #creepy #horror",
+    "description": "ہر رات کوئی جھولے کی سلاخوں سے میرے بچے کا ہاتھ تھامتا ہے۔\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Pt 1: May Humahawak sa Kamay ng Baby Ko. Tulog ang Asawa Ko #creepy #horror",
+    "description": "Gabi-gabi may humahawak sa kamay ng baby ko mula sa crib.\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Pt 1: Ada yang Memegang Tangan Bayiku. Suamiku Tertidur #creepy #horror",
+    "description": "Setiap malam ada yang memegang tangan bayiku lewat jeruji boksnya.\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Pt 1: Ada yang Pegang Tangan Bayi Saya. Suami Saya Tidur #creepy #horror",
+    "description": "Setiap malam ada yang pegang tangan bayi saya melalui palang katil bayi.\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "Pt 1: တစ်ယောက်က ကျွန်မကလေးလက်ကို ကိုင်တယ်။ ခင်ပွန်း အိပ်နေတယ် #creepy #horror",
+    "description": "ညတိုင်း တစ်ယောက်က ခြေတံရိုးကြားက ကျွန်မကလေးလက်ကို ကိုင်တယ်။\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "Pt 1: มีคนจับมือลูกฉัน สามีฉันหลับอยู่ #creepy #horror",
+    "description": "ทุกคืนมีคนจับมือลูกฉันผ่านซี่เปล\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Pt 1: Ai Đó Nắm Tay Con Tôi. Chồng Tôi Đang Ngủ #creepy #horror",
+    "description": "Mỗi đêm có ai đó nắm tay con tôi qua song cũi.\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Pt 1: Alguien Sostiene la Mano de Mi Bebé. Mi Marido Duerme #creepy #horror",
+    "description": "Cada noche alguien sostiene la mano de mi bebé a través de los barrotes de la cuna.\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "Pt 1: Alguém Segura a Mão do Meu Bebê. Meu Marido Dorme #creepy #horror",
+    "description": "Toda noite alguém segura a mão do meu bebê pelas grades do berço.\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Pt 1: Quelqu'un Tient la Main de Mon Bébé. Mon Mari Dort #creepy #horror",
+    "description": "Chaque nuit, quelqu'un tient la main de mon bébé à travers les barreaux du lit.\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Pt 1: Jemand Hält die Hand Meines Babys. Mein Mann Schläft #creepy #horror",
+    "description": "Jede Nacht hält jemand die Hand meines Babys durch die Gitterstäbe.\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Pt 1: Qualcuno Tiene la Mano del Mio Bimbo. Mio Marito Dorme #creepy #horror",
+    "description": "Ogni notte qualcuno tiene la mano del mio bambino tra le sbarre della culla.\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Pt 1: Iemand Houdt de Hand van Mijn Baby Vast. Mijn Man Slaapt #creepy #horror",
+    "description": "Elke nacht houdt iemand de hand van mijn baby vast door de spijlen.\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Pt 1: Någon Håller Min Bebis Hand. Min Man Sover #creepy #horror",
+    "description": "Varje natt håller någon min bebis hand genom spjälorna.\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Pt 1: Ktoś Trzyma Rączkę Mojego Dziecka. Mąż Śpi #creepy #horror",
+    "description": "Co noc ktoś trzyma rączkę mojego dziecka przez szczebelki łóżeczka.\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Pt 1: Кто-то Держит Руку Моего Малыша. Муж Спит #creepy #horror",
+    "description": "Каждую ночь кто-то держит руку моего малыша сквозь прутья кроватки.\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Pt 1: Biri Bebeğimin Elini Tutuyor. Eşim Uyuyor #creepy #horror",
+    "description": "Her gece biri bebeğimin elini beşik parmaklıklarından tutuyor.\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "Pt 1: شخص ما يمسك يد طفلي. زوجي نائم #creepy #horror",
+    "description": "كل ليلة يمسك شخص ما يد طفلي من بين قضبان السرير.\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "Pt 1: 誰かが赤ちゃんの手を握る。夫は眠っている #creepy #horror",
+    "description": "毎晩、誰かがベビーベッドの柵越しに赤ちゃんの手を握る。\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "Pt 1: 누군가 아기 손을 잡는다. 남편은 자고 있다 #creepy #horror",
+    "description": "매일 밤 누군가 아기 침대 창살 사이로 아기 손을 잡는다.\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "Pt 1: 有人握着我宝宝的手。丈夫睡着了 #creepy #horror",
+    "description": "每晚都有人透过婴儿床栏杆握住我宝宝的手。\n\nWould you check under the crib? Tell me in the comments 👇\n📤 Send this to the friend with a new baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "series": {
+  "name": "Crib Hand",
+  "part": 1,
+  "of": 2,
+  "episode": "Someone Holds My Baby's Hand. My Husband Is Asleep."
+ }
+}
