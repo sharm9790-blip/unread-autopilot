@@ -1,81 +1,81 @@
 {
- "updated": "2026-11-18 08:51 IST",
- "median_views": 330,
- "n": 50,
+ "updated": "2026-11-19 08:51 IST",
+ "median_views": 249,
+ "n": 49,
  "top": [
   {
    "title": "Papa's Flight Is Still in the Air. He's Knocking.",
-   "views": 1715,
-   "x_median": 5.2,
+   "views": 1714,
+   "x_median": 6.9,
    "published": "2026-11-14 12:30"
-  },
-  {
-   "title": "Never Pick Up Coins From the Road at Night",
-   "views": 1059,
-   "x_median": 3.2,
-   "published": "2026-11-04 19:30"
   },
   {
    "title": "The School Said Dad Picked Him Up. I'm His Dad.",
    "views": 1020,
-   "x_median": 3.1,
+   "x_median": 4.1,
    "published": "2026-11-08 14:30"
   },
   {
    "title": "The 3 AM Bakery · Pt 1: The Baker Wrote My Name and a Date",
    "views": 1006,
-   "x_median": 3.0,
+   "x_median": 4.0,
    "published": "2026-11-08 18:00"
   },
   {
    "title": "Something Held My Foot in Bed. My Wife Was at Work.",
    "views": 1001,
-   "x_median": 3.0,
+   "x_median": 4.0,
    "published": "2026-11-08 16:30"
   },
   {
-   "title": "My Baby Laughs at the Corner Every Night. I Filmed It.",
-   "views": 987,
-   "x_median": 3.0,
-   "published": "2026-11-04 18:00"
+   "title": "Channel 0 · Pt 1: My TV Is Showing My Living Room. Live.",
+   "views": 975,
+   "x_median": 3.9,
+   "published": "2026-11-07 18:00"
+  },
+  {
+   "title": "A Man Whispered on My Baby Monitor. I Live Alone.",
+   "views": 884,
+   "x_median": 3.6,
+   "published": "2026-11-07 12:30"
   }
  ],
  "bottom": [
   {
-   "title": "Never Sit Behind the Driver on the Night Bus",
-   "views": 60,
-   "x_median": 0.2,
-   "published": "2026-11-12 16:30"
+   "title": "Guest Room · Pt 2: He Followed Me Home. Mom Warned Me.",
+   "views": 6,
+   "x_median": 0.0,
+   "published": "2026-11-16 19:30"
+  },
+  {
+   "title": "Mom Texted Me to Come Home. She Was Driving Me Home.",
+   "views": 9,
+   "x_median": 0.0,
+   "published": "2026-11-16 12:30"
+  },
+  {
+   "title": "My Cat Left a Baby Tooth on My Pillow. I Have No Kids.",
+   "views": 14,
+   "x_median": 0.1,
+   "published": "2026-11-16 16:30"
+  },
+  {
+   "title": "Guest Room · Pt 1: Mom Makes the Bed Daily. Nobody Visits.",
+   "views": 15,
+   "x_median": 0.1,
+   "published": "2026-11-16 18:00"
   },
   {
    "title": "The Last Ferry · Pt 2: My Ticket Was From 1979",
    "views": 70,
-   "x_median": 0.2,
-   "published": "2026-11-11 19:30"
-  },
-  {
-   "title": "The Last Ferry · Pt 2: My Ticket Was From 1979",
-   "views": 70,
-   "x_median": 0.2,
+   "x_median": 0.3,
    "published": "2026-11-11 19:30"
   },
   {
    "title": "1 Ticket. Seat 7. Someone Is Sitting in Seat 8.",
    "views": 70,
-   "x_median": 0.2,
-   "published": "2026-11-15 18:00"
-  },
-  {
-   "title": "I Live in a Studio. My Cleaner Cleaned 4 Rooms.",
-   "views": 81,
-   "x_median": 0.2,
-   "published": "2026-11-06 14:30"
-  },
-  {
-   "title": "The Well · Pt 2: The Girl Climbed Out. She Wanted My Cousin.",
-   "views": 85,
    "x_median": 0.3,
-   "published": "2026-11-12 19:30"
+   "published": "2026-11-15 18:00"
   }
  ]
 }
