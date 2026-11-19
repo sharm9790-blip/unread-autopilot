@@ -1,0 +1,38 @@
+{
+ "clip.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A man in a grey shirt on a ladder under a ceiling fan in a dark Indian bedroom at midnight, seen from behind, a girl in bed watching, dim lamp light, wide shot",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "The man on the ladder from behind, arms raised to the ceiling fan, a thin beam of light from the doorway, dark room",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip3.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Riya's phone on the bed glowing in the dark, a caller named Papa on the screen, close-up",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip4.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Papa in a security guard uniform sitting in a small night-shift booth under a tube light, far away, wide shot",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip5.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Riya from behind sitting rigid in bed, the ladder and the man silhouetted ahead of her, ceiling fan still",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip6.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "The man on the ladder with his head turned all the way around toward the camera, face in deep shadow, eyes reflecting light, dark bedroom",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ }
+}

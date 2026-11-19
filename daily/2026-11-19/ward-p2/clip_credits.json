@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 4039,
+  "user": "F1Digitals",
+  "query": "hospital room dark",
+  "tags": "mini gastric bypass surgery, stomach, medical, care, treatment, procedure, obesity, medicine, laparoscopic, healthcare, health, abdomen, nutrition, people, human, ill, illness, intestinal, intestine, exam, medic, assistant, medicare, equipment, nurse, hospital, endoscopy, patient, doctor, room, science, urgency, sick, specialist, sterile, surgeon, surgical"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A hospital monitor showing a flat green line in a dark ward, a daughter at the bedside seen from behind, a nurse frozen in the doorway, cold light",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "A woman sitting upright in a hospital bed in a dark ward, smiling too wide, face half in shadow, her daughter in the foreground from behind",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the woman's head slowly tilts toward camera",
+  "video_model": "creatify/boreal"
+ }
+}

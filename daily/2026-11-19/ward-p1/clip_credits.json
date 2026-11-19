@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 3996,
+  "user": "F1Digitals",
+  "query": "hospital ward night",
+  "tags": "stent, process, heart, medical, education, health, medicine, healthcare, disease, care, equipment, instrument, therapy, science, hospital, pulse, heartbeat, doctor, surgery, clinic, exam, computer, human, trace, technology, monitor, illness, patient, services, ward, room, operating, indoors, life, hygiene, emergency, cardiology, supplies, lighting, surgical, surveillance, red, technical"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A dim hospital ward at night, a mother lying in bed with monitors, an empty made bed beside her, daughter seen from behind at the bedside, cold green light",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "An empty hospital bed with a crumpled sheet in a dark ward, a nurse far away in the doorway with a torch, faint shape under the sheet",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the sheet slowly rises as if someone is breathing under it",
+  "video_model": "creatify/boreal"
+ }
+}

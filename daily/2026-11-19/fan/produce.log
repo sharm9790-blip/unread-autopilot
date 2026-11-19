@@ -1,0 +1,187 @@
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/parallax.py daily/2026-11-19/fan/clip_ai.jpg daily/2026-11-19/fan/clip.mp4 --move dolly-in --dur 10 --strength 0.07 --fog 0.2 --dust 40
+
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Device set to use cpu
+  depth: Depth Anything V2 (saved clip_ai.depth.png); move dolly-in, 10.0s @ 30fps, 1080x1920
+
+  frame 0/300
+  frame 30/300
+  frame 60/300
+  frame 90/300
+  frame 120/300
+  frame 150/300
+  frame 180/300
+  frame 210/300
+  frame 240/300
+  frame 270/300
+  wrote daily/2026-11-19/fan/clip.mp4            
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/parallax.py daily/2026-11-19/fan/clip2_ai.jpg daily/2026-11-19/fan/clip2.mp4 --move pan-left --dur 10 --strength 0.07 --fog 0.2 --dust 40
+
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Device set to use cpu
+  depth: Depth Anything V2 (saved clip2_ai.depth.png); move pan-left, 10.0s @ 30fps, 1080x1920
+
+  frame 0/300
+  frame 30/300
+  frame 60/300
+  frame 90/300
+  frame 120/300
+  frame 150/300
+  frame 180/300
+  frame 210/300
+  frame 240/300
+  frame 270/300
+  wrote daily/2026-11-19/fan/clip2.mp4            
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/parallax.py daily/2026-11-19/fan/clip3_ai.jpg daily/2026-11-19/fan/clip3.mp4 --move rise --dur 10 --strength 0.07 --fog 0.2 --dust 40
+
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Device set to use cpu
+  depth: Depth Anything V2 (saved clip3_ai.depth.png); move rise, 10.0s @ 30fps, 1080x1920
+
+  frame 0/300
+  frame 30/300
+  frame 60/300
+  frame 90/300
+  frame 120/300
+  frame 150/300
+  frame 180/300
+  frame 210/300
+  frame 240/300
+  frame 270/300
+  wrote daily/2026-11-19/fan/clip3.mp4            
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/parallax.py daily/2026-11-19/fan/clip4_ai.jpg daily/2026-11-19/fan/clip4.mp4 --move dolly-out --dur 10 --strength 0.07 --fog 0.2 --dust 40
+
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Device set to use cpu
+  depth: Depth Anything V2 (saved clip4_ai.depth.png); move dolly-out, 10.0s @ 30fps, 1080x1920
+
+  frame 0/300
+  frame 30/300
+  frame 60/300
+  frame 90/300
+  frame 120/300
+  frame 150/300
+  frame 180/300
+  frame 210/300
+  frame 240/300
+  frame 270/300
+  wrote daily/2026-11-19/fan/clip4.mp4            
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/parallax.py daily/2026-11-19/fan/clip5_ai.jpg daily/2026-11-19/fan/clip5.mp4 --move orbit --dur 10 --strength 0.07 --fog 0.2 --dust 40
+
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Device set to use cpu
+  depth: Depth Anything V2 (saved clip5_ai.depth.png); move orbit, 10.0s @ 30fps, 1080x1920
+
+  frame 0/300
+  frame 30/300
+  frame 60/300
+  frame 90/300
+  frame 120/300
+  frame 150/300
+  frame 180/300
+  frame 210/300
+  frame 240/300
+  frame 270/300
+  wrote daily/2026-11-19/fan/clip5.mp4            
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/parallax.py daily/2026-11-19/fan/clip6_ai.jpg daily/2026-11-19/fan/clip6.mp4 --move fall --dur 10 --strength 0.07 --fog 0.2 --dust 40
+
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Device set to use cpu
+  depth: Depth Anything V2 (saved clip6_ai.depth.png); move fall, 10.0s @ 30fps, 1080x1920
+
+  frame 0/300
+  frame 30/300
+  frame 60/300
+  frame 90/300
+  frame 120/300
+  frame 150/300
+  frame 180/300
+  frame 210/300
+  frame 240/300
+  frame 270/300
+  wrote daily/2026-11-19/fan/clip6.mp4            
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/tts.py daily/2026-11-19/fan --voice BycOlIr9Aytiubl0LIIY
+voice.mp3 + words.json  words=45  spoken=20.3s
+
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/thumbnail.py daily/2026-11-19/fan
+thumbnail.png + upload.md
+
+[vost#0:0/rawvideo @ 0x565a8c195740] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x565a8c1953c0] Error muxing a packet
+[out#0/rawvideo @ 0x565a8c1953c0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x565a8c1953c0] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x565a8c1953c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x565a8c1953c0] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/render.py daily/2026-11-19/fan
+done daily/2026-11-19/fan/short.mp4  23.3s  67 MB
+
+[vost#0:0/rawvideo @ 0x61a410fc3740] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x61a410fc33c0] Error muxing a packet
+[out#0/rawvideo @ 0x61a410fc33c0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x61a410fc33c0] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5b5bcbf8d3c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5b5bcbf8f8c0] Error muxing a packet
+[out#0/rawvideo @ 0x5b5bcbf8f8c0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5b5bcbf8f8c0] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5f25602a1780] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5f25602a1400] Error muxing a packet
+[out#0/rawvideo @ 0x5f25602a1400] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5f25602a1400] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x61a3b5014980] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x61a3b5014600] Error muxing a packet
+[out#0/rawvideo @ 0x61a3b5014600] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x61a3b5014600] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5dc1b861ba00] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5dc1b861b680] Error muxing a packet
+[out#0/rawvideo @ 0x5dc1b861b680] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5dc1b861b680] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5c53014303c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5c53014328c0] Error muxing a packet
+[out#0/rawvideo @ 0x5c53014328c0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5c53014328c0] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x61a3b5014600] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x61a3b5014600] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5b5bcbf8f8c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5b5bcbf8f8c0] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5c53014328c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5c53014328c0] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x61a410fc33c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x61a410fc33c0] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5dc1b861b680] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5dc1b861b680] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5f25602a1400] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5f25602a1400] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/youtube_upload.py daily/2026-11-19/fan --publish-at 2026-11-25T12:30:00+05:30
+uploading 12%
+uploading 25%
+uploading 37%
+uploading 50%
+uploading 62%
+uploading 75%
+uploading 87%
+{
+ "id": "aCK6XZ_KIX8",
+ "url": "https://youtube.com/shorts/aCK6XZ_KIX8",
+ "privacy": "private",
+ "title": "Papa Is Fixing Our Fan at Midnight. Papa Is on Night Shift. #creepy #horror",
+ "thumbnail": "set",
+ "playlist": "\ud83d\ude31 Scary Stories"
+}
+
+
