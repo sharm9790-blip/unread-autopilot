@@ -1,0 +1,247 @@
+{
+ "title": "Ward 9 · Pt 2: Mom's Voice Said Goodnight. She Was Already Gone.",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "flat"
+ ],
+ "glitch": [
+  "smiling",
+  "thank"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "never"
+  },
+  {
+   "type": "heartbeat",
+   "at": "whispered"
+  },
+  {
+   "type": "sting",
+   "at": "flat"
+  },
+  {
+   "type": "sting",
+   "at": "thank"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.8,
+    "desat": 0.3,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "flat-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "thank-0.3"
+  },
+  {
+   "type": "title",
+   "start": "subscribe-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "IT WORE",
+     "at": "subscribe-0.1",
+     "delay": 0
+    },
+    {
+     "text": "MOM'S",
+     "at": "subscribe-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "VOICE.",
+     "at": "subscribe-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Part 1 is on the channel",
+    "at": "ward",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "NEVER SAY",
+   "GOODNIGHT"
+  ],
+  "sub": "Ward 9 at night"
+ },
+ "hook": {
+  "lines": [
+   "NEVER SAY",
+   "GOODNIGHT"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Ward 9 · Pt 2: Mom's Voice Said Goodnight. She Was Already Gone. #creepy #horror",
+  "playlist": "scary",
+  "description": "I said goodnight in Ward 9. The empty bed answered, and Mom's monitor went flat. Then Mom sat up smiling.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "वार्ड 9 · भाग 2: माँ की आवाज़ ने गुड नाइट कहा। वो पहले ही जा चुकी थीं #creepy #horror",
+    "description": "मैंने वार्ड 9 में गुड नाइट कहा। खाली बेड ने जवाब दिया, फिर माँ मुस्कुराते हुए उठ बैठीं।\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "வார்டு 9 · பகுதி 2: அம்மாவின் குரல் குட் நைட் சொன்னது. அவர் ஏற்கனவே போய்விட்டார் #creepy #horror",
+    "description": "நான் வார்டு 9ல் குட் நைட் சொன்னேன். காலிப் படுக்கை பதிலளித்தது, பிறகு அம்மா சிரித்தபடி எழுந்தார்.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "వార్డ్ 9 · పార్ట్ 2: అమ్మ గొంతు గుడ్ నైట్ చెప్పింది. ఆమె అప్పటికే వెళ్లిపోయింది #creepy #horror",
+    "description": "నేను వార్డ్ 9లో గుడ్ నైట్ చెప్పాను. ఖాళీ బెడ్ బదులిచ్చింది, తర్వాత అమ్మ నవ్వుతూ లేచింది.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "ওয়ার্ড ৯ · পর্ব ২: মায়ের কণ্ঠ শুভরাত্রি বলল। মা আগেই চলে গিয়েছিল #creepy #horror",
+    "description": "আমি ওয়ার্ড ৯-এ শুভরাত্রি বললাম। খালি বিছানা উত্তর দিল, তারপর মা হাসতে হাসতে উঠে বসল।\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "वॉर्ड ९ · भाग २: आईच्या आवाजाने शुभ रात्री म्हटलं. ती आधीच गेली होती #creepy #horror",
+    "description": "मी वॉर्ड ९ मध्ये शुभ रात्री म्हटलं. रिकाम्या बेडने उत्तर दिलं, मग आई हसत उठून बसली.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "وارڈ 9 · حصہ 2: امی کی آواز نے شب بخیر کہا۔ وہ پہلے ہی جا چکی تھیں #creepy #horror",
+    "description": "میں نے وارڈ 9 میں شب بخیر کہا۔ خالی بیڈ نے جواب دیا، پھر امی مسکراتے ہوئے اٹھ بیٹھیں۔\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Ward 9 · Pt 2: Nag-goodnight ang Boses ni Mama. Wala Na Siya #creepy #horror",
+    "description": "Nag-goodnight ako sa Ward 9. Sumagot ang walang laman na kama, tapos bumangon si Mama na nakangiti.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Ward 9 · Pt 2: Suara Ibu Bilang Selamat Malam. Ibu Sudah Pergi #creepy #horror",
+    "description": "Aku bilang selamat malam di Ward 9. Ranjang kosong menjawab, lalu Ibu duduk sambil tersenyum.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Wad 9 · Pt 2: Suara Ibu Ucap Selamat Malam. Ibu Sudah Pergi #creepy #horror",
+    "description": "Saya ucap selamat malam di Wad 9. Katil kosong menjawab, lalu Ibu duduk sambil tersenyum.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "ဝပ်ဒ် ၉ · အပိုင်း ၂: အမေ့အသံက ညအိပ်ကောင်းပါစေလို့ပြောတယ်။ သူက ထွက်သွားပြီးသား #creepy #horror",
+    "description": "ဝပ်ဒ် ၉ မှာ ညအိပ်ကောင်းပါစေလို့ပြောခဲ့တယ်။ ဗလာကုတင်က ပြန်ဖြေပြီး အမေက ပြုံးရင်း ထထိုင်တယ်။\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "วอร์ด 9 · ตอน 2: เสียงแม่บอกราตรีสวัสดิ์ แต่แม่จากไปแล้ว #creepy #horror",
+    "description": "ฉันบอกราตรีสวัสดิ์ในวอร์ด 9 เตียงว่างตอบกลับ แล้วแม่ก็ลุกขึ้นนั่งยิ้ม\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Phòng 9 · Pt 2: Giọng Mẹ Nói Ngủ Ngon. Mẹ Đã Đi Từ Trước #creepy #horror",
+    "description": "Con chúc ngủ ngon ở Phòng 9. Giường trống đáp lại, rồi mẹ ngồi dậy mỉm cười.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Sala 9 · Pt 2: La Voz de Mamá Dijo Buenas Noches. Ya Se Había Ido #creepy #horror",
+    "description": "Dije buenas noches en la Sala 9. La cama vacía respondió y mamá se sentó sonriendo.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "Ala 9 · Pt 2: A Voz da Mamãe Disse Boa Noite. Ela Já Tinha Partido #creepy #horror",
+    "description": "Disse boa noite na Ala 9. A cama vazia respondeu e a mamãe sentou sorrindo.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Service 9 · Pt 2: La Voix de Maman a Dit Bonne Nuit. Elle Était Déjà Partie #creepy #horror",
+    "description": "J'ai dit bonne nuit au Service 9. Le lit vide a répondu, puis Maman s'est assise en souriant.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Station 9 · Pt 2: Mamas Stimme Sagte Gute Nacht. Sie War Längst Fort #creepy #horror",
+    "description": "Ich sagte auf Station 9 gute Nacht. Das leere Bett antwortete, dann setzte Mama sich lächelnd auf.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Reparto 9 · Pt 2: La Voce di Mamma Ha Detto Buonanotte. Era Già Andata #creepy #horror",
+    "description": "Ho detto buonanotte nel Reparto 9. Il letto vuoto ha risposto, poi Mamma si è seduta sorridendo.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Afdeling 9 · Pt 2: Mama's Stem Zei Welterusten. Ze Was Al Weg #creepy #horror",
+    "description": "Ik zei welterusten op Afdeling 9. Het lege bed antwoordde, en Mama ging glimlachend zitten.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Avdelning 9 · Pt 2: Mammas Röst Sa Godnatt. Hon Var Redan Borta #creepy #horror",
+    "description": "Jag sa godnatt på Avdelning 9. Den tomma sängen svarade, sedan satte sig Mamma upp och log.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Oddział 9 · Pt 2: Głos Mamy Powiedział Dobranoc. Już Jej Nie Było #creepy #horror",
+    "description": "Powiedziałam dobranoc na Oddziale 9. Puste łóżko odpowiedziało, a mama usiadła z uśmiechem.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Палата 9 · Ч. 2: Голос Мамы Сказал Спокойной Ночи. Её Уже Не Было #creepy #horror",
+    "description": "Я сказала спокойной ночи в Палате 9. Пустая кровать ответила, и мама села, улыбаясь.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Servis 9 · Pt 2: Annemin Sesi İyi Geceler Dedi. O Çoktan Gitmişti #creepy #horror",
+    "description": "Servis 9'da iyi geceler dedim. Boş yatak cevap verdi, sonra annem gülümseyerek oturdu.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "العنبر 9 · الجزء 2: صوت أمي قال تصبحين على خير. كانت قد رحلت #creepy #horror",
+    "description": "قلت تصبحين على خير في العنبر 9. ردّ السرير الفارغ، ثم جلست أمي مبتسمة.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "9号病棟 Pt 2: 母の声がおやすみと言った。母はもういなかった #creepy #horror",
+    "description": "9号病棟でおやすみと言うと、空のベッドが答え、母が笑顔で起き上がった。\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "9병동 · Pt 2: 엄마의 목소리가 잘 자라고 했다. 엄마는 이미 떠났다 #creepy #horror",
+    "description": "9병동에서 잘 자라고 하자 빈 침대가 대답했고, 엄마가 웃으며 일어나 앉았다.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "9号病房 · Pt 2：妈妈的声音说了晚安。她早已不在了 #creepy #horror",
+    "description": "我在9号病房说了晚安。空床回答了我，然后妈妈笑着坐了起来。\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who never skips goodnight 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "series": {
+  "name": "Ward 9",
+  "part": 2,
+  "of": 2,
+  "episode": "Mom's Voice Said Goodnight. She Was Already Gone."
+ }
+}

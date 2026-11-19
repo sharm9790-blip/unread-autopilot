@@ -1,0 +1,246 @@
+{
+ "title": "Ward 9 · Pt 1: Mom Is in a Coma. Someone Answers When I Talk.",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "goodnight#2"
+ ],
+ "glitch": [
+  "bed",
+  "sunday"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "my"
+  },
+  {
+   "type": "heartbeat",
+   "at": "whispered"
+  },
+  {
+   "type": "sting",
+   "at": "empty"
+  },
+  {
+   "type": "sting",
+   "at": "sunday"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "PART 2 ON THE CHANNEL"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.9,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "whispered-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "nurse-0.2"
+  },
+  {
+   "type": "title",
+   "start": "part-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "PART 2",
+     "at": "part-0.1",
+     "delay": 0
+    },
+    {
+     "text": "ON THE",
+     "at": "part-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "CHANNEL.",
+     "at": "part-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Ward 9 continues",
+    "at": "channel",
+    "delay": 0.3
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "MOM IS IN A COMA",
+   "SOMEONE ANSWERS"
+  ],
+  "sub": "from the empty bed"
+ },
+ "hook": {
+  "lines": [
+   "MOM IS IN A COMA",
+   "SOMEONE ANSWERS"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Ward 9 · Pt 1: Mom Is in a Coma. Someone Answers When I Talk. #creepy #horror",
+  "playlist": "scary",
+  "description": "My mom is in a coma. When I whispered goodnight, a voice answered from the empty bed beside hers.\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "वार्ड 9 · भाग 1: माँ कोमा में हैं। मेरी बात का कोई जवाब देता है #creepy #horror",
+    "description": "माँ कोमा में हैं। मैंने गुड नाइट कहा तो खाली बेड से आवाज़ आई।\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "வார்டு 9 · பகுதி 1: அம்மா கோமாவில். நான் பேசினால் யாரோ பதில் சொல்கிறார்கள் #creepy #horror",
+    "description": "அம்மா கோமாவில் இருக்கிறார். குட் நைட் சொன்னதும் காலிப் படுக்கையிலிருந்து குரல் வந்தது.\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "వార్డ్ 9 · పార్ట్ 1: అమ్మ కోమాలో ఉంది. నేను మాట్లాడితే ఎవరో బదులిస్తున్నారు #creepy #horror",
+    "description": "అమ్మ కోమాలో ఉంది. గుడ్ నైట్ అంటే ఖాళీ బెడ్ నుంచి గొంతు వినిపించింది.\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "ওয়ার্ড ৯ · পর্ব ১: মা কোমায়। আমি কথা বললে কেউ উত্তর দেয় #creepy #horror",
+    "description": "মা কোমায়। শুভরাত্রি বলতেই খালি বিছানা থেকে একটা কণ্ঠ উত্তর দিল।\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "वॉर्ड ९ · भाग १: आई कोमात आहे. मी बोलले की कोणीतरी उत्तर देतं #creepy #horror",
+    "description": "आई कोमात आहे. शुभ रात्री म्हणताच रिकाम्या बेडवरून आवाज आला.\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "وارڈ 9 · حصہ 1: امی کومے میں ہیں۔ میری بات کا کوئی جواب دیتا ہے #creepy #horror",
+    "description": "امی کومے میں ہیں۔ شب بخیر کہا تو خالی بیڈ سے آواز آئی۔\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Ward 9 · Pt 1: Na Coma si Mama. May Sumasagot Kapag Nagsasalita Ako #creepy #horror",
+    "description": "Na coma si Mama. Nang nag-goodnight ako, may boses na sumagot mula sa walang lamang kama.\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Ward 9 · Pt 1: Ibu Koma. Ada yang Menjawab Saat Aku Bicara #creepy #horror",
+    "description": "Ibu koma. Saat aku bilang selamat malam, ada suara menjawab dari ranjang kosong.\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Wad 9 · Pt 1: Ibu Koma. Ada yang Menjawab Bila Saya Bercakap #creepy #horror",
+    "description": "Ibu koma. Bila saya ucap selamat malam, ada suara menjawab dari katil kosong.\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "ဝပ်ဒ် ၉ · အပိုင်း ၁: အမေ ကိုမာမှာ။ ကျွန်မပြောရင် တစ်ယောက်ယောက်ဖြေတယ် #creepy #horror",
+    "description": "အမေ ကိုမာမှာ။ ညအိပ်ကောင်းပါစေလို့ပြောတော့ ဗလာကုတင်ကနေ အသံတစ်ခု ပြန်ဖြေတယ်။\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "วอร์ด 9 · ตอน 1: แม่อยู่ในอาการโคม่า ฉันพูดแล้วมีใครตอบ #creepy #horror",
+    "description": "แม่อยู่ในอาการโคม่า พอฉันบอกราตรีสวัสดิ์ มีเสียงตอบจากเตียงว่าง\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Phòng 9 · Pt 1: Mẹ Hôn Mê. Có Ai Đó Đáp Lại Khi Con Nói #creepy #horror",
+    "description": "Mẹ đang hôn mê. Con chúc ngủ ngon thì có giọng đáp lại từ chiếc giường trống.\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Sala 9 · Pt 1: Mamá Está en Coma. Alguien Responde Cuando Hablo #creepy #horror",
+    "description": "Mamá está en coma. Dije buenas noches y una voz respondió desde la cama vacía.\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "Ala 9 · Pt 1: Mamãe Está em Coma. Alguém Responde Quando Falo #creepy #horror",
+    "description": "Mamãe está em coma. Disse boa noite e uma voz respondeu da cama vazia.\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Service 9 · Pt 1: Maman Est dans le Coma. Quelqu'un Répond Quand Je Parle #creepy #horror",
+    "description": "Maman est dans le coma. J'ai dit bonne nuit et une voix a répondu du lit vide.\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Station 9 · Pt 1: Mama Liegt im Koma. Jemand Antwortet, Wenn Ich Rede #creepy #horror",
+    "description": "Mama liegt im Koma. Ich sagte gute Nacht, und eine Stimme antwortete vom leeren Bett.\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Reparto 9 · Pt 1: Mamma È in Coma. Qualcuno Risponde Quando Parlo #creepy #horror",
+    "description": "Mamma è in coma. Ho detto buonanotte e una voce ha risposto dal letto vuoto.\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Afdeling 9 · Pt 1: Mama Ligt in Coma. Iemand Antwoordt Als Ik Praat #creepy #horror",
+    "description": "Mama ligt in coma. Ik zei welterusten en een stem antwoordde vanuit het lege bed.\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Avdelning 9 · Pt 1: Mamma Ligger i Koma. Någon Svarar När Jag Pratar #creepy #horror",
+    "description": "Mamma ligger i koma. Jag sa godnatt och en röst svarade från den tomma sängen.\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Oddział 9 · Pt 1: Mama Jest w Śpiączce. Ktoś Odpowiada, Gdy Mówię #creepy #horror",
+    "description": "Mama jest w śpiączce. Powiedziałam dobranoc, a głos odpowiedział z pustego łóżka.\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Палата 9 · Ч. 1: Мама в Коме. Кто-то Отвечает, Когда Я Говорю #creepy #horror",
+    "description": "Мама в коме. Я сказала спокойной ночи, и голос ответил с пустой кровати.\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Servis 9 · Pt 1: Annem Komada. Konuşunca Biri Cevap Veriyor #creepy #horror",
+    "description": "Annem komada. İyi geceler dedim, boş yataktan bir ses cevap verdi.\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "العنبر 9 · الجزء 1: أمي في غيبوبة. شخص ما يرد عندما أتكلم #creepy #horror",
+    "description": "أمي في غيبوبة. قلت تصبحين على خير فردّ صوت من السرير الفارغ.\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "9号病棟 Pt 1: 母は昏睡状態。話しかけると誰かが答える #creepy #horror",
+    "description": "母は昏睡状態。おやすみと言うと、空のベッドから声が返ってきた。\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "9병동 · Pt 1: 엄마는 혼수상태. 말을 걸면 누군가 대답한다 #creepy #horror",
+    "description": "엄마는 혼수상태다. 잘 자라고 하자 빈 침대에서 목소리가 대답했다.\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "9号病房 · Pt 1：妈妈昏迷了。我一说话就有人回答 #creepy #horror",
+    "description": "妈妈昏迷了。我说晚安，空床上传来了回答。\n\nWould you say goodnight? Tell me in the comments 👇\n📤 Send this to the friend who sits with a parent in hospital 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "series": {
+  "name": "Ward 9",
+  "part": 1,
+  "of": 2,
+  "episode": "Mom Is in a Coma. Someone Answers When I Talk."
+ }
+}

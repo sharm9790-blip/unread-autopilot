@@ -1,0 +1,75 @@
+{
+ "date": "2026-11-19",
+ "order": [
+  "fan",
+  "ward-p1",
+  "ward-p2"
+ ],
+ "schedule": {
+  "fan": "2026-11-19T12:30:00+05:30",
+  "ward-p1": "2026-11-19T18:00:00+05:30",
+  "ward-p2": "2026-11-19T19:30:00+05:30"
+ },
+ "clips": {
+  "fan": [
+   {
+    "ai": "A man in a grey shirt on a ladder under a ceiling fan in a dark Indian bedroom at midnight, seen from behind, a girl in bed watching, dim lamp light, wide shot",
+    "key": true,
+    "move": "dolly-in",
+    "fallback": "ceiling fan night"
+   },
+   {
+    "ai": "The man on the ladder from behind, arms raised to the ceiling fan, a thin beam of light from the doorway, dark room",
+    "move": "pan-left",
+    "fallback": "man ladder dark"
+   },
+   {
+    "ai": "Riya's phone on the bed glowing in the dark, a caller named Papa on the screen, close-up",
+    "move": "rise",
+    "fallback": "phone ringing dark"
+   },
+   {
+    "ai": "Papa in a security guard uniform sitting in a small night-shift booth under a tube light, far away, wide shot",
+    "move": "dolly-out",
+    "fallback": "security booth night"
+   },
+   {
+    "ai": "Riya from behind sitting rigid in bed, the ladder and the man silhouetted ahead of her, ceiling fan still",
+    "move": "orbit",
+    "fallback": "dark bedroom fan"
+   },
+   {
+    "ai": "The man on the ladder with his head turned all the way around toward the camera, face in deep shadow, eyes reflecting light, dark bedroom",
+    "key": true,
+    "move": "fall",
+    "fallback": "dark figure ceiling"
+   }
+  ],
+  "ward-p1": [
+   "hospital ward night",
+   {
+    "ai": "A dim hospital ward at night, a mother lying in bed with monitors, an empty made bed beside her, daughter seen from behind at the bedside, cold green light",
+    "move": "dolly-in",
+    "fallback": "photo: hospital ward dark"
+   },
+   {
+    "ai": "An empty hospital bed with a crumpled sheet in a dark ward, a nurse far away in the doorway with a torch, faint shape under the sheet",
+    "motion": "the sheet slowly rises as if someone is breathing under it",
+    "fallback": "hospital corridor night"
+   }
+  ],
+  "ward-p2": [
+   "hospital room dark",
+   {
+    "ai": "A hospital monitor showing a flat green line in a dark ward, a daughter at the bedside seen from behind, a nurse frozen in the doorway, cold light",
+    "move": "dolly-in",
+    "fallback": "photo: hospital monitor dark"
+   },
+   {
+    "ai": "A woman sitting upright in a hospital bed in a dark ward, smiling too wide, face half in shadow, her daughter in the foreground from behind",
+    "motion": "the woman's head slowly tilts toward camera",
+    "fallback": "dark figure hospital"
+   }
+  ]
+ }
+}

@@ -1,0 +1,284 @@
+{
+ "title": "Papa Is Fixing Our Fan at Midnight. Papa Is on Night Shift.",
+ "format": "rules",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "shift"
+ ],
+ "glitch": [
+  "ladder",
+  "turned"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "papa"
+  },
+  {
+   "type": "heartbeat",
+   "at": "humming"
+  },
+  {
+   "type": "sting",
+   "at": "shift"
+  },
+  {
+   "type": "sting",
+   "at": "turned"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "humming-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "phone-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip4.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "shift-0.3"
+  },
+  {
+   "type": "clip",
+   "file": "clip5.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "ladder-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip6.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "turned-0.1"
+  },
+  {
+   "type": "title",
+   "start": "around-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "IT WAS",
+     "at": "around-0.1",
+     "delay": 0
+    },
+    {
+     "text": "NOT MY",
+     "at": "around-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "PAPA.",
+     "at": "around-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Would you look up?",
+    "at": "subscribe",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "PAPA FIXES",
+   "THE FAN AT 12"
+  ],
+  "sub": "Papa is on night shift"
+ },
+ "hook": {
+  "lines": [
+   "PAPA FIXES",
+   "THE FAN AT 12"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Papa Is Fixing Our Fan at Midnight. Papa Is on Night Shift. #creepy #horror",
+  "playlist": "scary",
+  "description": "Papa is fixing our ceiling fan at midnight. Then Papa called: he is on night shift. Don't look up.\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "पापा आधी रात को पंखा ठीक कर रहे हैं। पापा नाइट शिफ्ट पर हैं #creepy #horror",
+    "description": "पापा आधी रात को पंखा ठीक कर रहे थे, पर वो नाइट शिफ्ट पर थे।\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "அப்பா நள்ளிரவில் மின்விசிறியை சரிசெய்கிறார். அப்பா இரவுப் பணியில் இருக்கிறார் #creepy #horror",
+    "description": "அப்பா நள்ளிரவில் மின்விசிறியை சரிசெய்தார், ஆனால் அவர் இரவுப் பணியில் இருந்தார்.\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "నాన్న అర్ధరాత్రి ఫ్యాన్ బాగు చేస్తున్నారు. నాన్న నైట్ షిఫ్ట్‌లో ఉన్నారు #creepy #horror",
+    "description": "నాన్న అర్ధరాత్రి ఫ్యాన్ బాగు చేశారు, కానీ ఆయన నైట్ షిఫ్ట్‌లో ఉన్నారు.\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "বাবা মাঝরাতে ফ্যান ঠিক করছে। বাবা নাইট শিফটে আছে #creepy #horror",
+    "description": "বাবা মাঝরাতে ফ্যান ঠিক করছিল, অথচ সে নাইট শিফটে ছিল।\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "बाबा मध्यरात्री पंखा दुरुस्त करत आहेत. बाबा नाईट शिफ्टवर आहेत #creepy #horror",
+    "description": "बाबा मध्यरात्री पंखा दुरुस्त करत होते, पण ते नाईट शिफ्टवर होते.\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "پاپا آدھی رات کو پنکھا ٹھیک کر رہے ہیں۔ پاپا نائٹ شفٹ پر ہیں #creepy #horror",
+    "description": "پاپا آدھی رات کو پنکھا ٹھیک کر رہے تھے، مگر وہ نائٹ شفٹ پر تھے۔\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Inaayos ni Papa ang Bentilador Nang Hatinggabi. Nasa Night Shift Siya #creepy #horror",
+    "description": "Inaayos ni Papa ang bentilador nang hatinggabi, pero nasa night shift siya.\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Ayah Memperbaiki Kipas Tengah Malam. Ayah Sedang Shift Malam #creepy #horror",
+    "description": "Ayah memperbaiki kipas tengah malam, padahal dia sedang shift malam.\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Ayah Betulkan Kipas Tengah Malam. Ayah Sedang Syif Malam #creepy #horror",
+    "description": "Ayah betulkan kipas tengah malam, padahal dia sedang syif malam.\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "ဖေဖေ သန်းခေါင်ယံမှာ ပန်ကာပြင်နေတယ်။ ဖေဖေက ညအလုပ်ဆင်းနေတယ် #creepy #horror",
+    "description": "ဖေဖေ သန်းခေါင်ယံမှာ ပန်ကာပြင်နေတယ်၊ ဒါပေမယ့် သူက ညအလုပ်ဆင်းနေတာ။\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "พ่อกำลังซ่อมพัดลมตอนเที่ยงคืน แต่พ่อเข้ากะดึก #creepy #horror",
+    "description": "พ่อกำลังซ่อมพัดลมตอนเที่ยงคืน แต่พ่อเข้ากะดึกอยู่\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Bố Đang Sửa Quạt Lúc Nửa Đêm. Bố Đang Trực Đêm #creepy #horror",
+    "description": "Bố đang sửa quạt lúc nửa đêm, nhưng bố đang trực đêm.\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Papá Arregla el Ventilador a Medianoche. Papá Está en Turno de Noche #creepy #horror",
+    "description": "Papá arreglaba el ventilador a medianoche, pero estaba en turno de noche.\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "O Papai Conserta o Ventilador à Meia-Noite. Ele Está no Turno da Noite #creepy #horror",
+    "description": "O papai consertava o ventilador à meia-noite, mas estava no turno da noite.\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Papa Répare le Ventilateur à Minuit. Papa Est de Nuit au Travail #creepy #horror",
+    "description": "Papa réparait le ventilateur à minuit, mais il était de nuit au travail.\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Papa Repariert um Mitternacht den Ventilator. Papa Hat Nachtschicht #creepy #horror",
+    "description": "Papa repariert um Mitternacht den Ventilator, dabei hat er Nachtschicht.\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Papà Ripara il Ventilatore a Mezzanotte. Papà È di Turno di Notte #creepy #horror",
+    "description": "Papà riparava il ventilatore a mezzanotte, ma era di turno di notte.\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Papa Repareert Middernacht de Ventilator. Papa Heeft Nachtdienst #creepy #horror",
+    "description": "Papa repareerde middernacht de ventilator, maar hij had nachtdienst.\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Pappa Lagar Fläkten vid Midnatt. Pappa Har Nattskift #creepy #horror",
+    "description": "Pappa lagade fläkten vid midnatt, men han hade nattskift.\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Tata Naprawia Wentylator o Północy. Tata Jest na Nocnej Zmianie #creepy #horror",
+    "description": "Tata naprawiał wentylator o północy, a był na nocnej zmianie.\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Папа Чинит Вентилятор в Полночь. Папа на Ночной Смене #creepy #horror",
+    "description": "Папа чинил вентилятор в полночь, но он был на ночной смене.\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Babam Gece Yarısı Vantilatörü Tamir Ediyor. Babam Gece Vardiyasında #creepy #horror",
+    "description": "Babam gece yarısı vantilatörü tamir ediyordu ama gece vardiyasındaydı.\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "أبي يصلح المروحة عند منتصف الليل. أبي في نوبة الليل #creepy #horror",
+    "description": "كان أبي يصلح المروحة عند منتصف الليل، لكنه كان في نوبة الليل.\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "パパが真夜中に扇風機を直している。パパは夜勤中だ #creepy #horror",
+    "description": "パパが真夜中に扇風機を直していたが、パパは夜勤中だった。\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "아빠가 한밤중에 선풍기를 고치고 있다. 아빠는 야근 중이다 #creepy #horror",
+    "description": "아빠가 한밤중에 선풍기를 고치고 있었지만, 아빠는 야근 중이었다.\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "爸爸半夜在修风扇。爸爸正在上夜班 #creepy #horror",
+    "description": "爸爸半夜在修风扇，可他明明在上夜班。\n\nWould you look up? Tell me in the comments 👇\n📤 Send this to the friend whose papa works night shifts 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "look": "2d",
+ "characters": "Riya: girl, 15, long braid, blue nightdress. Papa: Indian man, 45, grey shirt, moustache, face always in shadow. Security guard Papa: same man in khaki guard uniform."
+}
