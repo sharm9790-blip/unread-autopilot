@@ -1,0 +1,284 @@
+{
+ "title": "My Husband Is Calling From Upstairs. He's Next to Me.",
+ "format": "rules",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "footsteps"
+ ],
+ "glitch": [
+  "caller",
+  "smiled"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "my"
+  },
+  {
+   "type": "heartbeat",
+   "at": "standing"
+  },
+  {
+   "type": "sting",
+   "at": "real"
+  },
+  {
+   "type": "sting",
+   "at": "smiled"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "standing-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "caller-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip4.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "real-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip5.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "footsteps-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip6.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "smiled-0.1"
+  },
+  {
+   "type": "title",
+   "start": "dont-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "THAT WAS",
+     "at": "dont-0.1",
+     "delay": 0
+    },
+    {
+     "text": "NOT MY",
+     "at": "dont-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "HUSBAND.",
+     "at": "dont-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Would you answer?",
+    "at": "subscribe",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "HUSBAND CALLS",
+   "FROM UPSTAIRS"
+  ],
+  "sub": "he's standing next to me"
+ },
+ "hook": {
+  "lines": [
+   "HUSBAND CALLS",
+   "FROM UPSTAIRS"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "My Husband Is Calling From Upstairs. He's Next to Me. #creepy #horror",
+  "playlist": "scary",
+  "description": "My husband is calling me from upstairs. He is standing next to me in the kitchen. The caller says: keep him there.\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "मेरे पति ऊपर से फोन कर रहे हैं। वे मेरे बगल में खड़े हैं #creepy #horror",
+    "description": "मेरे पति ऊपर से मुझे फोन कर रहे हैं।\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "என் கணவர் மாடியிலிருந்து அழைக்கிறார். அவர் என் அருகிலேயே நிற்கிறார் #creepy #horror",
+    "description": "என் கணவர் மாடியிலிருந்து எனக்கு அழைக்கிறார்.\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "నా భర్త పై అంతస్తు నుంచి ఫోన్ చేస్తున్నారు. ఆయన నా పక్కనే ఉన్నారు #creepy #horror",
+    "description": "నా భర్త పై అంతస్తు నుంచి నాకు ఫోన్ చేస్తున్నారు.\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "আমার স্বামী ওপর থেকে ফোন করছে। সে তো আমার পাশেই দাঁড়িয়ে #creepy #horror",
+    "description": "আমার স্বামী ওপর থেকে আমাকে ফোন করছে।\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "माझे पती वरून फोन करत आहेत. ते माझ्या शेजारीच उभे आहेत #creepy #horror",
+    "description": "माझे पती वरून मला फोन करत आहेत.\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "میرے شوہر اوپر سے فون کر رہے ہیں۔ وہ میرے ساتھ کھڑے ہیں #creepy #horror",
+    "description": "میرے شوہر اوپر سے مجھے فون کر رہے ہیں۔\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Tumatawag ang Asawa Ko Mula sa Itaas. Nasa Tabi Ko Siya #creepy #horror",
+    "description": "Tumatawag sa akin ang asawa ko mula sa itaas.\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Suamiku Menelepon dari Lantai Atas. Dia Berdiri di Sampingku #creepy #horror",
+    "description": "Suamiku menelepon dari lantai atas.\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Suami Saya Telefon dari Tingkat Atas. Dia Berdiri di Sebelah Saya #creepy #horror",
+    "description": "Suami saya menelefon dari tingkat atas.\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "ကျွန်မခင်ပွန်း အပေါ်ထပ်ကခေါ်နေတယ်။ သူက ကျွန်မဘေးမှာရပ်နေတယ် #creepy #horror",
+    "description": "ကျွန်မခင်ပွန်း အပေါ်ထပ်ကနေ ကျွန်မကို ဖုန်းခေါ်နေတယ်။\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "สามีโทรมาจากชั้นบน แต่เขายืนอยู่ข้างฉัน #creepy #horror",
+    "description": "สามีโทรหาฉันจากชั้นบน\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Chồng Tôi Gọi Điện Từ Trên Lầu. Anh Ấy Đang Đứng Cạnh Tôi #creepy #horror",
+    "description": "Chồng tôi đang gọi điện từ trên lầu.\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Mi Esposo Llama Desde Arriba. Está de Pie a Mi Lado #creepy #horror",
+    "description": "Mi esposo me llama desde arriba.\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "Meu Marido Liga do Andar de Cima. Ele Está ao Meu Lado #creepy #horror",
+    "description": "Meu marido está me ligando do andar de cima.\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Mon Mari Appelle d'en Haut. Il Est Debout à Côté de Moi #creepy #horror",
+    "description": "Mon mari m'appelle d'en haut.\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Mein Mann Ruft von Oben An. Er Steht Neben Mir #creepy #horror",
+    "description": "Mein Mann ruft mich von oben an.\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Mio Marito Chiama dal Piano di Sopra. È Accanto a Me #creepy #horror",
+    "description": "Mio marito mi chiama dal piano di sopra.\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Mijn Man Belt Van Boven. Hij Staat Naast Me #creepy #horror",
+    "description": "Mijn man belt me van boven.\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Min Man Ringer Från Övervåningen. Han Står Bredvid Mig #creepy #horror",
+    "description": "Min man ringer mig från övervåningen.\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Mąż Dzwoni z Góry. Stoi Obok Mnie #creepy #horror",
+    "description": "Mój mąż dzwoni do mnie z góry.\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Муж Звонит Сверху. Он Стоит Рядом Со Мной #creepy #horror",
+    "description": "Муж звонит мне сверху.\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Kocam Üst Kattan Arıyor. Yanımda Duruyor #creepy #horror",
+    "description": "Kocam beni üst kattan arıyor.\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "زوجي يتصل من الطابق العلوي. وهو واقف بجانبي #creepy #horror",
+    "description": "زوجي يتصل بي من الطابق العلوي.\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "夫が2階から電話してくる。でも彼は私の隣にいる #creepy #horror",
+    "description": "夫が2階から私に電話してきている。\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "남편이 위층에서 전화해요. 그런데 바로 제 옆에 있어요 #creepy #horror",
+    "description": "남편이 위층에서 저에게 전화하고 있어요.\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "老公从楼上打来电话。可他就站在我身边 #creepy #horror",
+    "description": "老公正从楼上给我打电话。\n\nWould you answer? Tell me in the comments 👇\n📤 Send this to the friend whose husband works late and calls from the other room 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "look": "2d",
+ "characters": "Meera: Indian woman, 32, long black braid, orange cotton kurta. Husband: Indian man, 36, grey shirt, short beard, face always in shadow."
+}

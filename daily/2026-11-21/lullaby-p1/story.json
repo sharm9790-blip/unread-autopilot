@@ -1,0 +1,246 @@
+{
+ "title": "Lullaby · Pt 1: Someone Sings to My Baby. Mom Has No Voice.",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "silent"
+ ],
+ "glitch": [
+  "old",
+  "singing"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "someone"
+  },
+  {
+   "type": "heartbeat",
+   "at": "lullaby"
+  },
+  {
+   "type": "sting",
+   "at": "old"
+  },
+  {
+   "type": "sting",
+   "at": "singing"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "PART 2 ON THE CHANNEL"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.9,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "lullaby-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "old-0.3"
+  },
+  {
+   "type": "title",
+   "start": "part-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "PART 2",
+     "at": "part-0.1",
+     "delay": 0
+    },
+    {
+     "text": "ON THE",
+     "at": "part-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "CHANNEL.",
+     "at": "part-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Lullaby continues",
+    "at": "channel",
+    "delay": 0.3
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "SOMEONE SINGS",
+   "MOM HAS NO VOICE"
+  ],
+  "sub": "to my baby, at night"
+ },
+ "hook": {
+  "lines": [
+   "SOMEONE SINGS",
+   "MOM HAS NO VOICE"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Lullaby · Pt 1: Someone Sings to My Baby. Mom Has No Voice. #creepy #horror",
+  "playlist": "scary",
+  "description": "Someone sings to my baby every night. Mom lost her voice in surgery. The singing was her old voice, from inside the crib.\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "लोरी Pt 1: कोई मेरे बच्चे को लोरी सुना रहा है। माँ की आवाज़ नहीं है #creepy #horror",
+    "description": "कोई मेरे बच्चे को गा रहा है, पर माँ की आवाज़ चली गई है।\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "தாலாட்டு Pt 1: என் குழந்தைக்கு யாரோ பாடுகிறார்கள். அம்மாவுக்கு குரலே இல்லை #creepy #horror",
+    "description": "என் குழந்தைக்கு யாரோ பாடுகிறார்கள், ஆனால் அம்மாவுக்கு குரல் இல்லை.\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "లాలి Pt 1: నా బిడ్డకు ఎవరో పాడుతున్నారు. అమ్మకు గొంతు లేదు #creepy #horror",
+    "description": "నా బిడ్డకు ఎవరో పాడుతున్నారు, కానీ అమ్మకు గొంతు లేదు.\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "ঘুমপাড়ানি Pt 1: কেউ আমার শিশুকে গান শোনাচ্ছে। মায়ের কণ্ঠ নেই #creepy #horror",
+    "description": "কেউ আমার শিশুর জন্য গান গাইছে, অথচ মায়ের কণ্ঠ নেই।\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "अंगाई Pt 1: कोणीतरी माझ्या बाळाला गाणे म्हणतंय. आईला आवाजच नाही #creepy #horror",
+    "description": "कोणीतरी माझ्या बाळासाठी गात आहे, पण आईला आवाज नाही.\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "لوری Pt 1: کوئی میرے بچے کو لوری سنا رہا ہے۔ امی کی آواز نہیں ہے #creepy #horror",
+    "description": "کوئی میرے بچے کے لیے گا رہا ہے، مگر امی کی آواز نہیں ہے۔\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Oyayi Pt 1: May Umaawit sa Baby Ko. Walang Boses si Mama #creepy #horror",
+    "description": "May umaawit sa baby ko, pero walang boses si Mama.\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Lagu Nina Bobo Pt 1: Ada yang Menyanyi untuk Bayiku. Ibu Tak Punya Suara #creepy #horror",
+    "description": "Ada yang menyanyi untuk bayiku, tapi Ibu tak punya suara.\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Lagu Dodoi Pt 1: Ada yang Menyanyi untuk Bayi Saya. Ibu Tiada Suara #creepy #horror",
+    "description": "Ada yang menyanyi untuk bayi saya, tetapi Ibu tiada suara.\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "ညည်းတွားသီချင်း Pt 1: ကျွန်မကလေးကို တစ်ယောက်ယောက်သီဆိုပေးနေတယ်။ အမေ့မှာ အသံမရှိဘူး #creepy #horror",
+    "description": "ကျွန်မကလေးအတွက် တစ်ယောက်ယောက် သီဆိုနေတယ်၊ ဒါပေမယ့် အမေ့မှာ အသံမရှိဘူး။\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "เพลงกล่อม Pt 1: มีใครร้องเพลงกล่อมลูกฉัน แต่แม่ไม่มีเสียง #creepy #horror",
+    "description": "มีใครบางคนร้องเพลงให้ลูกฉัน แต่แม่ไม่มีเสียง\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Hát Ru Pt 1: Ai Đó Hát Cho Con Tôi. Mẹ Tôi Mất Giọng #creepy #horror",
+    "description": "Có ai đó đang hát cho con tôi, nhưng mẹ tôi đã mất giọng.\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Nana Pt 1: Alguien Le Canta a Mi Bebé. Mamá No Tiene Voz #creepy #horror",
+    "description": "Alguien le canta a mi bebé, pero mamá no tiene voz.\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "Cantiga de Ninar Pt 1: Alguém Canta para Meu Bebê. Mamãe Perdeu a Voz #creepy #horror",
+    "description": "Alguém canta para meu bebê, mas mamãe perdeu a voz.\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Berceuse Pt 1: Quelqu'un Chante pour Mon Bébé. Maman N'a Plus de Voix #creepy #horror",
+    "description": "Quelqu'un chante pour mon bébé, mais maman n'a plus de voix.\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Wiegenlied Pt 1: Jemand Singt für Mein Baby. Mama Hat Keine Stimme #creepy #horror",
+    "description": "Jemand singt für mein Baby, aber Mama hat keine Stimme.\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Ninna Nanna Pt 1: Qualcuno Canta al Mio Bambino. Mamma Non Ha Voce #creepy #horror",
+    "description": "Qualcuno canta al mio bambino, ma mamma non ha voce.\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Wiegenlied Pt 1: Iemand Zingt voor Mijn Baby. Mama Heeft Geen Stem #creepy #horror",
+    "description": "Iemand zingt voor mijn baby, maar mama heeft geen stem.\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Vaggvisa Pt 1: Någon Sjunger för Min Bebis. Mamma Har Ingen Röst #creepy #horror",
+    "description": "Någon sjunger för min bebis, men mamma har ingen röst.\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Kołysanka Pt 1: Ktoś Śpiewa Mojemu Dziecku. Mama Nie Ma Głosu #creepy #horror",
+    "description": "Ktoś śpiewa mojemu dziecku, ale mama nie ma głosu.\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Колыбельная Pt 1: Кто-то Поёт Моему Малышу. У Мамы Нет Голоса #creepy #horror",
+    "description": "Кто-то поёт моему малышу, но у мамы нет голоса.\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Ninni Pt 1: Biri Bebeğime Şarkı Söylüyor. Annemin Sesi Yok #creepy #horror",
+    "description": "Biri bebeğime şarkı söylüyor ama annemin sesi yok.\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "تهويدة Pt 1: أحدهم يغني لطفلي. وأمي بلا صوت #creepy #horror",
+    "description": "أحدهم يغني لطفلي، لكن أمي بلا صوت.\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "子守唄 Pt 1: 誰かが赤ちゃんに歌っている。母は声を失ったのに #creepy #horror",
+    "description": "誰かが赤ちゃんに歌っているが、母は声を失っている。\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "자장가 Pt 1: 누군가 아기에게 노래해요. 엄마는 목소리가 없는데 #creepy #horror",
+    "description": "누군가 아기에게 노래하고 있는데, 엄마는 목소리가 없어요.\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "摇篮曲 Pt 1: 有人给我的宝宝唱歌。妈妈早已失声 #creepy #horror",
+    "description": "有人在给我的宝宝唱歌，可妈妈已经失声了。\n\nWould you open the nursery door? Tell me in the comments 👇\n📤 Send this to the friend who has a newborn 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "series": {
+  "name": "Lullaby",
+  "part": 1,
+  "of": 2,
+  "episode": "Someone Sings to My Baby. Mom Has No Voice."
+ }
+}

@@ -1,0 +1,247 @@
+{
+ "title": "Lullaby · Pt 2: Mom's Voice Came Back. My Baby's Lips Moved.",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "stopped"
+ ],
+ "glitch": [
+  "lips",
+  "thank"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "never"
+  },
+  {
+   "type": "heartbeat",
+   "at": "hummed"
+  },
+  {
+   "type": "sting",
+   "at": "lips"
+  },
+  {
+   "type": "sting",
+   "at": "thank"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.8,
+    "desat": 0.3,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "morning-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "lips-0.3"
+  },
+  {
+   "type": "title",
+   "start": "subscribe-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "SHE TOOK",
+     "at": "subscribe-0.1",
+     "delay": 0
+    },
+    {
+     "text": "MY BABY'S",
+     "at": "subscribe-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "VOICE.",
+     "at": "subscribe-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Part 1 is on the channel",
+    "at": "lullaby",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "NEVER HUM BACK",
+   "TO THE LULLABY"
+  ],
+  "sub": "Mom's voice came back"
+ },
+ "hook": {
+  "lines": [
+   "NEVER HUM BACK",
+   "TO THE LULLABY"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Lullaby · Pt 2: Mom's Voice Came Back. My Baby's Lips Moved. #creepy #horror",
+  "playlist": "scary",
+  "description": "I hummed back to the lullaby. By morning Mom's voice was back, and my baby's lips moved with every word she said.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "लोरी Pt 2: माँ की आवाज़ लौट आई। मेरे बच्चे के होंठ हिल रहे थे #creepy #horror",
+    "description": "लोरी के साथ कभी गुनगुनाना मत।\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "தாலாட்டு Pt 2: அம்மாவின் குரல் திரும்பியது. என் குழந்தையின் உதடுகள் அசைந்தன #creepy #horror",
+    "description": "தாலாட்டுக்கு பதிலாக ஒருபோதும் முணுமுணுக்காதே.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "లాలి Pt 2: అమ్మ గొంతు తిరిగొచ్చింది. నా బిడ్డ పెదవులు కదిలాయి #creepy #horror",
+    "description": "లాలికి ఎప్పుడూ తిరిగి హమ్ చేయకు.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "ঘুমপাড়ানি Pt 2: মায়ের কণ্ঠ ফিরে এল। আমার শিশুর ঠোঁট নড়ছিল #creepy #horror",
+    "description": "ঘুমপাড়ানি গানের সঙ্গে কখনো গুনগুন কোরো না।\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "अंगाई Pt 2: आईचा आवाज परत आला. माझ्या बाळाचे ओठ हलत होते #creepy #horror",
+    "description": "अंगाईला कधीही गुणगुणत उत्तर देऊ नका.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "لوری Pt 2: امی کی آواز واپس آ گئی۔ میرے بچے کے ہونٹ ہل رہے تھے #creepy #horror",
+    "description": "لوری کے ساتھ کبھی گنگنانا مت۔\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Oyayi Pt 2: Bumalik ang Boses ni Mama. Gumagalaw ang Labi ng Baby Ko #creepy #horror",
+    "description": "Huwag kang hu-hum pabalik sa oyayi.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Lagu Nina Bobo Pt 2: Suara Ibu Kembali. Bibir Bayiku Bergerak #creepy #horror",
+    "description": "Jangan pernah bersenandung membalas lagu nina bobo.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Lagu Dodoi Pt 2: Suara Ibu Kembali. Bibir Bayi Saya Bergerak #creepy #horror",
+    "description": "Jangan sekali-kali bersenandung membalas lagu dodoi.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "ညည်းတွားသီချင်း Pt 2: အမေ့အသံပြန်လာတယ်။ ကျွန်မကလေးရဲ့နှုတ်ခမ်း လှုပ်နေတယ် #creepy #horror",
+    "description": "ညည်းတွားသီချင်းကို ဘယ်တော့မှ ပြန်မညည်းနဲ့။\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "เพลงกล่อม Pt 2: เสียงแม่กลับมา และริมฝีปากลูกฉันขยับตาม #creepy #horror",
+    "description": "อย่าฮัมตอบเพลงกล่อมเด็ดขาด\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Hát Ru Pt 2: Giọng Mẹ Đã Trở Lại. Môi Con Tôi Mấp Máy #creepy #horror",
+    "description": "Đừng bao giờ ngân nga đáp lại bài hát ru.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Nana Pt 2: A Mamá Le Volvió la Voz. Mi Bebé Movía los Labios #creepy #horror",
+    "description": "Nunca tararees de vuelta a la nana.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "Cantiga de Ninar Pt 2: A Voz da Mamãe Voltou. Os Lábios do Bebê Se Moviam #creepy #horror",
+    "description": "Nunca cantarole de volta a cantiga de ninar.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Berceuse Pt 2: La Voix de Maman Est Revenue. Les Lèvres de Mon Bébé Bougeaient #creepy #horror",
+    "description": "Ne fredonne jamais en réponse à la berceuse.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Wiegenlied Pt 2: Mamas Stimme Kam Zurück. Die Lippen Meines Babys Bewegten Sich #creepy #horror",
+    "description": "Summe niemals zum Wiegenlied zurück.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Ninna Nanna Pt 2: La Voce di Mamma È Tornata. Le Labbra del Bimbo Si Muovevano #creepy #horror",
+    "description": "Non canticchiare mai in risposta alla ninna nanna.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Wiegenlied Pt 2: Mama's Stem Kwam Terug. De Lippen van Mijn Baby Bewogen #creepy #horror",
+    "description": "Neurie nooit terug op het wiegenlied.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Vaggvisa Pt 2: Mammas Röst Kom Tillbaka. Min Bebis Läppar Rörde Sig #creepy #horror",
+    "description": "Nynna aldrig tillbaka till vaggvisan.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Kołysanka Pt 2: Głos Mamy Wrócił. Usta Mojego Dziecka Się Poruszały #creepy #horror",
+    "description": "Nigdy nie nuć w odpowiedzi na kołysankę.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Колыбельная Pt 2: Голос Мамы Вернулся. Губы Малыша Двигались #creepy #horror",
+    "description": "Никогда не подпевай колыбельной.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Ninni Pt 2: Annemin Sesi Geri Geldi. Bebeğimin Dudakları Kıpırdıyordu #creepy #horror",
+    "description": "Ninniye asla mırıldanarak karşılık verme.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "تهويدة Pt 2: عاد صوت أمي. وكانت شفتا طفلي تتحركان #creepy #horror",
+    "description": "لا تدندن أبدًا ردًا على التهويدة.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "子守唄 Pt 2: 母の声が戻った。赤ちゃんの唇が動いていた #creepy #horror",
+    "description": "子守唄に鼻歌で応えてはいけない。\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "자장가 Pt 2: 엄마 목소리가 돌아왔다. 아기의 입술이 움직였다 #creepy #horror",
+    "description": "자장가에 절대 따라 흥얼거리지 마세요.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "摇篮曲 Pt 2: 妈妈的声音回来了。宝宝的嘴唇在动 #creepy #horror",
+    "description": "千万别对着摇篮曲哼回去。\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who hums to their baby 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "series": {
+  "name": "Lullaby",
+  "part": 2,
+  "of": 2,
+  "episode": "Mom's Voice Came Back. My Baby's Lips Moved."
+ }
+}

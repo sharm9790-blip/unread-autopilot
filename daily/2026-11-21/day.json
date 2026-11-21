@@ -1,0 +1,75 @@
+{
+ "date": "2026-11-21",
+ "order": [
+  "upstairs",
+  "lullaby-p1",
+  "lullaby-p2"
+ ],
+ "schedule": {
+  "upstairs": "2026-11-21T12:30:00+05:30",
+  "lullaby-p1": "2026-11-21T18:00:00+05:30",
+  "lullaby-p2": "2026-11-21T19:30:00+05:30"
+ },
+ "clips": {
+  "upstairs": [
+   {
+    "ai": "A dark Indian kitchen at night, a woman seen from behind with her phone glowing in her hand, a husband in a grey shirt standing close beside her facing the ceiling, a staircase in the background",
+    "key": true,
+    "move": "dolly-in",
+    "fallback": "dark kitchen night"
+   },
+   {
+    "ai": "The husband standing very still beside the wife in the kitchen, phone in his pocket, face in shadow, cold light from the fridge",
+    "move": "pan-left",
+    "fallback": "man standing kitchen dark"
+   },
+   {
+    "ai": "Close-up of a phone screen glowing in the dark, caller named Husband, a hand holding it",
+    "move": "rise",
+    "fallback": "phone ringing dark"
+   },
+   {
+    "ai": "A dark staircase seen from the kitchen, the upstairs landing black, a faint light under a bedroom door",
+    "move": "dolly-out",
+    "fallback": "dark staircase night"
+   },
+   {
+    "ai": "Bare feet in shadow at the top of a dark staircase, mid-step toward the stairs, wide shot",
+    "move": "orbit",
+    "fallback": "dark stairs feet"
+   },
+   {
+    "ai": "The husband in the kitchen turned toward the wife, smiling too wide, face half in shadow, eyes reflecting light, her phone glowing in the foreground",
+    "key": true,
+    "move": "fall",
+    "fallback": "dark figure smiling"
+   }
+  ],
+  "lullaby-p1": [
+   "dark nursery night",
+   {
+    "ai": "A dim nursery at night with a crib, a mother in a cotton nightdress standing silent beside her daughter, both seen from behind, tears on her cheek in the lamp glow",
+    "move": "dolly-in",
+    "fallback": "photo: dark nursery crib"
+   },
+   {
+    "ai": "A wooden crib in a dark nursery with a pale glow inside it, mouth-shaped shadow on the mattress, two figures far away at the door",
+    "motion": "the glow inside the crib slowly pulses as if something is singing",
+    "fallback": "crib dark room"
+   }
+  ],
+  "lullaby-p2": [
+   "baby nursery dark",
+   {
+    "ai": "A grandmother sitting on a bed in soft morning light speaking, a baby lying on the quilt beside her, mother in the doorway from behind, muted colours",
+    "move": "dolly-in",
+    "fallback": "photo: old woman bed morning"
+   },
+   {
+    "ai": "A baby lying on a quilt in a dim room, tiny mouth moving, a grandmother smiling above her with face in shadow",
+    "motion": "the grandmother's head slowly turns toward camera, smiling",
+    "fallback": "dark figure bedroom"
+   }
+  ]
+ }
+}
