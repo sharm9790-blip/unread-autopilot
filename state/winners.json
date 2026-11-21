@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-19 08:51 IST",
- "median_views": 249,
- "n": 49,
+ "updated": "2026-11-21 08:45 IST",
+ "median_views": 160,
+ "n": 47,
  "top": [
   {
    "title": "Papa's Flight Is Still in the Air. He's Knocking.",
-   "views": 1714,
-   "x_median": 6.9,
+   "views": 1708,
+   "x_median": 10.7,
    "published": "2026-11-14 12:30"
   },
   {
    "title": "The School Said Dad Picked Him Up. I'm His Dad.",
    "views": 1020,
-   "x_median": 4.1,
+   "x_median": 6.4,
    "published": "2026-11-08 14:30"
   },
   {
    "title": "The 3 AM Bakery · Pt 1: The Baker Wrote My Name and a Date",
    "views": 1006,
-   "x_median": 4.0,
+   "x_median": 6.3,
    "published": "2026-11-08 18:00"
   },
   {
    "title": "Something Held My Foot in Bed. My Wife Was at Work.",
    "views": 1001,
-   "x_median": 4.0,
+   "x_median": 6.3,
    "published": "2026-11-08 16:30"
+  },
+  {
+   "title": "Mom Called at Midnight: Lock the Door, Don't Open It",
+   "views": 993,
+   "x_median": 6.2,
+   "published": "2026-11-10 19:30"
   },
   {
    "title": "Channel 0 · Pt 1: My TV Is Showing My Living Room. Live.",
    "views": 975,
-   "x_median": 3.9,
+   "x_median": 6.1,
    "published": "2026-11-07 18:00"
-  },
-  {
-   "title": "A Man Whispered on My Baby Monitor. I Live Alone.",
-   "views": 884,
-   "x_median": 3.6,
-   "published": "2026-11-07 12:30"
   }
  ],
  "bottom": [
@@ -49,9 +49,21 @@
   },
   {
    "title": "Mom Texted Me to Come Home. She Was Driving Me Home.",
-   "views": 9,
-   "x_median": 0.0,
+   "views": 8,
+   "x_median": 0.1,
    "published": "2026-11-16 12:30"
+  },
+  {
+   "title": "Someone Hummed in Our Nursery. My Wife Was Asleep Beside Me.",
+   "views": 9,
+   "x_median": 0.1,
+   "published": "2026-11-17 16:30"
+  },
+  {
+   "title": "Dad Called From the Office. Dad Was Eating Dinner Beside Me.",
+   "views": 11,
+   "x_median": 0.1,
+   "published": "2026-11-17 12:30"
   },
   {
    "title": "My Cat Left a Baby Tooth on My Pillow. I Have No Kids.",
@@ -60,22 +72,10 @@
    "published": "2026-11-16 16:30"
   },
   {
-   "title": "Guest Room · Pt 1: Mom Makes the Bed Daily. Nobody Visits.",
-   "views": 15,
+   "title": "My Son Waves Goodnight to the Window. We're on the Fifth Floor.",
+   "views": 21,
    "x_median": 0.1,
-   "published": "2026-11-16 18:00"
-  },
-  {
-   "title": "The Last Ferry · Pt 2: My Ticket Was From 1979",
-   "views": 70,
-   "x_median": 0.3,
-   "published": "2026-11-11 19:30"
-  },
-  {
-   "title": "1 Ticket. Seat 7. Someone Is Sitting in Seat 8.",
-   "views": 70,
-   "x_median": 0.3,
-   "published": "2026-11-15 18:00"
+   "published": "2026-11-18 16:30"
   }
  ]
 }
