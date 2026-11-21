@@ -1,0 +1,38 @@
+{
+ "clip.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A dark Indian kitchen at night, a woman seen from behind with her phone glowing in her hand, a husband in a grey shirt standing close beside her facing the ceiling, a staircase in the background",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "The husband standing very still beside the wife in the kitchen, phone in his pocket, face in shadow, cold light from the fridge",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip3.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Close-up of a phone screen glowing in the dark, caller named Husband, a hand holding it",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip4.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A dark staircase seen from the kitchen, the upstairs landing black, a faint light under a bedroom door",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip5.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Bare feet in shadow at the top of a dark staircase, mid-step toward the stairs, wide shot",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip6.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "The husband in the kitchen turned toward the wife, smiling too wide, face half in shadow, eyes reflecting light, her phone glowing in the foreground",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ }
+}

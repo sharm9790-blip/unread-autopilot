@@ -1,14 +1,14 @@
 {
- "date": "2026-11-21",
+ "date": "2026-11-26",
  "order": [
   "upstairs",
   "lullaby-p1",
   "lullaby-p2"
  ],
  "schedule": {
-  "upstairs": "2026-11-21T12:30:00+05:30",
-  "lullaby-p1": "2026-11-21T18:00:00+05:30",
-  "lullaby-p2": "2026-11-21T19:30:00+05:30"
+  "upstairs": "2026-11-26T12:30:00+05:30",
+  "lullaby-p1": "2026-11-26T18:00:00+05:30",
+  "lullaby-p2": "2026-11-26T19:30:00+05:30"
  },
  "clips": {
   "upstairs": [
@@ -71,5 +71,6 @@
     "fallback": "dark figure bedroom"
    }
   ]
- }
+ },
+ "moved_from": "2026-11-21"
 }

@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 276436,
+  "user": "AmazinglyWonderful",
+  "query": "baby nursery dark",
+  "tags": "baby sleep lullaby, baby sleep, lullaby music, bedtime songs, baby lullabies, soothing music, baby sleep aid, calming lullaby, nursery songs, sleep music for babies, relaxing baby music, infant bedtime, peaceful lullaby, gentle baby songs, newborn sleep music, toddler lullaby, baby nap music, classical lullaby, nighttime routine, sleep sounds, baby relaxation"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A grandmother sitting on a bed in soft morning light speaking, a baby lying on the quilt beside her, mother in the doorway from behind, muted colours",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "A baby lying on a quilt in a dim room, tiny mouth moving, a grandmother smiling above her with face in shadow",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the grandmother's head slowly turns toward camera, smiling",
+  "video_model": "creatify/boreal"
+ }
+}

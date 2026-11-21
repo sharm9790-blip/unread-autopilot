@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 1638,
+  "user": "Coverr-Free-Footage",
+  "query": "dark nursery night",
+  "tags": "kindergarden, hula hoop, rings, game, play, fun, toys, playing, kids, children, nursery, happy, child, girl, caucasian, childhood, friends, exercise, activity"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A dim nursery at night with a crib, a mother in a cotton nightdress standing silent beside her daughter, both seen from behind, tears on her cheek in the lamp glow",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "A wooden crib in a dark nursery with a pale glow inside it, mouth-shaped shadow on the mattress, two figures far away at the door",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the glow inside the crib slowly pulses as if something is singing",
+  "video_model": "creatify/boreal"
+ }
+}
