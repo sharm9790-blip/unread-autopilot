@@ -1,14 +1,14 @@
 {
- "date": "2026-11-22",
+ "date": "2026-11-27",
  "order": [
   "bhaiya-bus",
   "terrace-p1",
   "terrace-p2"
  ],
  "schedule": {
-  "bhaiya-bus": "2026-11-22T12:30:00+05:30",
-  "terrace-p1": "2026-11-22T18:00:00+05:30",
-  "terrace-p2": "2026-11-22T19:30:00+05:30"
+  "bhaiya-bus": "2026-11-27T12:30:00+05:30",
+  "terrace-p1": "2026-11-27T18:00:00+05:30",
+  "terrace-p2": "2026-11-27T19:30:00+05:30"
  },
  "clips": {
   "bhaiya-bus": [
@@ -71,5 +71,6 @@
     "fallback": "dark figure bedroom"
    }
   ]
- }
+ },
+ "moved_from": "2026-11-22"
 }

@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "/home/runner/work/unread-autopilot/unread-autopilot/pipeline/produce.py", line 161, in fetch_ai
+    im = falgen.image(prompt, img, look=look, fast=(look == "2d" and not spec.get("key")))
+  File "/home/runner/work/unread-autopilot/unread-autopilot/pipeline/falgen.py", line 195, in image
+    raise e if isinstance(e, Unavailable) else Unavailable(f"image failed: {e}")
+  File "/home/runner/work/unread-autopilot/unread-autopilot/pipeline/falgen.py", line 186, in image
+    r = _run(model, {"prompt": f"{prompt.strip()}. {sty}" if style else prompt,
+                           "image_size": {"width": w, "height": h}, "num_images": 1,
+                           "output_format": "jpeg", "enable_safety_checker": True}, timeout=300)
+  File "/home/runner/work/unread-autopilot/unread-autopilot/pipeline/falgen.py", line 162, in _run
+    return _req(resp_url)
+  File "/home/runner/work/unread-autopilot/unread-autopilot/pipeline/falgen.py", line 77, in _req
+    raise Unavailable(f"fal HTTP {e.code} on {url.split('?')[0]}: {body}") from None
+falgen.Unavailable: fal HTTP 422 on https://queue.fal.run/fal-ai/flux-2/requests/01a200b3-0256-7e20-82f7-de1216069502: {"detail":[{"loc":["body","prompt"],"msg":"The content could not be processed because it contained material flagged by a content checker.","type":"content_policy_violation","url":"https://docs.fal.ai/errors#content_policy_violation","input":{"prompt":"An old woman in a white saree seen from behind o
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/unread-autopilot/unread-autopilot/pipeline/produce.py", line 272, in produce
+    credits[f] = fetch_ai(q, os.path.join(ep, f), i, log, story_now)
+                 ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/unread-autopilot/unread-autopilot/pipeline/produce.py", line 164, in fetch_ai
+    info = fetch_photo({**{k: v for k, v in spec.items() if k in ("move", "dur", "strength", "fog", "dust")},
+                        "photo": words}, dest, i, log)
+  File "/home/runner/work/unread-autopilot/unread-autopilot/pipeline/produce.py", line 130, in fetch_photo
+    raise RuntimeError(f"no Pixabay video or photo for {q!r}")
+RuntimeError: no Pixabay video or photo for 'photo: rooftop clothesline woman'

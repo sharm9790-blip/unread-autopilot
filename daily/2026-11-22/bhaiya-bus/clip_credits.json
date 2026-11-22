@@ -1,0 +1,38 @@
+{
+ "clip.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A dark Indian apartment corridor at night, a closed front door with a doorbell glowing, a mother in a saree seen from behind reaching for the latch, her son's silhouette visible through the door's peephole light",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Close-up of a doorbell button being pressed by a pale hand in the dark, wet sleeve, warm light from inside",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip3.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A fisheye view through a door peephole of a young man smiling in a stairwell, clean clothes, no marks, face half in shadow",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip4.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A phone glowing on a kitchen table at night, a police officer's name on the screen, a daughter's hand beside it",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip5.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "The mother's hand turning the lock of the front door, steel chain hanging loose, hallway dark",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip6.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "The front door open an inch, a smiling young man standing in the dark stairwell with wet hair, eyes reflecting light, the mother silhouetted in the doorway",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ }
+}

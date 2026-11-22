@@ -652,5 +652,63 @@
     "at": "06:15"
    }
   ]
+ },
+ "2026-11-22": {
+  "usd": 0.144,
+  "items": [
+   {
+    "what": "image fal-ai/flux-2",
+    "usd": 0.036,
+    "at": "06:11"
+   },
+   {
+    "what": "image fal-ai/flux-2",
+    "usd": 0.036,
+    "at": "06:11"
+   },
+   {
+    "what": "image fal-ai/flux-2",
+    "usd": 0.036,
+    "at": "06:11"
+   },
+   {
+    "what": "refund image",
+    "usd": -0.036
+   },
+   {
+    "what": "image fal-ai/flux-2",
+    "usd": 0.036,
+    "at": "06:12"
+   },
+   {
+    "what": "image fal-ai/flux/schnell",
+    "usd": 0.009,
+    "at": "06:12"
+   },
+   {
+    "what": "refund image",
+    "usd": -0.036
+   },
+   {
+    "what": "image fal-ai/flux/schnell",
+    "usd": 0.009,
+    "at": "06:13"
+   },
+   {
+    "what": "image fal-ai/flux/schnell",
+    "usd": 0.009,
+    "at": "06:15"
+   },
+   {
+    "what": "image fal-ai/flux/schnell",
+    "usd": 0.009,
+    "at": "06:17"
+   },
+   {
+    "what": "image fal-ai/flux-2",
+    "usd": 0.036,
+    "at": "06:19"
+   }
+  ]
  }
 }
