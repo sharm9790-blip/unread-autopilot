@@ -1,0 +1,75 @@
+{
+ "date": "2026-11-22",
+ "order": [
+  "bhaiya-bus",
+  "terrace-p1",
+  "terrace-p2"
+ ],
+ "schedule": {
+  "bhaiya-bus": "2026-11-22T12:30:00+05:30",
+  "terrace-p1": "2026-11-22T18:00:00+05:30",
+  "terrace-p2": "2026-11-22T19:30:00+05:30"
+ },
+ "clips": {
+  "bhaiya-bus": [
+   {
+    "ai": "A dark Indian apartment corridor at night, a closed front door with a doorbell glowing, a mother in a saree seen from behind reaching for the latch, her son's silhouette visible through the door's peephole light",
+    "key": true,
+    "move": "dolly-in",
+    "fallback": "dark apartment door night"
+   },
+   {
+    "ai": "Close-up of a doorbell button being pressed by a pale hand in the dark, wet sleeve, warm light from inside",
+    "move": "rise",
+    "fallback": "doorbell dark night"
+   },
+   {
+    "ai": "A fisheye view through a door peephole of a young man smiling in a stairwell, clean clothes, no marks, face half in shadow",
+    "move": "pan-left",
+    "fallback": "peephole door dark"
+   },
+   {
+    "ai": "A phone glowing on a kitchen table at night, a police officer's name on the screen, a daughter's hand beside it",
+    "move": "dolly-out",
+    "fallback": "phone ringing dark"
+   },
+   {
+    "ai": "The mother's hand turning the lock of the front door, steel chain hanging loose, hallway dark",
+    "move": "orbit",
+    "fallback": "door lock dark"
+   },
+   {
+    "ai": "The front door open an inch, a smiling young man standing in the dark stairwell with wet hair, eyes reflecting light, the mother silhouetted in the doorway",
+    "key": true,
+    "move": "fall",
+    "fallback": "dark figure doorway"
+   }
+  ],
+  "terrace-p1": [
+   "dark rooftop dawn clothesline",
+   {
+    "ai": "A small child's school frock dripping on a rooftop clothesline at grey dawn, an old locked terrace door behind it, water pooling on concrete",
+    "move": "dolly-in",
+    "fallback": "photo: clothesline dawn rooftop"
+   },
+   {
+    "ai": "A little girl asleep in bed with wet hair soaking the pillow, a brass key on a thread around her neck, dim bedside lamp, mother's silhouette in the doorway",
+    "motion": "the key on her neck slowly sways as if something breathes",
+    "fallback": "child sleeping dark room"
+   }
+  ],
+  "terrace-p2": [
+   "old woman rooftop dawn",
+   {
+    "ai": "An old woman in a white saree seen from behind on a grey dawn rooftop hanging a soaking man's shirt on a line, a daughter-in-law at the stairwell door",
+    "move": "dolly-in",
+    "fallback": "photo: rooftop clothesline woman"
+   },
+   {
+    "ai": "A man doubled over in a dim bedroom, water dripping from his mouth and hair onto the floor, wife's silhouette in the doorway, cold light",
+    "motion": "water slowly drips from his hair as his head lifts toward camera",
+    "fallback": "dark figure bedroom"
+   }
+  ]
+ }
+}

@@ -1,0 +1,246 @@
+{
+ "title": "Terrace · Pt 1: Dadi Locked It. Wet Clothes Hang There.",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "asleep"
+ ],
+ "glitch": [
+  "frock",
+  "key"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "dadi"
+  },
+  {
+   "type": "heartbeat",
+   "at": "wet"
+  },
+  {
+   "type": "sting",
+   "at": "frock"
+  },
+  {
+   "type": "sting",
+   "at": "key"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "PART 2 ON THE CHANNEL"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.9,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "frock-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "asleep-0.3"
+  },
+  {
+   "type": "title",
+   "start": "part-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "PART 2",
+     "at": "part-0.1",
+     "delay": 0
+    },
+    {
+     "text": "ON THE",
+     "at": "part-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "CHANNEL.",
+     "at": "part-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "The terrace continues",
+    "at": "channel",
+    "delay": 0.3
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "DADI LOCKED",
+   "THE TERRACE"
+  ],
+  "sub": "wet clothes hang there at dawn"
+ },
+ "hook": {
+  "lines": [
+   "DADI LOCKED",
+   "THE TERRACE"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Terrace · Pt 1: Dadi Locked It. Wet Clothes Hang There. #creepy #horror",
+  "playlist": "scary",
+  "description": "Dadi locked the terrace before she died. Every dawn, wet clothes hang up there. Today it was my daughter's frock, and her hair was wet in bed.\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "छत · भाग 1: दादी ने छत बंद की थी। वहाँ गीले कपड़े टंगे हैं #creepy #horror",
+    "description": "दादी ने मरने से पहले छत बंद कर दी थी, पर हर सुबह वहाँ गीले कपड़े टंगे मिलते हैं।\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "மொட்டை மாடி · பகுதி 1: பாட்டி பூட்டினாள். ஈரத் துணிகள் தொங்குகின்றன #creepy #horror",
+    "description": "பாட்டி இறக்கும் முன் மொட்டை மாடியைப் பூட்டினாள், ஆனாலும் தினமும் விடியலில் ஈரத் துணிகள் தொங்குகின்றன.\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "టెర్రస్ · పార్ట్ 1: అమ్మమ్మ తాళం వేసింది. తడి బట్టలు వేలాడుతున్నాయి #creepy #horror",
+    "description": "అమ్మమ్మ చనిపోయే ముందు టెర్రస్‌కి తాళం వేసింది, అయినా ప్రతి తెల్లవారుజామున తడి బట్టలు వేలాడుతున్నాయి.\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "ছাদ · পর্ব ১: দিদা তালা দিয়েছিল। সেখানে ভেজা কাপড় ঝোলে #creepy #horror",
+    "description": "দিদা মারা যাওয়ার আগে ছাদে তালা দিয়েছিল, তবু প্রতি ভোরে সেখানে ভেজা কাপড় ঝোলে।\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "गच्ची · भाग १: आजीने कुलूप लावले. तिथे ओले कपडे लटकतात #creepy #horror",
+    "description": "आजीने मरण्यापूर्वी गच्ची बंद केली होती, तरी रोज पहाटे तिथे ओले कपडे लटकलेले असतात.\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "چھت · حصہ 1: دادی نے تالا لگایا تھا۔ وہاں گیلے کپڑے لٹکتے ہیں #creepy #horror",
+    "description": "دادی نے مرنے سے پہلے چھت پر تالا لگا دیا تھا، پھر بھی ہر صبح وہاں گیلے کپڑے لٹکے ہوتے ہیں۔\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Terrace · Pt 1: Ni-lock ni Lola. May Basang Damit Doon #creepy #horror",
+    "description": "Ni-lock ni Lola ang terrace bago siya namatay, pero may nakasampay na basang damit doon tuwing madaling-araw.\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Teras · Pt 1: Nenek Mengunci Teras. Ada Baju Basah Tergantung #creepy #horror",
+    "description": "Nenek mengunci teras sebelum meninggal, tetapi setiap subuh ada baju basah tergantung di sana.\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Teres · Pt 1: Nenek Kunci Teres. Ada Baju Basah Tergantung #creepy #horror",
+    "description": "Nenek kunci teres sebelum meninggal, tetapi setiap subuh ada baju basah tergantung di situ.\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "အပေါ်ထပ်ခေါင်မိုး · အပိုင်း ၁။ အဘွားသော့ခတ်ခဲ့တယ်။ အဝတ်စိုတွေ ချိတ်ထားတယ် #creepy #horror",
+    "description": "အဘွားမကွယ်လွန်ခင် ခေါင်မိုးကို သော့ခတ်ခဲ့ပေမယ့် နံနက်တိုင်း အဝတ်စိုတွေ ချိတ်ထားတယ်။\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "ดาดฟ้า · ตอน 1: ย่าล็อกไว้ แต่มีผ้าเปียกแขวนอยู่ #creepy #horror",
+    "description": "ย่าล็อกดาดฟ้าไว้ก่อนตาย แต่ทุกรุ่งเช้ามีผ้าเปียกแขวนอยู่ที่นั่น\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Sân Thượng · Pt 1: Bà Đã Khóa. Quần Áo Ướt Vẫn Treo Ở Đó #creepy #horror",
+    "description": "Bà đã khóa sân thượng trước khi mất, nhưng mỗi bình minh vẫn có quần áo ướt treo ở đó.\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Terraza · Pt 1: Abuela la Cerró. Hay Ropa Mojada Colgada #creepy #horror",
+    "description": "La abuela cerró la terraza antes de morir, pero cada amanecer cuelga ropa mojada allí.\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "Terraço · Pt 1: A Vovó Trancou. Há Roupa Molhada Pendurada #creepy #horror",
+    "description": "A vovó trancou o terraço antes de morrer, mas toda madrugada há roupa molhada pendurada lá.\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Terrasse · Pt 1 : Mamie l'a Fermée. Du Linge Mouillé y Pend #creepy #horror",
+    "description": "Mamie a fermé la terrasse avant de mourir, mais chaque aube du linge mouillé y est étendu.\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Dachterrasse · Pt 1: Oma Schloss Sie Ab. Nasse Wäsche Hängt Dort #creepy #horror",
+    "description": "Oma schloss die Dachterrasse vor ihrem Tod ab, doch jeden Morgen hängt dort nasse Wäsche.\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Terrazza · Pt 1: La Nonna l'Ha Chiusa. Panni Bagnati Stesi #creepy #horror",
+    "description": "La nonna ha chiuso la terrazza prima di morire, ma ogni alba lì ci sono panni bagnati.\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Terras · Pt 1: Oma Sloot Het Af. Er Hangt Natte Was #creepy #horror",
+    "description": "Oma sloot het terras af voor haar dood, maar elke ochtend hangt er natte was.\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Terrass · Pt 1: Farmor Låste. Blöt Tvätt Hänger Där #creepy #horror",
+    "description": "Farmor låste terrassen innan hon dog, men varje gryning hänger blöt tvätt där.\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Taras · Pt 1: Babcia Go Zamknęła. Wisi Tam Mokre Pranie #creepy #horror",
+    "description": "Babcia zamknęła taras przed śmiercią, a mimo to co świt wisi tam mokre pranie.\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Терраса · Ч. 1: Бабушка Её Заперла. Там Висит Мокрое Бельё #creepy #horror",
+    "description": "Бабушка заперла террасу перед смертью, но каждый рассвет там висит мокрое бельё.\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Teras · Bölüm 1: Babaanne Kilitledi. Orada Islak Çamaşır Asılı #creepy #horror",
+    "description": "Babaanne ölmeden önce terası kilitledi, ama her şafak orada ıslak çamaşırlar asılı oluyor.\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "السطح · ج1: جدتي أغلقته. والملابس المبللة معلقة هناك #creepy #horror",
+    "description": "أغلقت جدتي السطح قبل موتها، ومع ذلك تُعلَّق ملابس مبللة هناك كل فجر.\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "屋上 · 第1話：祖母が鍵をかけた。濡れた服が干してある #creepy #horror",
+    "description": "祖母は亡くなる前に屋上に鍵をかけたのに、毎朝そこには濡れた服が干してある。\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "옥상 · 1부: 할머니가 잠갔다. 젖은 빨래가 걸려 있다 #creepy #horror",
+    "description": "할머니는 돌아가시기 전에 옥상을 잠갔는데, 매일 새벽 젖은 빨래가 걸려 있다.\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "天台 · 第1集：奶奶锁了门。湿衣服却挂在那里 #creepy #horror",
+    "description": "奶奶去世前锁了天台，可每天黎明那里都挂着湿衣服。\n\nWould you unlock the terrace? Tell me in the comments 👇\n📤 Send this to the friend whose grandmother's room is still locked 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "series": {
+  "name": "Terrace",
+  "part": 1,
+  "of": 2,
+  "episode": "Dadi Locked It. Wet Clothes Hang There."
+ }
+}

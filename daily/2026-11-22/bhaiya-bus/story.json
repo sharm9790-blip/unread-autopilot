@@ -1,0 +1,284 @@
+{
+ "title": "Bhaiya's Bus Crashed an Hour Ago. He's Ringing the Bell.",
+ "format": "rules",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "unlocked"
+ ],
+ "glitch": [
+  "police",
+  "unlocked"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "bhaiyas"
+  },
+  {
+   "type": "heartbeat",
+   "at": "ringing"
+  },
+  {
+   "type": "sting",
+   "at": "police"
+  },
+  {
+   "type": "sting",
+   "at": "unlocked"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "ringing-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "peephole-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip4.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "police-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip5.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "ma-0.1"
+  },
+  {
+   "type": "clip",
+   "file": "clip6.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "already-0.1"
+  },
+  {
+   "type": "title",
+   "start": "unlocked-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "THAT WASN'T",
+     "at": "unlocked-0.1",
+     "delay": 0
+    },
+    {
+     "text": "BHAIYA AT",
+     "at": "unlocked-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "THE DOOR.",
+     "at": "unlocked-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Would you open it?",
+    "at": "subscribe",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "BHAIYA'S BUS",
+   "CRASHED. RINGS"
+  ],
+  "sub": "Ma is opening the door"
+ },
+ "hook": {
+  "lines": [
+   "BHAIYA'S BUS",
+   "CRASHED. RINGS"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Bhaiya's Bus Crashed an Hour Ago. He's Ringing the Bell. #creepy #horror",
+  "playlist": "scary",
+  "description": "Bhaiya's bus crashed an hour ago. Now he's ringing our doorbell, not a scratch on him. The police say he's still on the bus.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "भैया की बस एक घंटे पहले टकराई। वो घंटी बजा रहे हैं #creepy #horror",
+    "description": "भैया की बस एक घंटे पहले टकराई थी, और अब वो हमारे दरवाज़े की घंटी बजा रहे हैं।\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "அண்ணாவின் பேருந்து ஒரு மணி நேரம் முன் விபத்தானது. அவர் மணி அடிக்கிறார் #creepy #horror",
+    "description": "அண்ணாவின் பேருந்து ஒரு மணி நேரம் முன் விபத்தானது, இப்போது அவர் எங்கள் வீட்டு மணியை அடிக்கிறார்.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "అన్న బస్సు గంట క్రితం ప్రమాదానికి గురైంది. ఆయన బెల్ కొడుతున్నాడు #creepy #horror",
+    "description": "అన్న బస్సు గంట క్రితం ప్రమాదానికి గురైంది, ఇప్పుడు ఆయన మా డోర్‌బెల్ కొడుతున్నాడు.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "দাদার বাস এক ঘণ্টা আগে দুর্ঘটনায় পড়েছে। সে বেল বাজাচ্ছে #creepy #horror",
+    "description": "দাদার বাস এক ঘণ্টা আগে দুর্ঘটনায় পড়েছে, আর এখন সে আমাদের ডোরবেল বাজাচ্ছে।\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "दादाची बस तासाभरापूर्वी अपघातग्रस्त झाली. तो बेल वाजवतोय #creepy #horror",
+    "description": "दादाची बस तासाभरापूर्वी अपघातग्रस्त झाली, आणि आता तो आमची दारावरची बेल वाजवतोय.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "بھیا کی بس ایک گھنٹہ پہلے ٹکرائی تھی۔ وہ گھنٹی بجا رہے ہیں #creepy #horror",
+    "description": "بھیا کی بس ایک گھنٹہ پہلے ٹکرائی تھی اور اب وہ ہمارے دروازے کی گھنٹی بجا رہے ہیں۔\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Bumangga ang Bus ni Kuya Isang Oras Na ang Nakalipas. Nagdo-doorbell Siya #creepy #horror",
+    "description": "Isang oras na ang nakalipas nang bumangga ang bus ni Kuya, at ngayon ay nagdo-doorbell siya.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Bus Kakakku Kecelakaan Sejam Lalu. Dia Menekan Bel Rumah #creepy #horror",
+    "description": "Bus Kakakku kecelakaan sejam lalu, dan sekarang dia menekan bel pintu kami.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Bas Abang Kemalangan Sejam Lalu. Dia Tekan Loceng Rumah #creepy #horror",
+    "description": "Bas Abang kemalangan sejam lalu, dan sekarang dia menekan loceng pintu kami.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "အစ်ကိုရဲ့ဘတ်စ်ကား တစ်နာရီအလိုက မတော်တဆဖြစ်ခဲ့တယ်။ သူ ခေါင်းလောင်းနှိပ်နေတယ် #creepy #horror",
+    "description": "အစ်ကိုရဲ့ဘတ်စ်ကား တစ်နာရီအလိုက မတော်တဆဖြစ်ခဲ့ပြီး အခု ကျွန်တော်တို့တံခါးခေါင်းလောင်းကို နှိပ်နေတယ်။\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "รถบัสของพี่ชายชนเมื่อชั่วโมงก่อน แต่เขากำลังกดกริ่ง #creepy #horror",
+    "description": "รถบัสของพี่ชายชนเมื่อชั่วโมงก่อน และตอนนี้เขากำลังกดกริ่งบ้านเรา\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Xe Buýt Của Anh Tôi Gặp Nạn Một Giờ Trước. Anh Ấy Đang Bấm Chuông #creepy #horror",
+    "description": "Xe buýt của anh tôi gặp nạn một giờ trước, và giờ anh ấy đang bấm chuông cửa nhà tôi.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "El Autobús de Mi Hermano Chocó Hace Una Hora. Está Tocando el Timbre #creepy #horror",
+    "description": "El autobús de mi hermano chocó hace una hora, y ahora está tocando nuestro timbre.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "O Ônibus do Meu Irmão Bateu Há Uma Hora. Ele Está Tocando a Campainha #creepy #horror",
+    "description": "O ônibus do meu irmão bateu há uma hora, e agora ele está tocando a nossa campainha.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Le Bus de Mon Frère a Eu un Accident. Il Sonne à la Porte #creepy #horror",
+    "description": "Le bus de mon frère a eu un accident il y a une heure, et maintenant il sonne à notre porte.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Der Bus Meines Bruders Verunglückte Vor Einer Stunde. Er Klingelt #creepy #horror",
+    "description": "Der Bus meines Bruders verunglückte vor einer Stunde, und jetzt klingelt er an unserer Tür.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Il Bus di Mio Fratello Si È Schiantato un'Ora Fa. Sta Suonando #creepy #horror",
+    "description": "Il bus di mio fratello si è schiantato un'ora fa, e ora sta suonando al nostro campanello.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "De Bus van Mijn Broer Crashte Een Uur Geleden. Hij Belt Aan #creepy #horror",
+    "description": "De bus van mijn broer crashte een uur geleden, en nu belt hij bij ons aan.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Min Brors Buss Krockade för en Timme Sedan. Han Ringer på Dörren #creepy #horror",
+    "description": "Min brors buss krockade för en timme sedan, och nu ringer han på vår dörr.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Autobus Mojego Brata Rozbił Się Godzinę Temu. Dzwoni do Drzwi #creepy #horror",
+    "description": "Autobus mojego brata rozbił się godzinę temu, a teraz dzwoni do naszych drzwi.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Автобус Брата Разбился Час Назад. Он Звонит в Дверь #creepy #horror",
+    "description": "Автобус моего брата разбился час назад, а теперь он звонит в нашу дверь.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Abimin Otobüsü Bir Saat Önce Kaza Yaptı. Kapı Zilini Çalıyor #creepy #horror",
+    "description": "Abimin otobüsü bir saat önce kaza yaptı ve şimdi kapı zilimizi çalıyor.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "حافلة أخي تحطمت قبل ساعة. وهو يرن الجرس الآن #creepy #horror",
+    "description": "حافلة أخي تحطمت قبل ساعة، والآن هو يرن جرس بابنا.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "兄のバスは1時間前に事故に遭った。今、玄関のベルを鳴らしている #creepy #horror",
+    "description": "兄のバスは1時間前に事故に遭ったのに、今、うちの玄関のベルを鳴らしている。\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "오빠가 탄 버스가 한 시간 전에 사고 났다. 지금 초인종을 누른다 #creepy #horror",
+    "description": "오빠가 탄 버스는 한 시간 전에 사고가 났는데, 지금 우리 집 초인종을 누르고 있다.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "哥哥的巴士一小时前出事了。他正在按门铃 #creepy #horror",
+    "description": "哥哥的巴士一小时前出了事，现在他正在按我们家的门铃。\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend whose brother travels by night bus 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "look": "2d",
+ "characters": "Ma: Indian woman, 55, grey-streaked bun, faded blue saree. Bhaiya: Indian man, 26, white shirt, short hair, face always in shadow. Riya: girl, 17, ponytail, green kurta."
+}

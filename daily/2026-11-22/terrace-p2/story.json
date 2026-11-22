@@ -1,0 +1,247 @@
+{
+ "title": "Terrace · Pt 2: Dadi Hung My Husband's Shirt. It Was Dripping.",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "turned"
+ ],
+ "glitch": [
+  "dadi",
+  "coughing"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "never"
+  },
+  {
+   "type": "heartbeat",
+   "at": "soaking"
+  },
+  {
+   "type": "sting",
+   "at": "dadi"
+  },
+  {
+   "type": "sting",
+   "at": "coughing"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.8,
+    "desat": 0.3,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "woman-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "coughing-0.3"
+  },
+  {
+   "type": "title",
+   "start": "subscribe-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "SHE WASHES",
+     "at": "subscribe-0.1",
+     "delay": 0
+    },
+    {
+     "text": "THE ONES",
+     "at": "subscribe-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "SHE TAKES.",
+     "at": "subscribe-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Part 1 is on the channel",
+    "at": "terrace",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "NEVER HANG",
+   "CLOTHES UP THERE"
+  ],
+  "sub": "she keeps who they dry on"
+ },
+ "hook": {
+  "lines": [
+   "NEVER HANG",
+   "CLOTHES UP THERE"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Terrace · Pt 2: Dadi Hung My Husband's Shirt. It Was Dripping. #creepy #horror",
+  "playlist": "scary",
+  "description": "I went up to Dadi's terrace at dawn. She was hanging my husband's shirt, soaking wet. Downstairs, he was coughing water.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "छत · भाग 2: दादी ने पति की शर्ट टांगी। वो भीग रहे थे #creepy #horror",
+    "description": "दादी छत पर मेरे पति की शर्ट टांग रही थीं, और नीचे वो पानी की खाँसी कर रहे थे।\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "மொட்டை மாடி · பகுதி 2: பாட்டி என் கணவர் சட்டையைத் தொங்கவிட்டாள் #creepy #horror",
+    "description": "பாட்டி மொட்டை மாடியில் என் கணவர் சட்டையைத் தொங்கவிட்டாள், கீழே அவர் தண்ணீரை இருமிக் கொண்டிருந்தார்.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "టెర్రస్ · పార్ట్ 2: అమ్మమ్మ నా భర్త చొక్కా ఆరేసింది. అతను తడిసాడు #creepy #horror",
+    "description": "అమ్మమ్మ టెర్రస్‌పై నా భర్త చొక్కా ఆరేస్తోంది, కింద ఆయన నీళ్లు దగ్గుతున్నాడు.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "ছাদ · পর্ব ২: দিদা আমার স্বামীর শার্ট মেলেছিল। সে ভিজে গেল #creepy #horror",
+    "description": "দিদা ছাদে আমার স্বামীর শার্ট মেলছিল, আর নিচে সে জল কাশছিল।\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "गच्ची · भाग २: आजीने नवऱ्याचा शर्ट टांगला. तो भिजत होता #creepy #horror",
+    "description": "आजी गच्चीवर नवऱ्याचा शर्ट टांगत होती, आणि खाली तो पाणी ओकत खोकत होता.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "چھت · حصہ 2: دادی نے میرے شوہر کی شرٹ لٹکائی۔ وہ بھیگ رہے تھے #creepy #horror",
+    "description": "دادی چھت پر میرے شوہر کی شرٹ لٹکا رہی تھیں اور نیچے وہ پانی کھانس رہے تھے۔\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Terrace · Pt 2: Isinampay ni Lola ang Damit ng Asawa Ko. Basa Siya #creepy #horror",
+    "description": "Isinasampay ni Lola ang damit ng asawa ko sa terrace, at sa ibaba ay inuubo siya ng tubig.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Teras · Pt 2: Nenek Menjemur Baju Suamiku. Dia Basah Kuyup #creepy #horror",
+    "description": "Nenek menjemur baju suamiku di teras, dan di bawah dia terbatuk-batuk memuntahkan air.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Teres · Pt 2: Nenek Jemur Baju Suami Saya. Dia Basah Kuyup #creepy #horror",
+    "description": "Nenek jemur baju suami saya di teres, dan di bawah dia batuk-batuk memuntahkan air.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "အပေါ်ထပ်ခေါင်မိုး · အပိုင်း ၂။ အဘွားက ခင်ပွန်းရဲ့ရှပ်အင်္ကျီ လှန်းတယ် #creepy #horror",
+    "description": "အဘွားက ခေါင်မိုးပေါ်မှာ ခင်ပွန်းရဲ့ရှပ်အင်္ကျီကို လှန်းနေပြီး အောက်မှာ သူ ရေတွေ ချောင်းဆိုးနေတယ်။\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "ดาดฟ้า · ตอน 2: ย่าตากเสื้อสามีฉัน เขาตัวเปียกโชก #creepy #horror",
+    "description": "ย่ากำลังตากเสื้อสามีฉันบนดาดฟ้า ส่วนข้างล่างเขาไอเอาน้ำออกมา\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Sân Thượng · Pt 2: Bà Phơi Áo Chồng Tôi. Anh Ấy Ướt Sũng #creepy #horror",
+    "description": "Bà đang phơi áo chồng tôi trên sân thượng, còn dưới nhà anh ấy ho ra nước.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Terraza · Pt 2: La Abuela Tendió la Camisa de Mi Esposo. Él Estaba Mojado #creepy #horror",
+    "description": "La abuela tendía la camisa de mi esposo en la terraza y abajo él tosía agua.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "Terraço · Pt 2: A Vovó Estendeu a Camisa do Meu Marido. Ele Estava Molhado #creepy #horror",
+    "description": "A vovó estendia a camisa do meu marido no terraço e lá embaixo ele tossia água.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Terrasse · Pt 2 : Mamie a Étendu la Chemise de Mon Mari. Il Était Trempé #creepy #horror",
+    "description": "Mamie étendait la chemise de mon mari sur la terrasse, et en bas il toussait de l'eau.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Dachterrasse · Pt 2: Oma Hängte Das Hemd Meines Mannes Auf. Er War Nass #creepy #horror",
+    "description": "Oma hängte auf der Dachterrasse das Hemd meines Mannes auf, und unten hustete er Wasser.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Terrazza · Pt 2: La Nonna Stese la Camicia di Mio Marito. Lui Era Bagnato #creepy #horror",
+    "description": "La nonna stendeva la camicia di mio marito in terrazza, e di sotto lui tossiva acqua.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Terras · Pt 2: Oma Hing Het Overhemd van Mijn Man Op. Hij Was Nat #creepy #horror",
+    "description": "Oma hing op het terras het overhemd van mijn man op, en beneden hoestte hij water op.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Terrass · Pt 2: Farmor Hängde Min Mans Skjorta. Han Var Dyngblöt #creepy #horror",
+    "description": "Farmor hängde upp min mans skjorta på terrassen, och där nere hostade han vatten.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Taras · Pt 2: Babcia Powiesiła Koszulę Mojego Męża. Był Mokry #creepy #horror",
+    "description": "Babcia wieszała na tarasie koszulę mojego męża, a na dole on kaszlał wodą.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Терраса · Ч. 2: Бабушка Повесила Рубашку Мужа. Он Был Мокрый #creepy #horror",
+    "description": "Бабушка вешала на террасе рубашку моего мужа, а внизу он кашлял водой.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Teras · Bölüm 2: Babaanne Kocamın Gömleğini Astı. O Sırılsıklamdı #creepy #horror",
+    "description": "Babaanne terasta kocamın gömleğini asıyordu, aşağıda ise o su öksürüyordu.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "السطح · ج2: جدتي نشرت قميص زوجي. وكان هو مبللاً #creepy #horror",
+    "description": "كانت جدتي تنشر قميص زوجي على السطح، وفي الأسفل كان يسعل ماءً.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "屋上 · 第2話：祖母が夫のシャツを干した。夫はずぶ濡れだった #creepy #horror",
+    "description": "祖母が屋上で夫のシャツを干している間、下で夫は水を吐いて咳き込んでいた。\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "옥상 · 2부: 할머니가 남편 셔츠를 널었다. 남편은 젖어 있었다 #creepy #horror",
+    "description": "할머니가 옥상에서 남편 셔츠를 너는 동안, 아래층에서 남편은 물을 토하며 기침하고 있었다.\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "天台 · 第2集：奶奶晾起了我丈夫的衬衫。他浑身湿透 #creepy #horror",
+    "description": "奶奶在天台晾我丈夫的衬衫时，楼下的他正咳出水来。\n\nDid you guess the twist? Tell me in the comments 👇\n📤 Send this to the friend who dries clothes on the terrace 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "series": {
+  "name": "Terrace",
+  "part": 2,
+  "of": 2,
+  "episode": "Dadi Hung My Husband's Shirt. It Was Dripping."
+ }
+}
