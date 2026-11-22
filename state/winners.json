@@ -1,13 +1,19 @@
 {
- "updated": "2026-11-21 08:45 IST",
+ "updated": "2026-11-22 08:46 IST",
  "median_views": 160,
  "n": 47,
  "top": [
   {
    "title": "Papa's Flight Is Still in the Air. He's Knocking.",
-   "views": 1708,
+   "views": 1709,
    "x_median": 10.7,
    "published": "2026-11-14 12:30"
+  },
+  {
+   "title": "My Son Drew a Door on His Wall. Last Night It Was Open.",
+   "views": 1035,
+   "x_median": 6.5,
+   "published": "2026-11-19 16:30"
   },
   {
    "title": "The School Said Dad Picked Him Up. I'm His Dad.",
@@ -32,12 +38,6 @@
    "views": 993,
    "x_median": 6.2,
    "published": "2026-11-10 19:30"
-  },
-  {
-   "title": "Channel 0 · Pt 1: My TV Is Showing My Living Room. Live.",
-   "views": 975,
-   "x_median": 6.1,
-   "published": "2026-11-07 18:00"
   }
  ],
  "bottom": [
