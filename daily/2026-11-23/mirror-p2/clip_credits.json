@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 261898,
+  "user": "AdisResic",
+  "query": "dark mirror hallway",
+  "tags": "corridor, hallway, tunnel, loop, science fiction"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A woman's reflection stepping out of a tall dim bedroom mirror, calm smile, identical to the real woman holding a child, cold blue light, shot from behind",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "Two identical women in a dark bedroom, one holding a little girl with wide open eyes, the other touching the girl's hair, faces half in shadow",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the second woman's hand slowly strokes the child's hair and her head tilts toward camera",
+  "video_model": "creatify/boreal"
+ }
+}

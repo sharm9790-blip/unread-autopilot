@@ -1,0 +1,38 @@
+{
+ "clip.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A dark Indian home kitchen at night, a single light on over the stove, a steaming tea pot, a woman's silhouette in a faded saree standing with her back to camera",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A steel pot of milk tea boiling on a gas stove, steam rising in warm light, dark kitchen",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip3.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A woman's wrist with glass bangles and a hand stirring a pot, only the arm lit, dark kitchen",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip4.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A phone glowing on a dining table at night showing a hospital name, a son's hand beside it, dark room",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip5.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A steel cup of tea placed on a bedside table beside a young man's hand, warm steam in the dark",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip6.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Mom standing close beside a seated young man in a dark kitchen, hospital band on her wrist, smiling too wide, eyes reflecting light, holding out a cup",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ }
+}

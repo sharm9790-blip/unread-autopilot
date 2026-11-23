@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 180866,
+  "user": "\u963f\u56fe\u8d6b",
+  "query": "dark mirror bedroom night",
+  "tags": "woman, mirror, reflection, bedroom, dressing up, beauty, hd wallpaper"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A dark bedroom mirror showing a woman's reflection with eyes closed while the real woman stands with eyes open, a faint amber lamp, close framing from behind",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "A mother seen from behind holding a sleeping little girl in front of a tall dim mirror, in the mirror the girl's reflection is awake and smiling, hand raised in a wave",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the reflection's raised hand slowly waves as the figure steps forward",
+  "video_model": "creatify/boreal"
+ }
+}

@@ -1,0 +1,41 @@
+[
+ {
+  "slug": "mom-tea",
+  "title": "Mom's Surgery Isn't Over. She's Making Tea in Our Kitchen.",
+  "usd": 0.108,
+  "ai": 6,
+  "fallbacks": [],
+  "speed": 1.0,
+  "seconds": 28.4,
+  "at": "2026-11-28T12:30:00+05:30",
+  "url": "https://youtube.com/shorts/t1Vhxv1a_1g",
+  "ok": true,
+  "ig": true
+ },
+ {
+  "slug": "mirror-p1",
+  "title": "Mirror Rule · Pt 1: My Daughter's Reflection Waved. She Was Asleep.",
+  "usd": 0.144,
+  "ai": 2,
+  "fallbacks": [],
+  "speed": 1.0,
+  "seconds": 28.8,
+  "at": "2026-11-28T18:00:00+05:30",
+  "url": "https://youtube.com/shorts/tAD10Y-dZw0",
+  "ok": true,
+  "ig": true
+ },
+ {
+  "slug": "mirror-p2",
+  "title": "Mirror Rule · Pt 2: My Reflection Said: I'm Taking Care of Her.",
+  "usd": 0.144,
+  "ai": 2,
+  "fallbacks": [],
+  "speed": 1.0,
+  "seconds": 27.3,
+  "at": "2026-11-28T19:30:00+05:30",
+  "url": "https://youtube.com/shorts/utaYIFE2F4Q",
+  "ok": true,
+  "ig": true
+ }
+]

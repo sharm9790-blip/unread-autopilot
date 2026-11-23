@@ -172,5 +172,36 @@
   "end": 22.56,
   "asset": "BlKsg40e8AU.mp4",
   "series": null
+ },
+ "tAD10Y-dZw0": {
+  "title": "Mirror Rule · Pt 1: My Daughter's Reflection Waved. She Was Asleep.",
+  "publish_at": "2026-11-28T18:00:00+05:30",
+  "end": 21.86,
+  "asset": "tAD10Y-dZw0.mp4",
+  "series": {
+   "name": "Mirror Rule",
+   "part": 1,
+   "of": 2,
+   "episode": "My Daughter's Reflection Waved. She Was Asleep."
+  }
+ },
+ "utaYIFE2F4Q": {
+  "title": "Mirror Rule · Pt 2: My Reflection Said: I'm Taking Care of Her.",
+  "publish_at": "2026-11-28T19:30:00+05:30",
+  "end": 21.78,
+  "asset": "utaYIFE2F4Q.mp4",
+  "series": {
+   "name": "Mirror Rule",
+   "part": 2,
+   "of": 2,
+   "episode": "My Reflection Said: I'm Taking Care of Her."
+  }
+ },
+ "t1Vhxv1a_1g": {
+  "title": "Mom's Surgery Isn't Over. She's Making Tea in Our Kitchen.",
+  "publish_at": "2026-11-28T12:30:00+05:30",
+  "end": 22.34,
+  "asset": "t1Vhxv1a_1g.mp4",
+  "series": null
  }
 }
