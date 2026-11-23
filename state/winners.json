@@ -1,80 +1,80 @@
 {
- "updated": "2026-11-22 08:46 IST",
- "median_views": 160,
+ "updated": "2026-11-23 08:56 IST",
+ "median_views": 127,
  "n": 47,
  "top": [
   {
-   "title": "Papa's Flight Is Still in the Air. He's Knocking.",
-   "views": 1709,
-   "x_median": 10.7,
-   "published": "2026-11-14 12:30"
-  },
-  {
    "title": "My Son Drew a Door on His Wall. Last Night It Was Open.",
-   "views": 1035,
-   "x_median": 6.5,
+   "views": 1039,
+   "x_median": 8.2,
    "published": "2026-11-19 16:30"
   },
   {
-   "title": "The School Said Dad Picked Him Up. I'm His Dad.",
-   "views": 1020,
-   "x_median": 6.4,
-   "published": "2026-11-08 14:30"
-  },
-  {
-   "title": "The 3 AM Bakery · Pt 1: The Baker Wrote My Name and a Date",
-   "views": 1006,
-   "x_median": 6.3,
-   "published": "2026-11-08 18:00"
-  },
-  {
-   "title": "Something Held My Foot in Bed. My Wife Was at Work.",
-   "views": 1001,
-   "x_median": 6.3,
-   "published": "2026-11-08 16:30"
-  },
-  {
    "title": "Mom Called at Midnight: Lock the Door, Don't Open It",
-   "views": 993,
-   "x_median": 6.2,
+   "views": 995,
+   "x_median": 7.8,
    "published": "2026-11-10 19:30"
+  },
+  {
+   "title": "Grandma's Plate · Pt 2: Grandma Died in March. Dinner Is Still Served.",
+   "views": 870,
+   "x_median": 6.9,
+   "published": "2026-11-19 19:30"
+  },
+  {
+   "title": "Upstairs Tenant · Pt 1: Our House Has One Floor. Something Knocks.",
+   "views": 585,
+   "x_median": 4.6,
+   "published": "2026-11-17 18:00"
+  },
+  {
+   "title": "Don't Turn On the Light. It's Standing by the Switch.",
+   "views": 512,
+   "x_median": 4.0,
+   "published": "2026-11-09 16:30"
+  },
+  {
+   "title": "Never Answer the Hostel Roll Call After Lights Out",
+   "views": 472,
+   "x_median": 3.7,
+   "published": "2026-11-13 16:30"
   }
  ],
  "bottom": [
   {
    "title": "Guest Room · Pt 2: He Followed Me Home. Mom Warned Me.",
-   "views": 6,
-   "x_median": 0.0,
+   "views": 7,
+   "x_median": 0.1,
    "published": "2026-11-16 19:30"
   },
   {
    "title": "Mom Texted Me to Come Home. She Was Driving Me Home.",
-   "views": 8,
+   "views": 9,
    "x_median": 0.1,
    "published": "2026-11-16 12:30"
   },
   {
    "title": "Someone Hummed in Our Nursery. My Wife Was Asleep Beside Me.",
-   "views": 9,
+   "views": 10,
    "x_median": 0.1,
    "published": "2026-11-17 16:30"
   },
   {
    "title": "Dad Called From the Office. Dad Was Eating Dinner Beside Me.",
-   "views": 11,
+   "views": 12,
    "x_median": 0.1,
    "published": "2026-11-17 12:30"
   },
   {
    "title": "My Cat Left a Baby Tooth on My Pillow. I Have No Kids.",
-   "views": 14,
+   "views": 15,
    "x_median": 0.1,
    "published": "2026-11-16 16:30"
   },
   {
    "title": "My Son Waves Goodnight to the Window. We're on the Fifth Floor.",
-   "views": 21,
-   "x_median": 0.1,
+   "views": 22,
+   "x_median": 0.2,
    "published": "2026-11-18 16:30"
   }
  ]
