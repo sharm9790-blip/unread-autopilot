@@ -1,0 +1,246 @@
+{
+ "title": "Mirror Rule · Pt 1: My Daughter's Reflection Waved. She Was Asleep.",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "asleep"
+ ],
+ "glitch": [
+  "waved",
+  "closer"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "grandmas"
+  },
+  {
+   "type": "heartbeat",
+   "at": "blinked"
+  },
+  {
+   "type": "sting",
+   "at": "waved"
+  },
+  {
+   "type": "sting",
+   "at": "closer"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "PART 2 ON THE CHANNEL"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.9,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "blinked-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "asleep-0.3"
+  },
+  {
+   "type": "title",
+   "start": "part-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "PART 2",
+     "at": "part-0.1",
+     "delay": 0
+    },
+    {
+     "text": "ON THE",
+     "at": "part-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "CHANNEL.",
+     "at": "part-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "The mirror continues",
+    "at": "channel",
+    "delay": 0.3
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "NEVER BLINK",
+   "BACK AT IT"
+  ],
+  "sub": "my daughter's reflection waved"
+ },
+ "hook": {
+  "lines": [
+   "NEVER BLINK",
+   "BACK AT IT"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Mirror Rule · Pt 1: My Daughter's Reflection Waved. She Was Asleep. #creepy #horror",
+  "playlist": "scary",
+  "description": "Grandma's rule: never blink back at the mirror. Tonight my reflection blinked first, and my sleeping daughter's reflection waved.\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "मिरर रूल भाग 1: बेटी का प्रतिबिंब हाथ हिलाया। वो सो रही थी #creepy #horror",
+    "description": "दादी का नियम था: रात को आईने में पलक मत झपकाना।\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "மிரர் ரூல் பாகம் 1: மகளின் பிம்பம் கை அசைத்தது. அவள் தூங்கிக்கொண்டிருந்தாள் #creepy #horror",
+    "description": "பாட்டியின் விதி: இரவில் கண்ணாடியைப் பார்த்து கண் சிமிட்டாதே.\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "మిర్రర్ రూల్ పార్ట్ 1: కూతురి ప్రతిబింబం చేయి ఊపింది. ఆమె నిద్రలో ఉంది #creepy #horror",
+    "description": "బామ్మ నియమం: రాత్రి అద్దంలో కనురెప్ప వేయకు.\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "মিরর রুল পর্ব ১: মেয়ের প্রতিবিম্ব হাত নাড়ল। সে ঘুমিয়ে ছিল #creepy #horror",
+    "description": "দিদার নিয়ম: রাতে আয়নার দিকে চোখ পিটপিট করো না।\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "मिरर रूल भाग 1: मुलीच्या प्रतिबिंबाने हात हलवला. ती झोपली होती #creepy #horror",
+    "description": "आजीचा नियम: रात्री आरशात पाहून पापणी हलवू नकोस.\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "مرر رول حصہ 1: بیٹی کے عکس نے ہاتھ ہلایا۔ وہ سو رہی تھی #creepy #horror",
+    "description": "دادی کا اصول: رات کو آئینے کے سامنے پلک مت جھپکنا۔\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Mirror Rule Pt 1: Kumaway ang Repleksyon ng Anak Ko. Tulog Siya #creepy #horror",
+    "description": "Patakaran ni Lola: huwag kumurap pabalik sa salamin sa gabi.\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Aturan Cermin Bag 1: Bayangan Putriku Melambai. Dia Sedang Tidur #creepy #horror",
+    "description": "Aturan nenek: jangan balas berkedip pada cermin di malam hari.\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Peraturan Cermin Bhg 1: Bayang Anak Saya Melambai. Dia Sedang Tidur #creepy #horror",
+    "description": "Peraturan nenek: jangan berkelip balas pada cermin waktu malam.\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "မှန်စည်းမျဉ်း အပိုင်း ၁: သမီးရဲ့ အရိပ်က လက်ဝှေ့ယမ်းတယ်။ သူ အိပ်နေတာ #creepy #horror",
+    "description": "အဘွားရဲ့စည်းမျဉ်း: ညဘက် မှန်ကို မျက်စိပြန်မမှိတ်နဲ့။\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "กฎกระจก ตอน 1: เงาของลูกสาวโบกมือ ทั้งที่เธอหลับอยู่ #creepy #horror",
+    "description": "กฎของยาย: ห้ามกะพริบตาตอบกระจกตอนกลางคืน\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Luật Gương Phần 1: Bóng Con Gái Tôi Vẫy Tay. Con Đang Ngủ #creepy #horror",
+    "description": "Quy tắc của bà: đêm đến đừng chớp mắt đáp lại gương.\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Regla del Espejo Pt 1: El Reflejo de Mi Hija Saludó. Estaba Dormida #creepy #horror",
+    "description": "La regla de la abuela: nunca parpadees de vuelta al espejo de noche.\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "Regra do Espelho Pt 1: O Reflexo da Minha Filha Acenou. Ela Dormia #creepy #horror",
+    "description": "A regra da vovó: nunca pisque de volta para o espelho à noite.\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Règle du Miroir Pt 1: Le Reflet de Ma Fille a Fait Signe. Elle Dormait #creepy #horror",
+    "description": "La règle de grand-mère: ne cligne jamais des yeux en retour devant le miroir la nuit.\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Spiegelregel Teil 1: Das Spiegelbild Meiner Tochter Winkte. Sie Schlief #creepy #horror",
+    "description": "Omas Regel: Blinzle nachts niemals zum Spiegel zurück.\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Regola dello Specchio Pt 1: Il Riflesso di Mia Figlia Ha Salutato. Dormiva #creepy #horror",
+    "description": "La regola della nonna: di notte non ricambiare mai l'ammiccamento allo specchio.\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Spiegelregel Deel 1: Het Spiegelbeeld van Mijn Dochter Zwaaide. Ze Sliep #creepy #horror",
+    "description": "Oma's regel: knipper 's nachts nooit terug naar de spiegel.\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Spegelregeln Del 1: Min Dotters Spegelbild Vinkade. Hon Sov #creepy #horror",
+    "description": "Mormors regel: blinka aldrig tillbaka åt spegeln på natten.\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Zasada Lustra Cz. 1: Odbicie Córki Pomachało. Spała #creepy #horror",
+    "description": "Zasada babci: nigdy nie mrugaj do lustra w nocy.\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Правило зеркала, ч. 1: Отражение дочки помахало. Она спала #creepy #horror",
+    "description": "Правило бабушки: никогда не моргай в ответ зеркалу ночью.\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Ayna Kuralı Böl. 1: Kızımın Yansıması El Salladı. Uyuyordu #creepy #horror",
+    "description": "Büyükannemin kuralı: geceleri aynaya asla karşılık olarak göz kırpma.\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "قاعدة المرآة ج1: انعكاس ابنتي لوّح بيده. كانت نائمة #creepy #horror",
+    "description": "قاعدة جدتي: لا ترمش أبدًا في وجه المرآة ليلًا.\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "鏡のルール Pt1: 娘の鏡像が手を振った。娘は眠っていた #creepy #horror",
+    "description": "祖母のルール：夜、鏡に瞬きを返してはいけない。\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "거울 규칙 1부: 딸의 거울 속 모습이 손을 흔들었다. 딸은 자고 있었다 #creepy #horror",
+    "description": "할머니의 규칙: 밤에 거울에게 눈을 깜빡여 답하지 마라.\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "镜子规则 第1集：女儿的倒影挥了手。她明明睡着了 #creepy #horror",
+    "description": "奶奶的规矩：夜里千万别对着镜子眨眼回应。\n\nWould you blink back? Tell me in the comments 👇\n📤 Send this to the friend who keeps a mirror in the bedroom 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "series": {
+  "name": "Mirror Rule",
+  "part": 1,
+  "of": 2,
+  "episode": "My Daughter's Reflection Waved. She Was Asleep."
+ }
+}

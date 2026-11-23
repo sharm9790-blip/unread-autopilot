@@ -1,0 +1,75 @@
+{
+ "date": "2026-11-23",
+ "order": [
+  "mom-tea",
+  "mirror-p1",
+  "mirror-p2"
+ ],
+ "schedule": {
+  "mom-tea": "2026-11-23T12:30:00+05:30",
+  "mirror-p1": "2026-11-23T18:00:00+05:30",
+  "mirror-p2": "2026-11-23T19:30:00+05:30"
+ },
+ "clips": {
+  "mom-tea": [
+   {
+    "ai": "A dark Indian home kitchen at night, a single light on over the stove, a steaming tea pot, a woman's silhouette in a faded saree standing with her back to camera",
+    "key": true,
+    "move": "dolly-in",
+    "fallback": "dark kitchen night"
+   },
+   {
+    "ai": "A steel pot of milk tea boiling on a gas stove, steam rising in warm light, dark kitchen",
+    "move": "rise",
+    "fallback": "tea boiling kitchen"
+   },
+   {
+    "ai": "A woman's wrist with glass bangles and a hand stirring a pot, only the arm lit, dark kitchen",
+    "move": "pan-left",
+    "fallback": "bangles hand dark"
+   },
+   {
+    "ai": "A phone glowing on a dining table at night showing a hospital name, a son's hand beside it, dark room",
+    "move": "dolly-out",
+    "fallback": "phone ringing dark"
+   },
+   {
+    "ai": "A steel cup of tea placed on a bedside table beside a young man's hand, warm steam in the dark",
+    "move": "orbit",
+    "fallback": "tea cup dark night"
+   },
+   {
+    "ai": "Mom standing close beside a seated young man in a dark kitchen, hospital band on her wrist, smiling too wide, eyes reflecting light, holding out a cup",
+    "key": true,
+    "move": "fall",
+    "fallback": "dark figure kitchen"
+   }
+  ],
+  "mirror-p1": [
+   "dark mirror bedroom night",
+   {
+    "ai": "A dark bedroom mirror showing a woman's reflection with eyes closed while the real woman stands with eyes open, a faint amber lamp, close framing from behind",
+    "move": "dolly-in",
+    "fallback": "photo: dark bedroom mirror"
+   },
+   {
+    "ai": "A mother seen from behind holding a sleeping little girl in front of a tall dim mirror, in the mirror the girl's reflection is awake and smiling, hand raised in a wave",
+    "motion": "the reflection's raised hand slowly waves as the figure steps forward",
+    "fallback": "dark mirror figure"
+   }
+  ],
+  "mirror-p2": [
+   "dark mirror hallway",
+   {
+    "ai": "A woman's reflection stepping out of a tall dim bedroom mirror, calm smile, identical to the real woman holding a child, cold blue light, shot from behind",
+    "move": "dolly-in",
+    "fallback": "photo: mirror dark room"
+   },
+   {
+    "ai": "Two identical women in a dark bedroom, one holding a little girl with wide open eyes, the other touching the girl's hair, faces half in shadow",
+    "motion": "the second woman's hand slowly strokes the child's hair and her head tilts toward camera",
+    "fallback": "dark figure bedroom"
+   }
+  ]
+ }
+}

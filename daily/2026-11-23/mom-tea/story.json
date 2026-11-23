@@ -1,0 +1,284 @@
+{
+ "title": "Mom's Surgery Isn't Over. She's Making Tea in Our Kitchen.",
+ "format": "rules",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "drink"
+ ],
+ "glitch": [
+  "hospital",
+  "drink"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "mom"
+  },
+  {
+   "type": "heartbeat",
+   "at": "tea"
+  },
+  {
+   "type": "sting",
+   "at": "hospital"
+  },
+  {
+   "type": "sting",
+   "at": "drink"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "tea-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "bangles-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip4.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "hospital-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip5.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "cup-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip6.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "drink-0.1"
+  },
+  {
+   "type": "title",
+   "start": "drink-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "MOM DIED",
+     "at": "drink-0.1",
+     "delay": 0
+    },
+    {
+     "text": "AT 2 AM.",
+     "at": "drink-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "SHE SERVED TEA.",
+     "at": "drink-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Would you drink it?",
+    "at": "subscribe",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "MOM IS STILL",
+   "IN SURGERY"
+  ],
+  "sub": "the kitchen light just turned on"
+ },
+ "hook": {
+  "lines": [
+   "MOM IS STILL",
+   "IN SURGERY"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Mom's Surgery Isn't Over. She's Making Tea in Our Kitchen. #creepy #horror",
+  "playlist": "scary",
+  "description": "Mom is still in surgery, but the kitchen light just turned on. Tea boiling, her bangles jingling. Then the hospital called.\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "माँ की सर्जरी अभी चल रही है। वो हमारी रसोई में चाय बना रही हैं #creepy #horror",
+    "description": "माँ अभी सर्जरी में हैं, और रसोई की बत्ती जल गई।\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "அம்மாவின் அறுவை சிகிச்சை முடியவில்லை. அவள் சமையலறையில் டீ போடுகிறாள் #creepy #horror",
+    "description": "அம்மா இன்னும் அறுவை சிகிச்சையில் இருக்கிறாள், சமையலறை விளக்கு எரிந்தது.\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "అమ్మ సర్జరీ ఇంకా ముగియలేదు. ఆమె వంటగదిలో టీ చేస్తోంది #creepy #horror",
+    "description": "అమ్మ ఇంకా సర్జరీలో ఉంది, వంటగది లైట్ వెలిగింది.\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "মায়ের অস্ত্রোপচার শেষ হয়নি। সে রান্নাঘরে চা বানাচ্ছে #creepy #horror",
+    "description": "মা এখনও অপারেশনে, আর রান্নাঘরের বাতি জ্বলে উঠল।\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "आईची शस्त्रक्रिया अजून संपलेली नाही. ती स्वयंपाकघरात चहा बनवतेय #creepy #horror",
+    "description": "आई अजून शस्त्रक्रियेत आहे, आणि स्वयंपाकघरातला दिवा लागला.\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "امی کا آپریشن ابھی جاری ہے۔ وہ باورچی خانے میں چائے بنا رہی ہیں #creepy #horror",
+    "description": "امی ابھی آپریشن میں ہیں، اور باورچی خانے کی بتی جل اٹھی۔\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Hindi Pa Tapos ang Operasyon ni Mama. Nagtitimpla Siya ng Tsaa sa Kusina #creepy #horror",
+    "description": "Nasa operasyon pa si Mama, pero bumukas ang ilaw sa kusina.\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Operasi Ibu Belum Selesai. Dia Membuat Teh di Dapur Kita #creepy #horror",
+    "description": "Ibu masih dioperasi, tapi lampu dapur tiba-tiba menyala.\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Pembedahan Ibu Belum Habis. Dia Buat Teh di Dapur Kita #creepy #horror",
+    "description": "Ibu masih dibedah, tapi lampu dapur tiba-tiba menyala.\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "မေမေ့ခွဲစိတ်မှု မပြီးသေးဘူး။ သူ မီးဖိုချောင်မှာ လက်ဖက်ရည်ဖျော်နေတယ် #creepy #horror",
+    "description": "မေမေ ခွဲစိတ်နေဆဲပါ၊ ဒါပေမယ့် မီးဖိုချောင်မီး လင်းလာတယ်။\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "ผ่าตัดแม่ยังไม่เสร็จ แต่แม่กำลังชงชาในครัวเรา #creepy #horror",
+    "description": "แม่ยังอยู่ในห้องผ่าตัด แต่ไฟในครัวเพิ่งเปิดขึ้น\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Ca Mổ của Mẹ Chưa Xong. Mẹ Đang Pha Trà Trong Bếp Nhà Mình #creepy #horror",
+    "description": "Mẹ vẫn đang phẫu thuật, vậy mà đèn bếp vừa bật sáng.\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "La Cirugía de Mamá No Ha Terminado. Está Haciendo Té en Nuestra Cocina #creepy #horror",
+    "description": "Mamá sigue en cirugía, y la luz de la cocina se acaba de encender.\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "A Cirurgia da Mãe Não Acabou. Ela Está Fazendo Chá na Nossa Cozinha #creepy #horror",
+    "description": "A mãe ainda está em cirurgia, e a luz da cozinha acabou de acender.\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "L'Opération de Maman n'Est Pas Finie. Elle Fait du Thé dans Notre Cuisine #creepy #horror",
+    "description": "Maman est toujours au bloc, et la lumière de la cuisine vient de s'allumer.\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Mamas OP Ist Nicht Vorbei. Sie Kocht Tee in Unserer Küche #creepy #horror",
+    "description": "Mama ist noch im OP, und das Küchenlicht ging gerade an.\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "L'Operazione di Mamma Non È Finita. Sta Facendo il Tè in Cucina #creepy #horror",
+    "description": "Mamma è ancora in sala operatoria, e la luce della cucina si è accesa.\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Mama's Operatie Is Niet Voorbij. Ze Zet Thee in Onze Keuken #creepy #horror",
+    "description": "Mama ligt nog onder het mes, en het keukenlicht ging net aan.\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Mammas Operation Är Inte Slut. Hon Kokar Te i Vårt Kök #creepy #horror",
+    "description": "Mamma är fortfarande på operation, och köksljuset tändes just.\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Operacja Mamy Jeszcze Trwa. Robi Herbatę w Naszej Kuchni #creepy #horror",
+    "description": "Mama jest jeszcze na operacji, a w kuchni zapaliło się światło.\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Операция у Мамы Ещё Идёт. Она Заваривает Чай у Нас на Кухне #creepy #horror",
+    "description": "Мама всё ещё на операции, а на кухне только что зажёгся свет.\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Annemin Ameliyatı Bitmedi. Mutfağımızda Çay Demliyor #creepy #horror",
+    "description": "Annem hâlâ ameliyatta ve mutfağın ışığı az önce yandı.\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "عملية أمي لم تنتهِ. وهي تعدّ الشاي في مطبخنا #creepy #horror",
+    "description": "أمي ما زالت في العملية، وضوء المطبخ أُضيء للتو.\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "母の手術はまだ終わっていない。でも台所でお茶を淹れている #creepy #horror",
+    "description": "母はまだ手術中なのに、台所の電気がついた。\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "엄마 수술은 아직 안 끝났다. 엄마가 우리 부엌에서 차를 끓인다 #creepy #horror",
+    "description": "엄마는 아직 수술 중인데, 부엌 불이 방금 켜졌다.\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "妈妈的手术还没结束。她却在我们厨房泡茶 #creepy #horror",
+    "description": "妈妈还在手术中，厨房的灯却亮了。\n\nWould you drink the tea? Tell me in the comments 👇\n📤 Send this to the friend whose mom is always in the kitchen at night 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "look": "2d",
+ "characters": "Mom: Indian woman, 52, grey-streaked bun, faded green saree, glass bangles, hospital wristband. Aman: Indian man, 24, grey t-shirt, short hair, face in shadow."
+}

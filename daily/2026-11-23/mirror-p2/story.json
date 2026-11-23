@@ -1,0 +1,247 @@
+{
+ "title": "Mirror Rule · Pt 2: My Reflection Said: I'm Taking Care of Her.",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "stepped"
+ ],
+ "glitch": [
+  "mama",
+  "taking"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "never"
+  },
+  {
+   "type": "heartbeat",
+   "at": "stepped"
+  },
+  {
+   "type": "sting",
+   "at": "mama"
+  },
+  {
+   "type": "sting",
+   "at": "taking"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.8,
+    "desat": 0.3,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "stepped-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "mama-0.3"
+  },
+  {
+   "type": "title",
+   "start": "subscribe-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "WHICH ONE",
+     "at": "subscribe-0.1",
+     "delay": 0
+    },
+    {
+     "text": "IS REALLY",
+     "at": "subscribe-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "HER MAMA?",
+     "at": "subscribe-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Part 1 is on the channel",
+    "at": "mirror",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "NEVER WAVE",
+   "AT THE MIRROR"
+  ],
+  "sub": "she stepped out smiling"
+ },
+ "hook": {
+  "lines": [
+   "NEVER WAVE",
+   "AT THE MIRROR"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Mirror Rule · Pt 2: My Reflection Said: I'm Taking Care of Her. #creepy #horror",
+  "playlist": "scary",
+  "description": "I waved back at the mirror. My reflection stepped out wearing my face. My daughter woke up and asked who was holding her.\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "मिरर रूल भाग 2: प्रतिबिंब बोला, मैं उसका ख्याल रख रहा हूँ #creepy #horror",
+    "description": "आईने से मैं बाहर आई, और मेरी बेटी की आँखें खुल गईं।\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "மிரர் ரூல் பாகம் 2: பிம்பம் சொன்னது: நான் அவளைப் பார்த்துக்கொள்கிறேன் #creepy #horror",
+    "description": "கண்ணாடியிலிருந்து நான் வெளியே வந்தேன், என் மகள் கண் விழித்தாள்.\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "మిర్రర్ రూల్ పార్ట్ 2: ప్రతిబింబం అంది: నేను ఆమెను చూసుకుంటున్నాను #creepy #horror",
+    "description": "అద్దంలోంచి నేను బయటకు వచ్చాను, నా కూతురు కళ్ళు తెరిచింది.\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "মিরর রুল পর্ব ২: প্রতিবিম্ব বলল, আমি ওকে দেখে রাখছি #creepy #horror",
+    "description": "আয়না থেকে আমি বেরিয়ে এলাম, আর আমার মেয়ে চোখ খুলল।\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "मिरर रूल भाग 2: प्रतिबिंब म्हणाले, मी तिची काळजी घेतोय #creepy #horror",
+    "description": "आरशातून मी बाहेर आले, आणि माझ्या मुलीने डोळे उघडले.\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "مرر رول حصہ 2: عکس نے کہا، میں اس کا خیال رکھ رہا ہوں #creepy #horror",
+    "description": "آئینے سے میں باہر آئی، اور میری بیٹی نے آنکھیں کھول دیں۔\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Mirror Rule Pt 2: Sabi ng Repleksyon Ko, Ako ang Nag-aalaga sa Kanya #creepy #horror",
+    "description": "Lumabas ako sa salamin, at dumilat ang anak ko.\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Aturan Cermin Bag 2: Bayanganku Berkata, Aku yang Menjaganya #creepy #horror",
+    "description": "Aku keluar dari cermin, dan putriku membuka mata.\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Peraturan Cermin Bhg 2: Bayangan Saya Kata, Saya yang Jaga Dia #creepy #horror",
+    "description": "Saya keluar dari cermin, dan anak saya membuka mata.\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "မှန်စည်းမျဉ်း အပိုင်း ၂: အရိပ်က ပြောတယ်၊ ကျွန်တော်သူ့ကို ပြုစုနေတယ် #creepy #horror",
+    "description": "မှန်ထဲက ကျွန်မထွက်လာပြီး သမီးမျက်လုံးဖွင့်လိုက်တယ်။\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "กฎกระจก ตอน 2: เงาของฉันบอกว่า ฉันดูแลเธออยู่ #creepy #horror",
+    "description": "ฉันก้าวออกมาจากกระจก และลูกสาวก็ลืมตา\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Luật Gương Phần 2: Bóng Của Tôi Nói: Tôi Đang Chăm Sóc Con Bé #creepy #horror",
+    "description": "Tôi bước ra từ tấm gương, và con gái tôi mở mắt.\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Regla del Espejo Pt 2: Mi Reflejo Dijo: Yo La Estoy Cuidando #creepy #horror",
+    "description": "Salí del espejo, y mi hija abrió los ojos.\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "Regra do Espelho Pt 2: Meu Reflexo Disse: Eu Estou Cuidando Dela #creepy #horror",
+    "description": "Saí do espelho, e minha filha abriu os olhos.\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Règle du Miroir Pt 2: Mon Reflet a Dit: Je M'Occupe d'Elle #creepy #horror",
+    "description": "Je suis sortie du miroir, et ma fille a ouvert les yeux.\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Spiegelregel Teil 2: Mein Spiegelbild Sagte: Ich Kümmere Mich um Sie #creepy #horror",
+    "description": "Ich trat aus dem Spiegel, und meine Tochter öffnete die Augen.\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Regola dello Specchio Pt 2: Il Mio Riflesso Ha Detto: Mi Prendo Cura di Lei #creepy #horror",
+    "description": "Sono uscita dallo specchio, e mia figlia ha aperto gli occhi.\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Spiegelregel Deel 2: Mijn Spiegelbeeld Zei: Ik Zorg voor Haar #creepy #horror",
+    "description": "Ik stapte uit de spiegel, en mijn dochter opende haar ogen.\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Spegelregeln Del 2: Min Spegelbild Sa: Jag Tar Hand om Henne #creepy #horror",
+    "description": "Jag klev ut ur spegeln, och min dotter öppnade ögonen.\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Zasada Lustra Cz. 2: Moje Odbicie Powiedziało: Ja się Nią Opiekuję #creepy #horror",
+    "description": "Wyszłam z lustra, a moja córka otworzyła oczy.\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Правило зеркала, ч. 2: Моё отражение сказало: Я за ней присматриваю #creepy #horror",
+    "description": "Я вышла из зеркала, и моя дочь открыла глаза.\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Ayna Kuralı Böl. 2: Yansımam Dedi ki: Ona Ben Bakıyorum #creepy #horror",
+    "description": "Aynadan çıktım ve kızım gözlerini açtı.\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "قاعدة المرآة ج2: قال انعكاسي: أنا من يعتني بها #creepy #horror",
+    "description": "خرجتُ من المرآة، وفتحت ابنتي عينيها.\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "鏡のルール Pt2: 鏡の私は言った。私が娘の面倒を見ている #creepy #horror",
+    "description": "私は鏡から出てきて、娘が目を開けた。\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "거울 규칙 2부: 거울 속 내가 말했다. 내가 그 아이를 돌보고 있어 #creepy #horror",
+    "description": "나는 거울에서 걸어 나왔고, 딸이 눈을 떴다.\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "镜子规则 第2集：倒影说，我在照顾她 #creepy #horror",
+    "description": "我从镜子里走了出来，女儿睁开了眼睛。\n\nWhich one is her mama? Tell me in the comments 👇\n📤 Send this to the friend who never covers the mirror at night 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "series": {
+  "name": "Mirror Rule",
+  "part": 2,
+  "of": 2,
+  "episode": "My Reflection Said: I'm Taking Care of Her."
+ }
+}
