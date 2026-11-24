@@ -1,0 +1,246 @@
+{
+ "title": "Sleep Talk · Pt 1: My Husband Speaks in Our Baby's Voice",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "empty"
+ ],
+ "glitch": [
+  "empty",
+  "shes"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "my"
+  },
+  {
+   "type": "heartbeat",
+   "at": "voice"
+  },
+  {
+   "type": "sting",
+   "at": "empty"
+  },
+  {
+   "type": "sting",
+   "at": "shes"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "PART 2 ON THE CHANNEL"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.9,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "voice-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "empty-0.3"
+  },
+  {
+   "type": "title",
+   "start": "part-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "PART 2",
+     "at": "part-0.1",
+     "delay": 0
+    },
+    {
+     "text": "ON THE",
+     "at": "part-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "CHANNEL.",
+     "at": "part-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Sleep Talk continues",
+    "at": "channel",
+    "delay": 0.3
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "HE TALKS IN",
+   "OUR BABY'S VOICE"
+  ],
+  "sub": "the crib was empty"
+ },
+ "hook": {
+  "lines": [
+   "HE TALKS IN",
+   "OUR BABY'S VOICE"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Sleep Talk · Pt 1: My Husband Speaks in Our Baby's Voice #creepy #horror",
+  "playlist": "scary",
+  "description": "My husband talks in his sleep. Last night he spoke in our baby's voice while the monitor showed an empty crib.\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "स्लीप टॉक Pt 1: पति नींद में हमारी बच्ची की आवाज़ में बोलते हैं #creepy #horror",
+    "description": "पति नींद में हमारी बच्ची की आवाज़ में बोले। पालना खाली था।\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "ஸ்லீப் டாக் Pt 1: கணவர் தூக்கத்தில் குழந்தையின் குரலில் பேசுகிறார் #creepy #horror",
+    "description": "கணவர் தூக்கத்தில் குழந்தையின் குரலில் பேசினார். தொட்டில் காலியாக இருந்தது.\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "స్లీప్ టాక్ Pt 1: భర్త నిద్రలో మా పాప గొంతుతో మాట్లాడుతున్నాడు #creepy #horror",
+    "description": "భర్త నిద్రలో మా పాప గొంతుతో మాట్లాడాడు. ఉయ్యాల ఖాళీగా ఉంది.\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "স্লিপ টক Pt 1: স্বামী ঘুমের মধ্যে আমাদের বাচ্চার গলায় কথা বলে #creepy #horror",
+    "description": "স্বামী ঘুমের মধ্যে বাচ্চার গলায় কথা বলল। দোলনা খালি ছিল।\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "स्लीप टॉक Pt 1: नवरा झोपेत आमच्या बाळाच्या आवाजात बोलतो #creepy #horror",
+    "description": "नवरा झोपेत बाळाच्या आवाजात बोलला. पाळणा रिकामा होता.\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "سلیپ ٹاک Pt 1: شوہر نیند میں ہماری بچی کی آواز میں بولتے ہیں #creepy #horror",
+    "description": "شوہر نیند میں ہماری بچی کی آواز میں بولے۔ جھولا خالی تھا۔\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Sleep Talk Pt 1: Nagsasalita ang Asawa Ko sa Boses ng Baby Namin #creepy #horror",
+    "description": "Nagsalita ang asawa ko sa tulog gamit ang boses ng baby namin. Walang laman ang crib.\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Sleep Talk Pt 1: Suamiku Bicara dalam Suara Bayi Kami #creepy #horror",
+    "description": "Suamiku bicara saat tidur dengan suara bayi kami. Boksnya kosong.\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Sleep Talk Pt 1: Suami Saya Bercakap dalam Suara Bayi Kami #creepy #horror",
+    "description": "Suami saya bercakap dalam tidur dengan suara bayi kami. Katilnya kosong.\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "အိပ်မက်စကား Pt 1: ယောက်ျားက အိပ်ရင်း ကျွန်မတို့ကလေးအသံနဲ့ ပြောတယ် #creepy #horror",
+    "description": "ယောက်ျားက အိပ်ရင်း ကလေးအသံနဲ့ ပြောတယ်။ ကလေးခုတင် ဗလာပဲ။\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "Sleep Talk Pt 1: สามีละเมอด้วยเสียงลูกน้อยของเรา #creepy #horror",
+    "description": "สามีละเมอด้วยเสียงลูกน้อยของเรา เปลว่างเปล่า\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Sleep Talk Pt 1: Chồng Tôi Nói Mớ Bằng Giọng Con Gái Chúng Tôi #creepy #horror",
+    "description": "Chồng nói mớ bằng giọng con gái chúng tôi. Cũi trống không.\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Sleep Talk Pt 1: Mi Marido Habla Dormido con la Voz de Nuestro Bebé #creepy #horror",
+    "description": "Mi marido habló dormido con la voz de nuestro bebé. La cuna estaba vacía.\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "Sleep Talk Pt 1: Meu Marido Fala Dormindo com a Voz do Nosso Bebê #creepy #horror",
+    "description": "Meu marido falou dormindo com a voz do nosso bebê. O berço estava vazio.\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Sleep Talk Pt 1: Mon Mari Parle dans son Sommeil avec la Voix de Notre Bébé #creepy #horror",
+    "description": "Mon mari a parlé en dormant avec la voix de notre bébé. Le berceau était vide.\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Sleep Talk Pt 1: Mein Mann Spricht im Schlaf mit der Stimme Unseres Babys #creepy #horror",
+    "description": "Mein Mann sprach im Schlaf mit der Stimme unseres Babys. Das Bettchen war leer.\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Sleep Talk Pt 1: Mio Marito Parla nel Sonno con la Voce della Nostra Bimba #creepy #horror",
+    "description": "Mio marito ha parlato nel sonno con la voce della nostra bimba. La culla era vuota.\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Sleep Talk Pt 1: Mijn Man Praat in Zijn Slaap met de Stem van Onze Baby #creepy #horror",
+    "description": "Mijn man praatte in zijn slaap met de stem van onze baby. De wieg was leeg.\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Sleep Talk Pt 1: Min Man Pratar i Sömnen med Vår Bebis Röst #creepy #horror",
+    "description": "Min man pratade i sömnen med vår bebis röst. Spjälsängen var tom.\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Sleep Talk Pt 1: Mój Mąż Mówi przez Sen Głosem Naszego Dziecka #creepy #horror",
+    "description": "Mąż mówił przez sen głosem naszego dziecka. Łóżeczko było puste.\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Sleep Talk Pt 1: Муж Говорит Во Сне Голосом Нашего Малыша #creepy #horror",
+    "description": "Муж сказал во сне голосом нашего малыша. Кроватка была пуста.\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Sleep Talk Pt 1: Kocam Uykusunda Bebeğimizin Sesiyle Konuşuyor #creepy #horror",
+    "description": "Kocam uykusunda bebeğimizin sesiyle konuştu. Beşik boştu.\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "Sleep Talk Pt 1: زوجي يتكلم أثناء النوم بصوت طفلتنا #creepy #horror",
+    "description": "تكلم زوجي أثناء نومه بصوت طفلتنا. وكان السرير فارغًا.\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "スリープトーク Pt 1: 夫が寝言で赤ちゃんの声で話す #creepy #horror",
+    "description": "夫が寝言で赤ちゃんの声で話した。ベビーベッドは空だった。\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "슬립토크 Pt 1: 남편이 잠꼬대를 아기 목소리로 한다 #creepy #horror",
+    "description": "남편이 잠꼬대를 아기 목소리로 했다. 아기 침대는 비어 있었다.\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "梦话 Pt 1: 丈夫说梦话时用的是我们宝宝的声音 #creepy #horror",
+    "description": "丈夫用宝宝的声音说梦话。婴儿床是空的。\n\nWould you turn on the light? Tell me in the comments 👇\n📤 Send this to the friend whose husband talks in his sleep 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "series": {
+  "name": "Sleep Talk",
+  "part": 1,
+  "of": 2,
+  "episode": "My Husband Speaks in Our Baby's Voice"
+ }
+}

@@ -1,0 +1,284 @@
+{
+ "title": "My Daughter Drew Dad With No Face. Dad Is Abroad.",
+ "format": "second-person",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "pencil"
+ ],
+ "glitch": [
+  "abroad",
+  "pencil"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "my"
+  },
+  {
+   "type": "heartbeat",
+   "at": "shoes"
+  },
+  {
+   "type": "sting",
+   "at": "abroad"
+  },
+  {
+   "type": "sting",
+   "at": "pencil"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "shoes-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "keys-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip4.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "abroad-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip5.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "whispered-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip6.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "pencil-0.2"
+  },
+  {
+   "type": "title",
+   "start": "pencil-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "HE WAS",
+     "at": "pencil-0.1",
+     "delay": 0
+    },
+    {
+     "text": "COLOURING",
+     "at": "pencil-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "HIS FACE.",
+     "at": "pencil-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Would you look up?",
+    "at": "subscribe",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "DAD HAS",
+   "NO FACE"
+  ],
+  "sub": "my daughter drew him last night"
+ },
+ "hook": {
+  "lines": [
+   "DAD HAS",
+   "NO FACE"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "My Daughter Drew Dad With No Face. Dad Is Abroad. #creepy #horror",
+  "playlist": "scary",
+  "description": "My daughter drew Dad with no face. Tonight his shoes stood by the door and his keys jingled. Dad is abroad.\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "बेटी ने पापा का बिना चेहरे का चित्र बनाया। पापा विदेश में हैं #creepy #horror",
+    "description": "बेटी ने पापा का चित्र बिना चेहरे के बनाया। आज रात दरवाज़े पर उनकी चाबियाँ खनकीं।\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "மகள் முகம் இல்லாத அப்பாவை வரைந்தாள். அப்பா வெளிநாட்டில் #creepy #horror",
+    "description": "மகள் முகமில்லாமல் அப்பாவை வரைந்தாள். இன்றிரவு கதவருகே அவர் சாவி ஒலித்தது.\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "కూతురు ముఖం లేని నాన్నను గీసింది. నాన్న విదేశంలో ఉన్నారు #creepy #horror",
+    "description": "కూతురు ముఖం లేకుండా నాన్నను గీసింది. ఈ రాత్రి తలుపు దగ్గర ఆయన తాళాలు మోగాయి.\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "মেয়ে মুখহীন বাবার ছবি আঁকল। বাবা বিদেশে #creepy #horror",
+    "description": "মেয়ে মুখ ছাড়া বাবাকে এঁকেছে। আজ রাতে দরজায় তাঁর চাবি ঝনঝন করল।\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "मुलीने चेहरा नसलेल्या बाबांचे चित्र काढले. बाबा परदेशात आहेत #creepy #horror",
+    "description": "मुलीने बाबांचे चित्र चेहऱ्याशिवाय काढले. आज रात्री दारात त्यांच्या चाव्या वाजल्या.\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "بیٹی نے بغیر چہرے کے ابو کی تصویر بنائی۔ ابو بیرون ملک ہیں #creepy #horror",
+    "description": "بیٹی نے ابو کی تصویر بغیر چہرے کے بنائی۔ آج رات دروازے پر ان کی چابیاں کھنکیں۔\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Gumuhit si Bunso kay Papa na Walang Mukha. Nasa Abroad si Papa #creepy #horror",
+    "description": "Iginuhit ng anak ko si Papa nang walang mukha. Ngayong gabi, tumunog ang mga susi niya sa pinto.\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Putriku Menggambar Ayah Tanpa Wajah. Ayah di Luar Negeri #creepy #horror",
+    "description": "Putriku menggambar Ayah tanpa wajah. Malam ini kunci Ayah berdenting di pintu.\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Anak Saya Lukis Ayah Tanpa Muka. Ayah di Luar Negara #creepy #horror",
+    "description": "Anak saya lukis Ayah tanpa muka. Malam ini kunci Ayah berbunyi di pintu.\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "သမီးက မျက်နှာမပါတဲ့ ဖေဖေကို ဆွဲတယ်။ ဖေဖေက နိုင်ငံခြားမှာ #creepy #horror",
+    "description": "သမီးက ဖေဖေ့ကို မျက်နှာမပါဘဲ ဆွဲတယ်။ ဒီညမှာ တံခါးမှာ သူ့သော့သံ ကြားရတယ်။\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "ลูกสาววาดพ่อไม่มีหน้า พ่ออยู่ต่างประเทศ #creepy #horror",
+    "description": "ลูกสาววาดพ่อไม่มีหน้า คืนนี้เสียงกุญแจของพ่อดังที่ประตู\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Con Gái Vẽ Bố Không Có Mặt. Bố Đang Ở Nước Ngoài #creepy #horror",
+    "description": "Con gái vẽ bố không có mặt. Tối nay chùm chìa khóa của bố kêu leng keng ngoài cửa.\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Mi Hija Dibujó a Papá Sin Cara. Papá Está en el Extranjero #creepy #horror",
+    "description": "Mi hija dibujó a papá sin cara. Esta noche sus llaves sonaron en la puerta.\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "Minha Filha Desenhou o Pai Sem Rosto. Ele Está no Exterior #creepy #horror",
+    "description": "Minha filha desenhou o pai sem rosto. Esta noite as chaves dele tilintaram na porta.\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Ma Fille a Dessiné Papa Sans Visage. Papa Est à l'Étranger #creepy #horror",
+    "description": "Ma fille a dessiné papa sans visage. Ce soir, ses clés ont tinté à la porte.\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Meine Tochter Malte Papa ohne Gesicht. Papa Ist im Ausland #creepy #horror",
+    "description": "Meine Tochter malte Papa ohne Gesicht. Heute Nacht klimperten seine Schlüssel an der Tür.\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Mia Figlia Ha Disegnato Papà Senza Faccia. È all'Estero #creepy #horror",
+    "description": "Mia figlia ha disegnato papà senza faccia. Stanotte le sue chiavi hanno tintinnato alla porta.\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Mijn Dochter Tekende Papa Zonder Gezicht. Papa Is in het Buitenland #creepy #horror",
+    "description": "Mijn dochter tekende papa zonder gezicht. Vannacht rinkelden zijn sleutels aan de deur.\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Min Dotter Ritade Pappa Utan Ansikte. Pappa Är Utomlands #creepy #horror",
+    "description": "Min dotter ritade pappa utan ansikte. I natt skramlade hans nycklar vid dörren.\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Córka Narysowała Tatę Bez Twarzy. Tata Jest za Granicą #creepy #horror",
+    "description": "Córka narysowała tatę bez twarzy. Dziś w nocy jego klucze zabrzęczały przy drzwiach.\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Дочь Нарисовала Папу Без Лица. Папа За Границей #creepy #horror",
+    "description": "Дочь нарисовала папу без лица. Этой ночью у двери звякнули его ключи.\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Kızım Babamı Yüzsüz Çizdi. Babam Yurt Dışında #creepy #horror",
+    "description": "Kızım babamı yüzsüz çizdi. Bu gece kapıda anahtarlarının sesi geldi.\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "رسمت ابنتي أبي بلا وجه. أبي مسافر خارج البلاد #creepy #horror",
+    "description": "رسمت ابنتي أبي بلا وجه. الليلة رنّت مفاتيحه عند الباب.\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "娘がパパを顔なしで描いた。パパは海外にいる #creepy #horror",
+    "description": "娘がパパを顔なしで描いた。今夜、玄関で彼の鍵が鳴った。\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "딸이 얼굴 없는 아빠를 그렸다. 아빠는 해외에 있다 #creepy #horror",
+    "description": "딸이 얼굴 없는 아빠를 그렸다. 오늘 밤 현관에서 아빠의 열쇠 소리가 났다.\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "女儿画了没有脸的爸爸。爸爸在国外 #creepy #horror",
+    "description": "女儿画了没有脸的爸爸。今晚门口响起了他的钥匙声。\n\nWould you look at the drawing? Tell me in the comments 👇\n📤 Send this to the friend whose husband works abroad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "look": "2d",
+ "characters": "Mama: Indian woman, 32, long black braid, blue cotton nightsuit. Riya: girl, 6, two short braids, yellow nightdress. Dad: tall Indian man, grey shirt, face always in shadow."
+}

@@ -1,0 +1,75 @@
+{
+ "date": "2026-11-24",
+ "order": [
+  "no-face",
+  "sleeptalk-p1",
+  "sleeptalk-p2"
+ ],
+ "schedule": {
+  "no-face": "2026-11-24T12:30:00+05:30",
+  "sleeptalk-p1": "2026-11-24T18:00:00+05:30",
+  "sleeptalk-p2": "2026-11-24T19:30:00+05:30"
+ },
+ "clips": {
+  "no-face": [
+   {
+    "ai": "A child's crayon drawing of a tall father figure with a blank white oval for a face, taped to a dark wall, lamp light, close-up",
+    "key": true,
+    "move": "dolly-in",
+    "fallback": "child drawing dark"
+   },
+   {
+    "ai": "A pair of men's black shoes standing by a front door in a dark Indian home hallway, a faint light under the door",
+    "move": "pan-left",
+    "fallback": "shoes by door night"
+   },
+   {
+    "ai": "A bunch of house keys swinging on a hook beside a dark front door, motion blur, night",
+    "move": "rise",
+    "fallback": "keys door dark"
+   },
+   {
+    "ai": "A phone on a bedside table showing a world map and an airplane icon, dim room at night",
+    "move": "dolly-out",
+    "fallback": "phone night room"
+   },
+   {
+    "ai": "Riya sitting up in bed holding crayons, Mama's shoulder in the foreground, dark bedroom, one lamp",
+    "move": "orbit",
+    "fallback": "child bedroom night"
+   },
+   {
+    "ai": "A tall dark father figure with a smooth blank face standing behind Riya's bed, a crayon drawing beside her lit by lamp light, hand on her shoulder",
+    "key": true,
+    "move": "fall",
+    "fallback": "dark figure bedroom"
+   }
+  ],
+  "sleeptalk-p1": [
+   "dark bedroom sleeping man",
+   {
+    "ai": "A man asleep in a dark bedroom, mouth slightly open, his wife awake beside him in the foreground, blue night light, shot from behind her shoulder",
+    "move": "dolly-in",
+    "fallback": "photo: dark bedroom bed"
+   },
+   {
+    "ai": "A baby monitor screen glowing green on a nightstand showing an empty crib, dark room, close-up",
+    "motion": "the monitor screen flickers and a small shadow crosses the crib",
+    "fallback": "baby monitor dark"
+   }
+  ],
+  "sleeptalk-p2": [
+   "dark under bed",
+   {
+    "ai": "A dark gap under a bed with a baby's small hand and a long pale adult hand clasped together in the shadow, flashlight glow from one side",
+    "move": "dolly-in",
+    "fallback": "photo: under bed dark"
+   },
+   {
+    "ai": "A man sitting up in bed in a dark room, mouth wide in a scream, his wife kneeling on the floor holding a baby, cold blue light",
+    "motion": "a pale hand slowly withdraws into the dark under the bed",
+    "fallback": "dark bedroom scared"
+   }
+  ]
+ }
+}

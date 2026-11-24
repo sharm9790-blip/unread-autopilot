@@ -1,0 +1,247 @@
+{
+ "title": "Sleep Talk · Pt 2: My Baby Held a Hand Under the Bed",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "under"
+ ],
+ "glitch": [
+  "pale",
+  "woke"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "never"
+  },
+  {
+   "type": "heartbeat",
+   "at": "under"
+  },
+  {
+   "type": "sting",
+   "at": "pale"
+  },
+  {
+   "type": "sting",
+   "at": "woke"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.8,
+    "desat": 0.3,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "under-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "woke-0.3"
+  },
+  {
+   "type": "title",
+   "start": "subscribe-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "WHOSE VOICE",
+     "at": "subscribe-0.1",
+     "delay": 0
+    },
+    {
+     "text": "WAS UNDER",
+     "at": "subscribe-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "THE BED?",
+     "at": "subscribe-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Part 1 is on the channel",
+    "at": "sleeping",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "NEVER ANSWER",
+   "A SLEEPING MAN"
+  ],
+  "sub": "his mouth said: under the bed"
+ },
+ "hook": {
+  "lines": [
+   "NEVER ANSWER",
+   "A SLEEPING MAN"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Sleep Talk · Pt 2: My Baby Held a Hand Under the Bed #creepy #horror",
+  "playlist": "scary",
+  "description": "I asked where my baby was. My sleeping husband said: under the bed. She was holding someone's pale hand.\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "स्लीप टॉक Pt 2: मेरी बच्ची बिस्तर के नीचे एक हाथ पकड़े थी #creepy #horror",
+    "description": "मैंने पूछा बच्ची कहाँ है। सोते पति बोले: बिस्तर के नीचे।\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "ஸ்லீப் டாக் Pt 2: என் குழந்தை கட்டிலுக்கு அடியில் ஒரு கையைப் பிடித்திருந்தாள் #creepy #horror",
+    "description": "நான் குழந்தை எங்கே என்றேன். தூங்கும் கணவர் சொன்னார்: கட்டிலுக்கு அடியில்.\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "స్లీప్ టాక్ Pt 2: మంచం కింద నా పాప ఒక చేతిని పట్టుకుంది #creepy #horror",
+    "description": "పాప ఎక్కడ అని అడిగాను. నిద్రలో భర్త అన్నాడు: మంచం కింద.\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "স্লিপ টক Pt 2: খাটের নিচে আমার বাচ্চা একটা হাত ধরে ছিল #creepy #horror",
+    "description": "আমি জিজ্ঞেস করলাম বাচ্চা কোথায়। ঘুমন্ত স্বামী বলল: খাটের নিচে।\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "स्लीप टॉक Pt 2: माझे बाळ पलंगाखाली एक हात धरून होते #creepy #horror",
+    "description": "मी विचारले बाळ कुठे आहे. झोपलेला नवरा म्हणाला: पलंगाखाली.\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "سلیپ ٹاک Pt 2: میری بچی بستر کے نیچے ایک ہاتھ تھامے تھی #creepy #horror",
+    "description": "میں نے پوچھا بچی کہاں ہے۔ سوتے شوہر نے کہا: بستر کے نیچے۔\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Sleep Talk Pt 2: May Hawak na Kamay ang Baby Ko sa Ilalim ng Kama #creepy #horror",
+    "description": "Tinanong ko kung nasaan ang baby ko. Sabi ng natutulog kong asawa: sa ilalim ng kama.\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Sleep Talk Pt 2: Bayiku Memegang Tangan di Bawah Ranjang #creepy #horror",
+    "description": "Aku tanya di mana bayiku. Suamiku yang tidur menjawab: di bawah ranjang.\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Sleep Talk Pt 2: Bayi Saya Pegang Tangan di Bawah Katil #creepy #horror",
+    "description": "Saya tanya di mana bayi saya. Suami yang tidur jawab: di bawah katil.\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "အိပ်မက်စကား Pt 2: ကျွန်မကလေး ခုတင်အောက်မှာ လက်တစ်ဖက်ကို ကိုင်ထားတယ် #creepy #horror",
+    "description": "ကလေးဘယ်မှာလဲလို့ မေးတော့ အိပ်နေတဲ့ယောက်ျားက ခုတင်အောက်လို့ ပြောတယ်။\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "Sleep Talk Pt 2: ลูกน้อยจับมือหนึ่งอยู่ใต้เตียง #creepy #horror",
+    "description": "ฉันถามว่าลูกอยู่ไหน สามีที่หลับอยู่ตอบว่า ใต้เตียง\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Sleep Talk Pt 2: Con Tôi Nắm Một Bàn Tay Dưới Gầm Giường #creepy #horror",
+    "description": "Tôi hỏi con đâu. Chồng đang ngủ đáp: dưới gầm giường.\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Sleep Talk Pt 2: Mi Bebé Sostenía una Mano Debajo de la Cama #creepy #horror",
+    "description": "Pregunté dónde estaba mi bebé. Mi marido dormido dijo: debajo de la cama.\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "Sleep Talk Pt 2: Meu Bebê Segurava uma Mão Embaixo da Cama #creepy #horror",
+    "description": "Perguntei onde estava meu bebê. Meu marido dormindo disse: embaixo da cama.\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Sleep Talk Pt 2: Mon Bébé Tenait une Main sous le Lit #creepy #horror",
+    "description": "J'ai demandé où était mon bébé. Mon mari endormi a dit : sous le lit.\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Sleep Talk Pt 2: Mein Baby Hielt Unter dem Bett eine Hand #creepy #horror",
+    "description": "Ich fragte, wo mein Baby ist. Mein schlafender Mann sagte: unter dem Bett.\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Sleep Talk Pt 2: La Mia Bimba Stringeva una Mano Sotto il Letto #creepy #horror",
+    "description": "Ho chiesto dov'era la mia bimba. Mio marito, dormendo, ha detto: sotto il letto.\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Sleep Talk Pt 2: Mijn Baby Hield een Hand Vast onder het Bed #creepy #horror",
+    "description": "Ik vroeg waar mijn baby was. Mijn slapende man zei: onder het bed.\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Sleep Talk Pt 2: Min Bebis Höll en Hand Under Sängen #creepy #horror",
+    "description": "Jag frågade var min bebis var. Min sovande man sa: under sängen.\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Sleep Talk Pt 2: Moje Dziecko Trzymało Rękę pod Łóżkiem #creepy #horror",
+    "description": "Zapytałam, gdzie moje dziecko. Śpiący mąż powiedział: pod łóżkiem.\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Sleep Talk Pt 2: Мой Малыш Держал Чью-то Руку Под Кроватью #creepy #horror",
+    "description": "Я спросила, где мой малыш. Спящий муж ответил: под кроватью.\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Sleep Talk Pt 2: Bebeğim Yatağın Altında Bir El Tutuyordu #creepy #horror",
+    "description": "Bebeğimin nerede olduğunu sordum. Uyuyan kocam dedi ki: yatağın altında.\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "Sleep Talk Pt 2: طفلتي كانت تمسك يدًا تحت السرير #creepy #horror",
+    "description": "سألت أين طفلتي. قال زوجي النائم: تحت السرير.\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "スリープトーク Pt 2: 赤ちゃんはベッドの下で誰かの手を握っていた #creepy #horror",
+    "description": "赤ちゃんはどこかと尋ねた。眠ったままの夫が言った。ベッドの下。\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "슬립토크 Pt 2: 아기가 침대 밑에서 누군가의 손을 잡고 있었다 #creepy #horror",
+    "description": "아기가 어디 있냐고 물었다. 자는 남편이 말했다. 침대 밑.\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "梦话 Pt 2: 宝宝在床底下握着一只手 #creepy #horror",
+    "description": "我问宝宝在哪里。熟睡的丈夫说：床底下。\n\nWhose voice was it? Tell me in the comments 👇\n📤 Send this to the friend who checks under the bed 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "series": {
+  "name": "Sleep Talk",
+  "part": 2,
+  "of": 2,
+  "episode": "My Baby Held a Hand Under the Bed"
+ }
+}
