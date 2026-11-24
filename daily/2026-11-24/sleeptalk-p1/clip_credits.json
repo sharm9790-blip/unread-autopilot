@@ -1,0 +1,22 @@
+{
+ "clip.mp4": {
+  "id": 26793,
+  "user": "SamuelFJohanns",
+  "query": "dark bedroom sleeping man",
+  "tags": "man, night, riverbank, flow, light, silhouette, dark, alone, masculine, person, boy, mystical, people, blue"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A man asleep in a dark bedroom, mouth slightly open, his wife awake beside him in the foreground, blue night light, shot from behind her shoulder",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-video",
+  "prompt": "A baby monitor screen glowing green on a nightstand showing an empty crib, dark room, close-up",
+  "model": "fal-ai/flux-2",
+  "usd": 0.108,
+  "motion": "the monitor screen flickers and a small shadow crosses the crib",
+  "video_model": "creatify/boreal"
+ }
+}

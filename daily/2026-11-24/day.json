@@ -1,14 +1,14 @@
 {
- "date": "2026-11-24",
+ "date": "2026-11-29",
  "order": [
   "no-face",
   "sleeptalk-p1",
   "sleeptalk-p2"
  ],
  "schedule": {
-  "no-face": "2026-11-24T12:30:00+05:30",
-  "sleeptalk-p1": "2026-11-24T18:00:00+05:30",
-  "sleeptalk-p2": "2026-11-24T19:30:00+05:30"
+  "no-face": "2026-11-29T12:30:00+05:30",
+  "sleeptalk-p1": "2026-11-29T18:00:00+05:30",
+  "sleeptalk-p2": "2026-11-29T19:30:00+05:30"
  },
  "clips": {
   "no-face": [
@@ -71,5 +71,6 @@
     "fallback": "dark bedroom scared"
    }
   ]
- }
+ },
+ "moved_from": "2026-11-24"
 }

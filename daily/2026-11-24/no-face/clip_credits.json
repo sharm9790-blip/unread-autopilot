@@ -1,0 +1,38 @@
+{
+ "clip.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A child's crayon drawing of a tall father figure with a blank white oval for a face, taped to a dark wall, lamp light, close-up",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A pair of men's black shoes standing by a front door in a dark Indian home hallway, a faint light under the door",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip3.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A bunch of house keys swinging on a hook beside a dark front door, motion blur, night",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip4.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A phone on a bedside table showing a world map and an airplane icon, dim room at night",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip5.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Riya sitting up in bed holding crayons, Mama's shoulder in the foreground, dark bedroom, one lamp",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip6.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A tall dark father figure with a smooth blank face standing behind Riya's bed, a crayon drawing beside her lit by lamp light, hand on her shoulder",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ }
+}
