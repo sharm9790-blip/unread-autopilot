@@ -1,0 +1,38 @@
+{
+ "clip.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A small child's bed made up neatly with a blanket and pillow on a dark bedroom floor, a toy lamp glowing beside it, close-up",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A wrinkled blanket on the little bed with a faint wisp of warm steam rising from it, dark room, lamp light",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip3.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A pillow with a deep head-shaped dent in it, dim lamp light, close-up",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip4.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Long black hairs lying across a white pillow, close-up, cold light",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip5.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Aman, a small boy in pyjamas, kneeling beside the little bed with a finger to his lips, Mama watching from the doorway, dark bedroom",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip6.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A tall thin dark figure lying curled under the blanket of the little bed, its long black hair spilling over the pillow, Aman standing beside it smiling, lamp light",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ }
+}

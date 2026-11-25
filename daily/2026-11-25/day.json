@@ -1,14 +1,14 @@
 {
- "date": "2026-11-25",
+ "date": "2026-11-30",
  "order": [
   "imaginary-bed",
   "fourth-chair-p1",
   "fourth-chair-p2"
  ],
  "schedule": {
-  "imaginary-bed": "2026-11-25T12:30:00+05:30",
-  "fourth-chair-p1": "2026-11-25T18:00:00+05:30",
-  "fourth-chair-p2": "2026-11-25T19:30:00+05:30"
+  "imaginary-bed": "2026-11-30T12:30:00+05:30",
+  "fourth-chair-p1": "2026-11-30T18:00:00+05:30",
+  "fourth-chair-p2": "2026-11-30T19:30:00+05:30"
  },
  "clips": {
   "imaginary-bed": [
@@ -71,5 +71,6 @@
     "fallback": "dark figure dining room"
    }
   ]
- }
+ },
+ "moved_from": "2026-11-25"
 }

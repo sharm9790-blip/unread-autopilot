@@ -1,0 +1,21 @@
+{
+ "clip.mp4": {
+  "id": 172667,
+  "user": "Eaktas06",
+  "query": "family dinner table dark",
+  "tags": "breakfast, family, happiness, joy, mother, father, kids, garden, table"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A dim family dining table with three plates and one empty wooden chair pulled slightly back, warm yellow lamp, shot low",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "An Indian man at a dinner table staring at an empty chair, his face pale in shadow, his wife and small son beside him",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036,
+  "fallback": "clip: fal HTTP 404 on https://queue.fal.run/creatify/boreal: {\"detail\":\"Application \\\"boreal\\\" not found\"}"
+ }
+}

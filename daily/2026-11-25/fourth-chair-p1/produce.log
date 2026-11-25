@@ -1,0 +1,97 @@
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/parallax.py daily/2026-11-25/fourth-chair-p1/clip2_ai.jpg daily/2026-11-25/fourth-chair-p1/clip2.mp4 --move dolly-in --dur 10 --strength 0.07 --fog 0.2 --dust 40
+
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Device set to use cpu
+  depth: Depth Anything V2 (saved clip2_ai.depth.png); move dolly-in, 10.0s @ 30fps, 1080x1920
+
+  frame 0/300
+  frame 30/300
+  frame 60/300
+  frame 90/300
+  frame 120/300
+  frame 150/300
+  frame 180/300
+  frame 210/300
+  frame 240/300
+  frame 270/300
+  wrote daily/2026-11-25/fourth-chair-p1/clip2.mp4            
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/parallax.py daily/2026-11-25/fourth-chair-p1/clip3_ai.jpg daily/2026-11-25/fourth-chair-p1/clip3.mp4 --move pan-right --dur 10 --strength 0.07 --fog 0.2 --dust 40
+
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Device set to use cpu
+  depth: Depth Anything V2 (saved clip3_ai.depth.png); move pan-right, 10.0s @ 30fps, 1080x1920
+
+  frame 0/300
+  frame 30/300
+  frame 60/300
+  frame 90/300
+  frame 120/300
+  frame 150/300
+  frame 180/300
+  frame 210/300
+  frame 240/300
+  frame 270/300
+  wrote daily/2026-11-25/fourth-chair-p1/clip3.mp4            
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/tts.py daily/2026-11-25/fourth-chair-p1 --voice BycOlIr9Aytiubl0LIIY
+voice.mp3 + words.json  words=48  spoken=27.8s
+
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/thumbnail.py daily/2026-11-25/fourth-chair-p1
+thumbnail.png + upload.md
+
+[vost#0:0/rawvideo @ 0x644243b22d80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x644243b23bc0] Error muxing a packet
+[out#0/rawvideo @ 0x644243b23bc0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x644243b23bc0] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x644243b23bc0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x644243b23bc0] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/render.py daily/2026-11-25/fourth-chair-p1
+done daily/2026-11-25/fourth-chair-p1/short.mp4  29.5s  85 MB
+
+[vost#0:0/rawvideo @ 0x59e5f459d480] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x59e5f459f980] Error muxing a packet
+[out#0/rawvideo @ 0x59e5f459f980] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x59e5f459f980] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x558504fc1d80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x558504fc2bc0] Error muxing a packet
+[out#0/rawvideo @ 0x558504fc2bc0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x558504fc2bc0] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5b5e7d000880] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5b5e7d000500] Error muxing a packet
+[out#0/rawvideo @ 0x5b5e7d000500] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5b5e7d000500] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5b5e7d000500] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5b5e7d000500] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x59e5f459f980] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x59e5f459f980] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x558504fc2bc0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x558504fc2bc0] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/youtube_upload.py daily/2026-11-25/fourth-chair-p1 --publish-at 2026-11-30T18:00:00+05:30
+uploading 9%
+uploading 19%
+uploading 29%
+uploading 39%
+uploading 49%
+uploading 58%
+uploading 68%
+uploading 78%
+uploading 88%
+uploading 98%
+{
+ "id": "RkNULWzG-CU",
+ "url": "https://youtube.com/shorts/RkNULWzG-CU",
+ "privacy": "private",
+ "title": "Fourth Chair \u00b7 Pt 1: My Son Counts Four at Dinner. We're Three #creepy #horror",
+ "thumbnail": "set",
+ "playlist": "\ud83d\ude31 Scary Stories"
+}
+
+

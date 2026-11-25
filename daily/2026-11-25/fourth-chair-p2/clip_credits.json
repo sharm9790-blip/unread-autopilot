@@ -1,0 +1,21 @@
+{
+ "clip.mp4": {
+  "id": 200139,
+  "user": "mariancroitoru",
+  "query": "dark dining room chair",
+  "tags": "dinner, decoration, chairs, candles, arrangement, anniversary, autumn, banquet, boho, bouquet, candlelight, card, catering, celebration, ceremony, decor, dining, elegance, elegant, event"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A fourth plate of steaming food set by itself on a dark dining table in front of an empty chair, a family of three frozen in the background",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A small boy smiling at the dining table in warm lamp light while behind his mother a pale woman in a white saree stands in the dark",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036,
+  "fallback": "clip: fal HTTP 404 on https://queue.fal.run/creatify/boreal: {\"detail\":\"Application \\\"boreal\\\" not found\"}"
+ }
+}
