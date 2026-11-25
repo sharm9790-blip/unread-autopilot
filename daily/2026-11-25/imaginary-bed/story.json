@@ -1,0 +1,284 @@
+{
+ "title": "My Son Made a Bed for His Imaginary Friend. It Was Slept In.",
+ "format": "second-person",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "softer"
+ ],
+ "glitch": [
+  "hairs",
+  "softer"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "my"
+  },
+  {
+   "type": "heartbeat",
+   "at": "blanket"
+  },
+  {
+   "type": "sting",
+   "at": "hairs"
+  },
+  {
+   "type": "sting",
+   "at": "softer"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "blanket-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "dent-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip4.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "hairs-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip5.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "shh-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip6.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "softer-0.3"
+  },
+  {
+   "type": "title",
+   "start": "softer-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "HE SLEPT",
+     "at": "softer-0.1",
+     "delay": 0
+    },
+    {
+     "text": "IN THE",
+     "at": "softer-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "BED.",
+     "at": "softer-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Would you check yours?",
+    "at": "subscribe",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "IMAGINARY FRIEND",
+   "SLEPT HERE"
+  ],
+  "sub": "the blanket was warm"
+ },
+ "hook": {
+  "lines": [
+   "IMAGINARY FRIEND",
+   "SLEPT HERE"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "My Son Made a Bed for His Imaginary Friend. It Was Slept In. #creepy #horror",
+  "playlist": "scary",
+  "description": "My son made a bed for his imaginary friend. Tonight the blanket was warm, the pillow dented, long black hairs on it.\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "बेटे ने काल्पनिक दोस्त का बिस्तर बनाया। उसमें कोई सोया था #creepy #horror",
+    "description": "बेटे ने काल्पनिक दोस्त के लिए बिस्तर बनाया। आज रात कंबल गर्म था।\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "மகன் கற்பனை நண்பனுக்கு படுக்கை போட்டான். அதில் யாரோ தூங்கியிருந்தார்கள் #creepy #horror",
+    "description": "மகன் கற்பனை நண்பனுக்கு படுக்கை போட்டான். இன்றிரவு போர்வை சூடாக இருந்தது.\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "కొడుకు ఊహా స్నేహితుడికి మంచం వేశాడు. అందులో ఎవరో పడుకున్నారు #creepy #horror",
+    "description": "కొడుకు ఊహా స్నేహితుడికి మంచం వేశాడు. ఈ రాత్రి దుప్పటి వెచ్చగా ఉంది.\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "ছেলে কাল্পনিক বন্ধুর বিছানা বানাল। সেখানে কেউ ঘুমিয়েছিল #creepy #horror",
+    "description": "ছেলে কাল্পনিক বন্ধুর জন্য বিছানা বানাল। আজ রাতে কম্বল গরম ছিল।\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "मुलाने काल्पनिक मित्रासाठी अंथरूण केले. त्यात कोणी झोपले होते #creepy #horror",
+    "description": "मुलाने काल्पनिक मित्रासाठी अंथरूण केले. आज रात्री पांघरूण उबदार होते.\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "بیٹے نے خیالی دوست کا بستر بنایا۔ اس میں کوئی سویا تھا #creepy #horror",
+    "description": "بیٹے نے خیالی دوست کے لیے بستر بنایا۔ آج رات کمبل گرم تھا۔\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Gumawa ng Higaan ang Anak Ko para sa Imaginary Friend. May Natulog Dito #creepy #horror",
+    "description": "Gumawa ng higaan ang anak ko para sa imaginary friend niya. Mainit ang kumot ngayong gabi.\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Anakku Membuat Kasur untuk Teman Khayalannya. Ada yang Tidur di Sana #creepy #horror",
+    "description": "Anakku membuat kasur untuk teman khayalannya. Malam ini selimutnya hangat.\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Anak Saya Buat Katil untuk Kawan Khayalan. Ada Orang Tidur di Situ #creepy #horror",
+    "description": "Anak saya buat katil untuk kawan khayalannya. Malam ini selimutnya hangat.\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "သားက စိတ်ကူးထဲက သူငယ်ချင်းအတွက် အိပ်ရာပြင်တယ်။ တစ်ယောက်ယောက် အိပ်သွားတယ် #creepy #horror",
+    "description": "သားက စိတ်ကူးထဲက သူငယ်ချင်းအတွက် အိပ်ရာပြင်တယ်။ ဒီည စောင်က နွေးနေတယ်။\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "ลูกชายทำที่นอนให้เพื่อนในจินตนาการ มีคนนอนอยู่จริงๆ #creepy #horror",
+    "description": "ลูกชายทำที่นอนให้เพื่อนในจินตนาการ คืนนี้ผ้าห่มยังอุ่นอยู่\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Con Trai Làm Giường Cho Bạn Tưởng Tượng. Có Người Đã Ngủ Ở Đó #creepy #horror",
+    "description": "Con trai làm giường cho bạn tưởng tượng. Tối nay chăn còn ấm.\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Mi Hijo Hizo una Cama para Su Amigo Imaginario. Alguien Durmió Ahí #creepy #horror",
+    "description": "Mi hijo hizo una cama para su amigo imaginario. Esta noche la manta estaba tibia.\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "Meu Filho Fez uma Cama pro Amigo Imaginário. Alguém Dormiu Nela #creepy #horror",
+    "description": "Meu filho fez uma cama pro amigo imaginário. Hoje à noite o cobertor estava quente.\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Mon Fils a Fait un Lit pour Son Ami Imaginaire. Quelqu'un y a Dormi #creepy #horror",
+    "description": "Mon fils a fait un lit pour son ami imaginaire. Ce soir, la couverture était chaude.\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Mein Sohn Baute ein Bett für Seinen Fantasiefreund. Es War Benutzt #creepy #horror",
+    "description": "Mein Sohn baute ein Bett für seinen Fantasiefreund. Heute Nacht war die Decke warm.\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Mio Figlio Ha Fatto un Letto per l'Amico Immaginario. Ci Ha Dormito Qualcuno #creepy #horror",
+    "description": "Mio figlio ha fatto un letto per l'amico immaginario. Stanotte la coperta era calda.\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Mijn Zoon Maakte een Bed voor Zijn Denkbeeldige Vriend. Er Was in Geslapen #creepy #horror",
+    "description": "Mijn zoon maakte een bed voor zijn denkbeeldige vriend. Vannacht was de deken warm.\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Min Son Bäddade för Sin Låtsasvän. Någon Hade Sovit Där #creepy #horror",
+    "description": "Min son bäddade för sin låtsasvän. Inatt var filten varm.\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Syn Pościelił Łóżko Wyimaginowanemu Przyjacielowi. Ktoś w Nim Spał #creepy #horror",
+    "description": "Mój syn pościelił łóżko wyimaginowanemu przyjacielowi. Dziś w nocy koc był ciepły.\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Сын Постелил Кровать Воображаемому Другу. В Ней Кто-то Спал #creepy #horror",
+    "description": "Сын постелил кровать воображаемому другу. Сегодня ночью одеяло было тёплым.\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Oğlum Hayali Arkadaşına Yatak Yaptı. Birisi Orada Uyumuş #creepy #horror",
+    "description": "Oğlum hayali arkadaşına yatak yaptı. Bu gece battaniye sıcaktı.\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "ابني جهّز سريرًا لصديقه الخيالي. وكان أحدهم قد نام فيه #creepy #horror",
+    "description": "ابني جهّز سريرًا لصديقه الخيالي. الليلة كانت البطانية دافئة.\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "息子が空想の友達にベッドを作った。誰かが寝た跡があった #creepy #horror",
+    "description": "息子が空想の友達にベッドを作った。今夜、毛布が温かかった。\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "아들이 상상 속 친구의 침대를 만들었다. 누군가 자고 간 흔적이 있다 #creepy #horror",
+    "description": "아들이 상상 속 친구의 침대를 만들었다. 오늘 밤 이불이 따뜻했다.\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "儿子给想象中的朋友铺了张床。有人睡过的痕迹 #creepy #horror",
+    "description": "儿子给想象中的朋友铺了张床。今晚被子是温的。\n\nWould you check your child's bed? Tell me in the comments 👇\n📤 Send this to the friend whose child talks to an imaginary friend 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "look": "2d",
+ "characters": "Aman: Indian boy, 6, short black hair, blue striped pyjamas. Mama: Indian woman, 32, long black braid, green nightsuit, face in shadow."
+}

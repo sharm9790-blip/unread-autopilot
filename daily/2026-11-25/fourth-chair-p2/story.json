@@ -1,0 +1,247 @@
+{
+ "title": "Fourth Chair · Pt 2: Her Plate Was Set. She Wants My Seat",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "plate"
+ ],
+ "glitch": [
+  "plate",
+  "seat"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "never"
+  },
+  {
+   "type": "heartbeat",
+   "at": "meera"
+  },
+  {
+   "type": "sting",
+   "at": "plate"
+  },
+  {
+   "type": "sting",
+   "at": "seat"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.8,
+    "desat": 0.3,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     1.05,
+     0.92,
+     0.82
+    ]
+   },
+   "start": "plate-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "smiled-0.3"
+  },
+  {
+   "type": "title",
+   "start": "subscribe-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "SHE WANTS",
+     "at": "subscribe-0.1",
+     "delay": 0
+    },
+    {
+     "text": "THE SEAT",
+     "at": "subscribe-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "I'M IN.",
+     "at": "subscribe-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Part 1 is on the channel",
+    "at": "fourth",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "NEVER ANSWER",
+   "THE 4TH CHAIR"
+  ],
+  "sub": "her name was Meera"
+ },
+ "hook": {
+  "lines": [
+   "NEVER ANSWER",
+   "THE 4TH CHAIR"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Fourth Chair · Pt 2: Her Plate Was Set. She Wants My Seat #creepy #horror",
+  "playlist": "scary",
+  "description": "My husband finally told me who sits in the fourth chair. Then a fourth plate appeared, steaming.\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "चौथी कुर्सी Pt 2: उसकी थाली लगी थी। उसे मेरी जगह चाहिए #creepy #horror",
+    "description": "उसकी थाली लगी थी। वह मेरी जगह पर बैठना चाहती है।\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "நான்காவது நாற்காலி Pt 2: அவளுக்கு தட்டு வைக்கப்பட்டது. அவளுக்கு என் இடம் வேண்டும் #creepy #horror",
+    "description": "அவளுக்கான தட்டு வைக்கப்பட்டிருந்தது. அவள் என் இடத்தில் உட்கார விரும்புகிறாள்.\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "నాలుగో కుర్చీ Pt 2: ఆమె కోసం కంచం పెట్టారు. ఆమెకు నా స్థానం కావాలి #creepy #horror",
+    "description": "ఆమె కంచం పెట్టి ఉంది. ఆమె నా స్థానంలో కూర్చోవాలనుకుంటోంది.\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "চতুর্থ চেয়ার Pt 2: তার থালা সাজানো ছিল। সে আমার জায়গা চায় #creepy #horror",
+    "description": "তার থালা সাজানো ছিল। সে আমার জায়গায় বসতে চায়।\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "चौथी खुर्ची Pt 2: तिचे ताट मांडलेले होते. तिला माझी जागा हवी आहे #creepy #horror",
+    "description": "तिचे ताट मांडलेले होते. तिला माझ्या जागी बसायचे आहे.\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "چوتھی کرسی Pt 2: اس کی تھالی لگی تھی۔ اسے میری جگہ چاہیے #creepy #horror",
+    "description": "اس کی تھالی لگی تھی۔ وہ میری جگہ بیٹھنا چاہتی ہے۔\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Ikaapat na Upuan Pt 2: Nakahain ang Plato Niya. Gusto Niya ang Upuan Ko #creepy #horror",
+    "description": "Nakahain na ang plato niya. Gusto niyang umupo sa upuan ko.\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Kursi Keempat Pt 2: Piringnya Sudah Disiapkan. Dia Mau Tempatku #creepy #horror",
+    "description": "Piringnya sudah disiapkan. Dia ingin duduk di tempatku.\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Kerusi Keempat Pt 2: Pinggannya Sudah Dihidang. Dia Mahu Tempat Saya #creepy #horror",
+    "description": "Pinggannya sudah dihidang. Dia mahu duduk di tempat saya.\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "စတုတ္ထကုလားထိုင် Pt 2: သူ့ပန်းကန်ချထားတယ်။ သူက ကျွန်မနေရာကို လိုချင်တယ် #creepy #horror",
+    "description": "သူ့ပန်းကန်ချထားပြီးသား။ သူက ကျွန်မနေရာမှာ ထိုင်ချင်တယ်။\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "เก้าอี้ตัวที่สี่ Pt 2: จานของเธอวางไว้แล้ว เธอต้องการที่นั่งของฉัน #creepy #horror",
+    "description": "จานของเธอวางไว้แล้ว เธออยากนั่งที่ของฉัน\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Chiếc Ghế Thứ Tư Pt 2: Đĩa Của Cô Ấy Đã Được Bày Ra. Cô Ấy Muốn Chỗ Của Tôi #creepy #horror",
+    "description": "Đĩa của cô ấy đã được bày sẵn. Cô ấy muốn ngồi chỗ của tôi.\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "La Cuarta Silla Pt 2: Su Plato Estaba Servido. Quiere Mi Lugar #creepy #horror",
+    "description": "Su plato ya estaba servido. Quiere sentarse en mi lugar.\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "A Quarta Cadeira Pt 2: O Prato Dela Estava Posto. Ela Quer o Meu Lugar #creepy #horror",
+    "description": "O prato dela já estava posto. Ela quer sentar no meu lugar.\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "La Quatrième Chaise Pt 2: Son Assiette Était Mise. Elle Veut Ma Place #creepy #horror",
+    "description": "Son assiette était déjà mise. Elle veut s'asseoir à ma place.\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Der Vierte Stuhl Pt 2: Ihr Teller War Gedeckt. Sie Will Meinen Platz #creepy #horror",
+    "description": "Ihr Teller war schon gedeckt. Sie will auf meinem Platz sitzen.\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "La Quarta Sedia Pt 2: Il Suo Piatto Era Pronto. Vuole il Mio Posto #creepy #horror",
+    "description": "Il suo piatto era già pronto. Vuole sedersi al mio posto.\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "De Vierde Stoel Pt 2: Haar Bord Stond Klaar. Ze Wil Mijn Plek #creepy #horror",
+    "description": "Haar bord stond al klaar. Ze wil op mijn plek zitten.\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Fjärde Stolen Pt 2: Hennes Tallrik Var Dukad. Hon Vill Ha Min Plats #creepy #horror",
+    "description": "Hennes tallrik var redan dukad. Hon vill sitta på min plats.\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Czwarte Krzesło Pt 2: Jej Talerz Był Nakryty. Chce Mojego Miejsca #creepy #horror",
+    "description": "Jej talerz był już nakryty. Chce usiąść na moim miejscu.\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Четвёртый Стул Pt 2: Её Тарелка Была Накрыта. Она Хочет Моё Место #creepy #horror",
+    "description": "Её тарелка уже стояла. Она хочет сесть на моё место.\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Dördüncü Sandalye Pt 2: Tabağı Konmuştu. Benim Yerimi İstiyor #creepy #horror",
+    "description": "Tabağı çoktan konmuştu. Benim yerime oturmak istiyor.\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "الكرسي الرابع Pt 2: كان طبقها موضوعًا. تريد مكاني #creepy #horror",
+    "description": "كان طبقها موضوعًا بالفعل. تريد الجلوس في مكاني.\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "4つ目の椅子 Pt 2: 彼女の皿が並べられていた。私の席を欲しがっている #creepy #horror",
+    "description": "彼女の皿はもう並べられていた。私の席に座りたがっている。\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "네 번째 의자 Pt 2: 그녀의 접시가 놓여 있었다. 그녀는 내 자리를 원한다 #creepy #horror",
+    "description": "그녀의 접시가 이미 놓여 있었다. 그녀는 내 자리에 앉고 싶어 한다.\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "第四把椅子 Pt 2: 她的盘子摆好了。她想要我的位子 #creepy #horror",
+    "description": "她的盘子已经摆好了。她想坐我的位子。\n\nWhose seat are you sitting in? Tell me in the comments 👇\n📤 Send this to the friend who always sits in the same seat 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "series": {
+  "name": "Fourth Chair",
+  "part": 2,
+  "of": 2,
+  "episode": "Her Plate Was Set. She Wants My Seat"
+ }
+}

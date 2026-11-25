@@ -1,0 +1,75 @@
+{
+ "date": "2026-11-25",
+ "order": [
+  "imaginary-bed",
+  "fourth-chair-p1",
+  "fourth-chair-p2"
+ ],
+ "schedule": {
+  "imaginary-bed": "2026-11-25T12:30:00+05:30",
+  "fourth-chair-p1": "2026-11-25T18:00:00+05:30",
+  "fourth-chair-p2": "2026-11-25T19:30:00+05:30"
+ },
+ "clips": {
+  "imaginary-bed": [
+   {
+    "ai": "A small child's bed made up neatly with a blanket and pillow on a dark bedroom floor, a toy lamp glowing beside it, close-up",
+    "key": true,
+    "move": "dolly-in",
+    "fallback": "child bed dark room"
+   },
+   {
+    "ai": "A wrinkled blanket on the little bed with a faint wisp of warm steam rising from it, dark room, lamp light",
+    "move": "pan-left",
+    "fallback": "blanket bed night"
+   },
+   {
+    "ai": "A pillow with a deep head-shaped dent in it, dim lamp light, close-up",
+    "move": "rise",
+    "fallback": "pillow bed dark"
+   },
+   {
+    "ai": "Long black hairs lying across a white pillow, close-up, cold light",
+    "move": "dolly-out",
+    "fallback": "dark hair pillow"
+   },
+   {
+    "ai": "Aman, a small boy in pyjamas, kneeling beside the little bed with a finger to his lips, Mama watching from the doorway, dark bedroom",
+    "move": "orbit",
+    "fallback": "child bedroom night"
+   },
+   {
+    "ai": "A tall thin dark figure lying curled under the blanket of the little bed, its long black hair spilling over the pillow, Aman standing beside it smiling, lamp light",
+    "key": true,
+    "move": "fall",
+    "fallback": "dark figure bedroom"
+   }
+  ],
+  "fourth-chair-p1": [
+   "family dinner table dark",
+   {
+    "ai": "A dim family dining table with three plates and one empty wooden chair pulled slightly back, warm yellow lamp, shot low",
+    "move": "dolly-in",
+    "fallback": "photo: dining table dark"
+   },
+   {
+    "ai": "An Indian man at a dinner table staring at an empty chair, his face pale in shadow, his wife and small son beside him",
+    "motion": "the empty chair slowly slides backward",
+    "fallback": "dark dining room"
+   }
+  ],
+  "fourth-chair-p2": [
+   "dark dining room chair",
+   {
+    "ai": "A fourth plate of steaming food set by itself on a dark dining table in front of an empty chair, a family of three frozen in the background",
+    "move": "dolly-in",
+    "fallback": "photo: dinner plate dark"
+   },
+   {
+    "ai": "A small boy smiling at the dining table in warm lamp light while behind his mother a pale woman in a white saree stands in the dark",
+    "motion": "the pale figure behind the mother slowly leans closer",
+    "fallback": "dark figure dining room"
+   }
+  ]
+ }
+}

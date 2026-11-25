@@ -1,0 +1,246 @@
+{
+ "title": "Fourth Chair · Pt 1: My Son Counts Four at Dinner. We're Three",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "slid"
+ ],
+ "glitch": [
+  "slid",
+  "white"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "my"
+  },
+  {
+   "type": "heartbeat",
+   "at": "empty"
+  },
+  {
+   "type": "sting",
+   "at": "slid"
+  },
+  {
+   "type": "sting",
+   "at": "white"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "PART 2 ON THE CHANNEL"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.9,
+    "tint": [
+     1.05,
+     0.92,
+     0.82
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "chair-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "white-0.3"
+  },
+  {
+   "type": "title",
+   "start": "part-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "PART 2",
+     "at": "part-0.1",
+     "delay": 0
+    },
+    {
+     "text": "ON THE",
+     "at": "part-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "CHANNEL.",
+     "at": "part-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Fourth Chair continues",
+    "at": "channel",
+    "delay": 0.3
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "HE COUNTS FOUR",
+   "WE ARE THREE"
+  ],
+  "sub": "the empty chair slid back"
+ },
+ "hook": {
+  "lines": [
+   "HE COUNTS FOUR",
+   "WE ARE THREE"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Fourth Chair · Pt 1: My Son Counts Four at Dinner. We're Three #creepy #horror",
+  "playlist": "scary",
+  "description": "My son counts four at dinner. We are three. He says someone sat in the empty chair first.\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "चौथी कुर्सी Pt 1: बेटा खाने पर चार गिनता है। हम तीन हैं #creepy #horror",
+    "description": "बेटा खाने की मेज़ पर चार गिनता है। हम तीन हैं।\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "நான்காவது நாற்காலி Pt 1: மகன் இரவு உணவில் நால்வரை எண்ணுகிறான். நாங்கள் மூவர் #creepy #horror",
+    "description": "மகன் இரவு உணவில் நால்வரை எண்ணுகிறான். நாங்கள் மூவர்தான்.\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "నాలుగో కుర్చీ Pt 1: కొడుకు భోజనంలో నలుగురిని లెక్కిస్తాడు. మేము ముగ్గురం #creepy #horror",
+    "description": "కొడుకు భోజనంలో నలుగురిని లెక్కిస్తాడు. మేము ముగ్గురమే.\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "চতুর্থ চেয়ার Pt 1: ছেলে খাবার টেবিলে চারজন গোনে। আমরা তিনজন #creepy #horror",
+    "description": "ছেলে খাবার টেবিলে চারজন গোনে। আমরা তিনজন।\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "चौथी खुर्ची Pt 1: मुलगा जेवताना चार मोजतो. आम्ही तिघे आहोत #creepy #horror",
+    "description": "मुलगा जेवताना चार मोजतो. आम्ही तिघेच आहोत.\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "چوتھی کرسی Pt 1: بیٹا کھانے پر چار گنتا ہے۔ ہم تین ہیں #creepy #horror",
+    "description": "بیٹا کھانے کی میز پر چار گنتا ہے۔ ہم تین ہیں۔\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Ikaapat na Upuan Pt 1: Apat ang Bilang ng Anak Ko sa Hapunan. Tatlo Kami #creepy #horror",
+    "description": "Apat ang bilang ng anak ko sa hapunan. Tatlo lang kami.\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Kursi Keempat Pt 1: Anakku Menghitung Empat Orang Saat Makan. Kami Bertiga #creepy #horror",
+    "description": "Anakku menghitung empat orang di meja makan. Kami hanya bertiga.\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Kerusi Keempat Pt 1: Anak Saya Kira Empat Orang Waktu Makan. Kami Bertiga #creepy #horror",
+    "description": "Anak saya kira empat orang di meja makan. Kami cuma bertiga.\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "စတုတ္ထကုလားထိုင် Pt 1: သားက ညစာမှာ လေးယောက်ရေတယ်။ ကျွန်တော်တို့ သုံးယောက်ပဲ #creepy #horror",
+    "description": "သားက ညစာစားပွဲမှာ လေးယောက်ရေတယ်။ ကျွန်တော်တို့ သုံးယောက်ပဲ။\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "เก้าอี้ตัวที่สี่ Pt 1: ลูกชายนับได้สี่คนตอนกินข้าว แต่เรามีสามคน #creepy #horror",
+    "description": "ลูกชายนับได้สี่คนที่โต๊ะอาหาร แต่เรามีแค่สามคน\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Chiếc Ghế Thứ Tư Pt 1: Con Trai Đếm Bốn Người Ở Bữa Tối. Nhà Tôi Có Ba #creepy #horror",
+    "description": "Con trai đếm bốn người ở bàn ăn. Nhà tôi chỉ có ba.\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "La Cuarta Silla Pt 1: Mi Hijo Cuenta Cuatro en la Cena. Somos Tres #creepy #horror",
+    "description": "Mi hijo cuenta cuatro en la mesa. Somos tres.\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "A Quarta Cadeira Pt 1: Meu Filho Conta Quatro no Jantar. Somos Três #creepy #horror",
+    "description": "Meu filho conta quatro na mesa do jantar. Somos três.\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "La Quatrième Chaise Pt 1: Mon Fils Compte Quatre au Dîner. Nous Sommes Trois #creepy #horror",
+    "description": "Mon fils compte quatre à table. Nous sommes trois.\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Der Vierte Stuhl Pt 1: Mein Sohn Zählt Vier beim Essen. Wir Sind Drei #creepy #horror",
+    "description": "Mein Sohn zählt vier am Esstisch. Wir sind drei.\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "La Quarta Sedia Pt 1: Mio Figlio Conta Quattro a Cena. Siamo in Tre #creepy #horror",
+    "description": "Mio figlio conta quattro a tavola. Siamo in tre.\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "De Vierde Stoel Pt 1: Mijn Zoon Telt Vier aan Tafel. Wij Zijn Met Z'n Drieën #creepy #horror",
+    "description": "Mijn zoon telt vier aan tafel. Wij zijn met z'n drieën.\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Fjärde Stolen Pt 1: Min Son Räknar Fyra vid Middagen. Vi Är Tre #creepy #horror",
+    "description": "Min son räknar fyra vid bordet. Vi är tre.\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Czwarte Krzesło Pt 1: Syn Liczy Czworo przy Kolacji. Jest Nas Troje #creepy #horror",
+    "description": "Mój syn liczy czworo przy stole. Jest nas troje.\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Четвёртый Стул Pt 1: Сын Считает Четверых за Ужином. Нас Трое #creepy #horror",
+    "description": "Сын считает за столом четверых. Нас трое.\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Dördüncü Sandalye Pt 1: Oğlum Yemekte Dört Kişi Sayıyor. Biz Üçüz #creepy #horror",
+    "description": "Oğlum sofrada dört kişi sayıyor. Biz üç kişiyiz.\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "الكرسي الرابع Pt 1: ابني يعدّ أربعة على العشاء. نحن ثلاثة #creepy #horror",
+    "description": "ابني يعدّ أربعة على مائدة العشاء. نحن ثلاثة فقط.\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "4つ目の椅子 Pt 1: 息子は夕食で4人と数える。うちは3人 #creepy #horror",
+    "description": "息子は食卓で4人と数える。うちは3人だ。\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "네 번째 의자 Pt 1: 아들이 저녁에 네 명이라고 센다. 우리는 셋이다 #creepy #horror",
+    "description": "아들이 식탁에서 네 명이라고 센다. 우리는 셋뿐이다.\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "第四把椅子 Pt 1: 儿子说晚饭桌上有四个人。我们只有三个 #creepy #horror",
+    "description": "儿子说饭桌上有四个人。可我们只有三个。\n\nWould you answer her? Tell me in the comments 👇\n📤 Send this to the friend with a child who talks to empty chairs 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "series": {
+  "name": "Fourth Chair",
+  "part": 1,
+  "of": 2,
+  "episode": "My Son Counts Four at Dinner. We're Three"
+ }
+}
