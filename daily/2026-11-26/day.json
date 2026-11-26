@@ -1,14 +1,14 @@
 {
- "date": "2026-11-26",
+ "date": "2026-12-01",
  "order": [
   "didi-knock",
   "voice-note-p1",
   "voice-note-p2"
  ],
  "schedule": {
-  "didi-knock": "2026-11-26T12:30:00+05:30",
-  "voice-note-p1": "2026-11-26T18:00:00+05:30",
-  "voice-note-p2": "2026-11-26T19:30:00+05:30"
+  "didi-knock": "2026-12-01T12:30:00+05:30",
+  "voice-note-p1": "2026-12-01T18:00:00+05:30",
+  "voice-note-p2": "2026-12-01T19:30:00+05:30"
  },
  "clips": {
   "didi-knock": [
@@ -71,5 +71,6 @@
     "fallback": "dark figure bedroom"
    }
   ]
- }
+ },
+ "moved_from": "2026-11-26"
 }

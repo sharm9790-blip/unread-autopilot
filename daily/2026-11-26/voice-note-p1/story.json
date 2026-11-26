@@ -1,7 +1,7 @@
 {
  "title": "Voice Note · Pt 1: Mom Messaged Me. Her Phone Is in My Hand",
  "format": "series",
- "speed": 1.0,
+ "speed": 1.032,
  "tail": 3.0,
  "transitions": "fade",
  "shake": [
@@ -74,7 +74,7 @@
    "note_body": "Beta, stay in bed.",
    "note_at": "stay",
    "start": "stay-0.3",
-   "date": "Thursday, November 26"
+   "date": "Tuesday, December 1"
   },
   {
    "type": "clip",

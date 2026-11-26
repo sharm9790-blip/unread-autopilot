@@ -1,0 +1,21 @@
+{
+ "clip.mp4": {
+  "id": 120583,
+  "user": "soundsrelaxing89",
+  "query": "dark bedroom night bed",
+  "tags": "cozy, moon, rain, summer, interior, bedroom, room, ambient, bed"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A phone lit up on a dark bed with a waveform on screen, a pale hand resting on the pillow beside it, cold light",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A bed with the blanket thrown back showing only a dent in the mattress, a tall dark figure standing at the headboard, dim moonlight",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036,
+  "fallback": "clip: fal HTTP 404 on https://queue.fal.run/creatify/boreal: {\"detail\":\"Application \\\"boreal\\\" not found\"}"
+ }
+}

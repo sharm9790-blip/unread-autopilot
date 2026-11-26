@@ -913,5 +913,78 @@
     "at": "06:22"
    }
   ]
+ },
+ "2026-11-26": {
+  "usd": 0.252,
+  "items": [
+   {
+    "what": "image fal-ai/flux-2",
+    "usd": 0.036,
+    "at": "06:10"
+   },
+   {
+    "what": "image fal-ai/flux-2",
+    "usd": 0.036,
+    "at": "06:10"
+   },
+   {
+    "what": "image fal-ai/flux-2",
+    "usd": 0.036,
+    "at": "06:10"
+   },
+   {
+    "what": "image fal-ai/flux/schnell",
+    "usd": 0.009,
+    "at": "06:12"
+   },
+   {
+    "what": "image fal-ai/flux-2",
+    "usd": 0.036,
+    "at": "06:12"
+   },
+   {
+    "what": "image fal-ai/flux-2",
+    "usd": 0.036,
+    "at": "06:12"
+   },
+   {
+    "what": "video creatify/boreal 6s",
+    "usd": 0.072,
+    "at": "06:12"
+   },
+   {
+    "what": "refund video",
+    "usd": -0.072
+   },
+   {
+    "what": "video creatify/boreal 6s",
+    "usd": 0.072,
+    "at": "06:12"
+   },
+   {
+    "what": "refund video",
+    "usd": -0.072
+   },
+   {
+    "what": "image fal-ai/flux/schnell",
+    "usd": 0.009,
+    "at": "06:13"
+   },
+   {
+    "what": "image fal-ai/flux/schnell",
+    "usd": 0.009,
+    "at": "06:15"
+   },
+   {
+    "what": "image fal-ai/flux/schnell",
+    "usd": 0.009,
+    "at": "06:17"
+   },
+   {
+    "what": "image fal-ai/flux-2",
+    "usd": 0.036,
+    "at": "06:19"
+   }
+  ]
  }
 }

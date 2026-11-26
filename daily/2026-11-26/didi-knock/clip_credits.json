@@ -1,0 +1,38 @@
+{
+ "clip.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A closed wooden front door of an Indian house at night, a thin line of dark light under it, a small girl's silhouette standing far back in the hallway",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A fresh grave mound with marigold flowers in morning mist, wide shot, muted colors",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip3.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Mom gripping the wrist of Riya in a dim hallway, finger to her lips, both facing the door",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip4.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "The front door shaking slightly with a pale hand shape pressed against the frosted glass beside it, close-up",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip5.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Riya looking over her shoulder at the dark living room behind her, Mom frozen beside her, lamp light",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip6.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A pale teenage girl in a white salwar standing in the dark hallway behind Riya and Mom, her head tilted, eyes reflecting light",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ }
+}
