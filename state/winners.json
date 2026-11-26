@@ -1,42 +1,42 @@
 {
- "updated": "2026-11-25 09:00 IST",
- "median_views": 130,
- "n": 47,
+ "updated": "2026-11-26 08:58 IST",
+ "median_views": 153,
+ "n": 46,
  "top": [
   {
    "title": "Papa's Flight Is Still in the Air. He's Knocking.",
    "views": 1710,
-   "x_median": 13.2,
+   "x_median": 11.2,
    "published": "2026-11-14 12:30"
   },
   {
    "title": "Mom Said Goodnight Twice. Mom Was Asleep Beside Me.",
-   "views": 1319,
-   "x_median": 10.1,
+   "views": 1327,
+   "x_median": 8.7,
    "published": "2026-11-22 12:30"
   },
   {
    "title": "My Son Drew a Door on His Wall. Last Night It Was Open.",
    "views": 1041,
-   "x_median": 8.0,
+   "x_median": 6.8,
    "published": "2026-11-19 16:30"
   },
   {
    "title": "Dog Warning · Pt 1: My Dog Stopped Growling at My Wife",
-   "views": 1007,
-   "x_median": 7.7,
+   "views": 1008,
+   "x_median": 6.6,
    "published": "2026-11-22 18:00"
   },
   {
    "title": "Dog Warning · Pt 2: My Real Wife Shouted From the Street",
-   "views": 1001,
-   "x_median": 7.7,
+   "views": 1006,
+   "x_median": 6.6,
    "published": "2026-11-22 19:30"
   },
   {
    "title": "Night Feed · Pt 2: My Baby Said: He Feeds Me Every Night.",
    "views": 974,
-   "x_median": 7.5,
+   "x_median": 6.4,
    "published": "2026-11-21 19:30"
   }
  ],
@@ -46,6 +46,12 @@
    "views": 9,
    "x_median": 0.1,
    "published": "2026-11-16 12:30"
+  },
+  {
+   "title": "Guest Room · Pt 2: He Followed Me Home. Mom Warned Me.",
+   "views": 9,
+   "x_median": 0.1,
+   "published": "2026-11-16 19:30"
   },
   {
    "title": "Guest Room · Pt 2: He Followed Me Home. Mom Warned Me.",
@@ -70,12 +76,6 @@
    "views": 16,
    "x_median": 0.1,
    "published": "2026-11-16 16:30"
-  },
-  {
-   "title": "My Son Waves Goodnight to the Window. We're on the Fifth Floor.",
-   "views": 22,
-   "x_median": 0.2,
-   "published": "2026-11-18 16:30"
   }
  ]
 }
