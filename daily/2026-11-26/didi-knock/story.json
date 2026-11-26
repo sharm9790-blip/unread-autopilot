@@ -1,0 +1,284 @@
+{
+ "title": "My Sister Is Knocking to Come In. Her Funeral Was Today.",
+ "format": "second-person",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "knocking"
+ ],
+ "glitch": [
+  "three",
+  "who"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "knock",
+   "at": "knocking"
+  },
+  {
+   "type": "heartbeat",
+   "at": "buried"
+  },
+  {
+   "type": "sting",
+   "at": "three"
+  },
+  {
+   "type": "sting",
+   "at": "who"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "buried-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "count-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip4.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "three-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip5.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "behind-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip6.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "who-0.3"
+  },
+  {
+   "type": "title",
+   "start": "who-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "DIDI WAS",
+     "at": "who-0.1",
+     "delay": 0
+    },
+    {
+     "text": "INSIDE",
+     "at": "who-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "THE HOUSE.",
+     "at": "who-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Would you open the door?",
+    "at": "subscribe",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "DIDI IS KNOCKING",
+   "WE BURIED HER"
+  ],
+  "sub": "count the knocks"
+ },
+ "hook": {
+  "lines": [
+   "DIDI IS KNOCKING",
+   "WE BURIED HER"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "My Sister Is Knocking to Come In. Her Funeral Was Today. #creepy #horror",
+  "playlist": "scary",
+  "description": "Didi is knocking on the front door. We buried her this morning. Then her voice came from inside the house.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "दीदी दरवाज़ा खटखटा रही है। उसका अंतिम संस्कार आज हुआ #creepy #horror",
+    "description": "दीदी दरवाज़ा खटखटा रही है। आज सुबह हमने उसे दफ़नाया।\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "அக்கா கதவைத் தட்டுகிறாள். அவள் இறுதிச்சடங்கு இன்றுதான் #creepy #horror",
+    "description": "அக்கா கதவைத் தட்டுகிறாள். இன்று காலை அவளை அடக்கம் செய்தோம்.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "అక్క తలుపు కొడుతోంది. ఈరోజే ఆమె అంత్యక్రియలు #creepy #horror",
+    "description": "అక్క తలుపు కొడుతోంది. ఈ ఉదయమే ఆమెను ఖననం చేశాం.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "দিদি দরজায় কড়া নাড়ছে। আজই তার শেষকৃত্য হয়েছে #creepy #horror",
+    "description": "দিদি দরজায় কড়া নাড়ছে। আজ সকালেই তাকে কবর দিয়েছি।\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "ताई दार ठोठावतेय. तिचा अंत्यविधी आजच झाला #creepy #horror",
+    "description": "ताई दार ठोठावतेय. आज सकाळीच आम्ही तिला पुरले.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "باجی دروازہ کھٹکھٹا رہی ہیں۔ ان کا جنازہ آج ہوا #creepy #horror",
+    "description": "باجی دروازہ کھٹکھٹا رہی ہیں۔ آج صبح ہم نے انہیں دفنایا۔\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Kumakatok si Ate. Inilibing Namin Siya Ngayon #creepy #horror",
+    "description": "Kumakatok si Ate sa pinto. Inilibing namin siya kaninang umaga.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Kakakku Mengetuk Pintu. Dia Dimakamkan Hari Ini #creepy #horror",
+    "description": "Kakakku mengetuk pintu depan. Kami baru menguburnya pagi ini.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Kakak Mengetuk Pintu. Dia Dikebumikan Hari Ini #creepy #horror",
+    "description": "Kakak mengetuk pintu depan. Kami baru mengebumikannya pagi tadi.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "အစ်မ တံခါးခေါက်နေတယ်။ ဒီနေ့ပဲ သူ့ကို မြှုပ်ခဲ့တာ #creepy #horror",
+    "description": "အစ်မ ရှေ့တံခါးကို ခေါက်နေတယ်။ ဒီမနက်ပဲ သူ့ကို မြှုပ်ခဲ့ကြတယ်။\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "พี่สาวกำลังเคาะประตู วันนี้เพิ่งฝังเธอ #creepy #horror",
+    "description": "พี่สาวกำลังเคาะประตูหน้าบ้าน เมื่อเช้านี้เราเพิ่งฝังเธอ\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Chị Đang Gõ Cửa. Hôm Nay Mới Chôn Chị #creepy #horror",
+    "description": "Chị đang gõ cửa nhà. Sáng nay chúng tôi vừa chôn chị.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Mi Hermana Está Llamando a la Puerta. La Enterramos Hoy #creepy #horror",
+    "description": "Mi hermana llama a la puerta. La enterramos esta mañana.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "Minha Irmã Está Batendo na Porta. Enterramos Ela Hoje #creepy #horror",
+    "description": "Minha irmã está batendo na porta. Nós a enterramos hoje de manhã.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Ma Sœur Frappe à la Porte. On l'a Enterrée Aujourd'hui #creepy #horror",
+    "description": "Ma sœur frappe à la porte. On l'a enterrée ce matin.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Meine Schwester Klopft an die Tür. Wir Haben Sie Heute Begraben #creepy #horror",
+    "description": "Meine Schwester klopft an die Tür. Wir haben sie heute Morgen begraben.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Mia Sorella Bussa alla Porta. L'Abbiamo Sepolta Oggi #creepy #horror",
+    "description": "Mia sorella bussa alla porta. L'abbiamo sepolta stamattina.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Mijn Zus Klopt op de Deur. We Begroeven Haar Vandaag #creepy #horror",
+    "description": "Mijn zus klopt op de deur. We hebben haar vanochtend begraven.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Min Syster Knackar på Dörren. Vi Begravde Henne Idag #creepy #horror",
+    "description": "Min syster knackar på dörren. Vi begravde henne i morse.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Siostra Puka do Drzwi. Pochowaliśmy Ją Dziś #creepy #horror",
+    "description": "Siostra puka do drzwi. Pochowaliśmy ją dziś rano.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Сестра Стучит в Дверь. Её Похоронили Сегодня #creepy #horror",
+    "description": "Сестра стучит в дверь. Мы похоронили её сегодня утром.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Ablam Kapıyı Çalıyor. Onu Bugün Gömdük #creepy #horror",
+    "description": "Ablam kapıyı çalıyor. Onu bu sabah gömdük.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "أختي تطرق الباب. دفناها اليوم #creepy #horror",
+    "description": "أختي تطرق الباب. دفناها هذا الصباح.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "姉がドアをノックしている。今日、葬式を済ませたのに #creepy #horror",
+    "description": "姉が玄関をノックしている。今朝、私たちは彼女を埋葬した。\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "언니가 문을 두드린다. 오늘 장례를 치렀는데 #creepy #horror",
+    "description": "언니가 현관문을 두드린다. 오늘 아침 우리는 언니를 묻었다.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "姐姐在敲门。她今天刚下葬 #creepy #horror",
+    "description": "姐姐在敲门。今天早上我们刚把她埋了。\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who always locks the door twice 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "look": "2d",
+ "characters": "Riya: Indian girl, 10, two short braids, yellow nightdress. Mom: Indian woman, 38, long black braid, green cotton saree, face in shadow. Didi: Indian girl, 17, long loose hair, white salwar, face in shadow."
+}

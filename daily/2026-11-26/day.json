@@ -1,0 +1,75 @@
+{
+ "date": "2026-11-26",
+ "order": [
+  "didi-knock",
+  "voice-note-p1",
+  "voice-note-p2"
+ ],
+ "schedule": {
+  "didi-knock": "2026-11-26T12:30:00+05:30",
+  "voice-note-p1": "2026-11-26T18:00:00+05:30",
+  "voice-note-p2": "2026-11-26T19:30:00+05:30"
+ },
+ "clips": {
+  "didi-knock": [
+   {
+    "ai": "A closed wooden front door of an Indian house at night, a thin line of dark light under it, a small girl's silhouette standing far back in the hallway",
+    "key": true,
+    "move": "dolly-in",
+    "fallback": "dark door night"
+   },
+   {
+    "ai": "A fresh grave mound with marigold flowers in morning mist, wide shot, muted colors",
+    "move": "pan-left",
+    "fallback": "graveyard morning fog"
+   },
+   {
+    "ai": "Mom gripping the wrist of Riya in a dim hallway, finger to her lips, both facing the door",
+    "move": "rise",
+    "fallback": "dark hallway family"
+   },
+   {
+    "ai": "The front door shaking slightly with a pale hand shape pressed against the frosted glass beside it, close-up",
+    "move": "dolly-out",
+    "fallback": "door glass night"
+   },
+   {
+    "ai": "Riya looking over her shoulder at the dark living room behind her, Mom frozen beside her, lamp light",
+    "move": "orbit",
+    "fallback": "dark living room night"
+   },
+   {
+    "ai": "A pale teenage girl in a white salwar standing in the dark hallway behind Riya and Mom, her head tilted, eyes reflecting light",
+    "key": true,
+    "move": "fall",
+    "fallback": "dark figure hallway"
+   }
+  ],
+  "voice-note-p1": [
+   "dark bedroom phone night",
+   {
+    "ai": "A sleeping mother's back under a blanket in a dark bedroom, a phone glowing in her son's hand at the edge of frame, cold blue screen light",
+    "move": "dolly-in",
+    "fallback": "photo: phone dark bedroom"
+   },
+   {
+    "ai": "A dark staircase leading down into a pitch-black living room, a faint yellow kitchen light at the bottom, shot from the top step",
+    "motion": "the kitchen light flickers and a thin shadow crosses it",
+    "fallback": "dark staircase night"
+   }
+  ],
+  "voice-note-p2": [
+   "dark bedroom night bed",
+   {
+    "ai": "A phone lit up on a dark bed with a waveform on screen, a pale hand resting on the pillow beside it, cold light",
+    "move": "dolly-in",
+    "fallback": "photo: phone dark bed"
+   },
+   {
+    "ai": "A bed with the blanket thrown back showing only a dent in the mattress, a tall dark figure standing at the headboard, dim moonlight",
+    "motion": "the dark figure slowly leans down toward camera",
+    "fallback": "dark figure bedroom"
+   }
+  ]
+ }
+}

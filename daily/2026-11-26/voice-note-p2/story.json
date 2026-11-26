@@ -1,0 +1,247 @@
+{
+ "title": "Voice Note · Pt 2: Mom's Real Voice Said: Don't Look Beside You",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "empty"
+ ],
+ "glitch": [
+  "empty",
+  "warm"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "never"
+  },
+  {
+   "type": "heartbeat",
+   "at": "played"
+  },
+  {
+   "type": "sting",
+   "at": "empty"
+  },
+  {
+   "type": "sting",
+   "at": "warm"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.8,
+    "desat": 0.3,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "played-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "looked-0.2"
+  },
+  {
+   "type": "title",
+   "start": "warm-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "THE BLANKET",
+     "at": "warm-0.1",
+     "delay": 0
+    },
+    {
+     "text": "WAS",
+     "at": "warm-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "EMPTY.",
+     "at": "warm-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Part 1 is on the channel",
+    "at": "subscribe",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "NEVER ANSWER",
+   "FROM DOWNSTAIRS"
+  ],
+  "sub": "she came up first"
+ },
+ "hook": {
+  "lines": [
+   "NEVER ANSWER",
+   "FROM DOWNSTAIRS"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Voice Note · Pt 2: Mom's Real Voice Said: Don't Look Beside You #creepy #horror",
+  "playlist": "scary",
+  "description": "I played the voice note to the end. Mom's real voice said the one sleeping beside me came up first.\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "वॉइस नोट · भाग 2: मम्मी की असली आवाज़: बगल में मत देखना #creepy #horror",
+    "description": "नीचे से आती आवाज़ का कभी जवाब मत देना।\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "குரல் செய்தி · பகுதி 2: அம்மாவின் உண்மைக் குரல்: பக்கத்தில் பார்க்காதே #creepy #horror",
+    "description": "கீழிருந்து வரும் குரலுக்கு ஒருபோதும் பதில் சொல்லாதே.\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "వాయిస్ నోట్ · భాగం 2: అమ్మ అసలు గొంతు: పక్కన చూడకు #creepy #horror",
+    "description": "కింద నుంచి వచ్చే గొంతుకు ఎప్పుడూ బదులివ్వకు.\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "ভয়েস নোট · পর্ব ২: মায়ের আসল গলা: পাশে তাকিও না #creepy #horror",
+    "description": "নিচ থেকে আসা গলার উত্তর কখনো দিও না।\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "व्हॉइस नोट · भाग २: आईचा खरा आवाज: शेजारी पाहू नको #creepy #horror",
+    "description": "खालून येणाऱ्या आवाजाला कधीही उत्तर देऊ नका.\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "وائس نوٹ · حصہ 2: امی کی اصل آواز: ساتھ مت دیکھنا #creepy #horror",
+    "description": "نیچے سے آنے والی آواز کو کبھی جواب مت دینا۔\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Voice Note · Pt 2: Sabi ng Totoong Mama: Huwag Kang Tumingin sa Tabi #creepy #horror",
+    "description": "Huwag kang sasagot sa boses mula sa ibaba.\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Pesan Suara · Bag 2: Suara Asli Ibu: Jangan Lihat di Sampingmu #creepy #horror",
+    "description": "Jangan pernah jawab suara dari bawah.\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Nota Suara · Bhg 2: Suara Ibu Sebenar: Jangan Tengok Sebelah #creepy #horror",
+    "description": "Jangan sekali-kali jawab suara dari bawah.\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "အသံမက်ဆေ့ချ် · အပိုင်း ၂: မေမေ့အသံအစစ်: ဘေးမကြည့်နဲ့ #creepy #horror",
+    "description": "အောက်ထပ်က အသံကို ဘယ်တော့မှ မဖြေနဲ့။\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "ข้อความเสียง · ตอน 2: เสียงแม่ตัวจริง: อย่ามองข้างตัว #creepy #horror",
+    "description": "อย่าตอบเสียงที่ดังมาจากชั้นล่าง\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Tin Nhắn Thoại · Pt 2: Giọng Mẹ Thật Nói: Đừng Nhìn Bên Cạnh #creepy #horror",
+    "description": "Đừng bao giờ trả lời giọng nói từ dưới nhà.\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Nota de Voz · Pt 2: La Voz Real de Mamá: No Mires a Tu Lado #creepy #horror",
+    "description": "Nunca respondas a la voz que viene de abajo.\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "Áudio · Pt 2: A Voz Real da Mamãe: Não Olhe Pro Lado #creepy #horror",
+    "description": "Nunca responda à voz que vem lá de baixo.\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Message Vocal · Pt 2: La Vraie Voix de Maman: Ne Regarde Pas à Côté #creepy #horror",
+    "description": "Ne réponds jamais à la voix qui vient d'en bas.\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Sprachnachricht · Pt 2: Mamas Echte Stimme: Schau Nicht Neben Dich #creepy #horror",
+    "description": "Antworte nie der Stimme von unten.\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Vocale · Pt 2: La Vera Voce di Mamma: Non Guardare Accanto a Te #creepy #horror",
+    "description": "Non rispondere mai alla voce che viene dal piano di sotto.\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Spraakbericht · Pt 2: Mama's Echte Stem: Kijk Niet Naast Je #creepy #horror",
+    "description": "Antwoord nooit op de stem van beneden.\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Röstmeddelande · Pt 2: Mammas Riktiga Röst: Titta Inte Bredvid Dig #creepy #horror",
+    "description": "Svara aldrig på rösten från våningen under.\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Wiadomość Głosowa · Pt 2: Prawdziwy Głos Mamy: Nie Patrz Obok #creepy #horror",
+    "description": "Nigdy nie odpowiadaj na głos z dołu.\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Голосовое · Ч. 2: Настоящий Голос Мамы: Не Смотри Рядом #creepy #horror",
+    "description": "Никогда не отвечай голосу снизу.\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Sesli Mesaj · Böl 2: Annemin Gerçek Sesi: Yanına Bakma #creepy #horror",
+    "description": "Aşağıdan gelen sese asla cevap verme.\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "رسالة صوتية · ج2: صوت أمي الحقيقي: لا تنظر بجانبك #creepy #horror",
+    "description": "لا تردّ أبدًا على الصوت القادم من الطابق السفلي.\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "ボイスメッセージ · 第2話: 本物の母の声: 隣を見ないで #creepy #horror",
+    "description": "下から聞こえる声には、絶対に答えないで。\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "음성 메시지 · 2부: 진짜 엄마 목소리: 옆을 보지 마 #creepy #horror",
+    "description": "아래층에서 들리는 목소리에는 절대 대답하지 마.\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "语音消息 · 第2部分：妈妈的真声音：别看身边 #creepy #horror",
+    "description": "永远不要回应从楼下传来的声音。\n\nWould you look beside you? Tell me in the comments 👇\n📤 Send this to the friend who sleeps next to their phone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "series": {
+  "name": "Voice Note",
+  "part": 2,
+  "of": 2,
+  "episode": "Mom's Real Voice Said: Don't Look Beside You"
+ }
+}

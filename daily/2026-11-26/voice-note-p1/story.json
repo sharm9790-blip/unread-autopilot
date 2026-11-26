@@ -1,0 +1,255 @@
+{
+ "title": "Voice Note · Pt 1: Mom Messaged Me. Her Phone Is in My Hand",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "eat"
+ ],
+ "glitch": [
+  "stay",
+  "eat"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "mom"
+  },
+  {
+   "type": "heartbeat",
+   "at": "asleep"
+  },
+  {
+   "type": "buzz",
+   "at": "stay"
+  },
+  {
+   "type": "sting",
+   "at": "eat"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "PART 2 ON THE CHANNEL"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.9,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "asleep-0.2"
+  },
+  {
+   "type": "lock",
+   "clock": "3:07",
+   "note_from": "Mom",
+   "note_body": "Beta, stay in bed.",
+   "note_at": "stay",
+   "start": "stay-0.3",
+   "date": "Thursday, November 26"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "downstairs#2-0.2"
+  },
+  {
+   "type": "title",
+   "start": "part-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "PART 2",
+     "at": "part-0.1",
+     "delay": 0
+    },
+    {
+     "text": "ON THE",
+     "at": "part-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "CHANNEL.",
+     "at": "part-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Voice Note continues",
+    "at": "channel",
+    "delay": 0.3
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "MOM SENT A NOTE",
+   "SHE'S ASLEEP"
+  ],
+  "sub": "her phone is in my hand"
+ },
+ "hook": {
+  "lines": [
+   "MOM SENT A NOTE",
+   "SHE'S ASLEEP"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Voice Note · Pt 1: Mom Messaged Me. Her Phone Is in My Hand #creepy #horror",
+  "playlist": "scary",
+  "description": "Mom sent me a voice note. Her phone is in my hand and she is asleep beside me. The note says stay in bed.\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "वॉइस नोट · भाग 1: मम्मी ने भेजा। उनका फ़ोन मेरे हाथ में है #creepy #horror",
+    "description": "मम्मी ने मुझे वॉइस नोट भेजा। उनका फ़ोन मेरे हाथ में है।\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "குரல் செய்தி · பகுதி 1: அம்மா அனுப்பினாள். அவள் போன் என் கையில் #creepy #horror",
+    "description": "அம்மா எனக்கு குரல் செய்தி அனுப்பினாள். அவள் போன் என் கையில் இருக்கிறது.\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "వాయిస్ నోట్ · భాగం 1: అమ్మ పంపింది. ఆమె ఫోన్ నా చేతిలో ఉంది #creepy #horror",
+    "description": "అమ్మ నాకు వాయిస్ నోట్ పంపింది. ఆమె ఫోన్ నా చేతిలో ఉంది.\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "ভয়েস নোট · পর্ব ১: মা পাঠিয়েছে। তার ফোন আমার হাতে #creepy #horror",
+    "description": "মা আমাকে ভয়েস নোট পাঠিয়েছে। তার ফোন আমার হাতে।\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "व्हॉइस नोट · भाग १: आईने पाठवली. तिचा फोन माझ्या हातात #creepy #horror",
+    "description": "आईने मला व्हॉइस नोट पाठवली. तिचा फोन माझ्या हातात आहे.\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "وائس نوٹ · حصہ 1: امی نے بھیجا۔ ان کا فون میرے ہاتھ میں ہے #creepy #horror",
+    "description": "امی نے مجھے وائس نوٹ بھیجا۔ ان کا فون میرے ہاتھ میں ہے۔\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Voice Note · Pt 1: Nag-send si Mama. Hawak Ko ang Phone Niya #creepy #horror",
+    "description": "Nag-send si Mama ng voice note. Hawak ko ang phone niya.\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Pesan Suara · Bag 1: Ibu Mengirim. Ponselnya di Tanganku #creepy #horror",
+    "description": "Ibu mengirimiku pesan suara. Ponselnya ada di tanganku.\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Nota Suara · Bhg 1: Ibu Hantar. Telefonnya di Tangan Saya #creepy #horror",
+    "description": "Ibu hantar nota suara kepada saya. Telefonnya ada di tangan saya.\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "အသံမက်ဆေ့ချ် · အပိုင်း ၁: မေမေပို့တယ်။ သူ့ဖုန်းက ကိုယ့်လက်ထဲ #creepy #horror",
+    "description": "မေမေ အသံမက်ဆေ့ချ် ပို့တယ်။ သူ့ဖုန်းက ကိုယ့်လက်ထဲမှာပဲ။\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "ข้อความเสียง · ตอน 1: แม่ส่งมา โทรศัพท์เธออยู่ในมือฉัน #creepy #horror",
+    "description": "แม่ส่งข้อความเสียงมา แต่โทรศัพท์เธออยู่ในมือฉัน\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Tin Nhắn Thoại · Pt 1: Mẹ Gửi. Điện Thoại Mẹ Ở Trong Tay Tôi #creepy #horror",
+    "description": "Mẹ gửi tôi tin nhắn thoại. Điện thoại của mẹ đang ở trong tay tôi.\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Nota de Voz · Pt 1: Mamá Me Escribió. Su Móvil Está en Mi Mano #creepy #horror",
+    "description": "Mamá me mandó una nota de voz. Su móvil está en mi mano.\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "Áudio · Pt 1: Mamãe Me Mandou. O Celular Dela Está na Minha Mão #creepy #horror",
+    "description": "Mamãe me mandou um áudio. O celular dela está na minha mão.\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Message Vocal · Pt 1: Maman l'a Envoyé. Son Téléphone Est dans Ma Main #creepy #horror",
+    "description": "Maman m'a envoyé un message vocal. Son téléphone est dans ma main.\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Sprachnachricht · Pt 1: Mama Schickte Sie. Ihr Handy Ist in Meiner Hand #creepy #horror",
+    "description": "Mama schickte mir eine Sprachnachricht. Ihr Handy ist in meiner Hand.\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Vocale · Pt 1: Me Lo Ha Mandato Mamma. Il Suo Telefono È in Mano Mia #creepy #horror",
+    "description": "Mamma mi ha mandato un vocale. Il suo telefono è nella mia mano.\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Spraakbericht · Pt 1: Mama Stuurde Het. Haar Telefoon Is in Mijn Hand #creepy #horror",
+    "description": "Mama stuurde me een spraakbericht. Haar telefoon is in mijn hand.\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Röstmeddelande · Pt 1: Mamma Skickade Det. Hennes Telefon Är i Min Hand #creepy #horror",
+    "description": "Mamma skickade ett röstmeddelande. Hennes telefon är i min hand.\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Wiadomość Głosowa · Pt 1: Mama Ją Wysłała. Jej Telefon Mam w Ręku #creepy #horror",
+    "description": "Mama wysłała mi wiadomość głosową. Jej telefon mam w ręku.\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Голосовое · Ч. 1: Мама Прислала. Её Телефон у Меня в Руке #creepy #horror",
+    "description": "Мама прислала мне голосовое. Её телефон у меня в руке.\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Sesli Mesaj · Böl 1: Annem Gönderdi. Telefonu Elimde #creepy #horror",
+    "description": "Annem bana sesli mesaj gönderdi. Telefonu elimde.\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "رسالة صوتية · ج1: أمي أرسلتها. هاتفها في يدي #creepy #horror",
+    "description": "أرسلت لي أمي رسالة صوتية. وهاتفها في يدي.\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "ボイスメッセージ · 第1話: 母から届いた。彼女のスマホは私の手の中 #creepy #horror",
+    "description": "母からボイスメッセージが届いた。母のスマホは私の手の中にある。\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "음성 메시지 · 1부: 엄마가 보냈다. 폰은 내 손에 있다 #creepy #horror",
+    "description": "엄마가 음성 메시지를 보냈다. 엄마의 폰은 내 손에 있다.\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "语音消息 · 第1部分：妈妈发来的，她的手机在我手里 #creepy #horror",
+    "description": "妈妈给我发了语音消息，可她的手机就在我手里。\n\nWould you press play? Tell me in the comments 👇\n📤 Send this to the friend who gets voice notes at 3 AM 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "series": {
+  "name": "Voice Note",
+  "part": 1,
+  "of": 2,
+  "episode": "Mom Messaged Me. Her Phone Is in My Hand"
+ }
+}
