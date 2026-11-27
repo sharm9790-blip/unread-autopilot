@@ -1,0 +1,21 @@
+{
+ "clip.mp4": {
+  "id": 27385,
+  "user": "conolan",
+  "query": "hospital room dark night",
+  "tags": "heart, health, ambulance, medical, hospital, rhythm, electrocardiogram, cardiac, pulse, clinic, healthcare, sickness, emergency, treatment, illness, sick, emt, emergency room, er, urgent, patient, medicare"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Two small hospital wristbands lying side by side on a blanket, both printed with the same label, cold light, close-up",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A pitch dark hospital room, two small cribs side by side, two pale newborn faces turned toward camera, a nurse's shadow on the wall",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036,
+  "fallback": "clip: fal HTTP 404 on https://queue.fal.run/creatify/boreal: {\"detail\":\"Application \\\"boreal\\\" not found\"}"
+ }
+}

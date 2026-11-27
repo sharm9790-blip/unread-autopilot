@@ -1,0 +1,38 @@
+{
+ "clip.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "An Indian family gate at night with a parked scooter behind it, its headlight glowing in the dark lane, a closed house door in the foreground",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Papa asleep on a living room sofa under a thin blanket, lamp light, seen from the doorway",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip3.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Mom gripping the wrist of Riya in a dim hallway, finger to her lips, both facing the front door",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip4.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A scooter headlight shining through the frosted glass of a front door, long shadows on the floor",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip5.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "The front door open an inch with darkness behind it, Riya and Mom frozen in the hallway, lamp light",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip6.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Papa sitting up on the sofa in the dark, his face in shadow turned toward a tall dark figure standing in the open doorway",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ }
+}

@@ -1,14 +1,14 @@
 {
- "date": "2026-11-27",
+ "date": "2026-12-02",
  "order": [
   "papa-scooter",
   "second-baby-p1",
   "second-baby-p2"
  ],
  "schedule": {
-  "papa-scooter": "2026-11-27T12:30:00+05:30",
-  "second-baby-p1": "2026-11-27T18:00:00+05:30",
-  "second-baby-p2": "2026-11-27T19:30:00+05:30"
+  "papa-scooter": "2026-12-02T12:30:00+05:30",
+  "second-baby-p1": "2026-12-02T18:00:00+05:30",
+  "second-baby-p2": "2026-12-02T19:30:00+05:30"
  },
  "clips": {
   "papa-scooter": [
@@ -71,5 +71,6 @@
     "fallback": "dark nursery night"
    }
   ]
- }
+ },
+ "moved_from": "2026-11-27"
 }

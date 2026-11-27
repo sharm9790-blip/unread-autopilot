@@ -1,0 +1,21 @@
+{
+ "clip.mp4": {
+  "id": 373302,
+  "user": "Openly",
+  "query": "hospital corridor night",
+  "tags": "ai generated, hospital, corridor, abandoned hospital, empty wheelchair, loneliness, solitude, abandoned, empty, silence, nostalgia, memories, architecture, interior, deserted, melancholy, daylight, shadows, atmosphere, healthcare, decay, emotional, eerie, 4k"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A hospital crib with a sleeping newborn under a dim night light, a tired mother's arm holding a second small blanket bundle at the edge of frame",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A dark hospital maternity room at 3 AM, a nurse silhouette standing at the door, two newborn bundles on the bed lit by a thin cold light",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036,
+  "fallback": "clip: fal HTTP 404 on https://queue.fal.run/creatify/boreal: {\"detail\":\"Application \\\"boreal\\\" not found\"}"
+ }
+}
