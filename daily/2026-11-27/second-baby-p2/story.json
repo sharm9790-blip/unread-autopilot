@@ -1,0 +1,242 @@
+{
+ "title": "Second Baby · Pt 2: Both Wristbands Said Baby A. 'Mama, Choose.'",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "lights"
+ ],
+ "glitch": [
+  "lights",
+  "choose"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "never"
+  },
+  {
+   "type": "heartbeat",
+   "at": "wristbands"
+  },
+  {
+   "type": "sting",
+   "at": "lights"
+  },
+  {
+   "type": "sting",
+   "at": "choose"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.8,
+    "desat": 0.3,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "checked-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "lights-0.2"
+  },
+  {
+   "type": "title",
+   "start": "choose-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "MAMA,",
+     "at": "choose-0.1",
+     "delay": 0
+    },
+    {
+     "text": "CHOOSE.",
+     "at": "choose-0.1",
+     "delay": 0.5
+    }
+   ],
+   "footer": {
+    "text": "Part 1 is on the channel",
+    "at": "subscribe",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "NEVER LET HER",
+   "HOLD BOTH"
+  ],
+  "sub": "only one can go home"
+ },
+ "hook": {
+  "lines": [
+   "NEVER LET HER",
+   "HOLD BOTH"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Second Baby · Pt 2: Both Wristbands Said Baby A. 'Mama, Choose.' #creepy #horror",
+  "playlist": "scary",
+  "description": "Both wristbands said Baby A. The nurse said only one can go home. Then the lights went out.\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "सेकंड बेबी · भाग 2: दोनों रिस्टबैंड Baby A। माँ, चुनो #creepy #horror",
+    "description": "दोनों बच्चों ने फुसफुसाया: माँ, चुनो।\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "இரண்டாம் குழந்தை · பகுதி 2: இரண்டிலும் Baby A. அம்மா, தேர்ந்தெடு #creepy #horror",
+    "description": "இரண்டு குழந்தைகளும் கிசுகிசுத்தன: அம்மா, தேர்ந்தெடு.\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "రెండో బేబీ · భాగం 2: రెండు బ్యాండ్లపై Baby A. అమ్మా, ఎంచుకో #creepy #horror",
+    "description": "ఇద్దరు బిడ్డలూ గుసగుసలాడారు: అమ్మా, ఎంచుకో.\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "দ্বিতীয় শিশু · পর্ব ২: দুটো ব্যান্ডেই Baby A। মা, বেছে নাও #creepy #horror",
+    "description": "দুই শিশুই ফিসফিস করল: মা, বেছে নাও।\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "दुसरं बाळ · भाग २: दोन्ही बँडवर Baby A. आई, निवड कर #creepy #horror",
+    "description": "दोन्ही बाळांनी कुजबुजलं: आई, निवड कर.\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "دوسرا بچہ · حصہ 2: دونوں بینڈ پر Baby A۔ ماں، چنو #creepy #horror",
+    "description": "دونوں بچوں نے سرگوشی کی: ماں، چنو۔\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Ikalawang Sanggol · Bahagi 2: Baby A ang dalawang wristband. Mama, pumili ka #creepy #horror",
+    "description": "Bumulong ang dalawang sanggol: Mama, pumili ka.\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Bayi Kedua · Bagian 2: Kedua gelang tertulis Baby A. Ma, pilih #creepy #horror",
+    "description": "Kedua bayi berbisik: Ma, pilih.\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Bayi Kedua · Bahagian 2: Dua gelang tertulis Baby A. Mama, pilih #creepy #horror",
+    "description": "Kedua-dua bayi berbisik: Mama, pilih.\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "ဒုတိယကလေး · အပိုင်း ၂။ လက်ပတ်နှစ်ခုလုံး Baby A။ မားမား ရွေးပါ #creepy #horror",
+    "description": "ကလေးနှစ်ယောက်လုံး တိုးတိုးပြောတယ်။ မားမား ရွေးပါ။\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "ทารกคนที่สอง · ตอนที่ 2: สายรัดข้อมือเป็น Baby A ทั้งคู่ แม่เลือกสิ #creepy #horror",
+    "description": "ทารกทั้งสองกระซิบว่า แม่ เลือกสิ\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Em Bé Thứ Hai · Phần 2: Hai vòng tay đều ghi Baby A. Mẹ, chọn đi #creepy #horror",
+    "description": "Cả hai em bé thì thầm: Mẹ, chọn đi.\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "El Segundo Bebé · Parte 2: Ambas pulseras decían Baby A. Mamá, elige #creepy #horror",
+    "description": "Los dos bebés susurraron: mamá, elige.\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "O Segundo Bebê · Parte 2: As duas pulseiras diziam Baby A. Mamãe, escolha #creepy #horror",
+    "description": "Os dois bebês sussurraram: mamãe, escolha.\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Le Deuxième Bébé · Partie 2 : Deux bracelets Baby A. Maman, choisis #creepy #horror",
+    "description": "Les deux bébés ont chuchoté : maman, choisis.\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Das zweite Baby · Teil 2: Beide Armbänder: Baby A. Mama, wähle #creepy #horror",
+    "description": "Beide Babys flüsterten: Mama, wähle.\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Il Secondo Neonato · Parte 2: Due braccialetti Baby A. Mamma, scegli #creepy #horror",
+    "description": "I due neonati hanno sussurrato: mamma, scegli.\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "De Tweede Baby · Deel 2: Beide bandjes Baby A. Mama, kies #creepy #horror",
+    "description": "Beide baby's fluisterden: mama, kies.\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Den andra bebisen · Del 2: Båda armbanden: Baby A. Mamma, välj #creepy #horror",
+    "description": "Båda bebisarna viskade: mamma, välj.\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Drugie dziecko · Część 2: Obie opaski: Baby A. Mamo, wybierz #creepy #horror",
+    "description": "Oba noworodki szepnęły: mamo, wybierz.\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Второй ребёнок · Часть 2: На обоих браслетах Baby A. Мама, выбирай #creepy #horror",
+    "description": "Оба малыша прошептали: мама, выбирай.\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "İkinci Bebek · Bölüm 2: İki bileklik de Baby A. Anne, seç #creepy #horror",
+    "description": "İki bebek de fısıldadı: anne, seç.\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "الرضيع الثاني · الجزء 2: السواران يحملان Baby A. ماما، اختاري #creepy #horror",
+    "description": "همس الرضيعان معاً: ماما، اختاري.\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "2人目の赤ちゃん · 第2話：腕輪はどちらもBaby A。ママ、選んで #creepy #horror",
+    "description": "二人の赤ちゃんがささやいた。ママ、選んで。\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "두 번째 아기 · 2부: 팔찌 둘 다 Baby A. 엄마, 골라요 #creepy #horror",
+    "description": "두 아기가 속삭였다: 엄마, 골라요.\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "第二个宝宝 · 第2部分：两个腕带都写着Baby A。妈妈，选吧 #creepy #horror",
+    "description": "两个宝宝低声说：妈妈，选吧。\n\nWhich baby would you hold? Tell me in the comments 👇\n📤 Send this to the friend who never sleeps in hospital rooms 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "series": {
+  "name": "Second Baby",
+  "part": 2,
+  "of": 2,
+  "episode": "Both Wristbands Said Baby A. 'Mama, Choose.'"
+ }
+}

@@ -1,0 +1,284 @@
+{
+ "title": "Papa's Scooter Is Outside Our Gate. Papa Is Asleep on the Sofa.",
+ "format": "text-story",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "honked"
+ ],
+ "glitch": [
+  "opened",
+  "who"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "papas"
+  },
+  {
+   "type": "heartbeat",
+   "at": "already"
+  },
+  {
+   "type": "knock",
+   "at": "opened"
+  },
+  {
+   "type": "sting",
+   "at": "who"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "already-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "gripped-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip4.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "honking-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip5.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "opened-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip6.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "voice-0.3"
+  },
+  {
+   "type": "title",
+   "start": "who-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "PAPA WAS",
+     "at": "who-0.1",
+     "delay": 0
+    },
+    {
+     "text": "ALREADY",
+     "at": "who-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "INSIDE.",
+     "at": "who-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Would you look at the door?",
+    "at": "subscribe",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "PAPA'S SCOOTER",
+   "HONKED OUTSIDE"
+  ],
+  "sub": "papa is asleep on the sofa"
+ },
+ "hook": {
+  "lines": [
+   "PAPA'S SCOOTER",
+   "HONKED OUTSIDE"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Papa's Scooter Is Outside Our Gate. Papa Is Asleep on the Sofa. #creepy #horror",
+  "playlist": "scary",
+  "description": "Papa's scooter honked outside our gate. Papa was already home, asleep on the sofa. Then the front door opened by itself.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "पापा का स्कूटर गेट पर है। पापा सोफ़े पर सो रहे हैं #creepy #horror",
+    "description": "पापा के स्कूटर ने गेट के बाहर हॉर्न बजाया। पापा तो पहले से घर पर सोफ़े पर सो रहे थे।\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "அப்பாவின் ஸ்கூட்டர் வாசலில். அப்பா சோபாவில் தூங்குகிறார் #creepy #horror",
+    "description": "அப்பாவின் ஸ்கூட்டர் வாசலில் ஹாரன் அடித்தது. அப்பா ஏற்கனவே வீட்டில் சோபாவில் தூங்கிக்கொண்டிருந்தார்.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "నాన్న స్కూటర్ గేటు బయట ఉంది. నాన్న సోఫాలో నిద్రపోతున్నారు #creepy #horror",
+    "description": "నాన్న స్కూటర్ గేటు బయట హారన్ కొట్టింది. నాన్న అప్పటికే ఇంట్లో సోఫాలో నిద్రపోతున్నారు.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "বাবার স্কুটার গেটের বাইরে। বাবা সোফায় ঘুমোচ্ছেন #creepy #horror",
+    "description": "বাবার স্কুটার গেটের বাইরে হর্ন দিল। বাবা তো আগেই বাড়িতে, সোফায় ঘুমিয়ে ছিলেন।\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "बाबांची स्कूटर गेटबाहेर आहे. बाबा सोफ्यावर झोपले आहेत #creepy #horror",
+    "description": "बाबांच्या स्कूटरने गेटबाहेर हॉर्न वाजवला. बाबा तर आधीच घरी सोफ्यावर झोपले होते.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "ابو کا اسکوٹر گیٹ کے باہر ہے۔ ابو صوفے پر سو رہے ہیں #creepy #horror",
+    "description": "ابو کے اسکوٹر نے گیٹ کے باہر ہارن بجایا۔ ابو تو پہلے سے گھر میں صوفے پر سو رہے تھے۔\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Nasa gate ang scooter ni Papa. Natutulog si Papa sa sofa #creepy #horror",
+    "description": "Bumusina ang scooter ni Papa sa labas ng gate. Nasa bahay na si Papa, tulog sa sofa.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Motor Papa ada di depan gerbang. Papa tidur di sofa #creepy #horror",
+    "description": "Motor Papa membunyikan klakson di depan gerbang. Papa sudah di rumah, tidur di sofa.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Motosikal Ayah di luar pagar. Ayah tidur di sofa #creepy #horror",
+    "description": "Motosikal Ayah membunyikan hon di luar pagar. Ayah sudah di rumah, tidur di sofa.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "ဖေဖေ့စကူတာ ခြံတံခါးအပြင်မှာ။ ဖေဖေက ဆိုဖာမှာ အိပ်နေတယ် #creepy #horror",
+    "description": "ဖေဖေ့စကူတာက ခြံတံခါးအပြင်မှာ ဟွန်းတီးတယ်။ ဖေဖေက အိမ်မှာ ဆိုဖာပေါ် အိပ်နေပြီးသား။\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "สกูตเตอร์ของพ่ออยู่หน้าประตู แต่พ่อหลับอยู่บนโซฟา #creepy #horror",
+    "description": "สกูตเตอร์ของพ่อบีบแตรหน้าประตู แต่พ่ออยู่บ้านแล้ว หลับอยู่บนโซฟา\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Xe tay ga của bố ở ngoài cổng. Bố đang ngủ trên sofa #creepy #horror",
+    "description": "Xe của bố bóp còi ngoài cổng. Bố đã ở nhà rồi, đang ngủ trên sofa.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "La moto de papá está en la puerta. Papá duerme en el sofá #creepy #horror",
+    "description": "La moto de papá tocó el claxon afuera. Papá ya estaba en casa, dormido en el sofá.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "A moto do papai está no portão. O papai dorme no sofá #creepy #horror",
+    "description": "A moto do papai buzinou lá fora. O papai já estava em casa, dormindo no sofá.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Le scooter de papa est devant le portail. Papa dort sur le canapé #creepy #horror",
+    "description": "Le scooter de papa a klaxonné dehors. Papa était déjà à la maison, endormi sur le canapé.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Papas Roller steht am Tor. Papa schläft auf dem Sofa #creepy #horror",
+    "description": "Papas Roller hupte draußen am Tor. Papa war längst zu Hause und schlief auf dem Sofa.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Lo scooter di papà è al cancello. Papà dorme sul divano #creepy #horror",
+    "description": "Lo scooter di papà ha suonato fuori dal cancello. Papà era già a casa, addormentato sul divano.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Papa's scooter staat bij het hek. Papa slaapt op de bank #creepy #horror",
+    "description": "Papa's scooter toeterde buiten het hek. Papa was al thuis en sliep op de bank.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Pappas skoter står vid grinden. Pappa sover i soffan #creepy #horror",
+    "description": "Pappas skoter tutade utanför grinden. Pappa var redan hemma och sov i soffan.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Skuter taty stoi przy bramie. Tata śpi na kanapie #creepy #horror",
+    "description": "Skuter taty zatrąbił przed bramą. Tata był już w domu i spał na kanapie.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Скутер папы у ворот. Папа спит на диване #creepy #horror",
+    "description": "Скутер папы просигналил у ворот. Папа уже был дома и спал на диване.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Babamın scooter'ı kapının önünde. Babam koltukta uyuyor #creepy #horror",
+    "description": "Babamın scooter'ı kapının önünde korna çaldı. Babam çoktan evdeydi, koltukta uyuyordu.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "دراجة أبي النارية أمام البوابة. وأبي نائم على الأريكة #creepy #horror",
+    "description": "أطلقت دراجة أبي بوقها أمام البوابة. كان أبي في البيت أصلاً نائماً على الأريكة.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "パパのスクーターが門の外に。パパはソファで寝ている #creepy #horror",
+    "description": "パパのスクーターが門の外でクラクションを鳴らした。パパはもう家でソファに寝ていた。\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "아빠 스쿠터가 대문 밖에 있어요. 아빠는 소파에서 자는 중 #creepy #horror",
+    "description": "아빠 스쿠터가 대문 밖에서 경적을 울렸다. 아빠는 이미 집에서 소파에 자고 있었다.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "爸爸的摩托停在门外。爸爸正在沙发上睡觉 #creepy #horror",
+    "description": "爸爸的摩托车在大门外按了喇叭。爸爸明明早就在家，正睡在沙发上。\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who waits up for their dad 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "look": "2d",
+ "characters": "Riya: Indian girl, 10, two short braids, yellow nightdress. Mom: Indian woman, 38, long black braid, green cotton saree, face in shadow. Papa: Indian man, 42, mustache, grey checked shirt, face in shadow."
+}

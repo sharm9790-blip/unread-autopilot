@@ -1,0 +1,75 @@
+{
+ "date": "2026-11-27",
+ "order": [
+  "papa-scooter",
+  "second-baby-p1",
+  "second-baby-p2"
+ ],
+ "schedule": {
+  "papa-scooter": "2026-11-27T12:30:00+05:30",
+  "second-baby-p1": "2026-11-27T18:00:00+05:30",
+  "second-baby-p2": "2026-11-27T19:30:00+05:30"
+ },
+ "clips": {
+  "papa-scooter": [
+   {
+    "ai": "An Indian family gate at night with a parked scooter behind it, its headlight glowing in the dark lane, a closed house door in the foreground",
+    "key": true,
+    "move": "dolly-in",
+    "fallback": "scooter night street"
+   },
+   {
+    "ai": "Papa asleep on a living room sofa under a thin blanket, lamp light, seen from the doorway",
+    "move": "pan-left",
+    "fallback": "sofa dark living room"
+   },
+   {
+    "ai": "Mom gripping the wrist of Riya in a dim hallway, finger to her lips, both facing the front door",
+    "move": "rise",
+    "fallback": "dark hallway family"
+   },
+   {
+    "ai": "A scooter headlight shining through the frosted glass of a front door, long shadows on the floor",
+    "move": "dolly-out",
+    "fallback": "car headlights window night"
+   },
+   {
+    "ai": "The front door open an inch with darkness behind it, Riya and Mom frozen in the hallway, lamp light",
+    "move": "orbit",
+    "fallback": "open door dark night"
+   },
+   {
+    "ai": "Papa sitting up on the sofa in the dark, his face in shadow turned toward a tall dark figure standing in the open doorway",
+    "key": true,
+    "move": "fall",
+    "fallback": "dark figure doorway"
+   }
+  ],
+  "second-baby-p1": [
+   "hospital corridor night",
+   {
+    "ai": "A hospital crib with a sleeping newborn under a dim night light, a tired mother's arm holding a second small blanket bundle at the edge of frame",
+    "move": "dolly-in",
+    "fallback": "photo: hospital room night"
+   },
+   {
+    "ai": "A dark hospital maternity room at 3 AM, a nurse silhouette standing at the door, two newborn bundles on the bed lit by a thin cold light",
+    "motion": "the nurse's head slowly turns toward camera",
+    "fallback": "hospital room dark night"
+   }
+  ],
+  "second-baby-p2": [
+   "hospital room dark night",
+   {
+    "ai": "Two small hospital wristbands lying side by side on a blanket, both printed with the same label, cold light, close-up",
+    "move": "dolly-in",
+    "fallback": "photo: hospital bracelet"
+   },
+   {
+    "ai": "A pitch dark hospital room, two small cribs side by side, two pale newborn faces turned toward camera, a nurse's shadow on the wall",
+    "motion": "both small heads slowly turn toward camera",
+    "fallback": "dark nursery night"
+   }
+  ]
+ }
+}

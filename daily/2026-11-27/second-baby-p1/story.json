@@ -1,0 +1,256 @@
+{
+ "title": "Second Baby · Pt 1: A Nurse Gave Me a Baby. Mine Was Asleep",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "opened"
+ ],
+ "glitch": [
+  "both",
+  "opened"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "never"
+  },
+  {
+   "type": "heartbeat",
+   "at": "slept"
+  },
+  {
+   "type": "buzz",
+   "at": "both"
+  },
+  {
+   "type": "sting",
+   "at": "opened"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "PART 2 ON THE CHANNEL"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.9,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "slept-0.2"
+  },
+  {
+   "type": "card",
+   "start": "both-0.3",
+   "avatar": "!",
+   "title": "Nurse · Ward 4",
+   "lines": [
+    "BABY A: in your arms",
+    "BABY A: in the crib"
+   ]
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "opened-0.2"
+  },
+  {
+   "type": "title",
+   "start": "part-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "PART 2",
+     "at": "part-0.1",
+     "delay": 0
+    },
+    {
+     "text": "ON THE",
+     "at": "part-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "CHANNEL.",
+     "at": "part-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Second Baby continues",
+    "at": "channel",
+    "delay": 0.3
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "NEVER TAKE THE",
+   "SECOND BABY"
+  ],
+  "sub": "both are yours"
+ },
+ "hook": {
+  "lines": [
+   "NEVER TAKE THE",
+   "SECOND BABY"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Second Baby · Pt 1: A Nurse Gave Me a Baby. Mine Was Asleep #creepy #horror",
+  "playlist": "scary",
+  "description": "A nurse placed a newborn in my arms at 3 AM. My own baby was asleep in the crib. She said both are mine.\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "सेकंड बेबी · भाग 1: नर्स ने बच्चा दिया। मेरा सो रहा था #creepy #horror",
+    "description": "नर्स ने मेरी गोद में नवजात रख दिया। मेरा बच्चा तो बगल में सो रहा था।\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "இரண்டாம் குழந்தை · பகுதி 1: நர்ஸ் குழந்தை தந்தாள். என் குழந்தை தூங்குகிறது #creepy #horror",
+    "description": "நர்ஸ் என் கையில் ஒரு பச்சிளம் குழந்தையை வைத்தாள். என்னுடையது அருகில் தூங்கிக்கொண்டிருந்தது.\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "రెండో బేబీ · భాగం 1: నర్సు బిడ్డను ఇచ్చింది. నా బిడ్డ నిద్రపోతోంది #creepy #horror",
+    "description": "నర్సు నా చేతుల్లో ఒక నవజాత శిశువును పెట్టింది. నా బిడ్డ పక్కనే నిద్రపోతోంది.\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "দ্বিতীয় শিশু · পর্ব ১: নার্স শিশু দিল। আমার শিশু ঘুমোচ্ছিল #creepy #horror",
+    "description": "নার্স আমার কোলে একটা নবজাতক দিল। আমারটা পাশে ঘুমিয়ে ছিল।\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "दुसरं बाळ · भाग १: नर्सने बाळ दिलं. माझं झोपलेलं होतं #creepy #horror",
+    "description": "नर्सने माझ्या कुशीत एक नवजात बाळ ठेवलं. माझं बाळ शेजारी झोपलेलं होतं.\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "دوسرا بچہ · حصہ 1: نرس نے بچہ دیا۔ میرا سو رہا تھا #creepy #horror",
+    "description": "نرس نے میری گود میں ایک نومولود رکھ دیا۔ میرا بچہ ساتھ ہی سو رہا تھا۔\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Ikalawang Sanggol · Bahagi 1: Binigyan ako ng nurse ng sanggol. Tulog ang akin #creepy #horror",
+    "description": "Inilagay ng nurse ang isang bagong silang sa mga braso ko. Tulog ang sanggol ko sa tabi ko.\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Bayi Kedua · Bagian 1: Perawat memberiku bayi. Bayiku sedang tidur #creepy #horror",
+    "description": "Perawat menaruh bayi baru lahir di pelukanku. Bayiku sendiri tidur di sebelahku.\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Bayi Kedua · Bahagian 1: Jururawat beri bayi. Bayiku sedang tidur #creepy #horror",
+    "description": "Jururawat meletakkan bayi baru lahir dalam pelukanku. Bayiku sendiri tidur di sebelah.\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "ဒုတိယကလေး · အပိုင်း ၁။ သူနာပြုက ကလေးပေးတယ်။ ကျွန်မကလေး အိပ်နေတယ် #creepy #horror",
+    "description": "သူနာပြုက ကလေးမွေးကို ကျွန်မလက်ထဲ ထည့်ပေးတယ်။ ကျွန်မကလေးက ဘေးမှာ အိပ်နေတယ်။\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "ทารกคนที่สอง · ตอนที่ 1: พยาบาลให้ทารกมา ลูกฉันหลับอยู่ #creepy #horror",
+    "description": "พยาบาลวางทารกแรกเกิดในอ้อมแขนฉัน ลูกของฉันหลับอยู่ข้างๆ\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Em Bé Thứ Hai · Phần 1: Y tá đưa em bé. Con tôi đang ngủ #creepy #horror",
+    "description": "Y tá đặt một em bé sơ sinh vào tay tôi. Con tôi đang ngủ ngay bên cạnh.\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "El Segundo Bebé · Parte 1: La enfermera me dio un bebé. El mío dormía #creepy #horror",
+    "description": "La enfermera puso un recién nacido en mis brazos. El mío dormía a mi lado.\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "O Segundo Bebê · Parte 1: A enfermeira me deu um bebê. O meu dormia #creepy #horror",
+    "description": "A enfermeira colocou um recém-nascido nos meus braços. O meu dormia ao lado.\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Le Deuxième Bébé · Partie 1 : L'infirmière m'a donné un bébé. Le mien dormait #creepy #horror",
+    "description": "L'infirmière a posé un nouveau-né dans mes bras. Le mien dormait à côté de moi.\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Das zweite Baby · Teil 1: Die Schwester gab mir ein Baby. Meins schlief #creepy #horror",
+    "description": "Die Schwester legte mir ein Neugeborenes in die Arme. Meins schlief neben mir.\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Il Secondo Neonato · Parte 1: L'infermiera mi ha dato un bimbo. Il mio dormiva #creepy #horror",
+    "description": "L'infermiera mi ha messo un neonato tra le braccia. Il mio dormiva accanto a me.\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "De Tweede Baby · Deel 1: De verpleegster gaf me een baby. De mijne sliep #creepy #horror",
+    "description": "De verpleegster legde een pasgeborene in mijn armen. De mijne sliep naast me.\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Den andra bebisen · Del 1: Sköterskan gav mig en bebis. Min sov #creepy #horror",
+    "description": "Sköterskan lade en nyfödd i min famn. Min egen sov bredvid mig.\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Drugie dziecko · Część 1: Pielęgniarka dała mi dziecko. Moje spało #creepy #horror",
+    "description": "Pielęgniarka położyła mi na rękach noworodka. Moje własne spało obok.\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Второй ребёнок · Часть 1: Медсестра дала мне малыша. Мой спал #creepy #horror",
+    "description": "Медсестра положила мне на руки новорождённого. Мой спал рядом.\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "İkinci Bebek · Bölüm 1: Hemşire bana bir bebek verdi. Benimki uyuyordu #creepy #horror",
+    "description": "Hemşire kucağıma bir yenidoğan koydu. Benimki yanımda uyuyordu.\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "الرضيع الثاني · الجزء 1: الممرضة أعطتني رضيعاً. رضيعي كان نائماً #creepy #horror",
+    "description": "وضعت الممرضة مولوداً جديداً بين ذراعيّ. ورضيعي كان نائماً بجانبي.\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "2人目の赤ちゃん · 第1話：看護師が赤ちゃんを渡した。私の子は寝ていた #creepy #horror",
+    "description": "看護師が私の腕に新生児を抱かせた。私の子はすぐ隣で眠っていた。\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "두 번째 아기 · 1부: 간호사가 아기를 줬다. 내 아기는 자는 중 #creepy #horror",
+    "description": "간호사가 내 품에 신생아를 안겨줬다. 내 아기는 바로 옆에서 자고 있었다.\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "第二个宝宝 · 第1部分：护士递来一个婴儿。我的孩子在睡觉 #creepy #horror",
+    "description": "护士把一个新生儿放进我怀里。我自己的孩子就睡在旁边。\n\nWould you take the baby? Tell me in the comments 👇\n📤 Send this to the friend who just had a baby 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "series": {
+  "name": "Second Baby",
+  "part": 1,
+  "of": 2,
+  "episode": "A Nurse Gave Me a Baby. Mine Was Asleep"
+ }
+}
