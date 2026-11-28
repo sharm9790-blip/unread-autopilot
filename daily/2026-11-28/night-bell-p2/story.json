@@ -1,0 +1,247 @@
+{
+ "title": "Night Bell · Pt 2: Two Husbands. One Whispered: That's Not Me.",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "neither"
+ ],
+ "glitch": [
+  "neither",
+  "ceiling"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "never"
+  },
+  {
+   "type": "heartbeat",
+   "at": "stopped"
+  },
+  {
+   "type": "sting",
+   "at": "neither"
+  },
+  {
+   "type": "sting",
+   "at": "ceiling"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.8,
+    "desat": 0.3,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "stopped-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "neither-0.2"
+  },
+  {
+   "type": "title",
+   "start": "ceiling-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "NEITHER",
+     "at": "ceiling-0.1",
+     "delay": 0
+    },
+    {
+     "text": "WAS MY",
+     "at": "ceiling-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "HUSBAND.",
+     "at": "ceiling-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Part 1 is on the channel",
+    "at": "subscribe",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "TWO HUSBANDS.",
+   "ONE LIED."
+  ],
+  "sub": "that's not me"
+ },
+ "hook": {
+  "lines": [
+   "TWO HUSBANDS.",
+   "ONE LIED."
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Night Bell · Pt 2: Two Husbands. One Whispered: That's Not Me. #creepy #horror",
+  "playlist": "scary",
+  "description": "Two husbands, one doorbell. One whispered: that's not me. The other smiled on the camera. Then the ceiling started dripping.\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "रात की घंटी · भाग 2: दो पति। एक बोला: वो मैं नहीं हूँ #creepy #horror",
+    "description": "एक डोरबेल, दो पति। एक ने फुसफुसाया: वो मैं नहीं हूँ।\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "இரவு மணி · பகுதி 2: இரண்டு கணவர்கள். ஒருவர்: அது நான் இல்லை #creepy #horror",
+    "description": "ஒரே மணி, இரண்டு கணவர்கள். ஒருவர் கிசுகிசுத்தார்: அது நான் இல்லை.\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "రాత్రి గంట · భాగం 2: ఇద్దరు భర్తలు. ఒకరు: అది నేను కాదు #creepy #horror",
+    "description": "ఒకే బెల్, ఇద్దరు భర్తలు. ఒకరు గుసగుసలాడాడు: అది నేను కాదు.\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "রাতের ঘণ্টা · পর্ব ২: দুই স্বামী। একজন: ওটা আমি নই #creepy #horror",
+    "description": "একটাই বেল, দুই স্বামী। একজন ফিসফিস করল: ওটা আমি নই।\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "रात्रीची बेल · भाग २: दोन नवरे. एक म्हणाला: तो मी नाही #creepy #horror",
+    "description": "एकच बेल, दोन नवरे. एकाने कुजबुजलं: तो मी नाही.\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "رات کی گھنٹی · حصہ 2: دو شوہر۔ ایک بولا: وہ میں نہیں ہوں #creepy #horror",
+    "description": "ایک بیل، دو شوہر۔ ایک نے سرگوشی کی: وہ میں نہیں ہوں۔\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Night Bell · Bahagi 2: Dalawang asawa. Bulong ng isa: Hindi ako iyon #creepy #horror",
+    "description": "Isang doorbell, dalawang asawa. Bumulong ang isa: Hindi ako iyon.\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Bel Malam · Bagian 2: Dua Suami. Satu Berbisik: Itu Bukan Aku #creepy #horror",
+    "description": "Satu bel, dua suami. Satu berbisik: itu bukan aku.\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Loceng Malam · Bahagian 2: Dua Suami. Satu Berbisik: Itu Bukan Aku #creepy #horror",
+    "description": "Satu loceng, dua suami. Satu berbisik: itu bukan aku.\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "ညခေါင်းလောင်း · အပိုင်း ၂။ ခင်ပွန်းနှစ်ယောက်။ တစ်ယောက်က ငါမဟုတ်ဘူး #creepy #horror",
+    "description": "ခေါင်းလောင်းတစ်ခု၊ ခင်ပွန်းနှစ်ယောက်။ တစ်ယောက်က တိုးတိုးပြောတယ်။ ငါမဟုတ်ဘူး။\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "กริ่งยามดึก · ตอนที่ 2: สามีสองคน คนหนึ่งกระซิบว่า นั่นไม่ใช่ฉัน #creepy #horror",
+    "description": "กริ่งเดียว สามีสองคน คนหนึ่งกระซิบว่า นั่นไม่ใช่ฉัน\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Chuông Đêm · Phần 2: Hai Người Chồng. Một Người Thì Thầm: Đó Không Phải Tôi #creepy #horror",
+    "description": "Một chiếc chuông, hai người chồng. Một người thì thầm: đó không phải tôi.\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Timbre Nocturno · Parte 2: Dos Maridos. Uno Susurró: Ese No Soy Yo #creepy #horror",
+    "description": "Un timbre, dos maridos. Uno susurró: ese no soy yo.\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "Campainha da Noite · Parte 2: Dois Maridos. Um Sussurrou: Esse Não Sou Eu #creepy #horror",
+    "description": "Uma campainha, dois maridos. Um sussurrou: esse não sou eu.\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Sonnette de Nuit · Partie 2 : Deux Maris. L'un Chuchote : Ce N'est Pas Moi #creepy #horror",
+    "description": "Une sonnette, deux maris. L'un a chuchoté : ce n'est pas moi.\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Nachtklingel · Teil 2: Zwei Ehemänner. Einer Flüsterte: Das Bin Ich Nicht #creepy #horror",
+    "description": "Eine Klingel, zwei Ehemänner. Einer flüsterte: Das bin ich nicht.\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Campanello di Notte · Parte 2: Due Mariti. Uno Ha Sussurrato: Non Sono Io #creepy #horror",
+    "description": "Un campanello, due mariti. Uno ha sussurrato: non sono io.\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Nachtbel · Deel 2: Twee Mannen. Eén Fluisterde: Dat Ben Ik Niet #creepy #horror",
+    "description": "Eén deurbel, twee mannen. Eén fluisterde: dat ben ik niet.\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Nattklockan · Del 2: Två Män. En Viskade: Det Är Inte Jag #creepy #horror",
+    "description": "En dörrklocka, två män. En viskade: det är inte jag.\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Nocny Dzwonek · Część 2: Dwóch Mężów. Jeden Szepnął: To Nie Ja #creepy #horror",
+    "description": "Jeden dzwonek, dwóch mężów. Jeden szepnął: to nie ja.\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Ночной Звонок · Часть 2: Два Мужа. Один Шепнул: Это Не Я #creepy #horror",
+    "description": "Один звонок, два мужа. Один шепнул: это не я.\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Gece Zili · Bölüm 2: İki Koca. Biri Fısıldadı: O Ben Değilim #creepy #horror",
+    "description": "Bir zil, iki koca. Biri fısıldadı: o ben değilim.\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "جرس الليل · الجزء 2: زوجان. أحدهما همس: ذلك ليس أنا #creepy #horror",
+    "description": "جرس واحد وزوجان. همس أحدهما: ذلك ليس أنا.\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "夜のチャイム · 第2話：2人の夫。1人がささやく：あれは俺じゃない #creepy #horror",
+    "description": "チャイムは1つ、夫は2人。1人がささやいた。あれは俺じゃない。\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "밤의 초인종 · 2부: 남편 둘. 하나가 속삭였다: 그건 내가 아니야 #creepy #horror",
+    "description": "초인종은 하나, 남편은 둘. 하나가 속삭였다: 그건 내가 아니야.\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "夜半门铃 · 第2部分：两个丈夫。一个低声说：那不是我 #creepy #horror",
+    "description": "一个门铃，两个丈夫。其中一个低声说：那不是我。\n\nWhich husband would you trust? Tell me in the comments 👇\n📤 Send this to the friend who showers at night while home alone 👀\nMissed the earlier part? It's on the channel.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "series": {
+  "name": "Night Bell",
+  "part": 2,
+  "of": 2,
+  "episode": "Two Husbands. One Whispered: That's Not Me."
+ }
+}

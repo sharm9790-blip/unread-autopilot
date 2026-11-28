@@ -1,0 +1,284 @@
+{
+ "title": "Dadi Answered the Landline at Midnight. Dadi Died Last Year.",
+ "format": "text-story",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "answered"
+ ],
+ "glitch": [
+  "voice",
+  "clicked"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "dadi"
+  },
+  {
+   "type": "heartbeat",
+   "at": "died"
+  },
+  {
+   "type": "sting",
+   "at": "voice"
+  },
+  {
+   "type": "sting",
+   "at": "clicked"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "NEW SCARY STORY EVERY NIGHT"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "died-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "grabbed-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip4.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "voice-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip5.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "riya#2-0.2"
+  },
+  {
+   "type": "clip",
+   "file": "clip6.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "clicked-0.3"
+  },
+  {
+   "type": "title",
+   "start": "clicked-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "DADI SAID:",
+     "at": "clicked-0.1",
+     "delay": 0
+    },
+    {
+     "text": "GET OUT OF",
+     "at": "clicked-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "MY BED.",
+     "at": "clicked-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Would you look at Riya's bed?",
+    "at": "subscribe",
+    "delay": 0.4
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "DADI ANSWERED",
+   "THE LANDLINE"
+  ],
+  "sub": "dadi died last year"
+ },
+ "hook": {
+  "lines": [
+   "DADI ANSWERED",
+   "THE LANDLINE"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Dadi Answered the Landline at Midnight. Dadi Died Last Year. #creepy #horror",
+  "playlist": "scary",
+  "description": "Our landline rang at midnight and Dadi answered it. Dadi died last year. Then she asked about Riya's bed.\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "दादी ने आधी रात लैंडलाइन उठाया। दादी पिछले साल गुज़र गईं #creepy #horror",
+    "description": "हमारा लैंडलाइन आधी रात बजा और दादी ने उठाया। दादी पिछले साल गुज़र चुकी हैं।\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "நள்ளிரவில் பாட்டி லேண்ட்லைனை எடுத்தாள். பாட்டி போன வருடம் இறந்தாள் #creepy #horror",
+    "description": "எங்கள் லேண்ட்லைன் நள்ளிரவில் அடித்தது, பாட்டி எடுத்தாள். பாட்டி கடந்த வருடமே இறந்துவிட்டாள்.\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "అర్ధరాత్రి నానమ్మ ల్యాండ్‌లైన్ ఎత్తింది. నానమ్మ పోయి ఏడాదైంది #creepy #horror",
+    "description": "మా ల్యాండ్‌లైన్ అర్ధరాత్రి మోగింది, నానమ్మ ఎత్తింది. నానమ్మ గత ఏడాదే చనిపోయింది.\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "মাঝরাতে ঠাকুমা ল্যান্ডলাইন ধরলেন। ঠাকুমা গত বছর মারা গেছেন #creepy #horror",
+    "description": "আমাদের ল্যান্ডলাইন মাঝরাতে বাজল, ঠাকুমা ধরলেন। ঠাকুমা তো গত বছরই মারা গেছেন।\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "आजीने मध्यरात्री लँडलाइन उचलला. आजी गेल्या वर्षी गेली #creepy #horror",
+    "description": "आमचा लँडलाइन मध्यरात्री वाजला आणि आजीने उचलला. आजी तर गेल्या वर्षीच गेली.\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "دادی نے آدھی رات کو لینڈ لائن اٹھایا۔ دادی پچھلے سال فوت ہو چکی ہیں #creepy #horror",
+    "description": "ہمارا لینڈ لائن آدھی رات کو بجا اور دادی نے اٹھایا۔ دادی تو پچھلے سال فوت ہو گئیں۔\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Sinagot ni Lola ang landline sa hatinggabi. Patay na si Lola #creepy #horror",
+    "description": "Tumunog ang landline namin sa hatinggabi at sinagot ito ni Lola. Namatay si Lola noong nakaraang taon.\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Nenek Menjawab Telepon Rumah Tengah Malam. Nenek Meninggal Tahun Lalu #creepy #horror",
+    "description": "Telepon rumah kami berdering tengah malam dan Nenek menjawabnya. Nenek sudah meninggal tahun lalu.\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Nenek Jawab Telefon Rumah Tengah Malam. Nenek Meninggal Tahun Lalu #creepy #horror",
+    "description": "Telefon rumah kami berdering tengah malam dan Nenek menjawabnya. Nenek sudah meninggal tahun lalu.\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "သန်းခေါင်ယံမှာ အဖွားက ဖုန်းကိုင်တယ်။ အဖွား မနှစ်က ဆုံးသွားပြီ #creepy #horror",
+    "description": "ကျွန်မတို့ ဖုန်းက သန်းခေါင်မှာ မြည်ပြီး အဖွားက ကိုင်တယ်။ အဖွားက မနှစ်ကတည်းက ဆုံးသွားပြီ။\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "ย่ารับโทรศัพท์บ้านตอนเที่ยงคืน ย่าตายไปแล้วเมื่อปีก่อน #creepy #horror",
+    "description": "โทรศัพท์บ้านดังตอนเที่ยงคืนและย่ารับสาย ทั้งที่ย่าตายไปเมื่อปีที่แล้ว\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Bà Nghe Điện Thoại Bàn Lúc Nửa Đêm. Bà Mất Năm Ngoái #creepy #horror",
+    "description": "Điện thoại bàn nhà tôi reo lúc nửa đêm và bà nghe máy. Bà đã mất từ năm ngoái.\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "La Abuela Contestó el Teléfono Fijo a Medianoche. Murió el Año Pasado #creepy #horror",
+    "description": "Nuestro teléfono fijo sonó a medianoche y la abuela contestó. Ella murió el año pasado.\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "A Vovó Atendeu o Telefone Fixo à Meia-Noite. Ela Morreu Ano Passado #creepy #horror",
+    "description": "Nosso telefone fixo tocou à meia-noite e a vovó atendeu. Ela morreu no ano passado.\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Mamie A Décroché le Fixe à Minuit. Elle Est Morte l'An Dernier #creepy #horror",
+    "description": "Notre téléphone fixe a sonné à minuit et mamie a décroché. Elle est morte l'an dernier.\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Oma Nahm Um Mitternacht das Festnetz Ab. Sie Starb Letztes Jahr #creepy #horror",
+    "description": "Unser Festnetztelefon klingelte um Mitternacht und Oma ging ran. Sie ist letztes Jahr gestorben.\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "La Nonna Ha Risposto al Telefono Fisso a Mezzanotte. È Morta l'Anno Scorso #creepy #horror",
+    "description": "Il nostro telefono fisso ha squillato a mezzanotte e la nonna ha risposto. È morta l'anno scorso.\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Oma Nam Om Middernacht de Vaste Lijn Op. Oma Stierf Vorig Jaar #creepy #horror",
+    "description": "Onze vaste telefoon ging om middernacht en oma nam op. Ze is vorig jaar overleden.\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Mormor Svarade i Hemtelefonen Vid Midnatt. Hon Dog I Fjol #creepy #horror",
+    "description": "Vår hemtelefon ringde vid midnatt och mormor svarade. Hon dog i fjol.\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Babcia Odebrała Telefon Stacjonarny o Północy. Zmarła Rok Temu #creepy #horror",
+    "description": "Nasz telefon stacjonarny zadzwonił o północy, a babcia odebrała. Zmarła rok temu.\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Бабушка Взяла Трубку в Полночь. Она Умерла в Прошлом Году #creepy #horror",
+    "description": "Наш домашний телефон зазвонил в полночь, и бабушка взяла трубку. Она умерла в прошлом году.\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Babaanne Gece Yarısı Telefonu Açtı. Geçen Yıl Ölmüştü #creepy #horror",
+    "description": "Ev telefonumuz gece yarısı çaldı ve babaannem açtı. Geçen yıl ölmüştü.\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "الجدة ردّت على الهاتف الأرضي عند منتصف الليل. ماتت العام الماضي #creepy #horror",
+    "description": "رنّ هاتفنا الأرضي عند منتصف الليل وردّت الجدة. وهي ماتت العام الماضي.\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "真夜中、祖母が固定電話に出た。祖母は去年亡くなった #creepy #horror",
+    "description": "真夜中に固定電話が鳴り、祖母が出た。祖母は去年亡くなっている。\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "한밤중에 할머니가 집 전화를 받았다. 할머니는 작년에 돌아가셨다 #creepy #horror",
+    "description": "한밤중에 집 전화가 울렸고 할머니가 받았다. 할머니는 작년에 돌아가셨다.\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "奶奶半夜接了座机。奶奶去年已经去世 #creepy #horror",
+    "description": "我们家的座机半夜响了，奶奶接了电话。她去年就去世了。\n\nWould you pick up the receiver? Tell me in the comments 👇\n📤 Send this to the friend who still has a landline at home 👀\nMore scary stories every night on UNREAD.\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "look": "2d",
+ "characters": "Riya: Indian girl, 10, two short braids, yellow nightdress. Mom: Indian woman, 38, long black braid, green cotton saree, face in shadow. Dadi: elderly Indian woman, white saree, grey hair in a bun, face in shadow."
+}

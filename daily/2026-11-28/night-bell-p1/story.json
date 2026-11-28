@@ -1,0 +1,256 @@
+{
+ "title": "Night Bell · Pt 1: My Husband Rang Our Bell. He Was in the Shower",
+ "format": "series",
+ "speed": 1.0,
+ "tail": 3.0,
+ "transitions": "fade",
+ "shake": [
+  "stopped"
+ ],
+ "glitch": [
+  "shower",
+  "stopped"
+ ],
+ "silence_from": "subscribe",
+ "sfx": [
+  {
+   "type": "sting",
+   "at": "never"
+  },
+  {
+   "type": "heartbeat",
+   "at": "showed"
+  },
+  {
+   "type": "buzz",
+   "at": "shower"
+  },
+  {
+   "type": "sting",
+   "at": "stopped"
+  },
+  {
+   "type": "buzz",
+   "at": "subscribe",
+   "delay": 1.6
+  }
+ ],
+ "subscribe": {
+  "at": "subscribe",
+  "text": "PART 2 ON THE CHANNEL"
+ },
+ "scenes": [
+  {
+   "type": "clip",
+   "file": "clip.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.9,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   }
+  },
+  {
+   "type": "clip",
+   "file": "clip2.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "showed-0.2"
+  },
+  {
+   "type": "card",
+   "start": "shower-0.3",
+   "avatar": "!",
+   "title": "Doorbell Camera · 2:00 AM",
+   "lines": [
+    "VISITOR: your husband",
+    "Your husband: in the shower"
+   ]
+  },
+  {
+   "type": "clip",
+   "file": "clip3.mp4",
+   "loop": true,
+   "grade": {
+    "dim": 0.85,
+    "tint": [
+     0.82,
+     0.88,
+     1.12
+    ]
+   },
+   "start": "stopped-0.2"
+  },
+  {
+   "type": "title",
+   "start": "part-0.1",
+   "captions": true,
+   "lines": [
+    {
+     "text": "PART 2",
+     "at": "part-0.1",
+     "delay": 0
+    },
+    {
+     "text": "ON THE",
+     "at": "part-0.1",
+     "delay": 0.5
+    },
+    {
+     "text": "CHANNEL.",
+     "at": "part-0.1",
+     "delay": 1.0
+    }
+   ],
+   "footer": {
+    "text": "Night Bell continues",
+    "at": "channel",
+    "delay": 0.3
+   }
+  }
+ ],
+ "thumbnail": {
+  "scene": 0,
+  "lines": [
+   "NEVER ANSWER",
+   "THE 2 AM BELL"
+  ],
+  "sub": "my husband is outside. and in the shower"
+ },
+ "hook": {
+  "lines": [
+   "NEVER ANSWER",
+   "THE 2 AM BELL"
+  ],
+  "until": 2.8
+ },
+ "beat_zoom": 3.5,
+ "upload": {
+  "title": "Night Bell · Pt 1: My Husband Rang Our Bell. He Was in the Shower #creepy #horror",
+  "playlist": "scary",
+  "description": "The doorbell camera showed my husband outside, smiling. But he was in the shower, humming. Then the humming stopped.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary",
+  "tags": "scary stories, horror shorts, creepy story, short horror story, scary, ghost story, paranormal, creepy, unread, horror rules, 3am",
+  "localizations": {
+   "hi": {
+    "title": "रात की घंटी · भाग 1: पति ने घंटी बजाई। वो शॉवर में थे #creepy #horror",
+    "description": "डोरबेल कैमरे में मेरे पति बाहर दिखे। वो तो शॉवर में गुनगुना रहे थे।\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ta": {
+    "title": "இரவு மணி · பகுதி 1: கணவர் மணி அடித்தார். அவர் குளியலில் #creepy #horror",
+    "description": "டோர்பெல் கேமராவில் என் கணவர் வெளியே தெரிந்தார். அவரோ குளியலறையில் முனகிக்கொண்டிருந்தார்.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "te": {
+    "title": "రాత్రి గంట · భాగం 1: నా భర్త బెల్ కొట్టాడు. అతను స్నానంలో ఉన్నాడు #creepy #horror",
+    "description": "డోర్‌బెల్ కెమెరాలో నా భర్త బయట కనిపించాడు. ఆయన బాత్రూమ్‌లో హమ్ చేస్తున్నాడు.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "bn": {
+    "title": "রাতের ঘণ্টা · পর্ব ১: স্বামী বেল বাজাল। সে শাওয়ারে ছিল #creepy #horror",
+    "description": "ডোরবেল ক্যামেরায় আমার স্বামী বাইরে। অথচ সে বাথরুমে গুনগুন করছিল।\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "mr": {
+    "title": "रात्रीची बेल · भाग १: नवऱ्याने बेल वाजवली. तो शॉवरमध्ये होता #creepy #horror",
+    "description": "डोअरबेल कॅमेऱ्यात माझा नवरा बाहेर दिसला. तो तर शॉवरमध्ये गुणगुणत होता.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ur": {
+    "title": "رات کی گھنٹی · حصہ 1: شوہر نے بیل بجائی۔ وہ شاور میں تھے #creepy #horror",
+    "description": "ڈور بیل کیمرے میں میرے شوہر باہر نظر آئے۔ وہ تو شاور میں گنگنا رہے تھے۔\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fil": {
+    "title": "Night Bell · Bahagi 1: Nag-doorbell ang asawa ko. Naliligo siya #creepy #horror",
+    "description": "Nasa labas ang asawa ko sa doorbell camera. Pero naliligo siya at humuhuni sa banyo.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "id": {
+    "title": "Bel Malam · Bagian 1: Suamiku Memencet Bel. Dia Sedang Mandi #creepy #horror",
+    "description": "Kamera bel pintu menunjukkan suamiku di luar. Padahal dia sedang mandi sambil bersenandung.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ms": {
+    "title": "Loceng Malam · Bahagian 1: Suamiku Tekan Loceng. Dia Sedang Mandi #creepy #horror",
+    "description": "Kamera loceng pintu tunjuk suamiku di luar. Padahal dia sedang mandi sambil menyanyi kecil.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "my": {
+    "title": "ညခေါင်းလောင်း · အပိုင်း ၁။ ခင်ပွန်းက ခေါင်းလောင်းနှိပ်တယ်။ သူရေချိုးနေတယ် #creepy #horror",
+    "description": "တံခါးခေါင်းလောင်းကင်မရာမှာ ကျွန်မခင်ပွန်း အပြင်မှာ။ သူက ရေချိုးခန်းထဲ တေးညည်းနေတာ။\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "th": {
+    "title": "กริ่งยามดึก · ตอนที่ 1: สามีกดกริ่ง แต่เขาอาบน้ำอยู่ #creepy #horror",
+    "description": "กล้องกริ่งประตูเห็นสามีฉันอยู่ข้างนอก แต่เขากำลังอาบน้ำฮัมเพลงอยู่\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "vi": {
+    "title": "Chuông Đêm · Phần 1: Chồng Bấm Chuông. Anh Ấy Đang Tắm #creepy #horror",
+    "description": "Camera chuông cửa thấy chồng tôi ngoài kia. Nhưng anh ấy đang tắm và ngân nga.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "es": {
+    "title": "Timbre Nocturno · Parte 1: Mi Marido Tocó el Timbre. Estaba en la Ducha #creepy #horror",
+    "description": "La cámara del timbre mostraba a mi marido afuera. Pero él estaba en la ducha, tarareando.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pt": {
+    "title": "Campainha da Noite · Parte 1: Meu Marido Tocou. Ele Estava no Banho #creepy #horror",
+    "description": "A câmera da campainha mostrou meu marido lá fora. Mas ele estava no banho, cantarolando.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "fr": {
+    "title": "Sonnette de Nuit · Partie 1 : Mon Mari a Sonné. Il Était sous la Douche #creepy #horror",
+    "description": "La caméra de la sonnette montrait mon mari dehors. Mais il était sous la douche, en train de fredonner.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "de": {
+    "title": "Nachtklingel · Teil 1: Mein Mann Klingelte. Er Stand unter der Dusche #creepy #horror",
+    "description": "Die Türklingelkamera zeigte meinen Mann draußen. Dabei duschte er und summte.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "it": {
+    "title": "Campanello di Notte · Parte 1: Mio Marito Ha Suonato. Era sotto la Doccia #creepy #horror",
+    "description": "La telecamera del campanello mostrava mio marito fuori. Ma lui era sotto la doccia, a canticchiare.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "nl": {
+    "title": "Nachtbel · Deel 1: Mijn Man Belde aan. Hij Stond onder de Douche #creepy #horror",
+    "description": "De deurbelcamera toonde mijn man buiten. Maar hij stond onder de douche te neuriën.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "sv": {
+    "title": "Nattklockan · Del 1: Min Man Ringde på. Han Stod i Duschen #creepy #horror",
+    "description": "Dörrklockans kamera visade min man utanför. Men han stod i duschen och nynnade.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "pl": {
+    "title": "Nocny Dzwonek · Część 1: Mąż Zadzwonił do Drzwi. Był pod Prysznicem #creepy #horror",
+    "description": "Kamera dzwonka pokazała mojego męża na zewnątrz. Ale on był pod prysznicem i nucił.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ru": {
+    "title": "Ночной Звонок · Часть 1: Муж Позвонил в Дверь. Он Был в Душе #creepy #horror",
+    "description": "Камера домофона показала моего мужа за дверью. Но он был в душе и напевал.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "tr": {
+    "title": "Gece Zili · Bölüm 1: Kocam Zili Çaldı. Duştaydı #creepy #horror",
+    "description": "Kapı zili kamerası kocamı dışarıda gösterdi. Ama o duşta mırıldanıyordu.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ar": {
+    "title": "جرس الليل · الجزء 1: زوجي ضغط الجرس. كان تحت الدش #creepy #horror",
+    "description": "أظهرت كاميرا الجرس زوجي في الخارج. لكنه كان يستحم ويدندن.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ja": {
+    "title": "夜のチャイム · 第1話：夫がチャイムを鳴らした。彼はシャワー中 #creepy #horror",
+    "description": "ドアベルのカメラに夫が映った。でも彼はシャワーで鼻歌を歌っていた。\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "ko": {
+    "title": "밤의 초인종 · 1부: 남편이 초인종을 눌렀다. 그는 샤워 중이었다 #creepy #horror",
+    "description": "초인종 카메라에 남편이 밖에 서 있었다. 그런데 그는 샤워하며 콧노래를 부르고 있었다.\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   },
+   "zh-CN": {
+    "title": "夜半门铃 · 第1部分：丈夫按了门铃。他正在洗澡 #creepy #horror",
+    "description": "门铃摄像头拍到我丈夫站在门外。可他明明在浴室里哼歌。\n\nWould you open the door? Tell me in the comments 👇\n📤 Send this to the friend who lives alone with a doorbell camera 👀\nThe next part is already on the channel. Watch it next 👉 UNREAD\nSubscribe to UNREAD for a new scary story every night.\n\nFootage: Pixabay · Voice: AI narration\n\n#shorts #scarystories #horror #creepy #horrorstory #scary"
+   }
+  }
+ },
+ "series": {
+  "name": "Night Bell",
+  "part": 1,
+  "of": 2,
+  "episode": "My Husband Rang Our Bell. He Was in the Shower"
+ }
+}

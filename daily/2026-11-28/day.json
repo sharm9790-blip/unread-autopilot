@@ -1,0 +1,75 @@
+{
+ "date": "2026-11-28",
+ "order": [
+  "dadi-landline",
+  "night-bell-p1",
+  "night-bell-p2"
+ ],
+ "schedule": {
+  "dadi-landline": "2026-11-28T12:30:00+05:30",
+  "night-bell-p1": "2026-11-28T18:00:00+05:30",
+  "night-bell-p2": "2026-11-28T19:30:00+05:30"
+ },
+ "clips": {
+  "dadi-landline": [
+   {
+    "ai": "An old black landline phone on a dark hallway table at night, the receiver lifted off the cradle and hanging by its cord, a faint warm lamp glow",
+    "key": true,
+    "move": "dolly-in",
+    "fallback": "old telephone dark"
+   },
+   {
+    "ai": "A framed photo of an elderly Indian grandmother in a white saree on a wall, garland on the frame, dim room",
+    "move": "pan-left",
+    "fallback": "old photo frame dark"
+   },
+   {
+    "ai": "Mom gripping a landline receiver in a dim hallway, back to camera, night, small hall lamp",
+    "move": "rise",
+    "fallback": "woman phone dark hallway"
+   },
+   {
+    "ai": "The old landline receiver close up, cord swinging slightly, shadows on the wall",
+    "move": "dolly-out",
+    "fallback": "telephone cord dark"
+   },
+   {
+    "ai": "Riya asleep in an old wooden bed with a faded quilt, a thin dark shape standing at the foot of the bed, moonlight through a window",
+    "move": "orbit",
+    "fallback": "child bed dark room"
+   },
+   {
+    "ai": "An old grandmother silhouette in a white saree standing in a dark doorway beside the landline table, face in shadow, hand resting on the phone",
+    "key": true,
+    "move": "fall",
+    "fallback": "dark figure doorway"
+   }
+  ],
+  "night-bell-p1": [
+   "doorbell night rain",
+   {
+    "ai": "A doorbell camera view at night of a man standing on a porch in heavy rain, drenched, head slightly tilted, fisheye wide angle, cold light",
+    "move": "dolly-in",
+    "fallback": "photo: front door rain night"
+   },
+   {
+    "ai": "A dark bathroom door with steam under it and a thin line of light, the hallway empty, a small camera screen glowing at the edge of frame",
+    "motion": "the bathroom door slowly opens an inch",
+    "fallback": "bathroom door dark"
+   }
+  ],
+  "night-bell-p2": [
+   "dark bathroom door",
+   {
+    "ai": "A husband in a towel standing in a dim bedroom doorway, dry, face in shadow, one finger raised to his lips, a doorbell camera screen glowing on the bed behind",
+    "move": "dolly-in",
+    "fallback": "photo: dark bedroom doorway"
+   },
+   {
+    "ai": "A dark bedroom ceiling with a dark wet stain spreading, water dripping onto a bed below, a pale hand pressed against the plaster from above",
+    "motion": "a drop of water falls and the pale hand slowly slides across the ceiling",
+    "fallback": "ceiling water stain dark"
+   }
+  ]
+ }
+}
