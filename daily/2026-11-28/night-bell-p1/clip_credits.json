@@ -1,0 +1,21 @@
+{
+ "clip.mp4": {
+  "id": 149927,
+  "user": "Danishsiddiqui",
+  "query": "doorbell night rain",
+  "tags": "rain, path, street, night"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A doorbell camera view at night of a man standing on a porch in heavy rain, drenched, head slightly tilted, fisheye wide angle, cold light",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A dark bathroom door with steam under it and a thin line of light, the hallway empty, a small camera screen glowing at the edge of frame",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036,
+  "fallback": "clip: fal HTTP 404 on https://queue.fal.run/creatify/boreal: {\"detail\":\"Application \\\"boreal\\\" not found\"}"
+ }
+}

@@ -1,0 +1,190 @@
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/parallax.py daily/2026-11-28/dadi-landline/clip_ai.jpg daily/2026-11-28/dadi-landline/clip.mp4 --move dolly-in --dur 10 --strength 0.07 --fog 0.2 --dust 40
+
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Device set to use cpu
+  depth: Depth Anything V2 (saved clip_ai.depth.png); move dolly-in, 10.0s @ 30fps, 1080x1920
+
+  frame 0/300
+  frame 30/300
+  frame 60/300
+  frame 90/300
+  frame 120/300
+  frame 150/300
+  frame 180/300
+  frame 210/300
+  frame 240/300
+  frame 270/300
+  wrote daily/2026-11-28/dadi-landline/clip.mp4            
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/parallax.py daily/2026-11-28/dadi-landline/clip2_ai.jpg daily/2026-11-28/dadi-landline/clip2.mp4 --move pan-left --dur 10 --strength 0.07 --fog 0.2 --dust 40
+
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Device set to use cpu
+  depth: Depth Anything V2 (saved clip2_ai.depth.png); move pan-left, 10.0s @ 30fps, 1080x1920
+
+  frame 0/300
+  frame 30/300
+  frame 60/300
+  frame 90/300
+  frame 120/300
+  frame 150/300
+  frame 180/300
+  frame 210/300
+  frame 240/300
+  frame 270/300
+  wrote daily/2026-11-28/dadi-landline/clip2.mp4            
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/parallax.py daily/2026-11-28/dadi-landline/clip3_ai.jpg daily/2026-11-28/dadi-landline/clip3.mp4 --move rise --dur 10 --strength 0.07 --fog 0.2 --dust 40
+
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Device set to use cpu
+  depth: Depth Anything V2 (saved clip3_ai.depth.png); move rise, 10.0s @ 30fps, 1080x1920
+
+  frame 0/300
+  frame 30/300
+  frame 60/300
+  frame 90/300
+  frame 120/300
+  frame 150/300
+  frame 180/300
+  frame 210/300
+  frame 240/300
+  frame 270/300
+  wrote daily/2026-11-28/dadi-landline/clip3.mp4            
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/parallax.py daily/2026-11-28/dadi-landline/clip4_ai.jpg daily/2026-11-28/dadi-landline/clip4.mp4 --move dolly-out --dur 10 --strength 0.07 --fog 0.2 --dust 40
+
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Device set to use cpu
+  depth: Depth Anything V2 (saved clip4_ai.depth.png); move dolly-out, 10.0s @ 30fps, 1080x1920
+
+  frame 0/300
+  frame 30/300
+  frame 60/300
+  frame 90/300
+  frame 120/300
+  frame 150/300
+  frame 180/300
+  frame 210/300
+  frame 240/300
+  frame 270/300
+  wrote daily/2026-11-28/dadi-landline/clip4.mp4            
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/parallax.py daily/2026-11-28/dadi-landline/clip5_ai.jpg daily/2026-11-28/dadi-landline/clip5.mp4 --move orbit --dur 10 --strength 0.07 --fog 0.2 --dust 40
+
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Device set to use cpu
+  depth: Depth Anything V2 (saved clip5_ai.depth.png); move orbit, 10.0s @ 30fps, 1080x1920
+
+  frame 0/300
+  frame 30/300
+  frame 60/300
+  frame 90/300
+  frame 120/300
+  frame 150/300
+  frame 180/300
+  frame 210/300
+  frame 240/300
+  frame 270/300
+  wrote daily/2026-11-28/dadi-landline/clip5.mp4            
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/parallax.py daily/2026-11-28/dadi-landline/clip6_ai.jpg daily/2026-11-28/dadi-landline/clip6.mp4 --move fall --dur 10 --strength 0.07 --fog 0.2 --dust 40
+
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Device set to use cpu
+  depth: Depth Anything V2 (saved clip6_ai.depth.png); move fall, 10.0s @ 30fps, 1080x1920
+
+  frame 0/300
+  frame 30/300
+  frame 60/300
+  frame 90/300
+  frame 120/300
+  frame 150/300
+  frame 180/300
+  frame 210/300
+  frame 240/300
+  frame 270/300
+  wrote daily/2026-11-28/dadi-landline/clip6.mp4            
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/tts.py daily/2026-11-28/dadi-landline --voice BycOlIr9Aytiubl0LIIY
+voice.mp3 + words.json  words=42  spoken=26.1s
+
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/thumbnail.py daily/2026-11-28/dadi-landline
+thumbnail.png + upload.md
+
+[vost#0:0/rawvideo @ 0x5d5fe46b8d40] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5d5fe46b89c0] Error muxing a packet
+[out#0/rawvideo @ 0x5d5fe46b89c0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5d5fe46b89c0] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5d5fe46b89c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5d5fe46b89c0] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/render.py daily/2026-11-28/dadi-landline
+done daily/2026-11-28/dadi-landline/short.mp4  29.1s  90 MB
+
+[vost#0:0/rawvideo @ 0x558cfdd958c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x558cfde64f40] Error muxing a packet
+[out#0/rawvideo @ 0x558cfde64f40] Task finished with error code: -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x60ab55061d40] [out#0/rawvideo @ 0x558cfde64f40] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x6411f25903c0] Error submitting a packet to the muxer: Broken pipe
+[vost#0:0/rawvideo @ 0x5d2330c35680]     Last message repeated 1 times
+Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x6411f25928c0] Error muxing a packet
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x6411f25928c0] [out#0/rawvideo @ 0x5d2330d02440] Task finished with error code: -32 (Broken pipe)
+Error muxing a packet
+[out#0/rawvideo @ 0x5d2330d02440] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5d2330d02440] [out#0/rawvideo @ 0x6411f25928c0] Terminating thread with return code -32 (Broken pipe)
+Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x60ab550619c0] Error muxing a packet
+[out#0/rawvideo @ 0x60ab550619c0] Task finished with error code: -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x565ffc757400] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x565ffc759900] Error muxing a packet
+[out#0/rawvideo @ 0x565ffc759900] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x60ab550619c0] Terminating thread with return code -32 (Broken pipe)
+Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x565ffc759900] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5a2ebdd5da00] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5a2ebdd5d680] Error muxing a packet
+[out#0/rawvideo @ 0x5a2ebdd5d680] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5a2ebdd5d680] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5d2330d02440] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5d2330d02440] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x6411f25928c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x6411f25928c0] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x558cfde64f40] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x558cfde64f40] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5a2ebdd5d680] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5a2ebdd5d680] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x565ffc759900] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x565ffc759900] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x60ab550619c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x60ab550619c0] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/youtube_upload.py daily/2026-11-28/dadi-landline --publish-at 2026-12-03T12:30:00+05:30
+uploading 9%
+uploading 18%
+uploading 27%
+uploading 37%
+uploading 46%
+uploading 55%
+uploading 65%
+uploading 74%
+uploading 83%
+uploading 92%
+{
+ "id": "dM6z0Q0fX2U",
+ "url": "https://youtube.com/shorts/dM6z0Q0fX2U",
+ "privacy": "private",
+ "title": "Dadi Answered the Landline at Midnight. Dadi Died Last Year. #creepy #horror",
+ "thumbnail": "set",
+ "playlist": "\ud83d\ude31 Scary Stories"
+}
+
+

@@ -1,0 +1,21 @@
+{
+ "clip.mp4": {
+  "id": 51807,
+  "user": "mrbobdobolina",
+  "query": "dark bathroom door",
+  "tags": "hand washing, washing, hand, hygiene, soap, bathroom"
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A husband in a towel standing in a dim bedroom doorway, dry, face in shadow, one finger raised to his lips, a doorbell camera screen glowing on the bed behind",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip3.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A dark bedroom ceiling with a dark wet stain spreading, water dripping onto a bed below, a pale hand pressed against the plaster from above",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036,
+  "fallback": "clip: fal HTTP 404 on https://queue.fal.run/creatify/boreal: {\"detail\":\"Application \\\"boreal\\\" not found\"}"
+ }
+}

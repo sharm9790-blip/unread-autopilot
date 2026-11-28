@@ -1,0 +1,97 @@
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/parallax.py daily/2026-11-28/night-bell-p2/clip2_ai.jpg daily/2026-11-28/night-bell-p2/clip2.mp4 --move dolly-in --dur 10 --strength 0.07 --fog 0.2 --dust 40
+
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Device set to use cpu
+  depth: Depth Anything V2 (saved clip2_ai.depth.png); move dolly-in, 10.0s @ 30fps, 1080x1920
+
+  frame 0/300
+  frame 30/300
+  frame 60/300
+  frame 90/300
+  frame 120/300
+  frame 150/300
+  frame 180/300
+  frame 210/300
+  frame 240/300
+  frame 270/300
+  wrote daily/2026-11-28/night-bell-p2/clip2.mp4            
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/parallax.py daily/2026-11-28/night-bell-p2/clip3_ai.jpg daily/2026-11-28/night-bell-p2/clip3.mp4 --move pan-right --dur 10 --strength 0.07 --fog 0.2 --dust 40
+
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Device set to use cpu
+  depth: Depth Anything V2 (saved clip3_ai.depth.png); move pan-right, 10.0s @ 30fps, 1080x1920
+
+  frame 0/300
+  frame 30/300
+  frame 60/300
+  frame 90/300
+  frame 120/300
+  frame 150/300
+  frame 180/300
+  frame 210/300
+  frame 240/300
+  frame 270/300
+  wrote daily/2026-11-28/night-bell-p2/clip3.mp4            
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/tts.py daily/2026-11-28/night-bell-p2 --voice BycOlIr9Aytiubl0LIIY
+voice.mp3 + words.json  words=48  spoken=26.2s
+
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/thumbnail.py daily/2026-11-28/night-bell-p2
+thumbnail.png + upload.md
+
+[vost#0:0/rawvideo @ 0x6223808a4580] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x622380bf5f40] Error muxing a packet
+[out#0/rawvideo @ 0x622380bf5f40] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x622380bf5f40] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x622380bf5f40] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x622380bf5f40] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/render.py daily/2026-11-28/night-bell-p2
+done daily/2026-11-28/night-bell-p2/short.mp4  29.2s  88 MB
+
+[vost#0:0/rawvideo @ 0x5c7442e0f880] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5c7442e0f500] Error muxing a packet
+[out#0/rawvideo @ 0x5c7442e0f500] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5c7442e0f500] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x597f93a1f580] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x597f93d70f40] Error muxing a packet
+[out#0/rawvideo @ 0x597f93d70f40] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x597f93d70f40] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x56720c411780] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x56720c411400] Error muxing a packet
+[out#0/rawvideo @ 0x56720c411400] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x56720c411400] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5c7442e0f500] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5c7442e0f500] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x56720c411400] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x56720c411400] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x597f93d70f40] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x597f93d70f40] Error closing file: Broken pipe
+
+$ python3 /home/runner/work/unread-autopilot/unread-autopilot/pipeline/youtube_upload.py daily/2026-11-28/night-bell-p2 --publish-at 2026-12-03T19:30:00+05:30
+uploading 9%
+uploading 19%
+uploading 28%
+uploading 38%
+uploading 47%
+uploading 57%
+uploading 66%
+uploading 76%
+uploading 85%
+uploading 95%
+{
+ "id": "j_iURKE_ULc",
+ "url": "https://youtube.com/shorts/j_iURKE_ULc",
+ "privacy": "private",
+ "title": "Night Bell \u00b7 Pt 2: Two Husbands. One Whispered: That's Not Me. #creepy #horror",
+ "thumbnail": "set",
+ "playlist": "\ud83d\ude31 Scary Stories"
+}
+
+

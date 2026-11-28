@@ -1,14 +1,14 @@
 {
- "date": "2026-11-28",
+ "date": "2026-12-03",
  "order": [
   "dadi-landline",
   "night-bell-p1",
   "night-bell-p2"
  ],
  "schedule": {
-  "dadi-landline": "2026-11-28T12:30:00+05:30",
-  "night-bell-p1": "2026-11-28T18:00:00+05:30",
-  "night-bell-p2": "2026-11-28T19:30:00+05:30"
+  "dadi-landline": "2026-12-03T12:30:00+05:30",
+  "night-bell-p1": "2026-12-03T18:00:00+05:30",
+  "night-bell-p2": "2026-12-03T19:30:00+05:30"
  },
  "clips": {
   "dadi-landline": [
@@ -71,5 +71,6 @@
     "fallback": "ceiling water stain dark"
    }
   ]
- }
+ },
+ "moved_from": "2026-11-28"
 }

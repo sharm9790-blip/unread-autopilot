@@ -1,0 +1,38 @@
+{
+ "clip.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "An old black landline phone on a dark hallway table at night, the receiver lifted off the cradle and hanging by its cord, a faint warm lamp glow",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ },
+ "clip2.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "A framed photo of an elderly Indian grandmother in a white saree on a wall, garland on the frame, dim room",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip3.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Mom gripping a landline receiver in a dim hallway, back to camera, night, small hall lamp",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip4.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "The old landline receiver close up, cord swinging slightly, shadows on the wall",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip5.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "Riya asleep in an old wooden bed with a faded quilt, a thin dark shape standing at the foot of the bed, moonlight through a window",
+  "model": "fal-ai/flux/schnell",
+  "usd": 0.009
+ },
+ "clip6.mp4": {
+  "kind": "ai-image-parallax",
+  "prompt": "An old grandmother silhouette in a white saree standing in a dark doorway beside the landline table, face in shadow, hand resting on the phone",
+  "model": "fal-ai/flux-2",
+  "usd": 0.036
+ }
+}
